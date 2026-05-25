@@ -1,6 +1,34 @@
 [
   {
     "id": 1,
+    "title": "How credential brokering prevents AI agents from compromising credentials via prompt injection",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tnbz96/how_credential_brokering_prevents_ai_agents_from/",
+    "summary": "How credential brokering prevents AI agents from compromising credentials via prompt injection",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-05-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tnbcp1/cve202121735_zte_h168n_wizard_whitelist_exposed/",
+    "summary": "Disclosure/write-up for CVE-2021-21735 affecting the ZTE ZXHN H168N V3.5. The issue is cataloged as information disclosure, but the useful part is the authorization failure: wizard handlers under the setup surface exposed PPPoE and WLAN material that should have required authenticated configurati...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "AI"
+    ],
+    "date": "2026-05-25",
+    "read_time": 1
+  },
+  {
+    "id": 3,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +41,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "I Show How the Survival Mode of the Flash Game Gun Mayhem 2 More Mayhem is Built",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "delimiter-less string obfuscation powered by compile-time AES",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Threat Intel: ShinyHunters Leaks 9.4GB Database of 7-Eleven Franchisee Systems Post-Extortion Refusal",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -54,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "nmap on Linux: Guide to Network Scanning and Discovery",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -67,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -80,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -96,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "The Alert Firehose Finally Meets Its Match",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -109,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -123,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -137,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "GitHub - iss4cf0ng/OpenPetya: A Proof-of-Concept bootkit inspired by Petya ransomware, written in Assembly, C, and C++",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -150,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Pardon MIE?: how Mythos did not bypass Apple MIE",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -163,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -176,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -190,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "Friday Squid Blogging: Regulating Squid Fishing in the South Pacific",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -206,7 +234,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "CISA Security Leak",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -220,7 +248,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 21",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -235,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 20,
     "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -248,7 +276,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 21,
     "title": "macOS Kernel Memory Corruption Exploit",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -264,7 +292,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 22,
     "title": "On AI Security",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -278,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 23,
     "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -291,7 +319,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 24,
     "title": "Laurie Anderson Is Quoting Me",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -304,7 +332,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 25,
     "title": "Turn Blind Trust into Verified Control with Prompt Security for Agentic AI",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
