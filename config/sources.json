@@ -1,0 +1,71 @@
+{
+  "rss": [
+    {
+      "name": "/r/ReverseEngineering",
+      "icon": "🔬",
+      "url": "https://www.reddit.com/r/ReverseEngineering/.rss",
+      "type": "rss"
+    },
+    {
+      "name": "/r/netsec",
+      "icon": "🛡️",
+      "url": "https://www.reddit.com/r/netsec/.rss",
+      "type": "rss"
+    },
+    {
+      "name": "Krebs on Security",
+      "icon": "🕵️",
+      "url": "https://krebsonsecurity.com/feed/",
+      "type": "rss"
+    },
+    {
+      "name": "The Hacker News",
+      "icon": "📰",
+      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "type": "rss"
+    },
+    {
+      "name": "Google Project Zero",
+      "icon": "🔍",
+      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+      "type": "rss"
+    },
+    {
+      "name": "Schneier on Security",
+      "icon": "🔐",
+      "url": "https://www.schneier.com/feed/atom/",
+      "type": "rss"
+    },
+    {
+      "name": "Ghidra Blog",
+      "icon": "🐉",
+      "url": "https://ghidra-sre.org/blog/feed/",
+      "type": "rss"
+    },
+    {
+      "name": "Frida Blog",
+      "icon": "💉",
+      "url": "https://frida.re/news/feed.xml",
+      "type": "rss"
+    },
+    {
+      "name": "SentinelOne Blog",
+      "icon": "🛡️",
+      "url": "https://www.sentinelone.com/blog/feed/",
+      "type": "rss"
+    },
+    {
+      "name": "ZDI Blog",
+      "icon": "🎯",
+      "url": "https://www.zerodayinitiative.com/blog/feed/",
+      "type": "rss"
+    }
+  ],
+  "settings": {
+    "max_articles_per_source": 5,
+    "max_total_articles": 50,
+    "max_age_days": 7,
+    "user_agent": "SecWeekly-Bot/1.0 (RSS Aggregator; github.com/your/SecWeekly)",
+    "request_timeout": 15
+  }
+}

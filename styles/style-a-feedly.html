@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SecWeekly - 风格A · Feedly卡片式</title>
+<style>
+  :root {
+    --bg: #f5f6f8;
+    --sidebar-bg: #0f1923;
+    --card-bg: #fff;
+    --text: #1a1d23;
+    --text-secondary: #6b7280;
+    --accent: #00c853;
+    --tag-bg: #e8f5e9;
+    --tag-text: #1b5e20;
+    --border: #e5e7eb;
+    --shadow: 0 1px 3px rgba(0,0,0,.06);
+    --shadow-hover: 0 4px 16px rgba(0,0,0,.1);
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); display: flex; min-height: 100vh; }
+
+  .sidebar {
+    width: 240px; background: var(--sidebar-bg); color: #fff; padding: 24px 0;
+    position: fixed; top:0; left:0; height: 100vh; display: flex; flex-direction: column;
+    z-index: 10;
+  }
+  .sidebar-logo { padding: 0 20px 24px; font-size: 20px; font-weight: 800; letter-spacing: -.5px; display: flex; align-items: center; gap: 10px; }
+  .sidebar-logo .dot { width: 10px; height: 10px; background: var(--accent); border-radius: 3px; }
+  .sidebar-nav a { display: flex; align-items: center; gap: 10px; padding: 10px 20px; color: #9ca3af; text-decoration: none; font-size: 14px; transition: all .15s; }
+  .sidebar-nav a:hover, .sidebar-nav a.active { color: #fff; background: rgba(255,255,255,.08); }
+  .sidebar-nav a.active { border-right: 3px solid var(--accent); }
+  .sidebar-nav .badge { margin-left: auto; background: var(--accent); color: #000; font-size: 11px; padding: 2px 7px; border-radius: 10px; font-weight: 700; }
+  .sidebar-footer { margin-top: auto; padding: 20px; font-size: 11px; color: #6b7280; }
+
+  .main { margin-left: 240px; flex:1; padding: 24px 32px; max-width: 960px; }
+
+  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; }
+  .header h1 { font-size: 24px; font-weight: 700; }
+  .header .date { font-size: 13px; color: var(--text-secondary); }
+  .search-bar { display: flex; gap: 8px; margin-bottom: 20px; }
+  .search-bar input {
+    flex:1; padding: 10px 16px; border: 1px solid var(--border); border-radius: 10px;
+    font-size: 14px; background: #fff; outline: none; transition: border .15s;
+  }
+  .search-bar input:focus { border-color: var(--accent); }
+
+  .tags-row { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 20px; }
+  .tag-filter {
+    padding: 5px 14px; border-radius: 20px; font-size: 13px; border: 1px solid var(--border);
+    background: #fff; cursor: pointer; transition: all .15s; color: var(--text-secondary);
+  }
+  .tag-filter:hover, .tag-filter.active { background: var(--tag-bg); color: var(--tag-text); border-color: var(--accent); }
+
+  .article-card {
+    background: var(--card-bg); border-radius: 12px; padding: 20px 24px; margin-bottom: 12px;
+    box-shadow: var(--shadow); transition: box-shadow .2s; cursor: pointer;
+    display: flex; gap: 20px; align-items: flex-start;
+  }
+  .article-card:hover { box-shadow: var(--shadow-hover); }
+  .article-source-icon { font-size: 28px; flex-shrink: 0; width: 44px; height: 44px; display: flex; align-items: center; justify-content: center; background: #f3f4f6; border-radius: 10px; }
+  .article-content { flex:1; min-width: 0; }
+  .article-source { font-size: 12px; color: var(--text-secondary); margin-bottom: 4px; font-weight: 500; }
+  .article-title { font-size: 16px; font-weight: 600; margin-bottom: 6px; line-height: 1.4; color: var(--text); }
+  .article-card:hover .article-title { color: var(--accent); }
+  .article-summary { font-size: 13px; color: var(--text-secondary); line-height: 1.55; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .article-meta { display: flex; gap: 12px; align-items: center; margin-top: 10px; font-size: 12px; color: #9ca3af; }
+  .article-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 8px; }
+  .article-tag { padding: 2px 8px; background: var(--tag-bg); color: var(--tag-text); border-radius: 4px; font-size: 11px; }
+
+  @media (max-width: 768px) {
+    .sidebar { display: none; }
+    .main { margin-left: 0; padding: 16px; }
+    .article-card { flex-direction: column; gap: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<aside class="sidebar">
+  <div class="sidebar-logo"><span class="dot"></span> SecWeekly</div>
+  <nav class="sidebar-nav">
+    <a href="#" class="active">📰 今日速览 <span class="badge">16</span></a>
+    <a href="#">🔬 逆向工具</a>
+    <a href="#">💉 动态插桩</a>
+    <a href="#">🦠 恶意软件</a>
+    <a href="#">🏗️ 漏洞分析</a>
+    <a href="#">🚩 CTF</a>
+    <a href="#">📂 一周归档</a>
+  </nav>
+  <div class="sidebar-footer">由 GitHub Actions 自动生成<br>每日更新 · 完全免费</div>
+</aside>
+
+<main class="main">
+  <div class="header">
+    <h1>📰 今日速览</h1>
+    <span class="date">2026年5月25日 · 周一</span>
+  </div>
+  <div class="search-bar">
+    <input type="text" placeholder="搜索文章标题、摘要、标签..." oninput="filterArticles()" id="searchInput">
+  </div>
+  <div class="tags-row" id="tagFilters"></div>
+  <div id="articles"></div>
+</main>
+
+<script>
+const DATA = [
+  {"id":1,"title":"Ghidra 11.2 发布：新增 DWARF 调试符号解析器，ARM64 反编译准确率提升 40%","source":"NSA Open Source","source_icon":"🔬","summary":"NSA 开源反编译工具 Ghidra 发布 11.2 版本，核心更新包括：完整 DWARF 5 调试符号解析、ARM64 PAC 指针认证去混淆、Golang 1.22+ 二进制类型恢复。反编译引擎的数组边界推断和间接调用解析均有显著改进，在 ARM64 固件逆向测试中准确率提升约 40%。","tags":["逆向工具","反编译"],"date":"2026-05-25","read_time":5},
+  {"id":2,"title":"Frida 17 发布：全新 Stalker 引擎支持 Intel PT 硬件追踪，性能提升 15 倍","source":"Frida Blog","source_icon":"💉","summary":"Frida 17 正式发布，最大的改进是 Stalker 代码追踪引擎重写，新增 Intel Processor Trace (PT) 和 ARM CoreSight 硬件支持。在 PT 模式下指令级追踪性能提升 15 倍，几乎无性能损耗。同时引入了基于 eBPF 的内核 Hook 框架，支持 Linux 和 Android。","tags":["动态插桩","Hook"],"date":"2026-05-24","read_time":4},
+  {"id":3,"title":"疑似 APT41 新型 rootkit 曝光：利用 Windows 内核回调表实现无文件持久化","source":"Kaspersky GReAT","source_icon":"🦠","summary":"卡巴斯基全球研究与分析团队披露了一起针对东南亚电信基础设施的 APT 攻击。攻击者使用了全新的内核 rootkit 技术，通过篡改 Windows 未文档化的内核回调表实现代码执行。该 rootkit 完全运行在内核态，无用户态进程、无文件落地、不创建注册表项，目前主流 EDR 产品均无法检测。","tags":["APT","Rootkit","威胁情报"],"date":"2026-05-24","read_time":6},
+  {"id":4,"title":"IDA Pro 9.0 正式发布：云协作反编译、基于 ML 的函数名预测与 RISC-V Vector 支持","source":"Hex-Rays Blog","source_icon":"🏗️","summary":"Hex-Rays 发布 IDA Pro 9.0 里程碑版本。核心技术亮点：引入基于 Transformer 模型的函数名自动预测（在 Stripped 二进制上准确率达 78%）、团队云协作分析、RISC-V Vector 1.0 扩展完整支持、M1/M2/M3 Mac 原生 ARM 版本。新增 PDB 服务器功能允许团队共享类型信息而无需暴露完整符号。","tags":["逆向工具","反编译","AI"],"date":"2026-05-23","read_time":5},
+  {"id":5,"title":"Android 加固新纪元：某加固厂商开发 VMP 2.0，在 ARMv9 上实现硬件级代码虚拟化","source":"XDA Developers","source_icon":"📱","summary":"国内一线移动加固厂商在最新白皮书中披露了基于 ARMv9 CCA (Confidential Compute Architecture) 的 VMP 2.0 方案。该方案利用 Realm 隔离区执行虚拟化后的 DEX 字节码，即使攻击者获取 root 权限也无法 dump 解密后的原始代码。安全研究者表示这可能是移动逆向领域近年来最大的技术挑战。","tags":["移动安全","代码保护","VMP"],"date":"2026-05-23","read_time":4},
+  {"id":6,"title":"Binary Ninja 5.0 Sidekick AI：集成 LLM 的交互式逆向分析助手，自动生成伪代码注释","source":"Binary Ninja Blog","source_icon":"🥷","summary":"Binary Ninja 发布 5.0 版本，内置名为 Sidekick 的 AI 分析助手。该功能基于本地大语言模型，在用户浏览反编译代码时自动生成中文/英文注释、推断结构体布局、识别标准库函数。特别针对固件逆向场景训练，能识别 FreeRTOS、Zephyr、ThreadX 等常见 RTOS 的任务调度模式。所有 AI 推理均在本地完成，不会上传二进制代码。","tags":["逆向工具","AI","反编译"],"date":"2026-05-22","read_time":4},
+  {"id":7,"title":"CVE-2026-12345：OpenSSH 9.9 远程代码执行漏洞细节公布，CVSS 评分 9.8","source":"Qualys Research","source_icon":"🔥","summary":"Qualys 安全研究团队公布了一个影响 OpenSSH 9.9 之前所有版本的高危 RCE 漏洞。该漏洞位于 sshd 的密钥交换逻辑中，由 ASN.1 解析器的堆缓冲区溢出引发。攻击者无需认证即可触发，且受影响的 SSH 实现包括 OpenSSH、Dropbear 和部分嵌入式设备 SSH 服务。POC 已公开，全球约 420 万台暴露在公网的 SSH 服务器受影响。","tags":["漏洞分析","CVE","RCE"],"date":"2026-05-22","read_time":6},
+  {"id":8,"title":"DefCon 34 议题前瞻：利用 PCIe 总线的 DMA 攻击突破 UEFI Secure Boot","source":"DefCon Media","source_icon":"🎪","summary":"DefCon 34 提前公开了部分议题摘要。其中一位中国研究员的议题《Breaking UEFI Secure Boot via PCIe DMA Exploitation》引起了广泛关注：利用廉价 FPGA 开发板通过 Thunderbolt 接口发起 DMA 攻击，在 UEFI 启动过程中劫持固件加载流程，绕过 Secure Boot 签名校验链。该攻击针对 Intel 12-14 代平台验证成功，目前暂无有效软件缓解方案。","tags":["硬件安全","DMA","UEFI"],"date":"2026-05-21","read_time":5},
+  {"id":9,"title":"ollvm-obfuscator 项目 Archive：维护者宣布不再适配 LLVM 19+，社区寻求 Fork","source":"GitHub","source_icon":"📦","summary":"知名的 LLVM 混淆编译框架 ollvm (Obfuscator-LLVM) 在最新 LLVM 19.x 分支中出现严重编译错误，核心维护者宣布因个人原因不再维护。该项目国内大量安全厂商和 IoT 设备厂商使用。目前社区正在讨论多个 Fork 方案，其中呼声最高的是基于新的 LLVM Pass Manager 重写的 Pluto 项目，已实现控制流平坦化、指令替换和虚假控制流三大核心混淆。","tags":["代码保护","LLVM","混淆"],"date":"2026-05-21","read_time":3},
+  {"id":10,"title":"Windows 12 内核调试新特性：WinDbg 集成 Time-Travel Debugging，支持逆向录制与回放","source":"Microsoft Security","source_icon":"🪟","summary":"微软在 Windows 12 Insider Preview 中为 WinDbg 引入了革命性的 Time-Travel Debugging (TTD) 增强功能。新版本支持内核态 TTD，可以录制完整的内核执行流并在调试器中回放、逆推。对于 rootkit 分析和内核漏洞调试来说，这意味着可以「回到过去」查看崩溃前的精确执行状态。微软同时提供了 TTD 记录的编程 API 供第三方分析工具调用。","tags":["调试","内核","Windows"],"date":"2026-05-20","read_time":4},
+  {"id":11,"title":"Unicorn Engine v3.0 CPU 模拟框架发布：支持 Apple M 系列原生运行，新增 Xtensa 架构","source":"Unicorn Engine","source_icon":"🦄","summary":"QEMU 派生的轻量级 CPU 模拟框架 Unicorn Engine 发布 v3.0。主要更新：原生支持 Apple Silicon (ARM64) 宿主运行、新增 Xtensa (ESP32) 和 ARC 架构支持、JIT 编译性能在 ARM64 平台上提升 60%。这对 IoT 设备固件模拟和自动化漏洞挖掘（如 AFL++ unicorn 模式）是非常重大的改进。","tags":["CPU模拟","漏洞挖掘","IoT"],"date":"2026-05-20","read_time":3},
+  {"id":12,"title":"某知名勒索软件组织使用 Rust 重写 payload，传统特征码检测完全失效","source":"FireEye Threat Intel","source_icon":"🛡️","summary":"FireEye Mandiant 团队在最新的勒索软件追踪报告中指出，目前已发现至少三个活跃勒索组织将 payload 从 C/C++ 迁移到 Rust。Rust 编译产物的控制流结构与 C 截然不同，导致基于签名和启发式的检测引擎大面积漏报。更棘手的是，Rust 的 LLVM 后端经过编译优化后，静态分析工具（如 Ghidra、IDA）对 Rust 二进制的类型恢复和字符串提取效果显著下降。","tags":["恶意软件","Rust","检测对抗"],"date":"2026-05-19","read_time":4},
+  {"id":13,"title":"Virtio-Android 项目引发争议：绕过 Android 完整性检测的通用虚拟化方案","source":"XDA Security Forum","source_icon":"🎭","summary":"GitHub 上一个名为 Virtio-Android 的开源项目引发了安全社区的热烈讨论。该项目利用 KVM/QEMU 的 Virtio 设备模拟，在虚拟机中运行 Android 并完美绕过 Google Play Integrity API 的所有检测项（包括硬件证明和启动加载器状态）。项目作者声称其目的是促进 Android 安全研究，但评论者担心它会被恶意用于大规模薅羊毛和虚假账号注册。","tags":["Android","虚拟化","检测对抗"],"date":"2026-05-19","read_time":4},
+  {"id":14,"title":"2026 年 XCTF 联赛上海站决赛 writeup 发布：V8 JIT 漏洞利用成关键赛点","source":"XCTF Official","source_icon":"🚩","summary":"XCTF 2026 上海站决赛近日闭幕，Nu1L 战队卫冕冠军。决赛中最具挑战性的 pwn 题为《Time Traveler》，要求选手利用 V8 TurboFan JIT 编译器的一个类型混淆漏洞实现 RCE。该题面模拟了真实 Chrome 渲染进程的沙箱环境，需要在 JIT 编译、垃圾回收和沙箱逃逸三个层面协同利用。冠军队伍放出 writeup，详细讲解了 use-after-free → type confusion → OOB access 的利用链构造。","tags":["CTF","浏览器漏洞","PWN"],"date":"2026-05-18","read_time":6},
+  {"id":15,"title":"Wireshark 5.0 发布：原生 QUIC 解密引擎、HTTP/3 深度解析与 TLS 1.3 密钥日志增强","source":"Wireshark News","source_icon":"🦈","summary":"Wireshark 发布 5.0 里程碑版本，重点推进加密流量分析能力。新增完整 QUIC 和 HTTP/3 协议深度解析、支持 SSLKEYLOGFILE 格式的 TLS 1.3 0-RTT 密钥提取、基于 eBPF 的实时数据包过滤加速（Linux 平台性能提升 5 倍）。在安全研究场景下最实用的功能是：可以直接导入 Frida、Objection 或 mitmproxy 导出的会话密钥，实时解密移动 APP 的加密 API 通信。","tags":["网络分析","TLS","协议分析"],"date":"2026-05-18","read_time":3},
+  {"id":16,"title":"iOS 20 越狱工具 Dopamine 5.0 发布：首个基于 SPTM 绕过 + PPL 降级的 iOS 18-20 越狱","source":"/r/jailbreak","source_icon":"🍎","summary":"越狱社区发布 Dopamine 5.0，支持 iOS 18.0 至 20.2 的全设备越狱。技术核心是利用 Apple Silicon 的 SPTM (Secure Page Table Monitor) 逻辑漏洞结合 PPL (Page Protection Layer) 降级攻击。越狱后支持 Sileo/Zebra 包管理器、SpringBoard 注入、内核补丁。受影响的设备达 2.8 亿部，Apple 已在 iOS 20.3 中修复漏洞（CVE-2026-xxxxx），但未升级的设备将永久面临该安全风险。","tags":["iOS","越狱","漏洞利用"],"date":"2026-05-17","read_time":5}
+];
+
+let activeTag = null;
+
+function getAllTags() {
+  const set = new Set();
+  DATA.forEach(a => a.tags.forEach(t => set.add(t)));
+  return [...set].sort();
+}
+
+function renderTagFilters() {
+  const tags = getAllTags();
+  const html = tags.map(t => `<span class="tag-filter" onclick="toggleTag('${t}')" data-tag="${t}">${t}</span>`).join('');
+  document.getElementById('tagFilters').innerHTML = html;
+}
+
+function toggleTag(tag) {
+  activeTag = activeTag === tag ? null : tag;
+  document.querySelectorAll('.tag-filter').forEach(el => el.classList.toggle('active', el.dataset.tag === activeTag));
+  renderArticles();
+}
+
+function renderArticles() {
+  const keyword = document.getElementById('searchInput').value.toLowerCase();
+  let articles = DATA;
+  if (keyword) articles = articles.filter(a => a.title.toLowerCase().includes(keyword) || a.summary.toLowerCase().includes(keyword) || a.tags.some(t => t.toLowerCase().includes(keyword)));
+  if (activeTag) articles = articles.filter(a => a.tags.includes(activeTag));
+
+  const html = articles.map(a => `
+    <div class="article-card">
+      <div class="article-source-icon">${a.source_icon}</div>
+      <div class="article-content">
+        <div class="article-source">${a.source}</div>
+        <div class="article-title">${a.title}</div>
+        <div class="article-summary">${a.summary}</div>
+        <div class="article-meta">
+          <span>${a.date}</span><span>·</span><span>${a.read_time} 分钟阅读</span>
+        </div>
+        <div class="article-tags">${a.tags.map(t => `<span class="article-tag">${t}</span>`).join('')}</div>
+      </div>
+    </div>
+  `).join('');
+  document.getElementById('articles').innerHTML = html || '<div style="text-align:center;padding:40px;color:#9ca3af;">没有匹配的文章</div>';
+}
+
+function filterArticles() { renderArticles(); }
+
+renderTagFilters();
+renderArticles();
+</script>
+
+</body>
+</html>
