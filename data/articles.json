@@ -1,6 +1,169 @@
 [
   {
     "id": 1,
+    "title": "Hypothetical EDR spoofer",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tp1nqn/hypothetical_edr_spoofer/",
+    "summary": "Hypothetical EDR spoofer",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-05-27",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Threat Intel: Lithuania Investigates B2B Credential Misuse Exposing 600,000 National Registry Records",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tp1gws/threat_intel_lithuania_investigates_b2b/",
+    "summary": "The Lithuanian Prosecutor General’s Office and the Criminal Police Bureau have initiated a joint investigation into a large-scale data exfiltration incident targeting the State Enterprise Centre of Registers . The incident involved the unauthorized copying of over 600,000 records from the country...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-05-27",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "RCE in Strix Agent(Sandbox): A practical guide to prompt injections with impact",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tozkke/rce_in_strix_agentsandbox_a_practical_guide_to/",
+    "summary": "RCE in Strix Agent(Sandbox): A practical guide to prompt injections with impact",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-05-27",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Gitea Vulnerability Exposes Private Container Images without Authentication",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/05/gitea-vulnerability-exposes-private.html",
+    "summary": "Cybersecurity researchers have disclosed a security flaw in Gitea, an open-source, self-hosted platform for version control, that allows unauthenticated remote attackers to pull private container images from Gitea deployments without requiring an account, password, or other credentials. The vulne...",
+    "tags": [
+      "漏洞分析",
+      "RCE",
+      "AI"
+    ],
+    "date": "2026-05-27",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "AI Chatbot Recommendations Redirect Users to Cryptojacking Malware Sites",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/05/ai-chatbot-recommendations-redirect.html",
+    "summary": "Microsoft has warned of an active cryptojacking campaign that makes use of artificial intelligence (AI) chatbot interactions as a mechanism for surfacing malicious download sites. \"This emerging delivery technique extends social engineering beyond conventional search results and increases the vis...",
+    "tags": [
+      "恶意软件",
+      "AI"
+    ],
+    "date": "2026-05-27",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "I Reverse Engineered Need for Speed Most Wanted Server",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tomb2b/i_reverse_engineered_need_for_speed_most_wanted/",
+    "summary": "I Reverse Engineered Need for Speed Most Wanted Server",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 7,
+    "title": "Ultima Online T2A client recreated from Origin's 2.0.7 client decompilation",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1to9pfu/ultima_online_t2a_client_recreated_from_origins/",
+    "summary": "Ultima Online T2A client recreated from Origin's 2.0.7 client decompilation",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 8,
+    "title": "Encrypted DNS in 2026: DoH, DoT, DoQ and DoH3 protocol comparison — including DNS hijacking attack vectors and what each protocol actually prevents",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1toa05t/encrypted_dns_in_2026_doh_dot_doq_and_doh3/",
+    "summary": "The security angle on encrypted DNS is often oversimplified. DoH prevents ISP-level snooping and basic DNS hijacking, but doesn't protect against a compromised resolver. DoT is easier to detect and block, which has real implications for threat actors trying to exfiltrate via DNS. DoQ is interesti...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 9,
+    "title": "MuddyWater Uses DLL Side-Loading in Espionage Campaign Targeting 9 Countries",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/05/muddywater-uses-dll-side-loading-in.html",
+    "summary": "The Iranian hacking group known as MuddyWater has been linked to a new campaign affecting at least nine organizations across nine countries on four continents in the first quarter of 2026. The activity targeted industrial and electronics manufacturing, education and public-sector bodies, financia...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 10,
+    "title": "[THN Webinar] New AI DDoS Attacks Are Smarter. Learn How to Fight Back",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/05/new-ai-ddos-attacks-are-smarter-learn.html",
+    "summary": "Every single day, hackers are finding new ways to crash websites and steal data. But right now, something has changed. Hackers are no longer working alone. They are now using powerful Artificial Intelligence (AI) tools to make their attacks faster, stronger, and much harder to stop. According to ...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 11,
+    "title": "Microsoft Patches SharePoint RCE Flaw CVE-2026-45659 Across Server Versions",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/05/microsoft-patches-sharepoint-rce-flaw.html",
+    "summary": "Microsoft has rolled out updates to fix a remote code execution vulnerability impacting SharePoint that could be exploited by bad actors in attacks without requiring any specialized conditions to be met. The vulnerability, tracked as CVE-2026-45659, carries a CVSS score of 8.8. It has been assign...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "RCE",
+      "漏洞利用"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 12,
+    "title": "Identifying People Using Wi-Fi Routers",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/05/identifying-people-using-wi-fi-routers.html",
+    "summary": "Not identifying people based on their use of Wi-Fi routers, but identifying people using Wi-Fi signals . This is accomplished through what is known as WiFi sensing , or the use of WiFi signals to infer information about a physical environment. When radio signals like WiFi travel through a space, ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-05-26",
+    "read_time": 1
+  },
+  {
+    "id": 13,
     "title": "How credential brokering prevents AI agents from compromising credentials via prompt injection",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -13,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 14,
     "title": "CVE-2021-21735: ZTE H168N wizard whitelist exposed PPPoE and WLAN secrets pre-auth",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -28,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 15,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 16,
     "title": "I Show How the Survival Mode of the Flash Game Gun Mayhem 2 More Mayhem is Built",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 17,
     "title": "delimiter-less string obfuscation powered by compile-time AES",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 18,
     "title": "Threat Intel: ShinyHunters Leaks 9.4GB Database of 7-Eleven Franchisee Systems Post-Extortion Refusal",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -82,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 19,
     "title": "nmap on Linux: Guide to Network Scanning and Discovery",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -95,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 20,
     "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -108,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 21,
     "title": "Ghost CMS CVE-2026-26980 Exploited to Hijack 700+ Sites for ClickFix Attacks",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -124,7 +287,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 22,
     "title": "The Alert Firehose Finally Meets Its Match",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -137,7 +300,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 23,
     "title": "Lazarus Deploys RemotePE Memory-Only RAT Against Financial and Crypto Firms",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -151,7 +314,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 24,
     "title": "TrapDoor Supply Chain Attack Spreads Credential-Stealing Malware via npm, PyPI, and CratesIO",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -165,7 +328,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 25,
     "title": "GitHub - iss4cf0ng/OpenPetya: A Proof-of-Concept bootkit inspired by Petya ransomware, written in Assembly, C, and C++",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +341,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 26,
     "title": "Pardon MIE?: how Mythos did not bypass Apple MIE",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -191,7 +354,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 27,
     "title": "npm Adds 2FA-Gated Publishing and Package Install Controls Against Supply Chain Attacks",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -204,7 +367,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 28,
     "title": "Lawmakers Demand Answers as CISA Tries to Contain Data Leak",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -218,7 +381,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 29,
     "title": "Friday Squid Blogging: Regulating Squid Fishing in the South Pacific",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -234,7 +397,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 30,
     "title": "CISA Security Leak",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -248,7 +411,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 31,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 21",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -263,7 +426,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 32,
     "title": "Alleged Kimwolf Botmaster ‘Dort’ Arrested, Charged in U.S. and Canada",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -276,7 +439,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 33,
     "title": "macOS Kernel Memory Corruption Exploit",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -289,61 +452,6 @@
       "AI"
     ],
     "date": "2026-05-21",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "On AI Security",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/05/on-ai-security.html",
-    "summary": "Good report : Executive Summary: Let’s say you wanted to make sure that your AI is secure. Can you just maximize the security and privacy benchmark and call it a day? Nope, because benchmarks don’t actually work for measuring AI capabilities (even when they are NOT emergent systemic properties li...",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-05-20",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Sentinels League 2026: Live Rankings for the Threat Hunting World Championship",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/sentinels-league-live-rankings/",
-    "summary": "Sentinels League 2026 brings global threat hunters together to battle across AI, Endpoint, Cloud, and SIEM surfaces for $100K in prizes and more.",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-05-20",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Laurie Anderson Is Quoting Me",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/05/laurie-anderson-is-quoting-me.html",
-    "summary": "Not by name, but Laurie Anderson quotes me in one of the tracks of her new album: My favorite quote is from a cryptologist who said “If you think technology will solve your problems, you don’t understand technology and you don’t understand your problems.” Also in interviews : “Of course, it’s rid...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-05-19",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Turn Blind Trust into Verified Control with Prompt Security for Agentic AI",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/prompt-security-for-agentic-ai/",
-    "summary": "Prompt for Agentic AI Security empowers organizations with proactive governance, meaning security teams can deploy agents with confidence.",
-    "tags": [
-      "Rust",
-      "Go",
-      "AI"
-    ],
-    "date": "2026-05-19",
     "read_time": 1
   }
 ]
