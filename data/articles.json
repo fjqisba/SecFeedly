@@ -1,6 +1,173 @@
 [
   {
     "id": 1,
+    "title": "Hacking your PC using your speaker without ever touching it",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tvlts7/hacking_your_pc_using_your_speaker_without_ever/",
+    "summary": "Hacking your PC using your speaker without ever touching it",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Hacking your PC using your speaker without ever touching it",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tvlsan/hacking_your_pc_using_your_speaker_without_ever/",
+    "summary": "Hacking your PC using your speaker without ever touching it",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Golang code review notes II - elttam",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tvh7t4/golang_code_review_notes_ii_elttam/",
+    "summary": "Golang code review notes II - elttam",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/shrinking-iam-attack-surface-through.html",
+    "summary": "The Fragmented State of Modern Enterprise Identity Enterprise IAM is approaching a breaking point. As organizations scale, identity becomes increasingly fragmented across thousands of applications, decentralized teams, machine identities, and autonomous systems. The result is Identity Dark Matter...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/beyond-zero-day-see-your-network-like.html",
+    "summary": "Assume the breach. Zero-days keep shipping, AI is writing exploits faster than anyone patches, and \"patch everything in time\" stopped working years ago. Stop betting the org on winning that race. You don't control which bug lands. You control what it can reach once it does. That is a question abo...",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用",
+      "Go",
+      "AI"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html",
+    "summary": "Cybersecurity researchers have disclosed details of an unpatched issue that could be exploited to disclose a user's NTLMv2 hash to the attacker. Like in the case of CVE-2026-33829, which impacted the Windows Snipping Tool's ms-screensketch: URI handler, the newly flagged issue resides in the sear...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "漏洞利用",
+      "Windows"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 7,
+    "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html",
+    "summary": "Cybersecurity researchers have discovered a remote denial-of-service exploit that affects major web servers, including NGINX, Apache HTTPD, Microsoft IIS, Envoy, and Cloudflare Pingora. The vulnerability has been codenamed HTTP/2 Bomb by Calif. \"The vulnerable behavior exists in each server's def...",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用",
+      "Go"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 8,
+    "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/weedhack-attacks-minecraft-users.html",
+    "summary": "Cybersecurity researchers have flagged a new campaign targeting Minecraft players via YouTube to spread malware capable of gaining control of victims' systems. The Minecraft-focused malware-as-a-service (MaaS) campaign has been codenamed Weedhack by McAfee Labs, stating the activity has been acti...",
+    "tags": [
+      "恶意软件",
+      "AI"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 9,
+    "title": "AI Used to Decrypt Medieval Ciphers",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/ai-used-to-decrypt-medieval-ciphers.html",
+    "summary": "Researchers are using machine learning algorithms to decrypt historical pencil-and-paper ciphers.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-06-03",
+    "read_time": 1
+  },
+  {
+    "id": 10,
+    "title": "Resident Evil: Code Veronica X is now able 3D graphics from the decompiled source!",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tuxbkk/resident_evil_code_veronica_x_is_now_able_3d/",
+    "summary": "Resident Evil: Code Veronica X is now able 3D graphics from the decompiled source!",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-06-02",
+    "read_time": 1
+  },
+  {
+    "id": 11,
+    "title": "Built a decompiler for exotic legacy programming language opentext Gupta Team Developer",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tut06q/built_a_decompiler_for_exotic_legacy_programming/",
+    "summary": "Built a decompiler for exotic legacy programming language opentext Gupta Team Developer",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-02",
+    "read_time": 1
+  },
+  {
+    "id": 12,
+    "title": "1-Click GitHub Token Stealing via a VSCode Bug",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1tuue57/1click_github_token_stealing_via_a_vscode_bug/",
+    "summary": "1-Click GitHub Token Stealing via a VSCode Bug",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-02",
+    "read_time": 1
+  },
+  {
+    "id": 13,
     "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -16,7 +183,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 14,
     "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -29,7 +196,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 15,
     "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -44,7 +211,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 16,
     "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -59,7 +226,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 17,
     "title": "The Intersection of Encryption and AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -72,7 +239,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 18,
     "title": "Microsoft Threatening Security Researcher",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -88,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 19,
     "title": "running custom firmware / patching the stock firmware of the soundcore headphones and running DOOM on it!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -101,7 +268,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 20,
     "title": "Blind POST SSRF in phpBB 4.0.0-alhpa1 Web Push (CVD with phpBB)",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -114,7 +281,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 21,
     "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -129,7 +296,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 22,
     "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -142,7 +309,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 23,
     "title": "Vulnerability Disclosure in the Age of AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -157,7 +324,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 24,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -170,7 +337,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 25,
     "title": "r/netsec monthly discussion & tool thread",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -183,7 +350,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 26,
     "title": "Subnet discovery through multi-protocol TTL tracing",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -196,7 +363,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 27,
     "title": "Dutch Police and NCSC dismantle 17-million-device botnet running on 200 servers seized from local hosting provider",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -209,7 +376,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 28,
     "title": "Stealing Passwords via HTML Injection Under a Strict CSP",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -222,7 +389,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 29,
     "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -235,7 +402,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 30,
     "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -250,7 +417,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 31,
     "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -265,7 +432,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 32,
     "title": "ThinkPad firmware reverse-engineering toolchain: archived Lenovo BIOS → named SoC pads, EC analysis, CVE diffs, coreboot/OpenCore port scaffolding",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -281,7 +448,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 33,
     "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -294,7 +461,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 34,
     "title": "usbsnoop — sniff and decode USB device traffic system-wide with eBPF, for reversing proprietary protocols (control/SCSI/HID, no bus analyzer)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -307,7 +474,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 35,
     "title": "Snowboard Kids 2 is 100% Decompiled",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -320,7 +487,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 36,
     "title": "LLMReaper - DOM Based AI Conversation Exfiltration via Browser Extensions",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -334,7 +501,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 37,
     "title": "I reverse engineered how Plex gates its Pass features, then wrote a tiny patch that flips them all on (Linux)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -347,7 +514,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 38,
     "title": "First Public Analysis of the BoldTealLayer Loader: A Custom Lua Script that Blinds Windows Security",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -360,7 +527,7 @@
     "read_time": 1
   },
   {
-    "id": 27,
+    "id": 39,
     "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -375,7 +542,7 @@
     "read_time": 1
   },
   {
-    "id": 28,
+    "id": 40,
     "title": "Ghidra 12.1.1 has been released!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -389,7 +556,7 @@
     "read_time": 1
   },
   {
-    "id": 29,
+    "id": 41,
     "title": "OffensiveCon26 YouTube Playlist released",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -402,7 +569,7 @@
     "read_time": 1
   },
   {
-    "id": 30,
+    "id": 42,
     "title": "A practical checklist for evaluating npm packages (supply chain attacks, slopsquatting, etc.)",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -417,7 +584,7 @@
     "read_time": 1
   },
   {
-    "id": 31,
+    "id": 43,
     "title": "ChatGPhish Vulnerability Turns ChatGPT Web Summaries Into a Phishing Surface",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -431,7 +598,7 @@
     "read_time": 1
   },
   {
-    "id": 32,
+    "id": 44,
     "title": "Attackers Use LLM Agent for Post-Exploitation After Marimo CVE-2026-39987 Exploit",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -447,7 +614,7 @@
     "read_time": 1
   },
   {
-    "id": 33,
+    "id": 45,
     "title": "New Russia-Linked GREYVIBE Targets Ukraine with AI-Powered Cyberattacks",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -461,7 +628,7 @@
     "read_time": 1
   },
   {
-    "id": 34,
+    "id": 46,
     "title": "Friday Squid Blogging: Another Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -477,7 +644,7 @@
     "read_time": 1
   },
   {
-    "id": 35,
+    "id": 47,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 22",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -491,7 +658,7 @@
     "read_time": 1
   },
   {
-    "id": 36,
+    "id": 48,
     "title": "Technical Brief of Planck-99: 34ns Deterministic Malware Classification on MCU-class Hardware (Zero FPU, 27KB footprint)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -504,7 +671,7 @@
     "read_time": 1
   },
   {
-    "id": 37,
+    "id": 49,
     "title": "1,001 IPs, 64 countries, one operation: mapping a botnet by its back end · HoneyLabs blog",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -518,7 +685,7 @@
     "read_time": 1
   },
   {
-    "id": 38,
+    "id": 50,
     "title": "Fooling around with encrypted reasoning blobs",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -528,170 +695,6 @@
       "安全"
     ],
     "date": "2026-05-29",
-    "read_time": 1
-  },
-  {
-    "id": 39,
-    "title": "What 2,000 Exposed Vibe-Coded Apps Reveal About the Limits of Most Security Stacks",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/what-2000-exposed-vibe-coded-apps.html",
-    "summary": "Shadow AI used to mean employees pasting things they shouldn't into ChatGPT. It now means something bigger: employees building full applications with AI, wiring them into production systems, and publishing them on the open internet. Without Security or IT in the loop. The artifact moved from a pr...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-05-29",
-    "read_time": 1
-  },
-  {
-    "id": 40,
-    "title": "Malicious Sicoob NuGet Steals Banking Credentials as npm Packages Target Cloud Secrets",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html",
-    "summary": "Cybersecurity researchers have discovered a malicious NuGet package that masquerades as a C# software development kit for Sicoob, one of Brazil's largest cooperative financial systems, to siphon client IDs and PFX certificates. According to Socket, versions 2.0.0 through 2.0.4 of \"Sicoob.Sdk\" con...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-29",
-    "read_time": 1
-  },
-  {
-    "id": 41,
-    "title": "Kimsuky Deploys HTTPSpy, Expands Arsenal with HelloDoor and VS Code Tunnels",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html",
-    "summary": "The North Korean state-sponsored threat actor known as Kimsuky (aka Velvet Chollima) has been attributed to a fresh set of cyber attacks targeting South Korean military and corporate entities through March and April 2026. \"Kimsuky employed a range of tailored social engineering tactics, such as s...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-05-29",
-    "read_time": 1
-  },
-  {
-    "id": 42,
-    "title": "Chilling Effects",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/05/chilling-effects.html",
-    "summary": "Younger Americans have soured on the second Donald Trump presidency , but they are not protesting it. Despite an unpopular Iran war and an even more unpopular Trump administration , college campus protests nationwide have gone silent . And at many schools, student activism is virtually nonexisten...",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-05-29",
-    "read_time": 1
-  },
-  {
-    "id": 43,
-    "title": "reverse engineering need for speed most wanted for modding sdk",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tq2raz/reverse_engineering_need_for_speed_most_wanted/",
-    "summary": "reverse engineering need for speed most wanted for modding sdk",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 44,
-    "title": "VMP 3.5+ Internal Architecture & Heap Dispatch Analysis",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tqimwt/vmp_35_internal_architecture_heap_dispatch/",
-    "summary": "VMP 3.5+ Internal Architecture & Heap Dispatch Analysis",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 45,
-    "title": "The Word 'Toad' Gave Any Website Full Control of Chrome's Most Popular VPN",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1tqdrly/the_word_toad_gave_any_website_full_control_of/",
-    "summary": "The Word 'Toad' Gave Any Website Full Control of Chrome's Most Popular VPN",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 46,
-    "title": "Critical Gogs RCE Vulnerability Lets Any Authenticated User Execute Arbitrary Code",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/critical-gogs-rce-vulnerability-lets.html",
-    "summary": "A critical security vulnerability has been disclosed in Gogs, a popular open-source self-hosted Git service, that allows an authenticated user to execute arbitrary code under certain conditions. The security flaw, per Rapid7, is rated 9.4 on the CVSS scoring system. It does not have a CVE identif...",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "RCE",
-      "Go"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 47,
-    "title": "Threat Actors Exploit Critical FortiClient EMS Flaw to Deploy Credential Stealer",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/threat-actors-exploit-critical.html",
-    "summary": "Threat actors are continuing to exploit a critical, now-patched security flaw impacting FortiClient Endpoint Management Server (EMS) deployments to deliver credential-stealing malware. \"The campaign abused trusted endpoint management infrastructure to deliver malware across managed endpoints,\" Ar...",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "恶意软件",
-      "Rust"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 48,
-    "title": "Winbox server/client reverse engineered is opensource",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tpp53l/winbox_serverclient_reverse_engineered_is/",
-    "summary": "Winbox server/client reverse engineered is opensource",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 49,
-    "title": "GitHub - cadela-dev/Anything-Reversal-Template: A Claude Code clean-room documentation workflow for reversing source structure into behavior-focused mirror docs.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tpsebs/github_cadeladevanythingreversaltemplate_a_claude/",
-    "summary": "GitHub - cadela-dev/Anything-Reversal-Template: A Claude Code clean-room documentation workflow for reversing source structure into behavior-focused mirror docs.",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-05-28",
-    "read_time": 1
-  },
-  {
-    "id": 50,
-    "title": "What scanners are actually trying against AI infrastructure",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1tpw3ki/what_scanners_are_actually_trying_against_ai/",
-    "summary": "What scanners are actually trying against AI infrastructure",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-05-28",
     "read_time": 1
   }
 ]
