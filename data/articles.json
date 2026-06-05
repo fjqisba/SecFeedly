@@ -1,6 +1,158 @@
 [
   {
     "id": 1,
+    "title": "HookNt: A Windows x64 tool to trace NT APIs by injecting an import-free DLL, installing ntdll trampolines, and streaming events over named pipes",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1txcpy7/hooknt_a_windows_x64_tool_to_trace_nt_apis_by/",
+    "summary": "HookNt: A Windows x64 tool to trace NT APIs by injecting an import-free DLL, installing ntdll trampolines, and streaming events over named pipes",
+    "tags": [
+      "动态插桩",
+      "Hook",
+      "Windows"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Multi-layer sandbox for native code execution on Linux with no external deps.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tx7c11/multilayer_sandbox_for_native_code_execution_on/",
+    "summary": "Multi-layer sandbox for native code execution on Linux with no external deps.",
+    "tags": [
+      "Linux"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html",
+    "summary": "Threat actors are actively exploiting a critical security flaw in Everest Forms Pro, a WordPress plugin with about 4,000 active installations, to execute arbitrary code, leading to a complete site compromise. The vulnerability in question is CVE-2026-3300 (CVSS score: 9.8), a remote code executio...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "漏洞利用"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/fifa-world-cup-2026-scams-are-already.html",
+    "summary": "Security researchers and the FBI are warning that a wave of FIFA-themed fraud is already hitting World Cup 2026 fans, days before the June 11 kickoff. Recent reports describe thousands of lookalike FIFA domains, banking malware hidden inside pirate streaming apps, and at least one operation that ...",
+    "tags": [
+      "恶意软件",
+      "AI"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/pcpjack-hijacks-230-aws-google-cloud.html",
+    "summary": "The threat actor known as PCPJack has hijacked cloud servers associated with Amazon Web Services (AWS), Google Cloud, and Microsoft Azure to create a covert SMTP email relay network. \"Compromised business servers across the U.S., Europe, and Asia were quietly converted into SMTP proxies, verified...",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "System Over Model, Tested: Reproducing Mythos’s FreeBSD Find on Local Open-Weight Models",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1twvq1v/system_over_model_tested_reproducing_mythoss/",
+    "summary": "System Over Model, Tested: Reproducing Mythos’s FreeBSD Find on Local Open-Weight Models",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-04",
+    "read_time": 1
+  },
+  {
+    "id": 7,
+    "title": "System Over Model, Tested: Reproducing Mythos’s FreeBSD Find on Local Open-Weight Models",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1twvplu/system_over_model_tested_reproducing_mythoss/",
+    "summary": "System Over Model, Tested: Reproducing Mythos’s FreeBSD Find on Local Open-Weight Models",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-04",
+    "read_time": 1
+  },
+  {
+    "id": 8,
+    "title": "Enter the WasmForge: Compiling Sliver into WebAssembly",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1two9pa/enter_the_wasmforge_compiling_sliver_into/",
+    "summary": "WebAssembly is traditionally thought of as a mechanism to run compiled code inside your browser, but rarely as a mechanism to run full application code directly on host. We hacked up the Wazero implementation of WebAssembly and modified it to transform existing GoLang security tooling into analys...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-06-04",
+    "read_time": 1
+  },
+  {
+    "id": 9,
+    "title": "Re:CACHE - Excessive reflection, type confusion, and 0-click SXSS on Next.js",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1twpx2a/recache_excessive_reflection_type_confusion_and/",
+    "summary": "Re:CACHE - Excessive reflection, type confusion, and 0-click SXSS on Next.js",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-04",
+    "read_time": 1
+  },
+  {
+    "id": 10,
+    "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html",
+    "summary": "Cisco has patched a bug in Unified Communications Manager that lets an unauthenticated attacker on the network write files to the box and, from there, climb to root. It is tracked as CVE-2026-20230, and proof-of-concept exploit code is already public. Cisco's PSIRT says it has not seen the flaw u...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "漏洞利用",
+      "Go"
+    ],
+    "date": "2026-06-04",
+    "read_time": 1
+  },
+  {
+    "id": 11,
+    "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html",
+    "summary": "A security researcher found a flaw in Anthropic's Claude Code GitHub Action that let an attacker take over vulnerable public repositories running it, with nothing more than a single opened GitHub issue. Because Anthropic's own action repo used the same workflow, a working attack could have pushed...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-04",
+    "read_time": 1
+  },
+  {
+    "id": 12,
     "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -16,7 +168,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 13,
     "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -29,7 +181,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 14,
     "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -45,7 +197,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 15,
     "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -58,7 +210,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 16,
     "title": "Hacking Meta’s AI Chatbot",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -71,7 +223,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 17,
     "title": "Wow64 implementation details: How is Wow64 implemented in Windows 11 25H2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -85,7 +237,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 18,
     "title": "x86 assembly: Why you only need Paris to beat Pizza Tycoon (1994)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -98,7 +250,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 19,
     "title": "Interesting- What LLM vuln research looks like",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -112,7 +264,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 20,
     "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -128,7 +280,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 21,
     "title": "Hacking your PC using your speaker without ever touching it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -141,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 22,
     "title": "Hacking your PC using your speaker without ever touching it",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -154,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 23,
     "title": "Golang code review notes II - elttam",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -167,7 +319,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 24,
     "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -180,7 +332,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 25,
     "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -196,7 +348,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 26,
     "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -212,7 +364,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 27,
     "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -227,7 +379,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 28,
     "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -241,7 +393,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 29,
     "title": "AI Used to Decrypt Medieval Ciphers",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -255,7 +407,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 30,
     "title": "Resident Evil: Code Veronica X is now able 3D graphics from the decompiled source!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -269,7 +421,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 31,
     "title": "Built a decompiler for exotic legacy programming language opentext Gupta Team Developer",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -282,7 +434,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 32,
     "title": "1-Click GitHub Token Stealing via a VSCode Bug",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -295,7 +447,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 33,
     "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -311,7 +463,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 34,
     "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -324,7 +476,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 35,
     "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -339,7 +491,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 36,
     "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -354,7 +506,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 37,
     "title": "The Intersection of Encryption and AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -367,7 +519,7 @@
     "read_time": 1
   },
   {
-    "id": 27,
+    "id": 38,
     "title": "Microsoft Threatening Security Researcher",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -383,7 +535,7 @@
     "read_time": 1
   },
   {
-    "id": 28,
+    "id": 39,
     "title": "running custom firmware / patching the stock firmware of the soundcore headphones and running DOOM on it!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -396,7 +548,7 @@
     "read_time": 1
   },
   {
-    "id": 29,
+    "id": 40,
     "title": "Blind POST SSRF in phpBB 4.0.0-alhpa1 Web Push (CVD with phpBB)",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -409,7 +561,7 @@
     "read_time": 1
   },
   {
-    "id": 30,
+    "id": 41,
     "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -424,7 +576,7 @@
     "read_time": 1
   },
   {
-    "id": 31,
+    "id": 42,
     "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -437,7 +589,7 @@
     "read_time": 1
   },
   {
-    "id": 32,
+    "id": 43,
     "title": "Vulnerability Disclosure in the Age of AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -452,7 +604,7 @@
     "read_time": 1
   },
   {
-    "id": 33,
+    "id": 44,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -465,7 +617,7 @@
     "read_time": 1
   },
   {
-    "id": 34,
+    "id": 45,
     "title": "r/netsec monthly discussion & tool thread",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -478,7 +630,7 @@
     "read_time": 1
   },
   {
-    "id": 35,
+    "id": 46,
     "title": "Subnet discovery through multi-protocol TTL tracing",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -491,7 +643,7 @@
     "read_time": 1
   },
   {
-    "id": 36,
+    "id": 47,
     "title": "Dutch Police and NCSC dismantle 17-million-device botnet running on 200 servers seized from local hosting provider",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -504,7 +656,7 @@
     "read_time": 1
   },
   {
-    "id": 37,
+    "id": 48,
     "title": "Stealing Passwords via HTML Injection Under a Strict CSP",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -517,7 +669,7 @@
     "read_time": 1
   },
   {
-    "id": 38,
+    "id": 49,
     "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -530,7 +682,7 @@
     "read_time": 1
   },
   {
-    "id": 39,
+    "id": 50,
     "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -542,158 +694,6 @@
       "AI"
     ],
     "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 40,
-    "title": "Critical WP Maps Pro Flaw Actively Exploited to Create Admin Accounts",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/critical-wp-maps-pro-flaw-actively.html",
-    "summary": "Threat actors are attempting to actively exploit a critical security flaw impacting WP Maps Pro, a WordPress plugin that has had over 15,000 sales on the Envato Market, to create malicious administrator accounts on susceptible sites. WP Maps Pro allows site owners to embed customizable Google Map...",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Go"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 41,
-    "title": "ThinkPad firmware reverse-engineering toolchain: archived Lenovo BIOS → named SoC pads, EC analysis, CVE diffs, coreboot/OpenCore port scaffolding",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tswxj5/thinkpad_firmware_reverseengineering_toolchain/",
-    "summary": "ThinkPad firmware reverse-engineering toolchain: archived Lenovo BIOS → named SoC pads, EC analysis, CVE diffs, coreboot/OpenCore port scaffolding",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "iOS",
-      "AI"
-    ],
-    "date": "2026-05-31",
-    "read_time": 1
-  },
-  {
-    "id": 42,
-    "title": "Dutch Authorities Dismantle Botnet Linked to 17 Million Infected Devices",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/dutch-authorities-dismantle-botnet.html",
-    "summary": "Dutch authorities have announced the takedown of a botnet that enslaved millions of infected devices, including computers, tablets, smartphones, and IoT devices, to carry out malicious attacks. The bot network, per the Dutch Politie and the National Cyber Security Center (NCSC), consisted of at l...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-31",
-    "read_time": 1
-  },
-  {
-    "id": 43,
-    "title": "usbsnoop — sniff and decode USB device traffic system-wide with eBPF, for reversing proprietary protocols (control/SCSI/HID, no bus analyzer)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tsfwpe/usbsnoop_sniff_and_decode_usb_device_traffic/",
-    "summary": "usbsnoop — sniff and decode USB device traffic system-wide with eBPF, for reversing proprietary protocols (control/SCSI/HID, no bus analyzer)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-31",
-    "read_time": 1
-  },
-  {
-    "id": 44,
-    "title": "Snowboard Kids 2 is 100% Decompiled",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tskr31/snowboard_kids_2_is_100_decompiled/",
-    "summary": "Snowboard Kids 2 is 100% Decompiled",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-31",
-    "read_time": 1
-  },
-  {
-    "id": 45,
-    "title": "LLMReaper - DOM Based AI Conversation Exfiltration via Browser Extensions",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1tsk829/llmreaper_dom_based_ai_conversation_exfiltration/",
-    "summary": "LLMReaper - DOM Based AI Conversation Exfiltration via Browser Extensions",
-    "tags": [
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-05-31",
-    "read_time": 1
-  },
-  {
-    "id": 46,
-    "title": "I reverse engineered how Plex gates its Pass features, then wrote a tiny patch that flips them all on (Linux)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ts8fvs/i_reverse_engineered_how_plex_gates_its_pass/",
-    "summary": "I reverse engineered how Plex gates its Pass features, then wrote a tiny patch that flips them all on (Linux)",
-    "tags": [
-      "Linux"
-    ],
-    "date": "2026-05-30",
-    "read_time": 1
-  },
-  {
-    "id": 47,
-    "title": "First Public Analysis of the BoldTealLayer Loader: A Custom Lua Script that Blinds Windows Security",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1trkwrg/first_public_analysis_of_the_boldteallayer_loader/",
-    "summary": "First Public Analysis of the BoldTealLayer Loader: A Custom Lua Script that Blinds Windows Security",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-05-30",
-    "read_time": 1
-  },
-  {
-    "id": 48,
-    "title": "PAN-OS GlobalProtect Authentication Bypass (CVE-2026-0257) Under Active Exploitation",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/05/pan-os-globalprotect-authentication.html",
-    "summary": "Palo Alto Networks has warned that a recently disclosed medium-severity security flaw impacting PAN-OS and Prisma Access has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-0257 (CVSS score: 7.8), refers to a case of authentication bypass that could be exploited...",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "漏洞利用"
-    ],
-    "date": "2026-05-30",
-    "read_time": 1
-  },
-  {
-    "id": 49,
-    "title": "Ghidra 12.1.1 has been released!",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tr5r83/ghidra_1211_has_been_released/",
-    "summary": "Ghidra 12.1.1 has been released!",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-05-29",
-    "read_time": 1
-  },
-  {
-    "id": 50,
-    "title": "OffensiveCon26 YouTube Playlist released",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1trbc7u/offensivecon26_youtube_playlist_released/",
-    "summary": "OffensiveCon26 YouTube Playlist released",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-05-29",
     "read_time": 1
   }
 ]
