@@ -1,6 +1,190 @@
 [
   {
     "id": 1,
+    "title": "Finally! A modern Android menu template with ImGui + Zygisk + all major hooking libraries (Dobby, KittyMemory, Substrate)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tybl6s/finally_a_modern_android_menu_template_with_imgui/",
+    "summary": "Finally! A modern Android menu template with ImGui + Zygisk + all major hooking libraries (Dobby, KittyMemory, Substrate)",
+    "tags": [
+      "动态插桩",
+      "Hook",
+      "Android",
+      "移动安全"
+    ],
+    "date": "2026-06-06",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Free Apps Are Quietly Turning Smart TVs Into Web-Scraping Proxies for AI",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/free-apps-are-quietly-turning-smart-tvs.html",
+    "summary": "A researcher has reverse-engineered the iOS SDK that Bright Data embeds in consumer apps and documented how it turns devices, including always-on smart TVs, into exit nodes that relay web-scraping traffic for a data business Bright Data markets heavily to the AI industry. The company, the success...",
+    "tags": [
+      "iOS",
+      "AI"
+    ],
+    "date": "2026-06-06",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "CISA Adds Actively Exploited SolarWinds Serv-U DoS Flaw to KEV Catalog",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html",
+    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) has added a high-severity security flaw impacting SolarWinds Serv-U multi-protocol file server software to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "漏洞利用"
+    ],
+    "date": "2026-06-06",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "AI Agent Uncovers 21 Zero-Days in FFmpeg; Chrome Patches Record 429 Bugs",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html",
+    "summary": "Two things landed within days of each other this week. A security startup reported 21 previously unknown vulnerabilities in FFmpeg, the media library inside almost everything that touches video, all of them found by an autonomous AI agent. The same week, Google shipped Chrome 149 with patches for...",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-06-06",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Miasma Worm Hits 73 Microsoft GitHub Repositories in Major Supply Chain Attack",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html",
+    "summary": "Microsoft's GitHub repositories have become the latest to fall victim to the ongoing Miasma self-replicating supply chain attack campaign. The incident impacted 73 Microsoft repositories across four of its GitHub organizations, including Azure, Azure-Samples, Microsoft, and MicrosoftDocs, per Ope...",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-06-06",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Cisco Catalyst SD-WAN Manager CVE-2026-20245 Flaw Actively Exploited – No Patch Available",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html",
+    "summary": "Cisco has warned that a high-severity security flaw impacting Catalyst SD-WAN Manager has come under active exploitation. The vulnerability, tracked as CVE-2026-20245, carries a CVSS score of 7.8 out of a maximum of 10.0. It affects the following deployment types - On-Prem Deployment Cisco SD-WAN...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "漏洞利用",
+      "AI"
+    ],
+    "date": "2026-06-06",
+    "read_time": 1
+  },
+  {
+    "id": 7,
+    "title": "Reverse Engineering Crazy Taxi, Part 3",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1txt9pi/reverse_engineering_crazy_taxi_part_3/",
+    "summary": "Reverse Engineering Crazy Taxi, Part 3",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 8,
+    "title": "I've been reverse engineering a lost 2010 horse MMO and I need contributors",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1txkm8z/ive_been_reverse_engineering_a_lost_2010_horse/",
+    "summary": "I've been reverse engineering a lost 2010 horse MMO and I need contributors",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 9,
+    "title": "Zero-Click HFP/A2DP Takeover via L2CAP Session Preemption",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1txoy10/zeroclick_hfpa2dp_takeover_via_l2cap_session/",
+    "summary": "Zero-Click HFP/A2DP Takeover via L2CAP Session Preemption",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 10,
+    "title": "Keeping Secrets Out of Logs",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1txmr5f/keeping_secrets_out_of_logs/",
+    "summary": "Keeping Secrets Out of Logs",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 11,
+    "title": "Unauthenticated RCE as QSECOFR via IBM i Management Central — port 5555, client-controlled verify flag, no credentials required (V7R4 and earlier)",
+    "source": "/r/netsec",
+    "source_icon": "🛡️",
+    "url": "https://www.reddit.com/r/netsec/comments/1txidow/unauthenticated_rce_as_qsecofr_via_ibm_i/",
+    "summary": "Unauthenticated RCE as QSECOFR via IBM i Management Central — port 5555, client-controlled verify flag, no credentials required (V7R4 and earlier)",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 12,
+    "title": "AI Worm",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/ai-worm.html",
+    "summary": "Researchers have prototyped an AI-powered internet worm . The coolest thing about the prototype is that it carries its own LLM with it, and runs it on computers that have been broken into. This is the closest to John Brunner’s original 1975 conception of a computer worm that I’ve seen.",
+    "tags": [
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 13,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 23",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-23-7/",
+    "summary": "US Treasury sanctions Iran's largest crypto exchange, PRC-linked TA4922 expands phishing to Europe and Africa, attackers exploit Palo Alto VPN bypass.",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用",
+      "Go"
+    ],
+    "date": "2026-06-05",
+    "read_time": 1
+  },
+  {
+    "id": 14,
     "title": "HookNt: A Windows x64 tool to trace NT APIs by injecting an import-free DLL, installing ntdll trampolines, and streaming events over named pipes",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -15,7 +199,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 15,
     "title": "Multi-layer sandbox for native code execution on Linux with no external deps.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +212,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 16,
     "title": "Hackers Exploit Critical Everest Forms Pro WordPress Plugin Flaw to Take Over Sites",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -43,7 +227,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 17,
     "title": "FIFA World Cup 2026 Scams Are Already Live: Fake Sites, Banking Malware, and Stolen Logins",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -57,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 18,
     "title": "PCPJack Hijacks 230 AWS, Google Cloud, and Azure Servers for Covert SMTP Relay Network",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -71,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 19,
     "title": "System Over Model, Tested: Reproducing Mythos’s FreeBSD Find on Local Open-Weight Models",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +268,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 20,
     "title": "System Over Model, Tested: Reproducing Mythos’s FreeBSD Find on Local Open-Weight Models",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -97,7 +281,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 21,
     "title": "Enter the WasmForge: Compiling Sliver into WebAssembly",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -110,7 +294,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 22,
     "title": "Re:CACHE - Excessive reflection, type confusion, and 0-click SXSS on Next.js",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -123,7 +307,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 23,
     "title": "Cisco Patches CVE-2026-20230 in Unified CM as Exploit Code Goes Public",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -139,7 +323,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 24,
     "title": "Claude Code GitHub Action Flaw Let One Malicious Issue Hijack Repositories",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -152,7 +336,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 25,
     "title": "Fake Sites Mimicking Open-Source Tools Rank High on Google to Deliver Malware via TDS",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -168,7 +352,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 26,
     "title": "Hackers Spied on a Stock Exchange Executive's Outlook Mailbox for Five Months",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -181,7 +365,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 27,
     "title": "CISA Adds Exploited Magento RCE Flaw CVE-2026-45247 to KEV Catalog",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -197,7 +381,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 28,
     "title": "DoJ Disrupts Southeast Asia Crypto Fraud Networks, Freezes $3.8 Million in Assets",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -210,7 +394,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 29,
     "title": "Hacking Meta’s AI Chatbot",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -223,7 +407,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 30,
     "title": "Wow64 implementation details: How is Wow64 implemented in Windows 11 25H2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -237,7 +421,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 31,
     "title": "x86 assembly: Why you only need Paris to beat Pizza Tycoon (1994)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -250,7 +434,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 32,
     "title": "Interesting- What LLM vuln research looks like",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -264,7 +448,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 33,
     "title": "WhatsApp, Slack Notifications Could Hijack Google Gemini on Android",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -280,7 +464,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 34,
     "title": "Hacking your PC using your speaker without ever touching it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -293,7 +477,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 35,
     "title": "Hacking your PC using your speaker without ever touching it",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -306,7 +490,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 36,
     "title": "Golang code review notes II - elttam",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -319,7 +503,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 37,
     "title": "Shrinking the IAM Attack Surface through Identity Visibility and Intelligence Platforms (IVIP)",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -332,7 +516,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 38,
     "title": "Beyond the Zero-Day: See Your Network Like an Attacker | Webinar with HD Moore",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -348,7 +532,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 39,
     "title": "Unpatched Windows Search URI Vulnerability Lets Attackers Steal NTLMv2 Hashes",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -364,7 +548,7 @@
     "read_time": 1
   },
   {
-    "id": 27,
+    "id": 40,
     "title": "New HTTP/2 Bomb Vulnerability Allows Remote DoS on NGINX, Apache, IIS, Envoy & Cloudflare",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -379,7 +563,7 @@
     "read_time": 1
   },
   {
-    "id": 28,
+    "id": 41,
     "title": "Weedhack Attacks Minecraft Users, CountLoader Hits 86K, Miners Spread via Pirated Content",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -393,7 +577,7 @@
     "read_time": 1
   },
   {
-    "id": 29,
+    "id": 42,
     "title": "AI Used to Decrypt Medieval Ciphers",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -407,7 +591,7 @@
     "read_time": 1
   },
   {
-    "id": 30,
+    "id": 43,
     "title": "Resident Evil: Code Veronica X is now able 3D graphics from the decompiled source!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -421,7 +605,7 @@
     "read_time": 1
   },
   {
-    "id": 31,
+    "id": 44,
     "title": "Built a decompiler for exotic legacy programming language opentext Gupta Team Developer",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -434,7 +618,7 @@
     "read_time": 1
   },
   {
-    "id": 32,
+    "id": 45,
     "title": "1-Click GitHub Token Stealing via a VSCode Bug",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -447,7 +631,7 @@
     "read_time": 1
   },
   {
-    "id": 33,
+    "id": 46,
     "title": "AI-Driven Exploitation is Destroying Vulnerability Management. Here’s How to Handle It.",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -463,7 +647,7 @@
     "read_time": 1
   },
   {
-    "id": 34,
+    "id": 47,
     "title": "How Leading Organizations Are Turning EDR Into Operational Resilience",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -476,7 +660,7 @@
     "read_time": 1
   },
   {
-    "id": 35,
+    "id": 48,
     "title": "Pakistan-Linked SideCopy Targets Afghanistan Finance Ministry with Xeno RAT",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -491,7 +675,7 @@
     "read_time": 1
   },
   {
-    "id": 36,
+    "id": 49,
     "title": "Dashlane Discloses Brute-Force Attack, Encrypted Vaults of Fewer Than 20 Users Downloaded",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -506,7 +690,7 @@
     "read_time": 1
   },
   {
-    "id": 37,
+    "id": 50,
     "title": "The Intersection of Encryption and AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -516,184 +700,6 @@
       "AI"
     ],
     "date": "2026-06-02",
-    "read_time": 1
-  },
-  {
-    "id": 38,
-    "title": "Microsoft Threatening Security Researcher",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/microsoft-threatening-security-researcher.html",
-    "summary": "An anonymous security researcher called “Nightmare Eclipse” has been publishing a series of significant security exploits against Microsoft Windows—including one that breaks BitLocker. Microsoft has threatened legal action against the researcher. Lots of recriminations are being traded back and f...",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Windows",
-      "AI"
-    ],
-    "date": "2026-06-02",
-    "read_time": 1
-  },
-  {
-    "id": 39,
-    "title": "running custom firmware / patching the stock firmware of the soundcore headphones and running DOOM on it!",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1tu68m1/running_custom_firmware_patching_the_stock/",
-    "summary": "running custom firmware / patching the stock firmware of the soundcore headphones and running DOOM on it!",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 40,
-    "title": "Blind POST SSRF in phpBB 4.0.0-alhpa1 Web Push (CVD with phpBB)",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1tu56p7/blind_post_ssrf_in_phpbb_400alhpa1_web_push_cvd/",
-    "summary": "Came across an article, product like phpBB still has some potential flaws.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 41,
-    "title": "Hackers Used Meta’s AI Support Bot to Seize Instagram Accounts",
-    "source": "Krebs on Security",
-    "source_icon": "🕵️",
-    "url": "https://krebsonsecurity.com/2026/06/hackers-used-metas-ai-support-bot-to-seize-instagram-accounts/",
-    "summary": "The Instagram accounts for the Obama White House and the Chief Master Sergeant of the U.S. Space Force were briefly defaced with pro-Iranian images and messages over the weekend, after instructions began circulating on Telegram showing how to trick Meta's \"AI support assistant\" bot into resetting...",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "AI"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 42,
-    "title": "Miasma Supply Chain Attack Compromises Red Hat npm Packages with Credential-Stealing Worm",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html",
-    "summary": "A new Mini Shai-Hulud supply chain attack campaign, codenamed Miasma, has compromised @redhat-cloud-services packages to steal credentials and secrets from developer machines and deliver a self-propagating worm. \"This is effectively a Mini Shai-Hulud campaign: it uses the same core tactics of ins...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 43,
-    "title": "Vulnerability Disclosure in the Age of AI",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/vulnerability-disclosure-in-the-age-of-ai.html",
-    "summary": "New article: “ Responsible Disclosure in the Age of AI: A Call for Urgent Action ,” by Melissa Hathaway. Abstract: Artificial intelligence is fundamentally reshaping the balance between vulnerability discovery and remediation. Frontier AI models are now capable of autonomously identifying exploit...",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "AI"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 44,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ttkc1t/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 45,
-    "title": "r/netsec monthly discussion & tool thread",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1tts9ly/rnetsec_monthly_discussion_tool_thread/",
-    "summary": "Questions regarding netsec and discussion related directly to netsec are welcome here, as is sharing tool links. Rules & Guidelines Always maintain civil discourse. Be awesome to one another - moderator intervention will occur if necessary. Avoid NSFW content unless absolutely necessary. If used,...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 46,
-    "title": "Subnet discovery through multi-protocol TTL tracing",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1ttkfhb/subnet_discovery_through_multiprotocol_ttl_tracing/",
-    "summary": "Subnet discovery through multi-protocol TTL tracing",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 47,
-    "title": "Dutch Police and NCSC dismantle 17-million-device botnet running on 200 servers seized from local hosting provider",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1ttse22/dutch_police_and_ncsc_dismantle_17milliondevice/",
-    "summary": "On May 28, 2026, the Dutch National Police and the National Cyber Security Center announced they had taken down a large-scale botnet that had compromised roughly 17 million devices globally - computers, smartphones, and tablets - all funneled through approximately 200 servers physically hosted in...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 48,
-    "title": "Stealing Passwords via HTML Injection Under a Strict CSP",
-    "source": "/r/netsec",
-    "source_icon": "🛡️",
-    "url": "https://www.reddit.com/r/netsec/comments/1ttqwyw/stealing_passwords_via_html_injection_under_a/",
-    "summary": "Stealing Passwords via HTML Injection Under a Strict CSP",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 49,
-    "title": "The Security Growth Platform: Why MSPs Are Moving Beyond vCISO Tools",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/the-security-growth-platform-why-msps.html",
-    "summary": "Three years ago, the practical question for an MSP building a cybersecurity practice was which \"vCISO platform\" to buy. The term was good shorthand for the work at the time: assessments, advisory, reporting, maybe a compliance module bolted on the side. The work has since outgrown the descriptor....",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-06-01",
-    "read_time": 1
-  },
-  {
-    "id": 50,
-    "title": "OpenAI Codex Authentication Tokens Stolen in codexui-android npm Supply Chain Attack",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/openai-codex-authentication-tokens.html",
-    "summary": "Cybersecurity researchers have disclosed details of a new malicious supply chain campaign that's targeting developers using OpenAI Codex through a legitimate-looking remote web UI. The tool, named codexui-android, is advertised on GitHub and npm as a remote web UI for OpenAI Codex, attracting ove...",
-    "tags": [
-      "Android",
-      "移动安全",
-      "AI"
-    ],
-    "date": "2026-06-01",
     "read_time": 1
   }
 ]
