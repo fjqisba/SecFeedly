@@ -1,6 +1,48 @@
 [
   {
     "id": 1,
+    "title": "Reverse-engineered the WHOOP 4.0's Bluetooth protocol and open-sourced it.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u4qelx/reverseengineered_the_whoop_40s_bluetooth/",
+    "summary": "Reverse-engineered the WHOOP 4.0's Bluetooth protocol and open-sourced it.",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-06-13",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I'm putting together a full guide on typical DRM tricks and how they get cracked.(denuvo : 2026 Re9)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u4yajv/im_putting_together_a_full_guide_on_typical_drm/",
+    "summary": "I'm putting together a full guide on typical DRM tricks and how they get cracked.(denuvo : 2026 Re9)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-13",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication",
+    "source": "The Hacker News",
+    "source_icon": "📰",
+    "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html",
+    "summary": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. \"In Splunk Enterp...",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "漏洞利用"
+    ],
+    "date": "2026-06-13",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Hunting the 30-Year-Old World of Xeen MT-32 Crash",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +55,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "\"Instead of touching grass for 6 months I built an AI that names 150,000 sub_ functions overnight. I have no regrets [SpectrIDA]\" SELF PROMO (i love the tool tho)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +70,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -44,7 +86,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -60,7 +102,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -76,7 +118,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -91,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -104,7 +146,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Friday Squid Blogging: Squid-Inspired Fluid Pump",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -120,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 24",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -133,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "SentinelOne + Claude: Integrations for AI Visibility, Governance, and Defense",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -147,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Rethinking MDR as Attackers and Defenders Embrace AI",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -160,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -175,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -188,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -202,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Bernie Sanders’ AI Sovereign Wealth Fund Plan",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -215,7 +257,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Reverse engineered BLE protocol of a $7 generic Chinese smart ring from Temu, and built an iOS app around it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -228,7 +270,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "[Reverse-Engineering] Skeet CS:GO source code (Gamesense)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -243,7 +285,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Giulio Zausa's MMO-CHIP Makes Reverse Engineering Old Silicon Chips a Multiplayer Game",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -256,7 +298,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -272,7 +314,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "Drive Firmware Security - Phison S11",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -285,7 +327,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "I built 99 adversarially malformed PE files to test tool robustness - here’s what happened",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -298,7 +340,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "Hacking Google with A.I. for $500,000",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -311,7 +353,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "Prompt injection: attacking the analyst's AI",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -324,7 +366,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -339,7 +381,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 28,
     "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -352,7 +394,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 29,
     "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -365,7 +407,7 @@
     "read_time": 1
   },
   {
-    "id": 27,
+    "id": 30,
     "title": "Enhanced License Plate Tracking",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -379,7 +421,7 @@
     "read_time": 1
   },
   {
-    "id": 28,
+    "id": 31,
     "title": "IDA 9.4 Beta | Hex-Rays Docs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -393,7 +435,7 @@
     "read_time": 1
   },
   {
-    "id": 29,
+    "id": 32,
     "title": "How Fraudsters Bypass Facial Recognition and Stay Hidden in 2026",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -406,7 +448,7 @@
     "read_time": 1
   },
   {
-    "id": 30,
+    "id": 33,
     "title": "Who Runs the Ransomware Group ‘The Gentlemen?’",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -422,7 +464,7 @@
     "read_time": 1
   },
   {
-    "id": 31,
+    "id": 34,
     "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -435,7 +477,7 @@
     "read_time": 1
   },
   {
-    "id": 32,
+    "id": 35,
     "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -448,7 +490,7 @@
     "read_time": 1
   },
   {
-    "id": 33,
+    "id": 36,
     "title": "🚀 Release PyMemoryEditor v2.0 — read, write and scan the memory of any running process, in pure Python (Windows, Linux & macOS)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -462,7 +504,7 @@
     "read_time": 1
   },
   {
-    "id": 34,
+    "id": 37,
     "title": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520) - watchTowr Labs",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -476,7 +518,7 @@
     "read_time": 1
   },
   {
-    "id": 35,
+    "id": 38,
     "title": "Jupyter Enterprise Gateway - From Notebook to Kubernetes Cluster Admin - elttam",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -489,7 +531,7 @@
     "read_time": 1
   },
   {
-    "id": 36,
+    "id": 39,
     "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -502,7 +544,7 @@
     "read_time": 1
   },
   {
-    "id": 37,
+    "id": 40,
     "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -516,7 +558,7 @@
     "read_time": 1
   },
   {
-    "id": 38,
+    "id": 41,
     "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -530,7 +572,7 @@
     "read_time": 1
   },
   {
-    "id": 39,
+    "id": 42,
     "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -545,7 +587,7 @@
     "read_time": 1
   },
   {
-    "id": 40,
+    "id": 43,
     "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -561,7 +603,7 @@
     "read_time": 1
   },
   {
-    "id": 41,
+    "id": 44,
     "title": "NSO Group Hacking WhatsApp Despite Court Order",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -574,7 +616,7 @@
     "read_time": 1
   },
   {
-    "id": 42,
+    "id": 45,
     "title": "I reverse engineered Lofree Hypace mouse firmware flashing protocol to bypass their official web based configuration on MacOS.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -587,7 +629,7 @@
     "read_time": 1
   },
   {
-    "id": 43,
+    "id": 46,
     "title": "A Record-Breaking Patch Tuesday for June 2026",
     "source": "Krebs on Security",
     "source_icon": "🕵️",
@@ -600,7 +642,7 @@
     "read_time": 1
   },
   {
-    "id": 44,
+    "id": 47,
     "title": "GPS As a Key Distribution Platform",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -613,7 +655,7 @@
     "read_time": 1
   },
   {
-    "id": 45,
+    "id": 48,
     "title": "I found 23 Chrome extensions hijacking 758,000 users' searches for affiliate revenue",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -626,7 +668,7 @@
     "read_time": 1
   },
   {
-    "id": 46,
+    "id": 49,
     "title": "AI Agents May Always Fall for Prompt Injections",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -639,7 +681,7 @@
     "read_time": 1
   },
   {
-    "id": 47,
+    "id": 50,
     "title": "I just completed Search Skills room on TryHackMe! Learn to efficiently search the Internet and use specialised services and technical docs for information",
     "source": "/r/netsec",
     "source_icon": "🛡️",
@@ -647,48 +689,6 @@
     "summary": "I just completed Search Skills room on TryHackMe! Learn to efficiently search the Internet and use specialised services and technical docs for information",
     "tags": [
       "安全"
-    ],
-    "date": "2026-06-09",
-    "read_time": 1
-  },
-  {
-    "id": 48,
-    "title": "New FROST Attack Lets Websites Track What Sites and Apps You Open via SSD Timing",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/new-frost-attack-lets-websites-track.html",
-    "summary": "A malicious website can work out which sites you visit and which apps you open, using nothing but JavaScript and the timing of your SSD. The attack, called FROST, needs no native code, no extension, and no permission prompt. You open the page, leave the tab sitting there, and it watches the drive...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-09",
-    "read_time": 1
-  },
-  {
-    "id": 49,
-    "title": "Hades PyPI Attack: 19 Packages Poisoned to Auto-Run Bun Credential Stealer",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html",
-    "summary": "The Miasma supply chain campaign has sparked a fresh attack wave called Hades, this time involving 37 malicious wheel artifacts across 19 packages in the Python Package Index (PyPI) registry, as the Mini Shai-Hulud-style attacks continue to be refined and splintered to target specific ecosystems....",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-09",
-    "read_time": 1
-  },
-  {
-    "id": 50,
-    "title": "LiteLLM Flaw CVE-2026-42271 Exploited in the Wild, Chains to Unauthenticated RCE",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html",
-    "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Monday added a high-severity flaw impacting BerriAI LiteLLM to its Known Exploited Vulnerabilities (KEV) catalog, citing evidence of active exploitation. The vulnerability, tracked as CVE-2026-42271 (CVSS score: 8.7), is a comman...",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "RCE",
-      "漏洞利用"
     ],
     "date": "2026-06-09",
     "read_time": 1
