@@ -4,142 +4,1083 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SecWeekly - 每日安全研究速览</title>
+<script>
+  (function () {
+    const themes = ["hackernews", "feedly", "magazine", "newspaper"];
+    let theme = "hackernews";
+    try {
+      const saved = localStorage.getItem("secweekly-theme");
+      if (themes.includes(saved)) theme = saved;
+    } catch (e) {}
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
 <style>
   :root {
+    color-scheme: light;
     --bg: #f6f6ef;
+    --surface: #fff;
+    --surface-strong: #ff6600;
     --text: #000;
     --text-secondary: #828282;
     --link: #000;
-    --link-visited: #828282;
     --accent: #ff6600;
+    --accent-contrast: #fff;
     --border: #e0e0d8;
     --hover-bg: #f0f0e8;
+    --tag-bg: rgba(255, 102, 0, .08);
+    --tag-text: #ff6600;
+    --shadow: none;
+    --radius: 0;
+    --container: 860px;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif;
+    --font-title: var(--font-body);
   }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; }
 
-  .container { max-width: 860px; margin: 0 auto; padding: 0 8px; }
+  :root[data-theme="feedly"] {
+    --bg: #f4f6f8;
+    --surface: #fff;
+    --surface-strong: #111827;
+    --text: #1f2937;
+    --text-secondary: #6b7280;
+    --link: #111827;
+    --accent: #16a34a;
+    --accent-contrast: #fff;
+    --border: #e5e7eb;
+    --hover-bg: #f8fafc;
+    --tag-bg: #dcfce7;
+    --tag-text: #166534;
+    --shadow: 0 6px 24px rgba(15, 23, 42, .08);
+    --radius: 8px;
+    --container: 1040px;
+  }
+
+  :root[data-theme="magazine"] {
+    --bg: #fafaf9;
+    --surface: #fff;
+    --surface-strong: #1c1917;
+    --text: #1c1917;
+    --text-secondary: #78716c;
+    --link: #1c1917;
+    --accent: #dc2626;
+    --accent-contrast: #fff;
+    --border: #e7e5e4;
+    --hover-bg: #fff7ed;
+    --tag-bg: #fee2e2;
+    --tag-text: #991b1b;
+    --shadow: 0 10px 32px rgba(28, 25, 23, .08);
+    --radius: 8px;
+    --container: 1120px;
+    --font-title: Georgia, "Noto Serif SC", "Songti SC", serif;
+  }
+
+  :root[data-theme="newspaper"] {
+    --bg: #e8e0d5;
+    --surface: #fdfaf5;
+    --surface-strong: #fdfaf5;
+    --text: #1a1a1a;
+    --text-secondary: #5c5c5c;
+    --link: #1a1a1a;
+    --accent: #8b1a1a;
+    --accent-contrast: #1a1a1a;
+    --border: #c4b998;
+    --hover-bg: #f7efe1;
+    --tag-bg: transparent;
+    --tag-text: #8b1a1a;
+    --shadow: 0 2px 24px rgba(0, 0, 0, .15);
+    --radius: 0;
+    --container: 940px;
+    --font-body: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", SimSun, "Times New Roman", serif;
+    --font-title: "Times New Roman", "Noto Serif SC", serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 14px;
+    transition: background .2s ease, color .2s ease;
+  }
+
+  a { color: inherit; }
 
   .topbar {
-    background: var(--accent); padding: 3px 4px; display: flex; align-items: center;
-    gap: 12px; font-size: 13px;
+    background: var(--surface-strong);
+    border-bottom: 1px solid var(--border);
+    color: var(--accent-contrast);
   }
-  .topbar-inner { max-width: 860px; margin: 0 auto; display: flex; align-items: center; gap: 12px; padding: 2px 0; }
-  .topbar .logo { font-weight: 800; color: #fff; text-decoration: none; font-size: 15px; letter-spacing: -.3px; }
-  .topbar a { color: #fff; text-decoration: none; }
-  .topbar .sep { color: rgba(255,255,255,.6); }
-  .topbar .date { color: rgba(255,255,255,.85); margin-left: auto; font-size: 12px; }
 
-  .search-row { padding: 10px 0; border-bottom: 2px solid var(--accent); margin-bottom: 0; }
+  .topbar-inner {
+    max-width: var(--container);
+    margin: 0 auto;
+    min-height: 34px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .logo {
+    color: var(--accent-contrast);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    white-space: nowrap;
+  }
+
+  .topbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .topbar-nav a {
+    color: var(--accent-contrast);
+    text-decoration: none;
+  }
+
+  .sep { color: color-mix(in srgb, var(--accent-contrast) 60%, transparent); }
+  .date { margin-left: auto; color: color-mix(in srgb, var(--accent-contrast) 82%, transparent); font-size: 12px; white-space: nowrap; }
+
+  .theme-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: color-mix(in srgb, var(--accent-contrast) 86%, transparent);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .theme-switcher select {
+    min-width: 132px;
+    border: 1px solid color-mix(in srgb, var(--accent-contrast) 45%, transparent);
+    border-radius: 4px;
+    padding: 3px 22px 3px 7px;
+    background: color-mix(in srgb, var(--surface-strong) 86%, #fff 14%);
+    color: var(--accent-contrast);
+    font: inherit;
+    outline: none;
+  }
+
+  .theme-switcher select option {
+    color: #111827;
+    background: #fff;
+  }
+
+  .container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 8px 28px;
+  }
+
+  .page-heading {
+    display: none;
+    padding: 28px 0 18px;
+    text-align: center;
+  }
+
+  .page-heading .kicker {
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .page-heading h1 {
+    margin-top: 6px;
+    font-family: var(--font-title);
+    font-size: 38px;
+    line-height: 1.1;
+  }
+
+  .page-heading p {
+    margin-top: 8px;
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+
+  .controls {
+    padding: 10px 0 0;
+  }
+
+  .search-row {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent);
+  }
+
   .search-row input {
-    width: 100%; padding: 6px 10px; border: 1px solid var(--border); font-size: 13px;
-    font-family: inherit; background: #fff; outline: none;
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) / 2);
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    outline: none;
   }
-  .search-row input:focus { border-color: var(--accent); }
 
-  .tag-nav { padding: 6px 0; font-size: 12px; color: var(--text-secondary); display: flex; gap: 8px; flex-wrap: wrap; border-bottom: 1px solid var(--border); margin-bottom: 8px; }
-  .tag-nav a { color: var(--text-secondary); text-decoration: none; cursor: pointer; }
-  .tag-nav a:hover, .tag-nav a.active { color: var(--accent); font-weight: 600; }
+  .search-row input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
+  }
 
-  .article-item { display: flex; gap: 8px; padding: 7px 4px; align-items: baseline; border-bottom: 1px dotted var(--border); }
-  .article-item:hover { background: var(--hover-bg); }
-  .article-num { color: var(--text-secondary); font-size: 13px; min-width: 22px; text-align: right; flex-shrink: 0; }
-  .article-num.top { color: var(--accent); font-weight: 700; }
-  .article-body { flex:1; min-width: 0; }
-  .article-title-line { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
-  .article-title-line a { color: var(--link); text-decoration: none; font-size: 14px; font-weight: 500; }
-  .article-title-line a:visited { color: var(--link-visited); }
-  .article-title-line a:hover { text-decoration: underline; }
-  .article-source-link { font-size: 12px; color: var(--text-secondary); }
-  .article-source-link a { color: var(--text-secondary); text-decoration: none; }
-  .article-source-link a:hover { text-decoration: underline; }
-  .article-meta { font-size: 11px; color: var(--text-secondary); margin-top: 2px; }
+  .tag-nav {
+    padding: 7px 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  .tag-nav button {
+    border: 0;
+    background: transparent;
+    color: var(--text-secondary);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .tag-nav button:hover,
+  .tag-nav button.active {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .articles {
+    display: block;
+  }
+
+  .article-card {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    padding: 7px 4px;
+    border-bottom: 1px dotted var(--border);
+  }
+
+  .article-card:hover { background: var(--hover-bg); }
+
+  .article-rank {
+    min-width: 22px;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+    font-size: 13px;
+    text-align: right;
+  }
+
+  .article-card.top .article-rank {
+    color: var(--accent);
+    font-weight: 800;
+  }
+
+  .article-source-icon { display: none; }
+
+  .article-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .article-source {
+    display: inline;
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  .source-open,
+  .source-close,
+  .source-icon-inline {
+    display: inline;
+  }
+
+  .article-title-line {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .article-title {
+    display: inline;
+    font-family: var(--font-title);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+
+  .article-title a {
+    color: var(--link);
+    text-decoration: none;
+  }
+
+  .article-title a:visited { color: var(--text-secondary); }
+  .article-title a:hover { text-decoration: underline; }
+
+  .article-summary {
+    display: none;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: 6px;
+  }
+
+  .article-meta {
+    margin-top: 2px;
+    color: var(--text-secondary);
+    font-size: 11px;
+  }
+
   .article-meta span { margin-right: 8px; }
-  .article-tag { color: var(--accent); font-size: 10px; background: rgba(255,102,0,.08); padding: 1px 4px; border-radius: 2px; margin-left: 4px; }
 
-  .footer { text-align: center; padding: 24px; font-size: 12px; color: var(--text-secondary); border-top: 2px solid var(--accent); margin-top: 20px; }
+  .article-tag {
+    display: inline-block;
+    margin: 2px 4px 0 0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    font-size: 10px;
+  }
+
+  .empty-state {
+    padding: 44px 16px;
+    text-align: center;
+    color: var(--text-secondary);
+  }
+
+  .footer {
+    max-width: var(--container);
+    margin: 20px auto 0;
+    padding: 24px 8px;
+    border-top: 2px solid var(--accent);
+    color: var(--text-secondary);
+    text-align: center;
+    font-size: 12px;
+  }
+
   .footer a { color: var(--text-secondary); }
 
-  @media (max-width: 600px) {
-    .topbar-inner { gap: 8px; font-size: 12px; }
-    .article-num { min-width: 16px; font-size: 11px; }
-    .article-title-line a { font-size: 13px; }
+  :root[data-theme="feedly"] .topbar {
+    box-shadow: 0 1px 12px rgba(15, 23, 42, .1);
+  }
+
+  :root[data-theme="feedly"] .container {
+    padding: 18px 18px 36px;
+  }
+
+  :root[data-theme="feedly"] .page-heading {
+    display: block;
+    text-align: left;
+    padding-top: 12px;
+  }
+
+  :root[data-theme="feedly"] .page-heading h1 {
+    font-family: var(--font-body);
+    font-size: 28px;
+  }
+
+  :root[data-theme="feedly"] .controls {
+    display: grid;
+    gap: 10px;
+    padding: 0 0 14px;
+  }
+
+  :root[data-theme="feedly"] .search-row,
+  :root[data-theme="feedly"] .tag-nav {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  :root[data-theme="feedly"] .search-row input {
+    padding: 11px 14px;
+    border-radius: var(--radius);
+  }
+
+  :root[data-theme="feedly"] .tag-nav button {
+    padding: 5px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+  }
+
+  :root[data-theme="feedly"] .tag-nav button.active {
+    border-color: var(--accent);
+    background: var(--tag-bg);
+    color: var(--tag-text);
+  }
+
+  :root[data-theme="feedly"] .articles {
+    display: grid;
+    gap: 12px;
+  }
+
+  :root[data-theme="feedly"] .article-card {
+    align-items: flex-start;
+    gap: 14px;
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .04);
+  }
+
+  :root[data-theme="feedly"] .article-card:hover {
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  :root[data-theme="feedly"] .article-rank {
+    display: none;
+  }
+
+  :root[data-theme="feedly"] .article-source-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    border-radius: var(--radius);
+    background: #f3f4f6;
+    font-size: 24px;
+  }
+
+  :root[data-theme="feedly"] .article-source {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  :root[data-theme="feedly"] .source-open,
+  :root[data-theme="feedly"] .source-close,
+  :root[data-theme="feedly"] .source-icon-inline {
+    display: none;
+  }
+
+  :root[data-theme="feedly"] .article-title-line {
+    display: block;
+  }
+
+  :root[data-theme="feedly"] .article-title {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  :root[data-theme="feedly"] .article-summary {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 13px;
+  }
+
+  :root[data-theme="feedly"] .footer {
+    border-top: 1px solid var(--border);
+  }
+
+  :root[data-theme="magazine"] .topbar {
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  :root[data-theme="magazine"] .logo,
+  :root[data-theme="magazine"] .topbar-nav a,
+  :root[data-theme="magazine"] .date,
+  :root[data-theme="magazine"] .theme-switcher {
+    color: var(--text);
+  }
+
+  :root[data-theme="magazine"] .theme-switcher select {
+    border-color: var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  :root[data-theme="magazine"] .page-heading {
+    display: block;
+  }
+
+  :root[data-theme="magazine"] .controls {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) 1fr;
+    gap: 12px;
+    align-items: start;
+    padding-top: 0;
+    margin-bottom: 22px;
+  }
+
+  :root[data-theme="magazine"] .search-row,
+  :root[data-theme="magazine"] .tag-nav {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root[data-theme="magazine"] .search-row input {
+    padding: 10px 14px;
+    border-radius: 999px;
+  }
+
+  :root[data-theme="magazine"] .tag-nav {
+    justify-content: flex-end;
+  }
+
+  :root[data-theme="magazine"] .tag-nav button {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+  }
+
+  :root[data-theme="magazine"] .tag-nav button.active {
+    border-color: var(--text);
+    background: var(--text);
+    color: #fff;
+  }
+
+  :root[data-theme="magazine"] .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+  }
+
+  :root[data-theme="magazine"] .article-card {
+    position: relative;
+    align-items: flex-start;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: 0 1px 2px rgba(28, 25, 23, .04);
+    overflow: hidden;
+  }
+
+  :root[data-theme="magazine"] .article-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), #f97316);
+  }
+
+  :root[data-theme="magazine"] .article-card:hover {
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+  }
+
+  :root[data-theme="magazine"] .article-card.lead {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(220px, .7fr);
+    min-height: 240px;
+    background: #1c1917;
+    color: #fff;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead::before {
+    display: none;
+  }
+
+  :root[data-theme="magazine"] .article-rank {
+    display: none;
+  }
+
+  :root[data-theme="magazine"] .article-source-icon {
+    display: grid;
+    place-items: center;
+    margin: 22px 0 0 22px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #f5f5f4;
+    font-size: 24px;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-source-icon {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    width: 96px;
+    height: 96px;
+    background: rgba(255, 255, 255, .12);
+    font-size: 54px;
+  }
+
+  :root[data-theme="magazine"] .article-content {
+    padding: 18px 20px 20px;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-content {
+    grid-row: 1;
+    padding: 34px 36px;
+  }
+
+  :root[data-theme="magazine"] .article-source {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="magazine"] .source-open,
+  :root[data-theme="magazine"] .source-close,
+  :root[data-theme="magazine"] .source-icon-inline {
+    display: none;
+  }
+
+  :root[data-theme="magazine"] .article-title-line {
+    display: block;
+  }
+
+  :root[data-theme="magazine"] .article-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-title {
+    font-size: 30px;
+    line-height: 1.25;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-title a,
+  :root[data-theme="magazine"] .article-card.lead .article-source,
+  :root[data-theme="magazine"] .article-card.lead .article-meta,
+  :root[data-theme="magazine"] .article-card.lead .article-summary {
+    color: #fff;
+  }
+
+  :root[data-theme="magazine"] .article-summary {
+    display: block;
+    font-size: 13px;
+  }
+
+  :root[data-theme="magazine"] .article-card:not(.lead) .article-summary {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  :root[data-theme="magazine"] .footer {
+    border-top: 1px solid var(--border);
+  }
+
+  :root[data-theme="newspaper"] .topbar {
+    background: var(--surface);
+    color: var(--text);
+    border-bottom: 2px solid var(--text);
+  }
+
+  :root[data-theme="newspaper"] .topbar-inner {
+    min-height: 44px;
+  }
+
+  :root[data-theme="newspaper"] .logo,
+  :root[data-theme="newspaper"] .topbar-nav a,
+  :root[data-theme="newspaper"] .date,
+  :root[data-theme="newspaper"] .theme-switcher {
+    color: var(--text);
+  }
+
+  :root[data-theme="newspaper"] .theme-switcher select {
+    border-color: var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  :root[data-theme="newspaper"] .container {
+    margin-top: 22px;
+    padding: 0 36px 36px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  :root[data-theme="newspaper"] .page-heading {
+    display: block;
+    padding: 32px 0 16px;
+    border-bottom: 4px double var(--text);
+  }
+
+  :root[data-theme="newspaper"] .page-heading .kicker {
+    color: var(--text-secondary);
+  }
+
+  :root[data-theme="newspaper"] .page-heading h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="newspaper"] .controls {
+    display: grid;
+    grid-template-columns: minmax(200px, 320px) 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 16px 0;
+    border-bottom: 2px solid var(--text);
+  }
+
+  :root[data-theme="newspaper"] .search-row,
+  :root[data-theme="newspaper"] .tag-nav {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root[data-theme="newspaper"] .search-row input {
+    background: var(--surface);
+    border-radius: 0;
+  }
+
+  :root[data-theme="newspaper"] .tag-nav {
+    justify-content: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+  }
+
+  :root[data-theme="newspaper"] .tag-nav button.active {
+    color: var(--accent);
+  }
+
+  :root[data-theme="newspaper"] .articles {
+    column-count: 2;
+    column-gap: 34px;
+    column-rule: 1px solid var(--border);
+    padding-top: 22px;
+  }
+
+  :root[data-theme="newspaper"] .article-card {
+    display: block;
+    break-inside: avoid;
+    padding: 0 0 22px;
+    border-bottom: 0;
+  }
+
+  :root[data-theme="newspaper"] .article-card:hover {
+    background: transparent;
+  }
+
+  :root[data-theme="newspaper"] .article-card.lead {
+    column-span: all;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid var(--text);
+  }
+
+  :root[data-theme="newspaper"] .article-rank,
+  :root[data-theme="newspaper"] .article-source-icon {
+    display: none;
+  }
+
+  :root[data-theme="newspaper"] .article-source {
+    display: block;
+    margin-bottom: 3px;
+    color: var(--text-secondary);
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="newspaper"] .source-open,
+  :root[data-theme="newspaper"] .source-close {
+    display: none;
+  }
+
+  :root[data-theme="newspaper"] .article-title-line {
+    display: block;
+  }
+
+  :root[data-theme="newspaper"] .article-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+
+  :root[data-theme="newspaper"] .article-card.lead .article-title {
+    font-size: 30px;
+  }
+
+  :root[data-theme="newspaper"] .article-summary {
+    display: block;
+    margin-top: 7px;
+    color: #333;
+    font-size: 13px;
+  }
+
+  :root[data-theme="newspaper"] .article-card.lead .article-summary {
+    font-size: 15px;
+  }
+
+  :root[data-theme="newspaper"] .article-tag {
+    border: 1px solid var(--border);
+    border-radius: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="newspaper"] .footer {
+    max-width: var(--container);
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 760px) {
+    .topbar-inner {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .date {
+      margin-left: 0;
+      order: 3;
+      width: 100%;
+    }
+
+    .theme-switcher {
+      margin-left: auto;
+    }
+
+    .theme-switcher label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+
+    .theme-switcher select {
+      min-width: 118px;
+    }
+
+    :root[data-theme="magazine"] .controls,
+    :root[data-theme="newspaper"] .controls {
+      grid-template-columns: 1fr;
+    }
+
+    :root[data-theme="magazine"] .tag-nav,
+    :root[data-theme="newspaper"] .tag-nav {
+      justify-content: flex-start;
+    }
+
+    :root[data-theme="magazine"] .article-card.lead {
+      grid-template-columns: 1fr;
+    }
+
+    :root[data-theme="magazine"] .article-card.lead .article-source-icon {
+      display: none;
+    }
+
+    :root[data-theme="magazine"] .article-card.lead .article-title,
+    :root[data-theme="newspaper"] .article-card.lead .article-title {
+      font-size: 24px;
+    }
+
+    :root[data-theme="newspaper"] .container {
+      margin-top: 8px;
+      padding: 0 18px 28px;
+    }
+
+    :root[data-theme="newspaper"] .page-heading h1 {
+      font-size: 34px;
+    }
+
+    :root[data-theme="newspaper"] .articles {
+      column-count: 1;
+    }
   }
 </style>
 </head>
 <body>
 
-<div class="topbar">
+<header class="topbar">
   <div class="topbar-inner">
     <a href="#" class="logo">⚡ SecWeekly</a>
-    <a href="#">new</a><span class="sep">|</span>
-    <a href="#">past</a><span class="sep">|</span>
-    <a href="https://github.com/Fee1in/SecWeekly" target="_blank">github</a><span class="sep">|</span>
+    <nav class="topbar-nav" aria-label="Primary">
+      <a href="#">new</a><span class="sep">|</span>
+      <a href="#">past</a><span class="sep">|</span>
+      <a href="https://github.com/Fee1in/SecWeekly" target="_blank" rel="noopener">github</a>
+    </nav>
     <span class="date">__DATE__</span>
+    <div class="theme-switcher">
+      <label for="themeSelect">theme</label>
+      <select id="themeSelect" aria-label="Select theme">
+        <option value="hackernews">Hacker News</option>
+        <option value="feedly">Feedly Cards</option>
+        <option value="magazine">Magazine</option>
+        <option value="newspaper">Newspaper</option>
+      </select>
+    </div>
   </div>
-</div>
+</header>
 
-<div class="container">
-  <div class="search-row">
-    <input type="text" placeholder="Search articles..." oninput="render()" id="searchInput">
-  </div>
-  <div class="tag-nav" id="tagNav">
-    <a class="active" onclick="setTag(null)">all</a>
-  </div>
-  <div id="articles"></div>
-  <div class="footer">
-    Generated by GitHub Actions · Updated daily · <a href="https://github.com/Fee1in/SecWeekly">View on GitHub</a>
-  </div>
-</div>
+<main class="container">
+  <section class="page-heading" aria-label="SecWeekly introduction">
+    <div class="kicker">Security Research Weekly Digest</div>
+    <h1>SecWeekly</h1>
+    <p>逆向工程 · 漏洞分析 · 威胁情报 · 每天 5 分钟</p>
+  </section>
+
+  <section class="controls" aria-label="Article filters">
+    <div class="search-row">
+      <input type="text" placeholder="Search articles..." id="searchInput" autocomplete="off">
+    </div>
+    <div class="tag-nav" id="tagNav"></div>
+  </section>
+
+  <section id="articles" class="articles" aria-live="polite"></section>
+</main>
+
+<footer class="footer">
+  Generated by GitHub Actions · Updated daily · <a href="https://github.com/Fee1in/SecWeekly">View on GitHub</a>
+</footer>
 
 <script>
 const DATA = __DATA_PLACEHOLDER__;
+const THEME_KEY = "secweekly-theme";
+const THEMES = ["hackernews", "feedly", "magazine", "newspaper"];
 
 let activeTag = null;
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function safeHref(value) {
+  if (!value) return "#";
+  try {
+    const url = new URL(value, window.location.href);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
+  } catch (e) {
+    return "#";
+  }
+}
+
+function getStoredTheme() {
+  try {
+    const saved = localStorage.getItem(THEME_KEY);
+    if (THEMES.includes(saved)) return saved;
+  } catch (e) {}
+  return "hackernews";
+}
+
+function setTheme(theme) {
+  const nextTheme = THEMES.includes(theme) ? theme : "hackernews";
+  document.documentElement.dataset.theme = nextTheme;
+  document.getElementById("themeSelect").value = nextTheme;
+  try {
+    localStorage.setItem(THEME_KEY, nextTheme);
+  } catch (e) {}
+}
+
 function getAllTags() {
   const set = new Set();
-  DATA.forEach(a => a.tags.forEach(t => set.add(t)));
+  DATA.forEach(a => (a.tags || []).forEach(t => set.add(t)));
   return [...set].sort();
 }
 
 function renderTagNav() {
   const tags = getAllTags();
-  const html = tags.map(t => `<a onclick="setTag('${t}')" data-tag="${t}">${t}</a>`).join('');
-  document.getElementById('tagNav').innerHTML = '<a class="active" onclick="setTag(null)">all</a> ' + html;
+  const buttons = [
+    `<button type="button" class="active" data-tag="">all</button>`,
+    ...tags.map(t => `<button type="button" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</button>`)
+  ];
+
+  const tagNav = document.getElementById("tagNav");
+  tagNav.innerHTML = buttons.join("");
+  tagNav.querySelectorAll("button").forEach(button => {
+    button.addEventListener("click", () => {
+      const tag = button.dataset.tag || null;
+      setTag(tag);
+    });
+  });
 }
 
 function setTag(tag) {
   activeTag = activeTag === tag ? null : tag;
-  document.querySelectorAll('#tagNav a').forEach(el => el.classList.toggle('active', el.dataset.tag === activeTag || (!el.dataset.tag && !activeTag)));
+  document.querySelectorAll("#tagNav button").forEach(button => {
+    const tagValue = button.dataset.tag || null;
+    button.classList.toggle("active", tagValue === activeTag || (!tagValue && !activeTag));
+  });
   render();
 }
 
-function render() {
-  const keyword = document.getElementById('searchInput').value.toLowerCase();
+function getFilteredArticles() {
+  const keyword = document.getElementById("searchInput").value.trim().toLowerCase();
   let articles = DATA;
-  if (keyword) articles = articles.filter(a => a.title.toLowerCase().includes(keyword) || a.summary.toLowerCase().includes(keyword) || a.tags.some(t => t.toLowerCase().includes(keyword)));
-  if (activeTag) articles = articles.filter(a => a.tags.includes(activeTag));
 
-  const html = articles.map((a, i) => `
-    <div class="article-item">
-      <span class="article-num${i < 3 ? ' top' : ''}">${i + 1}</span>
-      <div class="article-body">
-        <div class="article-title-line">
-          <a href="${a.url || '#'}" target="_blank" rel="noopener">${a.title}</a>
-          <span class="article-source-link">(${a.source_icon} <a href="#">${a.source}</a>)</span>
-        </div>
-        <div class="article-meta">
-          <span>${a.read_time} min read</span>
-          <span>${a.date}</span>
-          ${a.tags.map(t => `<span class="article-tag">${t}</span>`).join('')}
-        </div>
-      </div>
-    </div>
-  `).join('');
-  document.getElementById('articles').innerHTML = html || '<div style="text-align:center;padding:40px;color:#828282;">No articles found. Waiting for first crawl...</div>';
+  if (keyword) {
+    articles = articles.filter(a => {
+      const title = String(a.title || "").toLowerCase();
+      const summary = String(a.summary || "").toLowerCase();
+      const tags = (a.tags || []).map(t => String(t).toLowerCase());
+      return title.includes(keyword) || summary.includes(keyword) || tags.some(t => t.includes(keyword));
+    });
+  }
+
+  if (activeTag) {
+    articles = articles.filter(a => (a.tags || []).includes(activeTag));
+  }
+
+  return articles;
 }
 
+function render() {
+  const articles = getFilteredArticles();
+  const html = articles.map((a, i) => {
+    const tags = (a.tags || []).map(t => `<span class="article-tag">${escapeHtml(t)}</span>`).join("");
+    const url = safeHref(a.url);
+    const title = escapeHtml(a.title || "Untitled");
+    const summary = escapeHtml(a.summary || "");
+    const source = escapeHtml(a.source || "Unknown source");
+    const sourceIcon = escapeHtml(a.source_icon || "•");
+    const date = escapeHtml(a.date || "");
+    const readTime = escapeHtml(a.read_time || 1);
+
+    return `
+      <article class="article-card${i === 0 ? " lead" : ""}${i < 3 ? " top" : ""}">
+        <span class="article-rank">${i + 1}</span>
+        <span class="article-source-icon" aria-hidden="true">${sourceIcon}</span>
+        <div class="article-content">
+          <div class="article-title-line">
+            <h2 class="article-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></h2>
+            <span class="article-source"><span class="source-open">(</span><span class="source-icon-inline">${sourceIcon}</span> ${source}<span class="source-close">)</span></span>
+          </div>
+          <p class="article-summary">${summary}</p>
+          <div class="article-meta">
+            <span>${readTime} min read</span>
+            <span>${date}</span>
+            ${tags}
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  document.getElementById("articles").innerHTML = html || '<div class="empty-state">No articles found. Waiting for first crawl...</div>';
+}
+
+document.getElementById("searchInput").addEventListener("input", render);
+document.getElementById("themeSelect").addEventListener("change", event => setTheme(event.target.value));
+
+setTheme(getStoredTheme());
 renderTagNav();
 render();
 </script>

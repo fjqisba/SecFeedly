@@ -24,7 +24,7 @@ def main():
     print(f"Loaded {len(articles)} articles")
 
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    data_json = json.dumps(articles, ensure_ascii=False)
+    data_json = json.dumps(articles, ensure_ascii=False).replace("</", "<\\/")
 
     html = template.replace("__DATA_PLACEHOLDER__", data_json)
     html = html.replace("__DATE__", today)

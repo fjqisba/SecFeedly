@@ -2,16 +2,13 @@
 """SecWeekly crawler: fetch RSS feeds and save structured articles to JSON."""
 
 import json
-import sys
 import re
 import html as html_mod
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
-from urllib.parse import urlparse
 
 import feedparser
 import requests
-from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 CONFIG_PATH = ROOT / "config" / "sources.json"
@@ -57,17 +54,32 @@ def parse_date(entry, fallback=None):
     return datetime.now(timezone.utc)
 
 
+def build_headers(settings, accept):
+    return {
+        "User-Agent": settings.get("user_agent", "SecWeekly-Bot/1.0"),
+        "Accept": accept,
+    }
+
+
+def parse_feed(feed_url, settings):
+    timeout = settings.get("request_timeout", 15)
+    headers = build_headers(
+        settings,
+        "application/rss+xml, application/atom+xml, application/xml, text/xml, */*;q=0.5",
+    )
+
+    response = requests.get(feed_url, headers=headers, timeout=timeout)
+    response.raise_for_status()
+    return feedparser.parse(response.content)
+
+
 def fetch_rss(source, settings):
     articles = []
     limit = settings.get("max_articles_per_source", 5)
-    timeout = settings.get("request_timeout", 15)
+    feed_url = source["url"]
 
     try:
-        feed = feedparser.parse(
-            source["url"],
-            agent=settings.get("user_agent", "SecWeekly-Bot/1.0"),
-            request_headers={"Accept": "application/rss+xml, application/atom+xml, text/xml"},
-        )
+        feed = parse_feed(feed_url, settings)
     except Exception as e:
         print(f"  [ERR] Failed to fetch {source['name']}: {e}")
         return articles

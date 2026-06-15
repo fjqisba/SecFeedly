@@ -59,6 +59,12 @@
       "icon": "🎯",
       "url": "https://www.zerodayinitiative.com/blog/feed/",
       "type": "rss"
+    },
+    {
+      "name": "Quarkslab Blog",
+      "icon": "⚗️",
+      "url": "https://blog.quarkslab.com/feeds/all.atom.xml",
+      "type": "rss"
     }
   ],
   "settings": {

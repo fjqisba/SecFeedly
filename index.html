@@ -4,142 +4,1083 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SecWeekly - 每日安全研究速览</title>
+<script>
+  (function () {
+    const themes = ["hackernews", "feedly", "magazine", "newspaper"];
+    let theme = "hackernews";
+    try {
+      const saved = localStorage.getItem("secweekly-theme");
+      if (themes.includes(saved)) theme = saved;
+    } catch (e) {}
+    document.documentElement.dataset.theme = theme;
+  })();
+</script>
 <style>
   :root {
+    color-scheme: light;
     --bg: #f6f6ef;
+    --surface: #fff;
+    --surface-strong: #ff6600;
     --text: #000;
     --text-secondary: #828282;
     --link: #000;
-    --link-visited: #828282;
     --accent: #ff6600;
+    --accent-contrast: #fff;
     --border: #e0e0d8;
     --hover-bg: #f0f0e8;
+    --tag-bg: rgba(255, 102, 0, .08);
+    --tag-text: #ff6600;
+    --shadow: none;
+    --radius: 0;
+    --container: 860px;
+    --font-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif;
+    --font-title: var(--font-body);
   }
-  * { margin:0; padding:0; box-sizing:border-box; }
-  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Verdana, sans-serif; background: var(--bg); color: var(--text); font-size: 14px; }
 
-  .container { max-width: 860px; margin: 0 auto; padding: 0 8px; }
+  :root[data-theme="feedly"] {
+    --bg: #f4f6f8;
+    --surface: #fff;
+    --surface-strong: #111827;
+    --text: #1f2937;
+    --text-secondary: #6b7280;
+    --link: #111827;
+    --accent: #16a34a;
+    --accent-contrast: #fff;
+    --border: #e5e7eb;
+    --hover-bg: #f8fafc;
+    --tag-bg: #dcfce7;
+    --tag-text: #166534;
+    --shadow: 0 6px 24px rgba(15, 23, 42, .08);
+    --radius: 8px;
+    --container: 1040px;
+  }
+
+  :root[data-theme="magazine"] {
+    --bg: #fafaf9;
+    --surface: #fff;
+    --surface-strong: #1c1917;
+    --text: #1c1917;
+    --text-secondary: #78716c;
+    --link: #1c1917;
+    --accent: #dc2626;
+    --accent-contrast: #fff;
+    --border: #e7e5e4;
+    --hover-bg: #fff7ed;
+    --tag-bg: #fee2e2;
+    --tag-text: #991b1b;
+    --shadow: 0 10px 32px rgba(28, 25, 23, .08);
+    --radius: 8px;
+    --container: 1120px;
+    --font-title: Georgia, "Noto Serif SC", "Songti SC", serif;
+  }
+
+  :root[data-theme="newspaper"] {
+    --bg: #e8e0d5;
+    --surface: #fdfaf5;
+    --surface-strong: #fdfaf5;
+    --text: #1a1a1a;
+    --text-secondary: #5c5c5c;
+    --link: #1a1a1a;
+    --accent: #8b1a1a;
+    --accent-contrast: #1a1a1a;
+    --border: #c4b998;
+    --hover-bg: #f7efe1;
+    --tag-bg: transparent;
+    --tag-text: #8b1a1a;
+    --shadow: 0 2px 24px rgba(0, 0, 0, .15);
+    --radius: 0;
+    --container: 940px;
+    --font-body: "Noto Serif SC", "Source Han Serif SC", "Songti SC", "STSong", SimSun, "Times New Roman", serif;
+    --font-title: "Times New Roman", "Noto Serif SC", serif;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-body);
+    font-size: 14px;
+    transition: background .2s ease, color .2s ease;
+  }
+
+  a { color: inherit; }
 
   .topbar {
-    background: var(--accent); padding: 3px 4px; display: flex; align-items: center;
-    gap: 12px; font-size: 13px;
+    background: var(--surface-strong);
+    border-bottom: 1px solid var(--border);
+    color: var(--accent-contrast);
   }
-  .topbar-inner { max-width: 860px; margin: 0 auto; display: flex; align-items: center; gap: 12px; padding: 2px 0; }
-  .topbar .logo { font-weight: 800; color: #fff; text-decoration: none; font-size: 15px; letter-spacing: -.3px; }
-  .topbar a { color: #fff; text-decoration: none; }
-  .topbar .sep { color: rgba(255,255,255,.6); }
-  .topbar .date { color: rgba(255,255,255,.85); margin-left: auto; font-size: 12px; }
 
-  .search-row { padding: 10px 0; border-bottom: 2px solid var(--accent); margin-bottom: 0; }
+  .topbar-inner {
+    max-width: var(--container);
+    margin: 0 auto;
+    min-height: 34px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+  }
+
+  .logo {
+    color: var(--accent-contrast);
+    text-decoration: none;
+    font-weight: 800;
+    font-size: 15px;
+    letter-spacing: -.2px;
+    white-space: nowrap;
+  }
+
+  .topbar-nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .topbar-nav a {
+    color: var(--accent-contrast);
+    text-decoration: none;
+  }
+
+  .sep { color: color-mix(in srgb, var(--accent-contrast) 60%, transparent); }
+  .date { margin-left: auto; color: color-mix(in srgb, var(--accent-contrast) 82%, transparent); font-size: 12px; white-space: nowrap; }
+
+  .theme-switcher {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    color: color-mix(in srgb, var(--accent-contrast) 86%, transparent);
+    font-size: 12px;
+    white-space: nowrap;
+  }
+
+  .theme-switcher select {
+    min-width: 132px;
+    border: 1px solid color-mix(in srgb, var(--accent-contrast) 45%, transparent);
+    border-radius: 4px;
+    padding: 3px 22px 3px 7px;
+    background: color-mix(in srgb, var(--surface-strong) 86%, #fff 14%);
+    color: var(--accent-contrast);
+    font: inherit;
+    outline: none;
+  }
+
+  .theme-switcher select option {
+    color: #111827;
+    background: #fff;
+  }
+
+  .container {
+    max-width: var(--container);
+    margin: 0 auto;
+    padding: 0 8px 28px;
+  }
+
+  .page-heading {
+    display: none;
+    padding: 28px 0 18px;
+    text-align: center;
+  }
+
+  .page-heading .kicker {
+    color: var(--accent);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .page-heading h1 {
+    margin-top: 6px;
+    font-family: var(--font-title);
+    font-size: 38px;
+    line-height: 1.1;
+  }
+
+  .page-heading p {
+    margin-top: 8px;
+    color: var(--text-secondary);
+    font-size: 14px;
+  }
+
+  .controls {
+    padding: 10px 0 0;
+  }
+
+  .search-row {
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent);
+  }
+
   .search-row input {
-    width: 100%; padding: 6px 10px; border: 1px solid var(--border); font-size: 13px;
-    font-family: inherit; background: #fff; outline: none;
+    width: 100%;
+    padding: 7px 10px;
+    border: 1px solid var(--border);
+    border-radius: calc(var(--radius) / 2);
+    background: var(--surface);
+    color: var(--text);
+    font: inherit;
+    outline: none;
   }
-  .search-row input:focus { border-color: var(--accent); }
 
-  .tag-nav { padding: 6px 0; font-size: 12px; color: var(--text-secondary); display: flex; gap: 8px; flex-wrap: wrap; border-bottom: 1px solid var(--border); margin-bottom: 8px; }
-  .tag-nav a { color: var(--text-secondary); text-decoration: none; cursor: pointer; }
-  .tag-nav a:hover, .tag-nav a.active { color: var(--accent); font-weight: 600; }
+  .search-row input:focus {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 14%, transparent);
+  }
 
-  .article-item { display: flex; gap: 8px; padding: 7px 4px; align-items: baseline; border-bottom: 1px dotted var(--border); }
-  .article-item:hover { background: var(--hover-bg); }
-  .article-num { color: var(--text-secondary); font-size: 13px; min-width: 22px; text-align: right; flex-shrink: 0; }
-  .article-num.top { color: var(--accent); font-weight: 700; }
-  .article-body { flex:1; min-width: 0; }
-  .article-title-line { display: flex; align-items: baseline; gap: 6px; flex-wrap: wrap; }
-  .article-title-line a { color: var(--link); text-decoration: none; font-size: 14px; font-weight: 500; }
-  .article-title-line a:visited { color: var(--link-visited); }
-  .article-title-line a:hover { text-decoration: underline; }
-  .article-source-link { font-size: 12px; color: var(--text-secondary); }
-  .article-source-link a { color: var(--text-secondary); text-decoration: none; }
-  .article-source-link a:hover { text-decoration: underline; }
-  .article-meta { font-size: 11px; color: var(--text-secondary); margin-top: 2px; }
+  .tag-nav {
+    padding: 7px 0;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 8px;
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  .tag-nav button {
+    border: 0;
+    background: transparent;
+    color: var(--text-secondary);
+    font: inherit;
+    cursor: pointer;
+  }
+
+  .tag-nav button:hover,
+  .tag-nav button.active {
+    color: var(--accent);
+    font-weight: 700;
+  }
+
+  .articles {
+    display: block;
+  }
+
+  .article-card {
+    display: flex;
+    gap: 8px;
+    align-items: baseline;
+    padding: 7px 4px;
+    border-bottom: 1px dotted var(--border);
+  }
+
+  .article-card:hover { background: var(--hover-bg); }
+
+  .article-rank {
+    min-width: 22px;
+    color: var(--text-secondary);
+    flex-shrink: 0;
+    font-size: 13px;
+    text-align: right;
+  }
+
+  .article-card.top .article-rank {
+    color: var(--accent);
+    font-weight: 800;
+  }
+
+  .article-source-icon { display: none; }
+
+  .article-content {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .article-source {
+    display: inline;
+    color: var(--text-secondary);
+    font-size: 12px;
+  }
+
+  .source-open,
+  .source-close,
+  .source-icon-inline {
+    display: inline;
+  }
+
+  .article-title-line {
+    display: flex;
+    align-items: baseline;
+    gap: 6px;
+    flex-wrap: wrap;
+  }
+
+  .article-title {
+    display: inline;
+    font-family: var(--font-title);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.35;
+  }
+
+  .article-title a {
+    color: var(--link);
+    text-decoration: none;
+  }
+
+  .article-title a:visited { color: var(--text-secondary); }
+  .article-title a:hover { text-decoration: underline; }
+
+  .article-summary {
+    display: none;
+    color: var(--text-secondary);
+    line-height: 1.6;
+    margin-top: 6px;
+  }
+
+  .article-meta {
+    margin-top: 2px;
+    color: var(--text-secondary);
+    font-size: 11px;
+  }
+
   .article-meta span { margin-right: 8px; }
-  .article-tag { color: var(--accent); font-size: 10px; background: rgba(255,102,0,.08); padding: 1px 4px; border-radius: 2px; margin-left: 4px; }
 
-  .footer { text-align: center; padding: 24px; font-size: 12px; color: var(--text-secondary); border-top: 2px solid var(--accent); margin-top: 20px; }
+  .article-tag {
+    display: inline-block;
+    margin: 2px 4px 0 0;
+    padding: 1px 5px;
+    border-radius: 3px;
+    background: var(--tag-bg);
+    color: var(--tag-text);
+    font-size: 10px;
+  }
+
+  .empty-state {
+    padding: 44px 16px;
+    text-align: center;
+    color: var(--text-secondary);
+  }
+
+  .footer {
+    max-width: var(--container);
+    margin: 20px auto 0;
+    padding: 24px 8px;
+    border-top: 2px solid var(--accent);
+    color: var(--text-secondary);
+    text-align: center;
+    font-size: 12px;
+  }
+
   .footer a { color: var(--text-secondary); }
 
-  @media (max-width: 600px) {
-    .topbar-inner { gap: 8px; font-size: 12px; }
-    .article-num { min-width: 16px; font-size: 11px; }
-    .article-title-line a { font-size: 13px; }
+  :root[data-theme="feedly"] .topbar {
+    box-shadow: 0 1px 12px rgba(15, 23, 42, .1);
+  }
+
+  :root[data-theme="feedly"] .container {
+    padding: 18px 18px 36px;
+  }
+
+  :root[data-theme="feedly"] .page-heading {
+    display: block;
+    text-align: left;
+    padding-top: 12px;
+  }
+
+  :root[data-theme="feedly"] .page-heading h1 {
+    font-family: var(--font-body);
+    font-size: 28px;
+  }
+
+  :root[data-theme="feedly"] .controls {
+    display: grid;
+    gap: 10px;
+    padding: 0 0 14px;
+  }
+
+  :root[data-theme="feedly"] .search-row,
+  :root[data-theme="feedly"] .tag-nav {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding: 0;
+  }
+
+  :root[data-theme="feedly"] .search-row input {
+    padding: 11px 14px;
+    border-radius: var(--radius);
+  }
+
+  :root[data-theme="feedly"] .tag-nav button {
+    padding: 5px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+  }
+
+  :root[data-theme="feedly"] .tag-nav button.active {
+    border-color: var(--accent);
+    background: var(--tag-bg);
+    color: var(--tag-text);
+  }
+
+  :root[data-theme="feedly"] .articles {
+    display: grid;
+    gap: 12px;
+  }
+
+  :root[data-theme="feedly"] .article-card {
+    align-items: flex-start;
+    gap: 14px;
+    padding: 18px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: 0 1px 3px rgba(15, 23, 42, .04);
+  }
+
+  :root[data-theme="feedly"] .article-card:hover {
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  :root[data-theme="feedly"] .article-rank {
+    display: none;
+  }
+
+  :root[data-theme="feedly"] .article-source-icon {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    flex: 0 0 44px;
+    border-radius: var(--radius);
+    background: #f3f4f6;
+    font-size: 24px;
+  }
+
+  :root[data-theme="feedly"] .article-source {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 600;
+  }
+
+  :root[data-theme="feedly"] .source-open,
+  :root[data-theme="feedly"] .source-close,
+  :root[data-theme="feedly"] .source-icon-inline {
+    display: none;
+  }
+
+  :root[data-theme="feedly"] .article-title-line {
+    display: block;
+  }
+
+  :root[data-theme="feedly"] .article-title {
+    display: block;
+    font-size: 17px;
+    font-weight: 700;
+  }
+
+  :root[data-theme="feedly"] .article-summary {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 13px;
+  }
+
+  :root[data-theme="feedly"] .footer {
+    border-top: 1px solid var(--border);
+  }
+
+  :root[data-theme="magazine"] .topbar {
+    background: var(--bg);
+    color: var(--text);
+  }
+
+  :root[data-theme="magazine"] .logo,
+  :root[data-theme="magazine"] .topbar-nav a,
+  :root[data-theme="magazine"] .date,
+  :root[data-theme="magazine"] .theme-switcher {
+    color: var(--text);
+  }
+
+  :root[data-theme="magazine"] .theme-switcher select {
+    border-color: var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  :root[data-theme="magazine"] .page-heading {
+    display: block;
+  }
+
+  :root[data-theme="magazine"] .controls {
+    display: grid;
+    grid-template-columns: minmax(220px, 320px) 1fr;
+    gap: 12px;
+    align-items: start;
+    padding-top: 0;
+    margin-bottom: 22px;
+  }
+
+  :root[data-theme="magazine"] .search-row,
+  :root[data-theme="magazine"] .tag-nav {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root[data-theme="magazine"] .search-row input {
+    padding: 10px 14px;
+    border-radius: 999px;
+  }
+
+  :root[data-theme="magazine"] .tag-nav {
+    justify-content: flex-end;
+  }
+
+  :root[data-theme="magazine"] .tag-nav button {
+    padding: 6px 12px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--surface);
+  }
+
+  :root[data-theme="magazine"] .tag-nav button.active {
+    border-color: var(--text);
+    background: var(--text);
+    color: #fff;
+  }
+
+  :root[data-theme="magazine"] .articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+  }
+
+  :root[data-theme="magazine"] .article-card {
+    position: relative;
+    align-items: flex-start;
+    padding: 0;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--surface);
+    box-shadow: 0 1px 2px rgba(28, 25, 23, .04);
+    overflow: hidden;
+  }
+
+  :root[data-theme="magazine"] .article-card::before {
+    content: "";
+    position: absolute;
+    inset: 0 0 auto;
+    height: 4px;
+    background: linear-gradient(90deg, var(--accent), #f97316);
+  }
+
+  :root[data-theme="magazine"] .article-card:hover {
+    background: var(--surface);
+    box-shadow: var(--shadow);
+    transform: translateY(-1px);
+  }
+
+  :root[data-theme="magazine"] .article-card.lead {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(220px, .7fr);
+    min-height: 240px;
+    background: #1c1917;
+    color: #fff;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead::before {
+    display: none;
+  }
+
+  :root[data-theme="magazine"] .article-rank {
+    display: none;
+  }
+
+  :root[data-theme="magazine"] .article-source-icon {
+    display: grid;
+    place-items: center;
+    margin: 22px 0 0 22px;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #f5f5f4;
+    font-size: 24px;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-source-icon {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+    width: 96px;
+    height: 96px;
+    background: rgba(255, 255, 255, .12);
+    font-size: 54px;
+  }
+
+  :root[data-theme="magazine"] .article-content {
+    padding: 18px 20px 20px;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-content {
+    grid-row: 1;
+    padding: 34px 36px;
+  }
+
+  :root[data-theme="magazine"] .article-source {
+    display: block;
+    margin-bottom: 7px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="magazine"] .source-open,
+  :root[data-theme="magazine"] .source-close,
+  :root[data-theme="magazine"] .source-icon-inline {
+    display: none;
+  }
+
+  :root[data-theme="magazine"] .article-title-line {
+    display: block;
+  }
+
+  :root[data-theme="magazine"] .article-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-title {
+    font-size: 30px;
+    line-height: 1.25;
+  }
+
+  :root[data-theme="magazine"] .article-card.lead .article-title a,
+  :root[data-theme="magazine"] .article-card.lead .article-source,
+  :root[data-theme="magazine"] .article-card.lead .article-meta,
+  :root[data-theme="magazine"] .article-card.lead .article-summary {
+    color: #fff;
+  }
+
+  :root[data-theme="magazine"] .article-summary {
+    display: block;
+    font-size: 13px;
+  }
+
+  :root[data-theme="magazine"] .article-card:not(.lead) .article-summary {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+
+  :root[data-theme="magazine"] .footer {
+    border-top: 1px solid var(--border);
+  }
+
+  :root[data-theme="newspaper"] .topbar {
+    background: var(--surface);
+    color: var(--text);
+    border-bottom: 2px solid var(--text);
+  }
+
+  :root[data-theme="newspaper"] .topbar-inner {
+    min-height: 44px;
+  }
+
+  :root[data-theme="newspaper"] .logo,
+  :root[data-theme="newspaper"] .topbar-nav a,
+  :root[data-theme="newspaper"] .date,
+  :root[data-theme="newspaper"] .theme-switcher {
+    color: var(--text);
+  }
+
+  :root[data-theme="newspaper"] .theme-switcher select {
+    border-color: var(--border);
+    background: var(--surface);
+    color: var(--text);
+  }
+
+  :root[data-theme="newspaper"] .container {
+    margin-top: 22px;
+    padding: 0 36px 36px;
+    background: var(--surface);
+    box-shadow: var(--shadow);
+  }
+
+  :root[data-theme="newspaper"] .page-heading {
+    display: block;
+    padding: 32px 0 16px;
+    border-bottom: 4px double var(--text);
+  }
+
+  :root[data-theme="newspaper"] .page-heading .kicker {
+    color: var(--text-secondary);
+  }
+
+  :root[data-theme="newspaper"] .page-heading h1 {
+    font-size: 48px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="newspaper"] .controls {
+    display: grid;
+    grid-template-columns: minmax(200px, 320px) 1fr;
+    gap: 14px;
+    align-items: start;
+    padding: 16px 0;
+    border-bottom: 2px solid var(--text);
+  }
+
+  :root[data-theme="newspaper"] .search-row,
+  :root[data-theme="newspaper"] .tag-nav {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+
+  :root[data-theme="newspaper"] .search-row input {
+    background: var(--surface);
+    border-radius: 0;
+  }
+
+  :root[data-theme="newspaper"] .tag-nav {
+    justify-content: flex-end;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+  }
+
+  :root[data-theme="newspaper"] .tag-nav button.active {
+    color: var(--accent);
+  }
+
+  :root[data-theme="newspaper"] .articles {
+    column-count: 2;
+    column-gap: 34px;
+    column-rule: 1px solid var(--border);
+    padding-top: 22px;
+  }
+
+  :root[data-theme="newspaper"] .article-card {
+    display: block;
+    break-inside: avoid;
+    padding: 0 0 22px;
+    border-bottom: 0;
+  }
+
+  :root[data-theme="newspaper"] .article-card:hover {
+    background: transparent;
+  }
+
+  :root[data-theme="newspaper"] .article-card.lead {
+    column-span: all;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    border-bottom: 2px solid var(--text);
+  }
+
+  :root[data-theme="newspaper"] .article-rank,
+  :root[data-theme="newspaper"] .article-source-icon {
+    display: none;
+  }
+
+  :root[data-theme="newspaper"] .article-source {
+    display: block;
+    margin-bottom: 3px;
+    color: var(--text-secondary);
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="newspaper"] .source-open,
+  :root[data-theme="newspaper"] .source-close {
+    display: none;
+  }
+
+  :root[data-theme="newspaper"] .article-title-line {
+    display: block;
+  }
+
+  :root[data-theme="newspaper"] .article-title {
+    display: block;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1.25;
+  }
+
+  :root[data-theme="newspaper"] .article-card.lead .article-title {
+    font-size: 30px;
+  }
+
+  :root[data-theme="newspaper"] .article-summary {
+    display: block;
+    margin-top: 7px;
+    color: #333;
+    font-size: 13px;
+  }
+
+  :root[data-theme="newspaper"] .article-card.lead .article-summary {
+    font-size: 15px;
+  }
+
+  :root[data-theme="newspaper"] .article-tag {
+    border: 1px solid var(--border);
+    border-radius: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    text-transform: uppercase;
+  }
+
+  :root[data-theme="newspaper"] .footer {
+    max-width: var(--container);
+    border-top: 1px solid var(--border);
+  }
+
+  @media (max-width: 760px) {
+    .topbar-inner {
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .date {
+      margin-left: 0;
+      order: 3;
+      width: 100%;
+    }
+
+    .theme-switcher {
+      margin-left: auto;
+    }
+
+    .theme-switcher label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+    }
+
+    .theme-switcher select {
+      min-width: 118px;
+    }
+
+    :root[data-theme="magazine"] .controls,
+    :root[data-theme="newspaper"] .controls {
+      grid-template-columns: 1fr;
+    }
+
+    :root[data-theme="magazine"] .tag-nav,
+    :root[data-theme="newspaper"] .tag-nav {
+      justify-content: flex-start;
+    }
+
+    :root[data-theme="magazine"] .article-card.lead {
+      grid-template-columns: 1fr;
+    }
+
+    :root[data-theme="magazine"] .article-card.lead .article-source-icon {
+      display: none;
+    }
+
+    :root[data-theme="magazine"] .article-card.lead .article-title,
+    :root[data-theme="newspaper"] .article-card.lead .article-title {
+      font-size: 24px;
+    }
+
+    :root[data-theme="newspaper"] .container {
+      margin-top: 8px;
+      padding: 0 18px 28px;
+    }
+
+    :root[data-theme="newspaper"] .page-heading h1 {
+      font-size: 34px;
+    }
+
+    :root[data-theme="newspaper"] .articles {
+      column-count: 1;
+    }
   }
 </style>
 </head>
 <body>
 
-<div class="topbar">
+<header class="topbar">
   <div class="topbar-inner">
     <a href="#" class="logo">⚡ SecWeekly</a>
-    <a href="#">new</a><span class="sep">|</span>
-    <a href="#">past</a><span class="sep">|</span>
-    <a href="https://github.com/Fee1in/SecWeekly" target="_blank">github</a><span class="sep">|</span>
-    <span class="date">2026-06-14</span>
+    <nav class="topbar-nav" aria-label="Primary">
+      <a href="#">new</a><span class="sep">|</span>
+      <a href="#">past</a><span class="sep">|</span>
+      <a href="https://github.com/Fee1in/SecWeekly" target="_blank" rel="noopener">github</a>
+    </nav>
+    <span class="date">2026-06-15</span>
+    <div class="theme-switcher">
+      <label for="themeSelect">theme</label>
+      <select id="themeSelect" aria-label="Select theme">
+        <option value="hackernews">Hacker News</option>
+        <option value="feedly">Feedly Cards</option>
+        <option value="magazine">Magazine</option>
+        <option value="newspaper">Newspaper</option>
+      </select>
+    </div>
   </div>
-</div>
+</header>
 
-<div class="container">
-  <div class="search-row">
-    <input type="text" placeholder="Search articles..." oninput="render()" id="searchInput">
-  </div>
-  <div class="tag-nav" id="tagNav">
-    <a class="active" onclick="setTag(null)">all</a>
-  </div>
-  <div id="articles"></div>
-  <div class="footer">
-    Generated by GitHub Actions · Updated daily · <a href="https://github.com/Fee1in/SecWeekly">View on GitHub</a>
-  </div>
-</div>
+<main class="container">
+  <section class="page-heading" aria-label="SecWeekly introduction">
+    <div class="kicker">Security Research Weekly Digest</div>
+    <h1>SecWeekly</h1>
+    <p>逆向工程 · 漏洞分析 · 威胁情报 · 每天 5 分钟</p>
+  </section>
+
+  <section class="controls" aria-label="Article filters">
+    <div class="search-row">
+      <input type="text" placeholder="Search articles..." id="searchInput" autocomplete="off">
+    </div>
+    <div class="tag-nav" id="tagNav"></div>
+  </section>
+
+  <section id="articles" class="articles" aria-live="polite"></section>
+</main>
+
+<footer class="footer">
+  Generated by GitHub Actions · Updated daily · <a href="https://github.com/Fee1in/SecWeekly">View on GitHub</a>
+</footer>
 
 <script>
 const DATA = [{"id": 1, "title": "Reverse-engineered the WHOOP 4.0's Bluetooth protocol and open-sourced it.", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u4qelx/reverseengineered_the_whoop_40s_bluetooth/", "summary": "Reverse-engineered the WHOOP 4.0's Bluetooth protocol and open-sourced it.", "tags": ["漏洞分析", "RCE"], "date": "2026-06-13", "read_time": 1}, {"id": 2, "title": "I'm putting together a full guide on typical DRM tricks and how they get cracked.(denuvo : 2026 Re9)", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u4yajv/im_putting_together_a_full_guide_on_typical_drm/", "summary": "I'm putting together a full guide on typical DRM tricks and how they get cracked.(denuvo : 2026 Re9)", "tags": ["安全"], "date": "2026-06-13", "read_time": 1}, {"id": 3, "title": "Critical Splunk Enterprise Flaw Lets Attackers Run Code Without Authentication", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html", "summary": "Splunk has released security updates to address a critical security flaw in Splunk Enterprise that could be exploited to conduct unauthenticated file operations and even remote code execution. The vulnerability, tracked as CVE-2026-20253, is rated 9.8 on the CVSS scoring system. \"In Splunk Enterp...", "tags": ["漏洞分析", "CVE", "漏洞利用"], "date": "2026-06-13", "read_time": 1}, {"id": 4, "title": "Hunting the 30-Year-Old World of Xeen MT-32 Crash", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u4c8qp/hunting_the_30yearold_world_of_xeen_mt32_crash/", "summary": "Hunting the 30-Year-Old World of Xeen MT-32 Crash", "tags": ["安全"], "date": "2026-06-13", "read_time": 1}, {"id": 5, "title": "\"Instead of touching grass for 6 months I built an AI that names 150,000 sub_ functions overnight. I have no regrets [SpectrIDA]\" SELF PROMO (i love the tool tho)", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u4fcxh/instead_of_touching_grass_for_6_months_i_built_an/", "summary": "\"Instead of touching grass for 6 months I built an AI that names 150,000 sub_ functions overnight. I have no regrets [SpectrIDA]\" SELF PROMO (i love the tool tho)", "tags": ["逆向工具", "反编译", "AI"], "date": "2026-06-13", "read_time": 1}, {"id": 6, "title": "U.S. Orders Anthropic to Suspend Fable 5 and Mythos 5 Access for Foreign Nationals", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/us-orders-anthropic-to-suspend-fable-5.html", "summary": "Anthropic said on Friday it will \"abruptly disable\" its most advanced artificial intelligence (AI) models, Claude Fable 5 and Mythos 5, for all users after the U.S. government ordered it to suspend access to the models for foreign nationals, whether inside or outside the U.S., citing national sec...", "tags": ["逆向工具", "反编译", "动态插桩", "Hook"], "date": "2026-06-13", "read_time": 1}, {"id": 7, "title": "Over 400 Arch Linux AUR Packages Hijacked to Deploy Infostealer and eBPF Rootkit", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html", "summary": "Attackers took over more than 400 packages in the Arch User Repository (AUR) this week and rewrote their build scripts to install a credential stealer on any machine that built them. The malware is a Rust binary built to harvest developer secrets. When it lands with root, it can also load an eBPF...", "tags": ["APT", "Rootkit", "恶意软件", "Linux"], "date": "2026-06-12", "read_time": 1}, {"id": 8, "title": "Google Sues Chinese Smishing Network Accused of Using Gemini AI in Phishing", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html", "summary": "Google on Friday said it's pursuing legal action against a Chinese cybercrime network, accusing it of using its Gemini artificial intelligence (AI) agent to send phishing text messages targeting Americans. The network is said to be behind the development and management of a phishing-as-a-service ...", "tags": ["逆向工具", "反编译", "动态插桩", "Hook"], "date": "2026-06-12", "read_time": 1}, {"id": 9, "title": "China-Linked Hackers Backdoored Linux Login Software to Hide for Nearly a Decade", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html", "summary": "Instead of hiding on the laptops and servers defenders watch most closely, a China-nexus group spent close to a decade hidden inside the Linux login system itself. Sygnia, which tracks the group as Velvet Ant, says it backdoored the PAM and OpenSSH components that decide who is allowed to sign in...", "tags": ["APT", "威胁情报", "Linux"], "date": "2026-06-12", "read_time": 1}, {"id": 10, "title": "Agentjacking Attack Tricks AI Coding Agents Into Running Malicious Code", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html", "summary": "Cybersecurity researchers have described what they say is a new class of attack that can trick artificial intelligence (AI) coding agents into running arbitrary code on developer machines. Called Agentjacking by Tenet Security, the attack can be triggered by means of a fake error report crafted u...", "tags": ["AI"], "date": "2026-06-12", "read_time": 1}, {"id": 11, "title": "Friday Squid Blogging: Squid-Inspired Fluid Pump", "source": "Schneier on Security", "source_icon": "🔐", "url": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-squid-inspired-fluid-pump.html", "summary": "This fluid pump was inspired by the way squids propel themselves through the water. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.", "tags": ["逆向工具", "反编译", "动态插桩", "Hook"], "date": "2026-06-12", "read_time": 1}, {"id": 12, "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 24", "source": "SentinelOne Blog", "source_icon": "🛡️", "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-24-7/", "summary": "Authorities seize crypto-laundering network and fake recruitment sites, JDY botnet targets U.S. military, and Miasma worm infects Microsoft and PyPi repos.", "tags": ["Go"], "date": "2026-06-12", "read_time": 1}, {"id": 13, "title": "SentinelOne + Claude: Integrations for AI Visibility, Governance, and Defense", "source": "SentinelOne Blog", "source_icon": "🛡️", "url": "https://www.sentinelone.com/blog/sentinelone-and-claude-integrations-for-ai-visibility-governance-and-defense/", "summary": "Learn how SentinelOne empowers modern enterprises to safely adopt Claude with Prompt Security, AI SIEM, and Wayfinder Frontier AI.", "tags": ["Go", "AI"], "date": "2026-06-12", "read_time": 1}, {"id": 14, "title": "Rethinking MDR as Attackers and Defenders Embrace AI", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/rethinking-mdr-as-attackers-and.html", "summary": "For most of the past decade, managed detection and response was the answer to a real problem. Security teams couldn't staff around the clock, couldn't hire enough analysts, and needed someone else to handle the alert queue. MDR stepped in. It worked well enough. Until now. The threat landscape ha...", "tags": ["AI"], "date": "2026-06-12", "read_time": 1}, {"id": 15, "title": "LangGraph Flaw Chain Exposes Self-Hosted AI Agents to Remote Code Execution", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html", "summary": "Cybersecurity researchers have disclosed details of three now-patched security flaws impacting LangGraph, including a critical vulnerability chain that could result in remote code execution. LangGraph is an open-source framework created by LangChain to build complex, stateful, and multi-agent art...", "tags": ["漏洞分析", "RCE", "AI"], "date": "2026-06-12", "read_time": 1}, {"id": 16, "title": "INTERPOL Operation Takes Down Sniper Dz Phishing Platform, Arrests Administrator", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html", "summary": "An INTERPOL-led operation last month resulted in the disruption of Sniper Dz, a decade-long phishing-as-a-service (PhaaS) platform, Group-IB said Thursday. The effort, codenamed Operation Ramz, took place between October 2025 and February 2026, and saw authorities from 13 countries in the Middle ...", "tags": ["AI"], "date": "2026-06-12", "read_time": 1}, {"id": 17, "title": "Europol Disrupts AudiA6 Crypto Laundering Service Used by Ransomware Gangs", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/europol-disrupts-audia6-crypto.html", "summary": "Authorities in Europe have disrupted AudiA6, a cryptocurrency laundering service used by ransomware gangs and cybercriminal networks. Europol, in a statement issued Thursday, said the dismantling of AudiA6 cut off a \"key financial pipeline used to wash hundreds of millions in illicit profits.\" Th...", "tags": ["恶意软件", "AI"], "date": "2026-06-12", "read_time": 1}, {"id": 18, "title": "Bernie Sanders’ AI Sovereign Wealth Fund Plan", "source": "Schneier on Security", "source_icon": "🔐", "url": "https://www.schneier.com/blog/archives/2026/06/bernie-sanders-ai-sovereign-wealth-fund-plan.html", "summary": "Let no one accuse Bernie Sanders of ducking the big questions. Writing in the New York Times last week, the senator asked : “Will the future of humanity be determined by a handful of billionaires who have promoted and developed AI, with virtually no democratic input, who stand to become even rich...", "tags": ["AI"], "date": "2026-06-12", "read_time": 1}, {"id": 19, "title": "Reverse engineered BLE protocol of a $7 generic Chinese smart ring from Temu, and built an iOS app around it", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u34idd/reverse_engineered_ble_protocol_of_a_7_generic/", "summary": "Reverse engineered BLE protocol of a $7 generic Chinese smart ring from Temu, and built an iOS app around it", "tags": ["iOS"], "date": "2026-06-11", "read_time": 1}, {"id": 20, "title": "[Reverse-Engineering] Skeet CS:GO source code (Gamesense)", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u33jue/reverseengineering_skeet_csgo_source_code/", "summary": "[Reverse-Engineering] Skeet CS:GO source code (Gamesense)", "tags": ["漏洞分析", "RCE", "Go"], "date": "2026-06-11", "read_time": 1}, {"id": 21, "title": "Giulio Zausa's MMO-CHIP Makes Reverse Engineering Old Silicon Chips a Multiplayer Game", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u30ncm/giulio_zausas_mmochip_makes_reverse_engineering/", "summary": "Giulio Zausa's MMO-CHIP Makes Reverse Engineering Old Silicon Chips a Multiplayer Game", "tags": ["安全"], "date": "2026-06-11", "read_time": 1}, {"id": 22, "title": "ShinyHunters Exploits Oracle PeopleSoft Zero-Day (CVE-2026-35273) to Breach Universities", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html", "summary": "The ShinyHunters extortion crew exploited an unpatched flaw in Oracle PeopleSoft to break into enterprise systems, steal data, and demand payment to keep it private. The campaign hit universities hardest. Google's Mandiant attributes it to the group it tracks as UNC6240, and dates the activity be...", "tags": ["漏洞分析", "CVE", "漏洞利用", "Go"], "date": "2026-06-11", "read_time": 1}, {"id": 23, "title": "Drive Firmware Security - Phison S11", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u2q0cf/drive_firmware_security_phison_s11/", "summary": "Drive Firmware Security - Phison S11", "tags": ["安全"], "date": "2026-06-11", "read_time": 1}, {"id": 24, "title": "I built 99 adversarially malformed PE files to test tool robustness - here’s what happened", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u2wpf4/i_built_99_adversarially_malformed_pe_files_to/", "summary": "I built 99 adversarially malformed PE files to test tool robustness - here’s what happened", "tags": ["安全"], "date": "2026-06-11", "read_time": 1}, {"id": 25, "title": "Hacking Google with A.I. for $500,000", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u2vd03/hacking_google_with_ai_for_500000/", "summary": "Hacking Google with A.I. for $500,000", "tags": ["Go"], "date": "2026-06-11", "read_time": 1}, {"id": 26, "title": "Prompt injection: attacking the analyst's AI", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u2tagh/prompt_injection_attacking_the_analysts_ai/", "summary": "Prompt injection: attacking the analyst's AI", "tags": ["AI"], "date": "2026-06-11", "read_time": 1}, {"id": 27, "title": "AI Broke Vulnerability Management. That's Why CISOs Are Moving Budget to BAS.", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/ai-broke-vulnerability-management-thats.html", "summary": "For thirty years, vulnerability management ran on a buffer: the months between when a vulnerability was found and when someone could figure out how to weaponize it. The solution was straightforward enough; triage by severity, schedule the fix, validate, and move on. The buffer was what made that ...", "tags": ["逆向工具", "反编译", "AI"], "date": "2026-06-11", "read_time": 1}, {"id": 28, "title": "OceanLotus Hits Vietnam Investors With SPECTRALVIPER in FireAnt Attack", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html", "summary": "The Vietnam-aligned threat actor known as OceanLotus has been attributed to two distinct campaigns that targeted domestic entities and stock investors with a backdoor known as SPECTRALVIPER. The campaigns involve a prolonged cyber espionage operation aimed at a Vietnamese infrastructure and trans...", "tags": ["AI"], "date": "2026-06-11", "read_time": 1}, {"id": 29, "title": "GitHub to Disable npm Install Scripts by Default to Stop Supply Chain Attacks", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html", "summary": "GitHub has announced what it said are \"breaking changes\" coming to npm version 12, one of which turns off install scripts by default to combat software supply chain threats. The changes aim to combat attack techniques that abuse the \"npm install\" command to trigger the execution of malicious code...", "tags": ["AI"], "date": "2026-06-11", "read_time": 1}, {"id": 30, "title": "Enhanced License Plate Tracking", "source": "Schneier on Security", "source_icon": "🔐", "url": "https://www.schneier.com/blog/archives/2026/06/enhanced-license-plate-tracking.html", "summary": "The surveillance company Leonardo wants more data : A surveillance company plans to add sensors to automatic license plate readers (ALPRs) that would mean the devices, as well as capture the license plate of passing vehicles, would also sweep up unique identifiers of mobile phones, wearables, and...", "tags": ["APT", "威胁情报"], "date": "2026-06-11", "read_time": 1}, {"id": 31, "title": "IDA 9.4 Beta | Hex-Rays Docs", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u29lmx/ida_94_beta_hexrays_docs/", "summary": "IDA 9.4 Beta | Hex-Rays Docs", "tags": ["逆向工具", "反编译"], "date": "2026-06-10", "read_time": 1}, {"id": 32, "title": "How Fraudsters Bypass Facial Recognition and Stay Hidden in 2026", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u1zy6g/how_fraudsters_bypass_facial_recognition_and_stay/", "summary": "How Fraudsters Bypass Facial Recognition and Stay Hidden in 2026", "tags": ["安全"], "date": "2026-06-10", "read_time": 1}, {"id": 33, "title": "Who Runs the Ransomware Group ‘The Gentlemen?’", "source": "Krebs on Security", "source_icon": "🕵️", "url": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/", "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues poi...", "tags": ["漏洞分析", "RCE", "恶意软件", "AI"], "date": "2026-06-10", "read_time": 1}, {"id": 34, "title": "China-Linked JDY Botnet Expands to 1,500+ Devices for Cyber Reconnaissance", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/china-linked-jdy-botnet-expands-to-1500.html", "summary": "Cybersecurity researchers have warned of a \"resurgence and expansion\" of JDY, a covert network associated with China-nexus state-sponsored threat actors. \"The JDY botnet comprises over 1,500 SOHO [small office and home office] and IoT devices and operates as a centrally controlled, high-performan...", "tags": ["AI"], "date": "2026-06-10", "read_time": 1}, {"id": 35, "title": "Ivanti, Fortinet, and SAP Release Patches for Multiple Critical Vulnerabilities", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/ivanti-fortinet-and-sap-release-patches.html", "summary": "Fortinet, Ivanti, and SAP have released security updates to address multiple critical security vulnerabilities that could result in arbitrary code execution and information disclosure. The security flaw patched by Fortinet relates to a command injection vulnerability in FortiSandbox, FortiSandbox...", "tags": ["安全"], "date": "2026-06-10", "read_time": 1}, {"id": 36, "title": "🚀 Release PyMemoryEditor v2.0 — read, write and scan the memory of any running process, in pure Python (Windows, Linux & macOS)", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u1swku/release_pymemoryeditor_v20_read_write_and_scan/", "summary": "🚀 Release PyMemoryEditor v2.0 — read, write and scan the memory of any running process, in pure Python (Windows, Linux & macOS)", "tags": ["Linux", "Windows"], "date": "2026-06-10", "read_time": 1}, {"id": 37, "title": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520) - watchTowr Labs", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u1neao/more_evidence_that_words_dont_mean_what_we/", "summary": "More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520) - watchTowr Labs", "tags": ["漏洞分析", "CVE"], "date": "2026-06-10", "read_time": 1}, {"id": 38, "title": "Jupyter Enterprise Gateway - From Notebook to Kubernetes Cluster Admin - elttam", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u1u6lh/jupyter_enterprise_gateway_from_notebook_to/", "summary": "Jupyter Enterprise Gateway - From Notebook to Kubernetes Cluster Admin - elttam", "tags": ["安全"], "date": "2026-06-10", "read_time": 1}, {"id": 39, "title": "Your Automated Pentest Looks Clean. See What It Missed in This Expert Webinar", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/your-automated-pentest-looks-clean-see.html", "summary": "Your pentest report looks clean. That might be the problem. Run automated pentesting long enough, and the new findings start to dry up. By the third or fourth run, fewer issues appear. The report looks stable. Leadership reads \"stable\" as \"secure.\" It usually isn't. The work slows down. The risk ...", "tags": ["安全"], "date": "2026-06-10", "read_time": 1}, {"id": 40, "title": "Microsoft Patches Record 206 Flaws, Including Three Zero-Days and Critical RCE Bugs", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/microsoft-patches-record-206-flaws.html", "summary": "Microsoft on Tuesday released fixes for a record 206 security vulnerabilities impacting its software portfolio, including three flaws that have been publicly disclosed at the time of release. Of the 206 flaws, 39 are rated Critical, and 167 are rated Important in severity. This includes 63 privil...", "tags": ["漏洞分析", "RCE"], "date": "2026-06-10", "read_time": 1}, {"id": 41, "title": "Anthropic Releases Claude Fable 5, Its Most Powerful AI Yet, With Cyber Safeguards", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/anthropic-releases-claude-fable-5-its.html", "summary": "On June 9, Anthropic released Claude Fable 5, the most capable model it has ever made, generally available. It also did something unusual: it shipped one model as two products, split not by capability but by a layer of safety classifiers. Fable 5 goes to the public. Its twin, Claude Mythos 5, the...", "tags": ["Go", "AI"], "date": "2026-06-10", "read_time": 1}, {"id": 42, "title": "ServiceNow Flaw Exploited to Gain Unauthorized Access to Customer Instances", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/servicenow-flaw-exploited-to-gain.html", "summary": "ServiceNow has warned about a security incident in which unknown threat actors exploited a flaw to obtain deeper unauthorized access to susceptible instances. \"On June 5, 2026, ServiceNow applied a security update to hosted customer instances,\" the company revealed in an advisory that requires cu...", "tags": ["漏洞分析", "漏洞利用", "AI"], "date": "2026-06-10", "read_time": 1}, {"id": 43, "title": "Microsoft Defender RoguePlanet Zero-Day Grants SYSTEM Access on Updated Windows", "source": "The Hacker News", "source_icon": "📰", "url": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html", "summary": "The anonymous security researcher going by the name Chaotic Eclipse (aka Nightmare-Eclipse) has released a proof-of-concept (PoC) exploit for yet another Microsoft Defender zero-day named RoguePlanet. \"The exploit is a race condition, so it's a hit or miss,\" the researcher, who published the expl...", "tags": ["漏洞分析", "漏洞利用", "Windows", "Go"], "date": "2026-06-10", "read_time": 1}, {"id": 44, "title": "NSO Group Hacking WhatsApp Despite Court Order", "source": "Schneier on Security", "source_icon": "🔐", "url": "https://www.schneier.com/blog/archives/2026/06/nso-group-hacking-whatsapp-despite-court-order.html", "summary": "WhatsApp has caught the NSO Group phishing its users, in violation of a court order.", "tags": ["安全"], "date": "2026-06-10", "read_time": 1}, {"id": 45, "title": "I reverse engineered Lofree Hypace mouse firmware flashing protocol to bypass their official web based configuration on MacOS.", "source": "/r/ReverseEngineering", "source_icon": "🔬", "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u1cuoe/i_reverse_engineered_lofree_hypace_mouse_firmware/", "summary": "I reverse engineered Lofree Hypace mouse firmware flashing protocol to bypass their official web based configuration on MacOS.", "tags": ["安全"], "date": "2026-06-09", "read_time": 1}, {"id": 46, "title": "A Record-Breaking Patch Tuesday for June 2026", "source": "Krebs on Security", "source_icon": "🕵️", "url": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/", "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire \"critical\" rating, and exp...", "tags": ["Windows"], "date": "2026-06-09", "read_time": 1}, {"id": 47, "title": "GPS As a Key Distribution Platform", "source": "Schneier on Security", "source_icon": "🔐", "url": "https://www.schneier.com/blog/archives/2026/06/gps-as-a-key-distribution-platform.html", "summary": "This is interesting: The U.S. military has likely been quietly broadcasting codes for its global encryption network using public GPS for nearly 20 years, turning each satellite into a hidden “numbers station,” according to Steven Murdoch… That means every device that uses GPS has been receiving h...", "tags": ["安全"], "date": "2026-06-09", "read_time": 1}, {"id": 48, "title": "I found 23 Chrome extensions hijacking 758,000 users' searches for affiliate revenue", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u10g5c/i_found_23_chrome_extensions_hijacking_758000/", "summary": "I scanned Chrome extension manifests for chrome_settings_overrides and found 23 extensions silently routing 758,000 users' searches through hidden monetization networks. The pattern: install a free extension (satellite imagery, maps, news reader), your default search gets quietly replaced and eve...", "tags": ["安全"], "date": "2026-06-09", "read_time": 1}, {"id": 49, "title": "AI Agents May Always Fall for Prompt Injections", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u0wykc/ai_agents_may_always_fall_for_prompt_injections/", "summary": "AI Agents May Always Fall for Prompt Injections", "tags": ["AI"], "date": "2026-06-09", "read_time": 1}, {"id": 50, "title": "I just completed Search Skills room on TryHackMe! Learn to efficiently search the Internet and use specialised services and technical docs for information", "source": "/r/netsec", "source_icon": "🛡️", "url": "https://www.reddit.com/r/netsec/comments/1u0y34b/i_just_completed_search_skills_room_on_tryhackme/", "summary": "I just completed Search Skills room on TryHackMe! Learn to efficiently search the Internet and use specialised services and technical docs for information", "tags": ["安全"], "date": "2026-06-09", "read_time": 1}];
+const THEME_KEY = "secweekly-theme";
+const THEMES = ["hackernews", "feedly", "magazine", "newspaper"];
 
 let activeTag = null;
 
+function escapeHtml(value) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
+
+function safeHref(value) {
+  if (!value) return "#";
+  try {
+    const url = new URL(value, window.location.href);
+    return ["http:", "https:"].includes(url.protocol) ? url.href : "#";
+  } catch (e) {
+    return "#";
+  }
+}
+
+function getStoredTheme() {
+  try {
+    const saved = localStorage.getItem(THEME_KEY);
+    if (THEMES.includes(saved)) return saved;
+  } catch (e) {}
+  return "hackernews";
+}
+
+function setTheme(theme) {
+  const nextTheme = THEMES.includes(theme) ? theme : "hackernews";
+  document.documentElement.dataset.theme = nextTheme;
+  document.getElementById("themeSelect").value = nextTheme;
+  try {
+    localStorage.setItem(THEME_KEY, nextTheme);
+  } catch (e) {}
+}
+
 function getAllTags() {
   const set = new Set();
-  DATA.forEach(a => a.tags.forEach(t => set.add(t)));
+  DATA.forEach(a => (a.tags || []).forEach(t => set.add(t)));
   return [...set].sort();
 }
 
 function renderTagNav() {
   const tags = getAllTags();
-  const html = tags.map(t => `<a onclick="setTag('${t}')" data-tag="${t}">${t}</a>`).join('');
-  document.getElementById('tagNav').innerHTML = '<a class="active" onclick="setTag(null)">all</a> ' + html;
+  const buttons = [
+    `<button type="button" class="active" data-tag="">all</button>`,
+    ...tags.map(t => `<button type="button" data-tag="${escapeHtml(t)}">${escapeHtml(t)}</button>`)
+  ];
+
+  const tagNav = document.getElementById("tagNav");
+  tagNav.innerHTML = buttons.join("");
+  tagNav.querySelectorAll("button").forEach(button => {
+    button.addEventListener("click", () => {
+      const tag = button.dataset.tag || null;
+      setTag(tag);
+    });
+  });
 }
 
 function setTag(tag) {
   activeTag = activeTag === tag ? null : tag;
-  document.querySelectorAll('#tagNav a').forEach(el => el.classList.toggle('active', el.dataset.tag === activeTag || (!el.dataset.tag && !activeTag)));
+  document.querySelectorAll("#tagNav button").forEach(button => {
+    const tagValue = button.dataset.tag || null;
+    button.classList.toggle("active", tagValue === activeTag || (!tagValue && !activeTag));
+  });
   render();
 }
 
-function render() {
-  const keyword = document.getElementById('searchInput').value.toLowerCase();
+function getFilteredArticles() {
+  const keyword = document.getElementById("searchInput").value.trim().toLowerCase();
   let articles = DATA;
-  if (keyword) articles = articles.filter(a => a.title.toLowerCase().includes(keyword) || a.summary.toLowerCase().includes(keyword) || a.tags.some(t => t.toLowerCase().includes(keyword)));
-  if (activeTag) articles = articles.filter(a => a.tags.includes(activeTag));
 
-  const html = articles.map((a, i) => `
-    <div class="article-item">
-      <span class="article-num${i < 3 ? ' top' : ''}">${i + 1}</span>
-      <div class="article-body">
-        <div class="article-title-line">
-          <a href="${a.url || '#'}" target="_blank" rel="noopener">${a.title}</a>
-          <span class="article-source-link">(${a.source_icon} <a href="#">${a.source}</a>)</span>
-        </div>
-        <div class="article-meta">
-          <span>${a.read_time} min read</span>
-          <span>${a.date}</span>
-          ${a.tags.map(t => `<span class="article-tag">${t}</span>`).join('')}
-        </div>
-      </div>
-    </div>
-  `).join('');
-  document.getElementById('articles').innerHTML = html || '<div style="text-align:center;padding:40px;color:#828282;">No articles found. Waiting for first crawl...</div>';
+  if (keyword) {
+    articles = articles.filter(a => {
+      const title = String(a.title || "").toLowerCase();
+      const summary = String(a.summary || "").toLowerCase();
+      const tags = (a.tags || []).map(t => String(t).toLowerCase());
+      return title.includes(keyword) || summary.includes(keyword) || tags.some(t => t.includes(keyword));
+    });
+  }
+
+  if (activeTag) {
+    articles = articles.filter(a => (a.tags || []).includes(activeTag));
+  }
+
+  return articles;
 }
 
+function render() {
+  const articles = getFilteredArticles();
+  const html = articles.map((a, i) => {
+    const tags = (a.tags || []).map(t => `<span class="article-tag">${escapeHtml(t)}</span>`).join("");
+    const url = safeHref(a.url);
+    const title = escapeHtml(a.title || "Untitled");
+    const summary = escapeHtml(a.summary || "");
+    const source = escapeHtml(a.source || "Unknown source");
+    const sourceIcon = escapeHtml(a.source_icon || "•");
+    const date = escapeHtml(a.date || "");
+    const readTime = escapeHtml(a.read_time || 1);
+
+    return `
+      <article class="article-card${i === 0 ? " lead" : ""}${i < 3 ? " top" : ""}">
+        <span class="article-rank">${i + 1}</span>
+        <span class="article-source-icon" aria-hidden="true">${sourceIcon}</span>
+        <div class="article-content">
+          <div class="article-title-line">
+            <h2 class="article-title"><a href="${url}" target="_blank" rel="noopener noreferrer">${title}</a></h2>
+            <span class="article-source"><span class="source-open">(</span><span class="source-icon-inline">${sourceIcon}</span> ${source}<span class="source-close">)</span></span>
+          </div>
+          <p class="article-summary">${summary}</p>
+          <div class="article-meta">
+            <span>${readTime} min read</span>
+            <span>${date}</span>
+            ${tags}
+          </div>
+        </div>
+      </article>
+    `;
+  }).join("");
+
+  document.getElementById("articles").innerHTML = html || '<div class="empty-state">No articles found. Waiting for first crawl...</div>';
+}
+
+document.getElementById("searchInput").addEventListener("input", render);
+document.getElementById("themeSelect").addEventListener("change", event => setTheme(event.target.value));
+
+setTheme(getStoredTheme());
 renderTagNav();
 render();
 </script>
