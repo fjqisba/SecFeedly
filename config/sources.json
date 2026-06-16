@@ -13,15 +13,27 @@
       "type": "rss"
     },
     {
-      "name": "Krebs on Security",
-      "icon": "🕵️",
-      "url": "https://krebsonsecurity.com/feed/",
+      "name": "Hex-Rays Blog",
+      "icon": "🧬",
+      "url": "https://hex-rays.com/blog/rss.xml",
       "type": "rss"
     },
     {
-      "name": "The Hacker News",
-      "icon": "📰",
-      "url": "https://feeds.feedburner.com/TheHackersNews",
+      "name": "Binary Ninja Blog",
+      "icon": "🥷",
+      "url": "https://binary.ninja/feed.xml",
+      "type": "rss"
+    },
+    {
+      "name": "MalwareTech",
+      "icon": "🧪",
+      "url": "https://malwaretech.com/feed",
+      "type": "rss"
+    },
+    {
+      "name": "Möbius Strip Reverse Engineering",
+      "icon": "🔁",
+      "url": "https://www.msreverseengineering.com/blog?format=rss",
       "type": "rss"
     },
     {
