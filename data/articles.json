@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "Note20 ABL Odin out-of-bounds read",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ubd9a6/note20_abl_odin_outofbounds_read/",
+    "summary": "Note20 ABL Odin out-of-bounds read",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-21",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse engineered Pixel 7 Tensor G2 access",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ub17kt/reverse_engineered_pixel_7_tensor_g2_access/",
+    "summary": "Reverse engineered Pixel 7 Tensor G2 access",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-20",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uazied/dos_game_f15_strike_eagle_ii_reversing_project/",
+    "summary": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-20",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +52,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Martyx00/VulnFanatic-NG: BianryNinja plugin for identifying vulnerabilities in decompiled binaries with both programmatic scans and LLM support.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "BSim-foundry: pre-built function signatures for zlib, OpenSSL, mbedTLS, SQLite, libcurl and 24 more. headless + GUI + IDA/BN via SightHouse",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -43,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "IDA 9.4: Apple Dyld Shared Cache workflow improvements",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -59,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -75,7 +114,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Anthropic’s Fable and the State of AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -89,7 +128,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 25",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -105,7 +144,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "GitHub - Zypherion-Technologies/UnConfuserEx: A ConfuserEx2 deobfuscator with support for anti tamper, compressor, constants, control flow, and resource recovery.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +158,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "VAXD update: public v1.00 release is now available",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +171,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Rustemsoft unveils Opaquer .NET Obfuscator, a powerful new tool for protecting .NET applications from reverse engineering. The release delivers advanced control‑flow scrambling, string encryption, and metadata hiding with all core obfuscation features available free of charge.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -146,7 +185,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -160,7 +199,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Black Box Probing: a Security Analysis of Xiaomi's MJA1 Secure Chip",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -173,7 +212,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "AI Use by the US Government",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -187,7 +226,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "The Agentic SOC: Solving Security’s Investigation Capacity Crisis in the Frontier AI Era",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -200,7 +239,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Reverse engineering \"encrypted\" kids VTech walkie talkie",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -213,7 +252,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Reverse Engineering 1988's BattleTech: The Crescent Hawk's Inception (Westwood/Infocom) - Seeking Collaborators",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -226,7 +265,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "wit keeps claims tied to the thing that proves them",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -239,7 +278,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "IDA 9.4: Wider Processor and Platform Support",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -254,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "VAXD - lightweight PE EXE/DLL disassembler and patch-assistance tool for Windows",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -267,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -280,7 +319,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -296,7 +335,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -311,7 +350,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -327,7 +366,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -342,7 +381,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 28,
     "title": "Flock Cameras Are Being Used for Stalking",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -355,7 +394,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 29,
     "title": "Factoring \"short-sleeve\" RSA keys with polynomials",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -368,7 +407,7 @@
     "read_time": 1
   },
   {
-    "id": 27,
+    "id": 30,
     "title": "GitHub - Zypherion-Technologies/HallWatch: Usermode detector that catches indirect syscalls.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -381,7 +420,7 @@
     "read_time": 1
   },
   {
-    "id": 28,
+    "id": 31,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -394,7 +433,7 @@
     "read_time": 1
   },
   {
-    "id": 29,
+    "id": 32,
     "title": "Need DRM Bypass on course website to download video , DM (paid) ,",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -407,7 +446,7 @@
     "read_time": 1
   },
   {
-    "id": 30,
+    "id": 33,
     "title": "The Onboarding Password Mistake That Creates Unnecessary Risk",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -420,7 +459,7 @@
     "read_time": 1
   },
   {
-    "id": 31,
+    "id": 34,
     "title": "152 Chrome Wallpaper Extensions with 105K Installs Linked to Adware and Fake Traffic",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -433,7 +472,7 @@
     "read_time": 1
   },
   {
-    "id": 32,
+    "id": 35,
     "title": "Popular WordPress Plugin Scripts Tampered to Plant Hidden Backdoors on Sites",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -446,7 +485,7 @@
     "read_time": 1
   },
   {
-    "id": 33,
+    "id": 36,
     "title": "Sniper Dz Scams Target MENA Users via Fake Facebook Offers and Browser Alerts",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -460,7 +499,7 @@
     "read_time": 1
   },
   {
-    "id": 34,
+    "id": 37,
     "title": "Palo Alto Warns of Active Exploitation of PAN-OS GlobalProtect VPN Flaw",
     "source": "The Hacker News",
     "source_icon": "📰",
@@ -476,7 +515,7 @@
     "read_time": 1
   },
   {
-    "id": 35,
+    "id": 38,
     "title": "The FCC Wants to Eliminate Burner Phones",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -486,19 +525,6 @@
       "Go"
     ],
     "date": "2026-06-15",
-    "read_time": 1
-  },
-  {
-    "id": 36,
-    "title": "Upcoming Speaking Engagements",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/upcoming-speaking-engagements-57.html",
-    "summary": "This is a current list of where and when I am scheduled to speak: I’m giving a keynote at Cybernation 2026 in Berlin, Germany, on June 24, 2026. I’m speaking at the Potsdam Conference on National Cybersecurity at the Hasso Plattner Institut in Potsdam, Germany. The event runs June 24–25, 2026, an...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-14",
     "read_time": 1
   }
 ]
