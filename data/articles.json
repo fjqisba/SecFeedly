@@ -1,6 +1,71 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ucdds8/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-22",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "CAN bus reverse engineering with AI [Claude Code]",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ucrh8p/can_bus_reverse_engineering_with_ai_claude_code/",
+    "summary": "CAN bus reverse engineering with AI [Claude Code]",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-06-22",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "AirPlay 2 realtime audio sender, the encrypted RAOP/RTSP path reconstructed and documented",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ucf0hr/airplay_2_realtime_audio_sender_the_encrypted/",
+    "summary": "AirPlay 2 realtime audio sender, the encrypted RAOP/RTSP path reconstructed and documented",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-06-22",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "VAXD - 1.60",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ucsbih/vaxd_160/",
+    "summary": "VAXD - 1.60",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-22",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Professional Athletes and Wearables",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/professional-athletes-and-wearables.html",
+    "summary": "I haven’t thought about the privacy issues surrounding professional athletes and wearables. Wearables present serious privacy issues for “Average Joe” consumers, who are entrusting tech companies to safely store and protect their biometric data. Imagine the stakes for a professional athlete, whos...",
+    "tags": [
+      "Rust"
+    ],
+    "date": "2026-06-22",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "JavaScript Obfuscator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +78,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "I reverse engineered Windows Copilot into a free OpenAI compatible API (GPT-4o, no API key, no billing)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +92,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Reverse once, run forever: designing client-side defenses that assume the attacker has already read every line",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +105,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Note20 ABL Odin out-of-bounds read",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +118,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Reverse engineered Pixel 7 Tensor G2 access",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +131,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +144,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -92,7 +157,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Martyx00/VulnFanatic-NG: BianryNinja plugin for identifying vulnerabilities in decompiled binaries with both programmatic scans and LLM support.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +171,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "BSim-foundry: pre-built function signatures for zlib, OpenSSL, mbedTLS, SQLite, libcurl and 24 more. headless + GUI + IDA/BN via SightHouse",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +187,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "IDA 9.4: Apple Dyld Shared Cache workflow improvements",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -138,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -154,7 +219,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Anthropic’s Fable and the State of AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -168,7 +233,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 25",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -184,7 +249,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "GitHub - Zypherion-Technologies/UnConfuserEx: A ConfuserEx2 deobfuscator with support for anti tamper, compressor, constants, control flow, and resource recovery.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -198,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "VAXD update: public v1.00 release is now available",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -211,7 +276,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "Rustemsoft unveils Opaquer .NET Obfuscator, a powerful new tool for protecting .NET applications from reverse engineering. The release delivers advanced control‑flow scrambling, string encryption, and metadata hiding with all core obfuscation features available free of charge.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -225,7 +290,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -239,7 +304,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "Black Box Probing: a Security Analysis of Xiaomi's MJA1 Secure Chip",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -252,7 +317,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "AI Use by the US Government",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -266,7 +331,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "The Agentic SOC: Solving Security’s Investigation Capacity Crisis in the Frontier AI Era",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -279,7 +344,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "title": "Reverse engineering \"encrypted\" kids VTech walkie talkie",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -289,148 +354,6 @@
       "安全"
     ],
     "date": "2026-06-17",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Reverse Engineering 1988's BattleTech: The Crescent Hawk's Inception (Westwood/Infocom) - Seeking Collaborators",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u7j22h/reverse_engineering_1988s_battletech_the_crescent/",
-    "summary": "Reverse Engineering 1988's BattleTech: The Crescent Hawk's Inception (Westwood/Infocom) - Seeking Collaborators",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "wit keeps claims tied to the thing that proves them",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u7nrie/wit_keeps_claims_tied_to_the_thing_that_proves/",
-    "summary": "wit keeps claims tied to the thing that proves them",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "IDA 9.4: Wider Processor and Platform Support",
-    "source": "Hex-Rays Blog",
-    "source_icon": "🧬",
-    "url": "https://hex-rays.com/blog/ida-9.4-wider-processor-and-platform-support",
-    "summary": "IDA 9.4 comes with a brand-new Qualcomm Hexagon DSP module, an MCore family covering C-SKY V1, and deeper coverage of ARM, TriCore and RISC-V.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "Go"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "VAXD - lightweight PE EXE/DLL disassembler and patch-assistance tool for Windows",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u79yiq/vaxd_lightweight_pe_exedll_disassembler_and/",
-    "summary": "VAXD - lightweight PE EXE/DLL disassembler and patch-assistance tool for Windows",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Survey: 94% of Incidents Involve Anonymized Infrastructure. Teams Are Still Reactive",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/survey-94-of-incidents-involve.html",
-    "summary": "Security teams have never had more IP data at their disposal. Every day, analysts ingest enrichment feeds, geolocation data, reputation scores, telemetry, and threat intelligence from a growing ecosystem of vendors and platforms. Yet despite this abundance of information, many organizations conti...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Attackers Exploit Three Fortinet FortiSandbox Flaws, One Patched Last Week",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/attackers-exploit-three-fortinet.html",
-    "summary": "Bad actors are exploiting multiple security vulnerabilities in Fortinet FortiSandbox, according to threat intelligence firm Defused Cyber. In a post shared on X, the company said it has observed exploitation of CVE-2026-39813, CVE-2026-39808, and CVE-2026-25089 over the past 24 hours. CVE-2026-39...",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "漏洞利用",
-      "AI"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "China-Linked SprySOCKS Backdoor Expands to Windows with Driver-Based Stealth",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/china-linked-sprysocks-backdoor-expands.html",
-    "summary": "Cybersecurity researchers have flagged two previously undocumented Windows variants of what was believed to be a Linux-only backdoor called SprySOCKS. \"The Windows variants discovered are internally marked as WIN_DRV and WIN_PLUS,\" ESET said in a report shared with The Hacker News. \"Both come wit...",
-    "tags": [
-      "Linux",
-      "Windows",
-      "AI"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 29,
-    "title": "Fake Microsoft Alerts Used to Deploy North Korean NarwhalRAT Malware",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html",
-    "summary": "The North Korean state-sponsored hacking group known as ScarCruft (aka APT37) has been observed using spear-phishing messages impersonating Microsoft Account security notifications to deliver malware called NarwhalRAT. \"The attack email contained a message impersonating an MS account security ale...",
-    "tags": [
-      "APT",
-      "威胁情报",
-      "恶意软件",
-      "AI"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 30,
-    "title": "Cisco Releases Security Updates for Actively Exploited SD-WAN Manager Flaw",
-    "source": "The Hacker News",
-    "source_icon": "📰",
-    "url": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html",
-    "summary": "Cisco has released security updates for a medium-severity security flaw in Catalyst SD-WAN Manager that has come under active exploitation in the wild. The vulnerability, tracked as CVE-2026-20262, carries a CVSS score of 6.5 out of 10.0. \"A vulnerability in the web UI of Cisco Catalyst SD-WAN Ma...",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "漏洞利用"
-    ],
-    "date": "2026-06-16",
-    "read_time": 1
-  },
-  {
-    "id": 31,
-    "title": "Flock Cameras Are Being Used for Stalking",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/flock-cameras-are-being-used-for-stalking.html",
-    "summary": "There are over a dozen cases around the country where police officers are using the Flock surveillance camera system to obsessively and illegally stalk people . Alternate link .",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-16",
     "read_time": 1
   }
 ]
