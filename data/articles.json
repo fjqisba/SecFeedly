@@ -1,6 +1,59 @@
 [
   {
     "id": 1,
+    "title": "Fixing the soundtrack in Disney’s Aladdin for DOS",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uerhgc/fixing_the_soundtrack_in_disneys_aladdin_for_dos/",
+    "summary": "Fixing the soundtrack in Disney’s Aladdin for DOS",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-24",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse-engineered the Artiphon Orba 2's control protocol (MIDI + SysEx over USB/BLE), spec + Python/JS reference libs",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uek1fc/reverseengineered_the_artiphon_orba_2s_control/",
+    "summary": "Reverse-engineered the Artiphon Orba 2's control protocol (MIDI + SysEx over USB/BLE), spec + Python/JS reference libs",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-24",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "NOOP now works with your Apple Watch ⌚ (no WHOOP needed) — plus here's every single device it supports + I need YOUR help..!",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uephze/noop_now_works_with_your_apple_watch_no_whoop/",
+    "summary": "NOOP now works with your Apple Watch ⌚ (no WHOOP needed) — plus here's every single device it supports + I need YOUR help..!",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-24",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis-2.html",
+    "summary": "At least one malware developer is adding text about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis. Details : The _index.js payload begins with a large JavaScript block comment containing fake system instructions and policy-triggering content. Because ...",
+    "tags": [
+      "恶意软件",
+      "AI"
+    ],
+    "date": "2026-06-24",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Browser extensions are a huge security blind spot - we’re running a hackathon to expose the risks",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "tiny memory scanner in rust",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "IDA 9.4: Smarter Navigation and Quality-of-Life Improvements",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -40,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Anthropic’s Fable 5 Model Jailbroken Within Days",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "CAN bus reverse engineering with AI [Claude Code]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +132,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "AirPlay 2 realtime audio sender, the encrypted RAOP/RTSP path reconstructed and documented",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -92,7 +145,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "VAXD - 1.60",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -105,7 +158,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Professional Athletes and Wearables",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -118,7 +171,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "JavaScript Obfuscator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -131,7 +184,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "I reverse engineered Windows Copilot into a free OpenAI compatible API (GPT-4o, no API key, no billing)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -145,7 +198,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Reverse once, run forever: designing client-side defenses that assume the attacker has already read every line",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -158,7 +211,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Note20 ABL Odin out-of-bounds read",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -171,7 +224,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Reverse engineered Pixel 7 Tensor G2 access",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -184,7 +237,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -197,7 +250,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -210,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Martyx00/VulnFanatic-NG: BianryNinja plugin for identifying vulnerabilities in decompiled binaries with both programmatic scans and LLM support.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -224,7 +277,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "BSim-foundry: pre-built function signatures for zlib, OpenSSL, mbedTLS, SQLite, libcurl and 24 more. headless + GUI + IDA/BN via SightHouse",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -240,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "IDA 9.4: Apple Dyld Shared Cache workflow improvements",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -256,7 +309,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -272,7 +325,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "Anthropic’s Fable and the State of AI",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -286,7 +339,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 25",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -299,61 +352,6 @@
       "Go"
     ],
     "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "GitHub - Zypherion-Technologies/UnConfuserEx: A ConfuserEx2 deobfuscator with support for anti tamper, compressor, constants, control flow, and resource recovery.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u9mgfg/github_zypheriontechnologiesunconfuserex_a/",
-    "summary": "GitHub - Zypherion-Technologies/UnConfuserEx: A ConfuserEx2 deobfuscator with support for anti tamper, compressor, constants, control flow, and resource recovery.",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-06-18",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "VAXD update: public v1.00 release is now available",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u9379x/vaxd_update_public_v100_release_is_now_available/",
-    "summary": "VAXD update: public v1.00 release is now available",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-18",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Rustemsoft unveils Opaquer .NET Obfuscator, a powerful new tool for protecting .NET applications from reverse engineering. The release delivers advanced control‑flow scrambling, string encryption, and metadata hiding with all core obfuscation features available free of charge.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u99bl4/rustemsoft_unveils_opaquer_net_obfuscator_a/",
-    "summary": "Rustemsoft unveils Opaquer .NET Obfuscator, a powerful new tool for protecting .NET applications from reverse engineering. The release delivers advanced control‑flow scrambling, string encryption, and metadata hiding with all core obfuscation features available free of charge.",
-    "tags": [
-      "Rust",
-      "AI"
-    ],
-    "date": "2026-06-18",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/embedding-forbidden-text-in-spyware-to-discourage-ai-analysis.html",
-    "summary": "At least one malware developer is adding text about nuclear and biological weapons to their spyware, in an effort to stop automatic AI analysis. Details : The _index.js payload begins with a large JavaScript block comment containing fake system instructions and policy-triggering content. Because ...",
-    "tags": [
-      "恶意软件",
-      "AI"
-    ],
-    "date": "2026-06-18",
     "read_time": 1
   }
 ]
