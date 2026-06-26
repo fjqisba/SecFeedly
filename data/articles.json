@@ -1,6 +1,64 @@
 [
   {
     "id": 1,
+    "title": "Luma: A new workspace for Frida",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ufnvd3/luma_a_new_workspace_for_frida/",
+    "summary": "Luma: A new workspace for Frida",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-06-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "VAXD now with support for ARM",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ufcbdq/vaxd_now_with_support_for_arm/",
+    "summary": "VAXD now with support for ARM",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-25",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "AI and Liability",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html",
+    "summary": "Earlier this month, a German court ruled that Google is liable for its AI search summaries. Rejecting defenses like “users can check for themselves,” and that they generally know “that information generated with AI should not be blindly trusted,” the court held that the AI’s summaries are reflect...",
+    "tags": [
+      "Rust",
+      "Go",
+      "AI"
+    ],
+    "date": "2026-06-25",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Interesting Paper Exploring Prompt Injection",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html",
+    "summary": "This is a fascinating explotation of how LLMs fall for prompt injection attacks. It turns out that they learn to recognize the style of text in different role/instruction blocks, and not just the tags. Their conclusion: Role tags were a formatting trick that became the security architecture and t...",
+    "tags": [
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-06-25",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Fixing the soundtrack in Disney’s Aladdin for DOS",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +71,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Reverse-engineered the Artiphon Orba 2's control protocol (MIDI + SysEx over USB/BLE), spec + Python/JS reference libs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "NOOP now works with your Apple Watch ⌚ (no WHOOP needed) — plus here's every single device it supports + I need YOUR help..!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +97,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Browser extensions are a huge security blind spot - we’re running a hackathon to expose the risks",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "tiny memory scanner in rust",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "IDA 9.4: Smarter Navigation and Quality-of-Life Improvements",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -93,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Anthropic’s Fable 5 Model Jailbroken Within Days",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -106,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "CAN bus reverse engineering with AI [Claude Code]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +190,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "AirPlay 2 realtime audio sender, the encrypted RAOP/RTSP path reconstructed and documented",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -145,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "VAXD - 1.60",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -158,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Professional Athletes and Wearables",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -171,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "JavaScript Obfuscator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -184,7 +242,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "I reverse engineered Windows Copilot into a free OpenAI compatible API (GPT-4o, no API key, no billing)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -198,7 +256,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Reverse once, run forever: designing client-side defenses that assume the attacker has already read every line",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -211,7 +269,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Note20 ABL Odin out-of-bounds read",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -224,7 +282,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Reverse engineered Pixel 7 Tensor G2 access",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -237,7 +295,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "DOS Game \"F-15 Strike Eagle II\" reversing project needs DOS test pilots",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -247,111 +305,6 @@
       "安全"
     ],
     "date": "2026-06-20",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uaasni/analyzing_bytes_predisassembly_static_binary/",
-    "summary": "Analyzing Bytes: Pre-Disassembly Static Binary Analysis",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Martyx00/VulnFanatic-NG: BianryNinja plugin for identifying vulnerabilities in decompiled binaries with both programmatic scans and LLM support.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u9x25h/martyx00vulnfanaticng_bianryninja_plugin_for/",
-    "summary": "Martyx00/VulnFanatic-NG: BianryNinja plugin for identifying vulnerabilities in decompiled binaries with both programmatic scans and LLM support.",
-    "tags": [
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "BSim-foundry: pre-built function signatures for zlib, OpenSSL, mbedTLS, SQLite, libcurl and 24 more. headless + GUI + IDA/BN via SightHouse",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1u9t4mj/bsimfoundry_prebuilt_function_signatures_for_zlib/",
-    "summary": "BSim-foundry: pre-built function signatures for zlib, OpenSSL, mbedTLS, SQLite, libcurl and 24 more. headless + GUI + IDA/BN via SightHouse",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "TLS",
-      "协议分析"
-    ],
-    "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "IDA 9.4: Apple Dyld Shared Cache workflow improvements",
-    "source": "Hex-Rays Blog",
-    "source_icon": "🧬",
-    "url": "https://hex-rays.com/blog/ida-9.4-apple-dyld-shared-cache-workflow-improvements",
-    "summary": "Over the years, the Apple ecosystem (iOS, macOS, …) has seen steady gains in security, application load-time, and more. One of the cornerstones enabling those is the \"Dyld Shared Cache\" (DSC): a highly specific collection of common system libraries, pre-optimized on many fronts and used across ap...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "iOS",
-      "AI"
-    ],
-    "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Friday Squid Blogging: Victims of Unregulated Squid Fishing",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/friday-squid-blogging-victims-of-unregulated-squid-fishing.html",
-    "summary": "Dolphins, sharks, turtles, and human workers are all victims of unregulated squid fishing fleets. Another news article . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Anthropic’s Fable and the State of AI",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-and-the-state-of-ai.html",
-    "summary": "On June 9th, Anthropic released its Fable generative AI model. Three days later, the US government classified it as a dangerous munition, and used its export-control authority to prohibit any foreign nationals from accessing it. Unable to differentiate between Americans and foreigners, the compan...",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-06-19",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 25",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-25-7/",
-    "summary": "FBI dismantles extensive PhaaS, DragonForce ransomware abuses MS Teams relays, and PRC-based spies breach REDCap servers to steal research data.",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "恶意软件",
-      "Go"
-    ],
-    "date": "2026-06-19",
     "read_time": 1
   }
 ]
