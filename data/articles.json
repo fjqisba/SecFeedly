@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "Static BYOVD hunter: Capstone-based IOCTL dispatch extraction",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uhju2k/static_byovd_hunter_capstonebased_ioctl_dispatch/",
+    "summary": "Static BYOVD hunter: Capstone-based IOCTL dispatch extraction",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-28",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uh9v57/i_reverse_engineered_an_undocumented_laptops/",
+    "summary": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
+    "tags": [
+      "APT",
+      "威胁情报"
+    ],
+    "date": "2026-06-27",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uhe48w/reverse_engineering_dobreprogramypl_bundler/",
+    "summary": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-27",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "GitHub - vichhka-git/renef-skills: Agent Skill (Claude Code + OpenCode) for operating renef.io — Android ARM64 dynamic instrumentation: hook native/Java, patch memory, trace syscalls, bypass SSL pinning/root detection; port Frida & GameGuardian scripts to renef Lua.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -16,7 +56,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Im Trying To Reverse GTAIV And Including Scripts, Here Is My Progress",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -29,7 +69,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Project IGI (1999) reverse engineering - partial docs, honest about gaps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "The Chinese Control the Majority of Argentina’s Squid Fleet",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Meta Is Testing Facial Recognition for Police and Military",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -68,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "One Million Passports Leaked Online",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -81,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 26",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -97,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Luma: A new workspace for Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -113,7 +153,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "VAXD now with support for ARM",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -126,7 +166,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "AI and Liability",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -141,7 +181,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Interesting Paper Exploring Prompt Injection",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -155,7 +195,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Fixing the soundtrack in Disney’s Aladdin for DOS",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -168,7 +208,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Reverse-engineered the Artiphon Orba 2's control protocol (MIDI + SysEx over USB/BLE), spec + Python/JS reference libs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -181,7 +221,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "NOOP now works with your Apple Watch ⌚ (no WHOOP needed) — plus here's every single device it supports + I need YOUR help..!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -194,7 +234,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -208,7 +248,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Browser extensions are a huge security blind spot - we’re running a hackathon to expose the risks",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -221,7 +261,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "tiny memory scanner in rust",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -234,7 +274,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "IDA 9.4: Smarter Navigation and Quality-of-Life Improvements",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -248,7 +288,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "Anthropic’s Fable 5 Model Jailbroken Within Days",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -261,7 +301,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -274,7 +314,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "CAN bus reverse engineering with AI [Claude Code]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -287,7 +327,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "AirPlay 2 realtime audio sender, the encrypted RAOP/RTSP path reconstructed and documented",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -300,7 +340,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "VAXD - 1.60",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -313,7 +353,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "Professional Athletes and Wearables",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -326,7 +366,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 28,
     "title": "JavaScript Obfuscator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -336,46 +376,6 @@
       "安全"
     ],
     "date": "2026-06-22",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "I reverse engineered Windows Copilot into a free OpenAI compatible API (GPT-4o, no API key, no billing)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ubp12v/i_reverse_engineered_windows_copilot_into_a_free/",
-    "summary": "I reverse engineered Windows Copilot into a free OpenAI compatible API (GPT-4o, no API key, no billing)",
-    "tags": [
-      "Windows",
-      "AI"
-    ],
-    "date": "2026-06-21",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Reverse once, run forever: designing client-side defenses that assume the attacker has already read every line",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ubr39j/reverse_once_run_forever_designing_clientside/",
-    "summary": "Reverse once, run forever: designing client-side defenses that assume the attacker has already read every line",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-21",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "Note20 ABL Odin out-of-bounds read",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ubd9a6/note20_abl_odin_outofbounds_read/",
-    "summary": "Note20 ABL Odin out-of-bounds read",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-21",
     "read_time": 1
   }
 ]
