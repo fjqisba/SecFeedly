@@ -1,6 +1,85 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uil431/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-29",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Native Linux ReClass.NET.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uj81fv/native_linux_reclassnet/",
+    "summary": "Native Linux ReClass.NET.",
+    "tags": [
+      "Linux"
+    ],
+    "date": "2026-06-29",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uiyn8y/tabpe_a_monthly_windows_pe_baseline_dataset_for/",
+    "summary": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
+    "tags": [
+      "Windows"
+    ],
+    "date": "2026-06-29",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uipa5w/experimental_wine_runtime_for_nintendo_switch/",
+    "summary": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-06-29",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Factoring RSA Keys with Many Zeros",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
+    "summary": "Interesting research on a new class of weak RSA keys: keys with lots of zeros. It turns out that these keys are out in the wild. The badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-wo...",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-06-29",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Robot Police Officers",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html",
+    "summary": "We’ve taken one small step towards robot police officers: a drone capable of disarming a suspect: In a June 22 video posted on the Sacramento County Sheriff’s Office’s Instagram page, an officer wearing goggles can be seen operating a drone to retrieve a knife from an armed suspect hiding inside ...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-06-29",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "Reverse-engineering VMware's encrypted + compressed VM memory checkpoint format (vTPM \"partial\" encryption)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +92,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Blindspot",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +105,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +118,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "Static BYOVD hunter: Capstone-based IOCTL dispatch extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -52,7 +131,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +145,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +158,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "GitHub - vichhka-git/renef-skills: Agent Skill (Claude Code + OpenCode) for operating renef.io — Android ARM64 dynamic instrumentation: hook native/Java, patch memory, trace syscalls, bypass SSL pinning/root detection; port Frida & GameGuardian scripts to renef Lua.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +174,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "Im Trying To Reverse GTAIV And Including Scripts, Here Is My Progress",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +187,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "Project IGI (1999) reverse engineering - partial docs, honest about gaps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +200,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "The Chinese Control the Majority of Argentina’s Squid Fleet",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -134,7 +213,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Meta Is Testing Facial Recognition for Police and Military",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -147,7 +226,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "One Million Passports Leaked Online",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -160,7 +239,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 26",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -176,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "Luma: A new workspace for Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -192,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "VAXD now with support for ARM",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -205,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "AI and Liability",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -220,7 +299,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Interesting Paper Exploring Prompt Injection",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -234,7 +313,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "Fixing the soundtrack in Disney’s Aladdin for DOS",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -247,7 +326,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "Reverse-engineered the Artiphon Orba 2's control protocol (MIDI + SysEx over USB/BLE), spec + Python/JS reference libs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -260,7 +339,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 26,
     "title": "NOOP now works with your Apple Watch ⌚ (no WHOOP needed) — plus here's every single device it supports + I need YOUR help..!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -273,7 +352,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 27,
     "title": "Embedding Forbidden Text in Spyware to Discourage AI Analysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -284,59 +363,6 @@
       "AI"
     ],
     "date": "2026-06-24",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Browser extensions are a huge security blind spot - we’re running a hackathon to expose the risks",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1udvtrj/browser_extensions_are_a_huge_security_blind_spot/",
-    "summary": "Browser extensions are a huge security blind spot - we’re running a hackathon to expose the risks",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-23",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "tiny memory scanner in rust",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1udr36h/tiny_memory_scanner_in_rust/",
-    "summary": "tiny memory scanner in rust",
-    "tags": [
-      "Rust"
-    ],
-    "date": "2026-06-23",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "IDA 9.4: Smarter Navigation and Quality-of-Life Improvements",
-    "source": "Hex-Rays Blog",
-    "source_icon": "🧬",
-    "url": "https://hex-rays.com/blog/ida-9.4-smarter-navigation-and-quality-of-life-improvements",
-    "summary": "IDA 9.4 makes getting around a binary faster. The Jump dialog becomes smarter by default, a new Pathfinder answers reachability questions directly from the cross-reference graph, and a batch of quality-of-life fixes smooth out the everyday interface.",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-06-23",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Anthropic’s Fable 5 Model Jailbroken Within Days",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/anthropics-fable-5-model-jailbroken-within-days.html",
-    "summary": "Fable 5 is the supposed safe version of Anthropic’s Mythos Preview, with guardrails to ensure that it can’t be used to create cyberattacks. Well, that restriction was bypassed within days.",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-23",
     "read_time": 1
   }
 ]
