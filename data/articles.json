@@ -1,6 +1,72 @@
 [
   {
     "id": 1,
+    "title": "Reverse-engineering Samsung Notes handwriting",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ukju8g/reverseengineering_samsung_notes_handwriting/",
+    "summary": "Reverse-engineering Samsung Notes handwriting",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-01",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Transformers Forged To Fight Offline Version Reversing Engineering",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ul0nve/transformers_forged_to_fight_offline_version/",
+    "summary": "Transformers Forged To Fight Offline Version Reversing Engineering",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-01",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Obfuscator for compiled 64-bit portable executables.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ukixp3/obfuscator_for_compiled_64bit_portable_executables/",
+    "summary": "Obfuscator for compiled 64-bit portable executables.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-01",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Papa Johns Surveillance-Based Advertising",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
+    "summary": "Papa Johns is spying on people’s buying activities to predict when they are low on food: The pizza chain recently tapped NBCUniversal, Instacart and the dentsu-owned media agency Carat for help reaching consumers when they’re low on groceries—and thus more likely to be swayed by a mouth-watering ...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-01",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "The Autonomous SOC, Revisited: What 18 Months on the Road Has Taught Us",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-autonomous-soc-revisited-what-18-months-on-the-road-has-taught-us/",
+    "summary": "Explore SentinelOne's Autonomous SOC maturity model to map your journey toward AI autonomy through strict governance.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-07-01",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "SpotifyC2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "The Realities of AI Video Surveillance",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -27,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Native Linux ReClass.NET.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +132,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +145,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Factoring RSA Keys with Many Zeros",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -93,7 +159,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Robot Police Officers",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -106,7 +172,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Reverse-engineering VMware's encrypted + compressed VM memory checkpoint format (vTPM \"partial\" encryption)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +185,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Blindspot",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +198,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -145,7 +211,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Static BYOVD hunter: Capstone-based IOCTL dispatch extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -158,7 +224,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -172,7 +238,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -185,7 +251,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "GitHub - vichhka-git/renef-skills: Agent Skill (Claude Code + OpenCode) for operating renef.io — Android ARM64 dynamic instrumentation: hook native/Java, patch memory, trace syscalls, bypass SSL pinning/root detection; port Frida & GameGuardian scripts to renef Lua.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "Im Trying To Reverse GTAIV And Including Scripts, Here Is My Progress",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -214,7 +280,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Project IGI (1999) reverse engineering - partial docs, honest about gaps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -227,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "The Chinese Control the Majority of Argentina’s Squid Fleet",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -240,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "Meta Is Testing Facial Recognition for Police and Military",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -253,7 +319,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "One Million Passports Leaked Online",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -266,7 +332,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 26",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -279,64 +345,6 @@
       "AI"
     ],
     "date": "2026-06-26",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Luma: A new workspace for Frida",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ufnvd3/luma_a_new_workspace_for_frida/",
-    "summary": "Luma: A new workspace for Frida",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-06-25",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "VAXD now with support for ARM",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ufcbdq/vaxd_now_with_support_for_arm/",
-    "summary": "VAXD now with support for ARM",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-25",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "AI and Liability",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html",
-    "summary": "Earlier this month, a German court ruled that Google is liable for its AI search summaries. Rejecting defenses like “users can check for themselves,” and that they generally know “that information generated with AI should not be blindly trusted,” the court held that the AI’s summaries are reflect...",
-    "tags": [
-      "Rust",
-      "Go",
-      "AI"
-    ],
-    "date": "2026-06-25",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Interesting Paper Exploring Prompt Injection",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/interesting-paper-exploring-prompt-injection.html",
-    "summary": "This is a fascinating explotation of how LLMs fall for prompt injection attacks. It turns out that they learn to recognize the style of text in different role/instruction blocks, and not just the tags. Their conclusion: Role tags were a formatting trick that became the security architecture and t...",
-    "tags": [
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-06-25",
     "read_time": 1
   }
 ]
