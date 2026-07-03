@@ -1,6 +1,75 @@
 [
   {
     "id": 1,
+    "title": "How we broke Rhysida ransomware encryption",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ulskuf/how_we_broke_rhysida_ransomware_encryption/",
+    "summary": "How we broke Rhysida ransomware encryption",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "恶意软件"
+    ],
+    "date": "2026-07-02",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Redundancy seen in AAA game engines (Game Engine Reversing)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ulhpwv/redundancy_seen_in_aaa_game_engines_game_engine/",
+    "summary": "Redundancy seen in AAA game engines (Game Engine Reversing)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-02",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "cfgrip - PE/ELF x86/x64 CFG extractor",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ulio8o/cfgrip_peelf_x86x64_cfg_extractor/",
+    "summary": "cfgrip - PE/ELF x86/x64 CFG extractor",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-02",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "IDA 9.4: Improved analysis of compiled Swift binaries",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/ida-9.4-improved-analysis-of-compiled-swift-binaries",
+    "summary": "IDA 9.4 constitutes the first step towards better handling of Swift binaries. Perhaps unsurprisingly, our focus is on Swift for ARM64 Mach-O files, but we generally aim to improve Swift support also in the more unusual settings across different architectures and file formats like x86-64 and ELF. ...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "AI"
+    ],
+    "date": "2026-07-02",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Cybersecurity Mission Creep in the US",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
+    "summary": "Interesting paper: “ Cybersecurity Mission Creep .” Abstract: Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of cybersecurity. So reframed, wildly different policy issues, from misinformation, to child social media safety laws, to antitrust ...",
+    "tags": [
+      "Rust"
+    ],
+    "date": "2026-07-02",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Reverse-engineering Samsung Notes handwriting",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "Transformers Forged To Fight Offline Version Reversing Engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Obfuscator for compiled 64-bit portable executables.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Papa Johns Surveillance-Based Advertising",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -52,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "The Autonomous SOC, Revisited: What 18 Months on the Road Has Taught Us",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -66,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "SpotifyC2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +148,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "The Realities of AI Video Surveillance",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -93,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Native Linux ReClass.NET.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -145,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Factoring RSA Keys with Many Zeros",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -159,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Robot Police Officers",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -172,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Reverse-engineering VMware's encrypted + compressed VM memory checkpoint format (vTPM \"partial\" encryption)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -185,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Blindspot",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -198,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -211,7 +280,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Static BYOVD hunter: Capstone-based IOCTL dispatch extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -224,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -238,7 +307,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -251,7 +320,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "GitHub - vichhka-git/renef-skills: Agent Skill (Claude Code + OpenCode) for operating renef.io — Android ARM64 dynamic instrumentation: hook native/Java, patch memory, trace syscalls, bypass SSL pinning/root detection; port Frida & GameGuardian scripts to renef Lua.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -264,87 +333,6 @@
       "Hook"
     ],
     "date": "2026-06-27",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Im Trying To Reverse GTAIV And Including Scripts, Here Is My Progress",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ugd9c1/im_trying_to_reverse_gtaiv_and_including_scripts/",
-    "summary": "Im Trying To Reverse GTAIV And Including Scripts, Here Is My Progress",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-06-26",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Project IGI (1999) reverse engineering - partial docs, honest about gaps",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ugce2z/project_igi_1999_reverse_engineering_partial_docs/",
-    "summary": "Project IGI (1999) reverse engineering - partial docs, honest about gaps",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-26",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "The Chinese Control the Majority of Argentina’s Squid Fleet",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/the-chinese-control-the-majority-of-argentinas-squid-fleet.html",
-    "summary": "Chinese companies control nearly two-thirds of Argentina’s own squid fleet.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-26",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Meta Is Testing Facial Recognition for Police and Military",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/meta-is-testing-facial-recognition-for-police-and-military.html",
-    "summary": "We know that ICE wants to deploy eyeglasses with facial recognition that can identify people in real time. Turns out Meta is prototyping the feature with a Pentagon supplier. (Alternate news story.)",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-06-26",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "One Million Passports Leaked Online",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/one-million-passports-leaked-online.html",
-    "summary": "A database of almost a million passports from around the world was leaked online. Note what happened. A high-value credential—a passport—was used in an ancillary low-value authentication system: ID verification for cannabis dispensaries. And it’s the low-value system that got hacked, putting the ...",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-06-26",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 26",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-26-7/",
-    "summary": "Operation Endgame takes down Amadey and StealC servers, macOS.Gaslight floods AI triage with fake errors, and attackers exploit Cisco flaws for root access.",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Go",
-      "AI"
-    ],
-    "date": "2026-06-26",
     "read_time": 1
   }
 ]
