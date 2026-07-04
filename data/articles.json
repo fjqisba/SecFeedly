@@ -1,6 +1,60 @@
 [
   {
     "id": 1,
+    "title": "2000s ringtones ran on an undocumented FM chip. nobody reverse-engineered it until now.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1umk9kz/2000s_ringtones_ran_on_an_undocumented_fm_chip/",
+    "summary": "2000s ringtones ran on an undocumented FM chip. nobody reverse-engineered it until now.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-03",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I built an open-source Chromium fork that compiles fingerprint spoofing into the C++ instead of injecting JS",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1umqk34/i_built_an_opensource_chromium_fork_that_compiles/",
+    "summary": "I built an open-source Chromium fork that compiles fingerprint spoofing into the C++ instead of injecting JS",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-07-03",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Flock Cameras Can Surveil Cars Without License Plates",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/flock-cameras-can-surveil-cars-without-license-plates.html",
+    "summary": "This is from a 2024 company presentation : Officers can also tap into data showing a car’s decals, bumper stickers, back and top racks—along with temporary and unique state tags. Flock calls it a “Vehicle Fingerprint” and it’s touted as a way for law enforcement officials to get more information ...",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-07-03",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 27",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-27-7/",
+    "summary": "FBI apprehends IRGC-linked cybercriminal, Russian hackers steal Signal backup keys, and unknown hackers breach the DHS information network.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-07-03",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "How we broke Rhysida ransomware encryption",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -15,7 +69,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Redundancy seen in AAA game engines (Game Engine Reversing)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "cfgrip - PE/ELF x86/x64 CFG extractor",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "IDA 9.4: Improved analysis of compiled Swift binaries",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -56,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Cybersecurity Mission Creep in the US",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -69,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Reverse-engineering Samsung Notes handwriting",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -82,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Transformers Forged To Fight Offline Version Reversing Engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Obfuscator for compiled 64-bit portable executables.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Papa Johns Surveillance-Based Advertising",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -121,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "The Autonomous SOC, Revisited: What 18 Months on the Road Has Taught Us",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -135,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "SpotifyC2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "The Realities of AI Video Surveillance",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -162,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Native Linux ReClass.NET.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +242,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -214,7 +268,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Factoring RSA Keys with Many Zeros",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -228,7 +282,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Robot Police Officers",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -241,7 +295,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Reverse-engineering VMware's encrypted + compressed VM memory checkpoint format (vTPM \"partial\" encryption)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -254,7 +308,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "Blindspot",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -267,7 +321,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "WinPE as a stateless harness for Windows driver testing and fuzzing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -280,7 +334,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "Static BYOVD hunter: Capstone-based IOCTL dispatch extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -290,49 +344,6 @@
       "安全"
     ],
     "date": "2026-06-28",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uh9v57/i_reverse_engineered_an_undocumented_laptops/",
-    "summary": "I Reverse Engineered An Undocumented Laptop's Embedded Controller",
-    "tags": [
-      "APT",
-      "威胁情报"
-    ],
-    "date": "2026-06-27",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uhe48w/reverse_engineering_dobreprogramypl_bundler/",
-    "summary": "Reverse Engineering dobreprogramy.pl Bundler - Extracting Clean Download URLs Without Executing Adware",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-27",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "GitHub - vichhka-git/renef-skills: Agent Skill (Claude Code + OpenCode) for operating renef.io — Android ARM64 dynamic instrumentation: hook native/Java, patch memory, trace syscalls, bypass SSL pinning/root detection; port Frida & GameGuardian scripts to renef Lua.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ugnkv4/github_vichhkagitrenefskills_agent_skill_claude/",
-    "summary": "GitHub - vichhka-git/renef-skills: Agent Skill (Claude Code + OpenCode) for operating renef.io — Android ARM64 dynamic instrumentation: hook native/Java, patch memory, trace syscalls, bypass SSL pinning/root detection; port Frida & GameGuardian scripts to renef Lua.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-06-27",
     "read_time": 1
   }
 ]
