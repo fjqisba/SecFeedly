@@ -1,6 +1,48 @@
 [
   {
     "id": 1,
+    "title": "FractureX",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uoi1xf/fracturex/",
+    "summary": "FractureX",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-06",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Automating binary diffing: Bridging IDA Pro (Diaphora) and LLMs via Model Context Protocol",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uofkje/automating_binary_diffing_bridging_ida_pro/",
+    "summary": "Automating binary diffing: Bridging IDA Pro (Diaphora) and LLMs via Model Context Protocol",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-07-05",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Buffer Overflow Tutorial for Beginners and new CTF players",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uo5v5j/buffer_overflow_tutorial_for_beginners_and_new/",
+    "summary": "Buffer Overflow Tutorial for Beginners and new CTF players",
+    "tags": [
+      "CTF"
+    ],
+    "date": "2026-07-05",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Advanced Time Travel Debugging in Binary Ninja with Xusheng Li",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +56,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "BareMetal RAM Dumper — Bare-metal x86 tool for Cold Boot Attack experiments",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +69,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "2000s ringtones ran on an undocumented FM chip. nobody reverse-engineered it until now.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "I built an open-source Chromium fork that compiles fingerprint spoofing into the C++ instead of injecting JS",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Flock Cameras Can Surveil Cars Without License Plates",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -68,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 27",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -81,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "How we broke Rhysida ransomware encryption",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Redundancy seen in AAA game engines (Game Engine Reversing)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "cfgrip - PE/ELF x86/x64 CFG extractor",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "IDA 9.4: Improved analysis of compiled Swift binaries",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -137,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Cybersecurity Mission Creep in the US",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -150,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Reverse-engineering Samsung Notes handwriting",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Transformers Forged To Fight Offline Version Reversing Engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -176,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Obfuscator for compiled 64-bit portable executables.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Papa Johns Surveillance-Based Advertising",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -202,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "The Autonomous SOC, Revisited: What 18 Months on the Road Has Taught Us",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -216,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "SpotifyC2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -229,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "The Realities of AI Video Surveillance",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -240,85 +282,6 @@
       "AI"
     ],
     "date": "2026-06-30",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uil431/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-29",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Native Linux ReClass.NET.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uj81fv/native_linux_reclassnet/",
-    "summary": "Native Linux ReClass.NET.",
-    "tags": [
-      "Linux"
-    ],
-    "date": "2026-06-29",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uiyn8y/tabpe_a_monthly_windows_pe_baseline_dataset_for/",
-    "summary": "TABPE: A monthly Windows PE baseline dataset for Cyber security researchers",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-06-29",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uipa5w/experimental_wine_runtime_for_nintendo_switch/",
-    "summary": "Experimental Wine runtime for Nintendo Switch project by dantiicu",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-06-29",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Factoring RSA Keys with Many Zeros",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/factoring-rsa-keys-with-many-zeros.html",
-    "summary": "Interesting research on a new class of weak RSA keys: keys with lots of zeros. It turns out that these keys are out in the wild. The badkeys project is an open-source service that checks public keys for known vulnerabilities. While developing this tool, Hanno collected a massive number of real-wo...",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-06-29",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Robot Police Officers",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/06/robot-police-officers.html",
-    "summary": "We’ve taken one small step towards robot police officers: a drone capable of disarming a suspect: In a June 22 video posted on the Sacramento County Sheriff’s Office’s Instagram page, an officer wearing goggles can be seen operating a drone to retrieve a knife from an armed suspect hiding inside ...",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-06-29",
     "read_time": 1
   }
 ]
