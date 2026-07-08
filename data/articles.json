@@ -1,6 +1,59 @@
 [
   {
     "id": 1,
+    "title": "Reverse Engineered Garry Kitchen's GameMaker (C64) - VM, file formats, instruction set, and reimplemented for the browser",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uq5xff/reverse_engineered_garry_kitchens_gamemaker_c64/",
+    "summary": "Reverse Engineered Garry Kitchen's GameMaker (C64) - VM, file formats, instruction set, and reimplemented for the browser",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-07",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Nemesis — Native CLR Monitor for In-Memory .NET Payload (Crypters) Analysis",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uqcbv3/nemesis_native_clr_monitor_for_inmemory_net/",
+    "summary": "Nemesis — Native CLR Monitor for In-Memory .NET Payload (Crypters) Analysis",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-07",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reverse engineering TR-830 battery",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uplf2y/reverse_engineering_tr830_battery/",
+    "summary": "Reverse engineering TR-830 battery",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-07",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Google Is Suing Chinese Scammers Who Are Using Gemini",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/google-is-suing-chinese-scammers-who-are-using-gemini.html",
+    "summary": "Not sure this will have any effect, but I support the effort: According to Google’s legal filing, Outsider Enterprise operates through Telegram. The group offers phishing-as-a-service to individuals who may not be technically savvy enough to set up fraudulent websites and text campaigns on their ...",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-07-07",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Binvariants: Register-Level Invaraint-Guided Fuzzing for Binaries",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "How Attackers Run Code on Your Machine Without Ever Touching It",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +92,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "France to Stop Certifying Non-Quantum-Safe Encryption",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "FractureX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -68,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Cortex Security Audit",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -82,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Automating binary diffing: Bridging IDA Pro (Diaphora) and LLMs via Model Context Protocol",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -98,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Buffer Overflow Tutorial for Beginners and new CTF players",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -111,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Advanced Time Travel Debugging in Binary Ninja with Xusheng Li",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "BareMetal RAM Dumper — Bare-metal x86 tool for Cold Boot Attack experiments",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -138,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "2000s ringtones ran on an undocumented FM chip. nobody reverse-engineered it until now.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -151,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "I built an open-source Chromium fork that compiles fingerprint spoofing into the C++ instead of injecting JS",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -165,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Flock Cameras Can Surveil Cars Without License Plates",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -179,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 27",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -192,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "How we broke Rhysida ransomware encryption",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -207,7 +260,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Redundancy seen in AAA game engines (Game Engine Reversing)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -220,7 +273,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "cfgrip - PE/ELF x86/x64 CFG extractor",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -233,7 +286,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "IDA 9.4: Improved analysis of compiled Swift binaries",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -248,7 +301,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Cybersecurity Mission Creep in the US",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -258,72 +311,6 @@
       "Rust"
     ],
     "date": "2026-07-02",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Reverse-engineering Samsung Notes handwriting",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ukju8g/reverseengineering_samsung_notes_handwriting/",
-    "summary": "Reverse-engineering Samsung Notes handwriting",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-01",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Transformers Forged To Fight Offline Version Reversing Engineering",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ul0nve/transformers_forged_to_fight_offline_version/",
-    "summary": "Transformers Forged To Fight Offline Version Reversing Engineering",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-01",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Obfuscator for compiled 64-bit portable executables.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ukixp3/obfuscator_for_compiled_64bit_portable_executables/",
-    "summary": "Obfuscator for compiled 64-bit portable executables.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-01",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Papa Johns Surveillance-Based Advertising",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/papa-johns-surveillance-based-advertising.html",
-    "summary": "Papa Johns is spying on people’s buying activities to predict when they are low on food: The pizza chain recently tapped NBCUniversal, Instacart and the dentsu-owned media agency Carat for help reaching consumers when they’re low on groceries—and thus more likely to be swayed by a mouth-watering ...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-01",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "The Autonomous SOC, Revisited: What 18 Months on the Road Has Taught Us",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-autonomous-soc-revisited-what-18-months-on-the-road-has-taught-us/",
-    "summary": "Explore SentinelOne's Autonomous SOC maturity model to map your journey toward AI autonomy through strict governance.",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-07-01",
     "read_time": 1
   }
 ]
