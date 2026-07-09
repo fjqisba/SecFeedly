@@ -1,6 +1,74 @@
 [
   {
     "id": 1,
+    "title": "CVE-2026-25262 Write-What-Where in Qualcomm Sahara confirmed on Snapdragon 8 Gen 1 (SM8450) – partial Firehose auth bypass",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1urco6y/cve202625262_writewhatwhere_in_qualcomm_sahara/",
+    "summary": "CVE-2026-25262 Write-What-Where in Qualcomm Sahara confirmed on Snapdragon 8 Gen 1 (SM8450) – partial Firehose auth bypass",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "Go"
+    ],
+    "date": "2026-07-09",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Drift Corpus: 240+ 2026 Windows kernel patches diffed, with assembly and breakpoints to reproduce",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uqxvn6/drift_corpus_240_2026_windows_kernel_patches/",
+    "summary": "Drift Corpus: 240+ 2026 Windows kernel patches diffed, with assembly and breakpoints to reproduce",
+    "tags": [
+      "内核",
+      "Windows"
+    ],
+    "date": "2026-07-08",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Using a Single Variable to Gain a Controlled Write",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uqt3pz/using_a_single_variable_to_gain_a_controlled_write/",
+    "summary": "Using a Single Variable to Gain a Controlled Write",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-08",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Cybersecurity and the Gap Between Skill and Ability",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
+    "summary": "Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber risks of AI models: in particular, their ability to autonomously hack into systems and networks. The statement was more m...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-08",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "HPC AI Workloads Need Runtime Security. The Architecture Already Exists.",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/hpc-ai-workloads-need-runtime-security-the-architecture-already-exists/",
+    "summary": "Learn how to secure HPC AI infrastructure against runtime and supply chain threats via continuous behavioral monitoring.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-08",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Reverse Engineered Garry Kitchen's GameMaker (C64) - VM, file formats, instruction set, and reimplemented for the browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "Nemesis — Native CLR Monitor for In-Memory .NET Payload (Crypters) Analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Reverse engineering TR-830 battery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Google Is Suing Chinese Scammers Who Are Using Gemini",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Binvariants: Register-Level Invaraint-Guided Fuzzing for Binaries",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "How Attackers Run Code on Your Machine Without Ever Touching It",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -92,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "France to Stop Certifying Non-Quantum-Safe Encryption",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -108,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "FractureX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Cortex Security Audit",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -135,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "Automating binary diffing: Bridging IDA Pro (Diaphora) and LLMs via Model Context Protocol",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -151,7 +219,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Buffer Overflow Tutorial for Beginners and new CTF players",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Advanced Time Travel Debugging in Binary Ninja with Xusheng Li",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +246,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "BareMetal RAM Dumper — Bare-metal x86 tool for Cold Boot Attack experiments",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,7 +259,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "2000s ringtones ran on an undocumented FM chip. nobody reverse-engineered it until now.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -204,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "I built an open-source Chromium fork that compiles fingerprint spoofing into the C++ instead of injecting JS",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -218,7 +286,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Flock Cameras Can Surveil Cars Without License Plates",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -232,7 +300,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 27",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -242,75 +310,6 @@
       "Go"
     ],
     "date": "2026-07-03",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "How we broke Rhysida ransomware encryption",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ulskuf/how_we_broke_rhysida_ransomware_encryption/",
-    "summary": "How we broke Rhysida ransomware encryption",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "恶意软件"
-    ],
-    "date": "2026-07-02",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Redundancy seen in AAA game engines (Game Engine Reversing)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ulhpwv/redundancy_seen_in_aaa_game_engines_game_engine/",
-    "summary": "Redundancy seen in AAA game engines (Game Engine Reversing)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-02",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "cfgrip - PE/ELF x86/x64 CFG extractor",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ulio8o/cfgrip_peelf_x86x64_cfg_extractor/",
-    "summary": "cfgrip - PE/ELF x86/x64 CFG extractor",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-02",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "IDA 9.4: Improved analysis of compiled Swift binaries",
-    "source": "Hex-Rays Blog",
-    "source_icon": "🧬",
-    "url": "https://hex-rays.com/blog/ida-9.4-improved-analysis-of-compiled-swift-binaries",
-    "summary": "IDA 9.4 constitutes the first step towards better handling of Swift binaries. Perhaps unsurprisingly, our focus is on Swift for ARM64 Mach-O files, but we generally aim to improve Swift support also in the more unusual settings across different architectures and file formats like x86-64 and ELF. ...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "AI"
-    ],
-    "date": "2026-07-02",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Cybersecurity Mission Creep in the US",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-mission-creep-in-the-us.html",
-    "summary": "Interesting paper: “ Cybersecurity Mission Creep .” Abstract: Cybersecurity is experiencing mission creep. Policymakers are casting more and more problems as issues of cybersecurity. So reframed, wildly different policy issues, from misinformation, to child social media safety laws, to antitrust ...",
-    "tags": [
-      "Rust"
-    ],
-    "date": "2026-07-02",
     "read_time": 1
   }
 ]
