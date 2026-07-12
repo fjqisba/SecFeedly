@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1utj7om/vidar_stealer_20_1999_timestamps_explorer/",
+    "summary": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-07-11",
+    "read_time": 1
+  },
+  {
+    "id": 2,
     "title": "I reverse-engineered the DJI Spark smart battery I2C/SMBus protocol and documented the captures, firmware, and hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +28,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Built an eBPF debugger that answers “who changed what and when” on Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +41,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Reverse-engineering a Neopets shop with 48,000 inventory snapshots",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Friday Squid Blogging: “Squidbleed” Vulnerability",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -56,7 +70,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "AI Surveillance and Social Progress",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -70,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 28",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -83,7 +97,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "The Language of AI Could Change How Humans Speak",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -111,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "CVE-2026-25262 Write-What-Where in Qualcomm Sahara confirmed on Snapdragon 8 Gen 1 (SM8450) – partial Firehose auth bypass",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -126,7 +140,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Drift Corpus: 240+ 2026 Windows kernel patches diffed, with assembly and breakpoints to reproduce",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -140,7 +154,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "Using a Single Variable to Gain a Controlled Write",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -153,7 +167,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Cybersecurity and the Gap Between Skill and Ability",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -166,7 +180,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "HPC AI Workloads Need Runtime Security. The Architecture Already Exists.",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -179,7 +193,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Reverse Engineered Garry Kitchen's GameMaker (C64) - VM, file formats, instruction set, and reimplemented for the browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -192,7 +206,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "Nemesis — Native CLR Monitor for In-Memory .NET Payload (Crypters) Analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -205,7 +219,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 17,
     "title": "Reverse engineering TR-830 battery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -218,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 18,
     "title": "Google Is Suing Chinese Scammers Who Are Using Gemini",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -232,7 +246,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "Binvariants: Register-Level Invaraint-Guided Fuzzing for Binaries",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -245,7 +259,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 20,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -258,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 21,
     "title": "How Attackers Run Code on Your Machine Without Ever Touching It",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -271,7 +285,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "France to Stop Certifying Non-Quantum-Safe Encryption",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -287,7 +301,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "FractureX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -297,63 +311,6 @@
       "安全"
     ],
     "date": "2026-07-06",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Cortex Security Audit",
-    "source": "Quarkslab Blog",
-    "source_icon": "⚗️",
-    "url": "http://blog.quarkslab.com/cortex-security-audit.html",
-    "summary": "At the request of the Open Source Technology Improvement Fund (OSTIF), Quarkslab performed a security audit of Cortex , evaluating the security of its multi-tenant design and the mechanisms protecting tenant isolation.",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-07-05",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Automating binary diffing: Bridging IDA Pro (Diaphora) and LLMs via Model Context Protocol",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uofkje/automating_binary_diffing_bridging_ida_pro/",
-    "summary": "Automating binary diffing: Bridging IDA Pro (Diaphora) and LLMs via Model Context Protocol",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-07-05",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Buffer Overflow Tutorial for Beginners and new CTF players",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uo5v5j/buffer_overflow_tutorial_for_beginners_and_new/",
-    "summary": "Buffer Overflow Tutorial for Beginners and new CTF players",
-    "tags": [
-      "CTF"
-    ],
-    "date": "2026-07-05",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Advanced Time Travel Debugging in Binary Ninja with Xusheng Li",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1unqn7r/advanced_time_travel_debugging_in_binary_ninja/",
-    "summary": "Advanced Time Travel Debugging in Binary Ninja with Xusheng Li",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-07-05",
     "read_time": 1
   }
 ]
