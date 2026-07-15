@@ -1,6 +1,72 @@
 [
   {
     "id": 1,
+    "title": "AI reverse-engineered Philips baby monitor and built a Rust client",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uwl9f3/ai_reverseengineered_philips_baby_monitor_and/",
+    "summary": "AI reverse-engineered Philips baby monitor and built a Rust client",
+    "tags": [
+      "Rust",
+      "AI"
+    ],
+    "date": "2026-07-14",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Interactive documentation and visual reference for binary formats and system memory layouts.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uw46xn/interactive_documentation_and_visual_reference/",
+    "summary": "Interactive documentation and visual reference for binary formats and system memory layouts.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-14",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uvy1dk/antivebehaviorwatch_ai_model_inside_a_exe/",
+    "summary": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-14",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Upcoming Speaking Engagements",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html",
+    "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20, 2026. I’m speaking at Boston Leadership Exchange in Boston, Massachusetts, USA, on Wednesday, July 22, 2026. I’m spea...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-14",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Vulnerability in FIFA’s Network",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
+    "summary": "FIFA’s network was vulnerable to anyone with even minimal access.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-14",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "A technical analysis of a LinkedIn scam spreading malware to developers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +92,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "LIEF v1.0.0: Brand-new Runtime API and DWARF/PDB -> C/C++ generation!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +105,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "TTF2PFR: A Python script that converts TrueType TTF fonts to Bitstream's failed \"Portable Font Resource\" format used in Netscape 4.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "IDA 9.4 Release: A New Dyld Shared Cache, Swift Analysis, New Teams add-on, and more ...",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -68,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "AI Data Centers and the Concentration of Wealth",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -81,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Hand-crafted 974-byte Android 14 APK (API 34) — Bypassing build-tool bloat by exploiting PackageInstaller structure.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -111,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Pocket Disasm — parallel headless binary analysis through one IDALib MCP endpoint",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -139,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "I reverse-engineered the DJI Spark smart battery I2C/SMBus protocol and documented the captures, firmware, and hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -153,7 +219,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Built an eBPF debugger that answers “who changed what and when” on Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -166,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Reverse-engineering a Neopets shop with 48,000 inventory snapshots",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -179,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Friday Squid Blogging: “Squidbleed” Vulnerability",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -195,7 +261,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "AI Surveillance and Social Progress",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -209,7 +275,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 28",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -222,7 +288,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -235,7 +301,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "The Language of AI Could Change How Humans Speak",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -250,7 +316,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "CVE-2026-25262 Write-What-Where in Qualcomm Sahara confirmed on Snapdragon 8 Gen 1 (SM8450) – partial Firehose auth bypass",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -262,59 +328,6 @@
       "Go"
     ],
     "date": "2026-07-09",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Drift Corpus: 240+ 2026 Windows kernel patches diffed, with assembly and breakpoints to reproduce",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uqxvn6/drift_corpus_240_2026_windows_kernel_patches/",
-    "summary": "Drift Corpus: 240+ 2026 Windows kernel patches diffed, with assembly and breakpoints to reproduce",
-    "tags": [
-      "内核",
-      "Windows"
-    ],
-    "date": "2026-07-08",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Using a Single Variable to Gain a Controlled Write",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uqt3pz/using_a_single_variable_to_gain_a_controlled_write/",
-    "summary": "Using a Single Variable to Gain a Controlled Write",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-08",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Cybersecurity and the Gap Between Skill and Ability",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/cybersecurity-and-the-gap-between-skill-and-ability.html",
-    "summary": "Last week, national security agencies from the Five Eyes—that’s the rich, English-language-speaking countries club—jointly released a statement warning of the increasing cyber risks of AI models: in particular, their ability to autonomously hack into systems and networks. The statement was more m...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-08",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "HPC AI Workloads Need Runtime Security. The Architecture Already Exists.",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/hpc-ai-workloads-need-runtime-security-the-architecture-already-exists/",
-    "summary": "Learn how to secure HPC AI infrastructure against runtime and supply chain threats via continuous behavioral monitoring.",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-08",
     "read_time": 1
   }
 ]
