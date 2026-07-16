@@ -1,6 +1,59 @@
 [
   {
     "id": 1,
+    "title": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uxmszf/first_firmware_dump_of_canon_pixma_ts3451_aesgcm/",
+    "summary": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-16",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "IDA Pro 9.4 released",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uxl039/ida_pro_94_released/",
+    "summary": "IDA Pro 9.4 released",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-07-15",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Automatically Attacking Software Reverse Engineering AI Agents",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ux10w6/automatically_attacking_software_reverse/",
+    "summary": "Automatically Attacking Software Reverse Engineering AI Agents",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-15",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "A Video Screen That Is Also a Camera",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html",
+    "summary": "Amazing : Researchers from ETH Zurich in Switzerland, however, managed to create a new type of pixel that can simultaneously do both. This hypercharged pixel, called a Fourier pixel, can generate and sense arbitrary light fields and tap into a pixel’s full potential for carrying information by ma...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-15",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "AI reverse-engineered Philips baby monitor and built a Rust client",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Interactive documentation and visual reference for binary formats and system memory layouts.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Vulnerability in FIFA’s Network",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -66,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +132,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "A technical analysis of a LinkedIn scam spreading malware to developers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -92,7 +145,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "LIEF v1.0.0: Brand-new Runtime API and DWARF/PDB -> C/C++ generation!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -105,7 +158,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "TTF2PFR: A Python script that converts TrueType TTF fonts to Bitstream's failed \"Portable Font Resource\" format used in Netscape 4.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -120,7 +173,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "IDA 9.4 Release: A New Dyld Shared Cache, Swift Analysis, New Teams add-on, and more ...",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -134,7 +187,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "AI Data Centers and the Concentration of Wealth",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -147,7 +200,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Hand-crafted 974-byte Android 14 APK (API 34) — Bypassing build-tool bloat by exploiting PackageInstaller structure.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -177,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Pocket Disasm — parallel headless binary analysis through one IDALib MCP endpoint",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -205,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "I reverse-engineered the DJI Spark smart battery I2C/SMBus protocol and documented the captures, firmware, and hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -219,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Built an eBPF debugger that answers “who changed what and when” on Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -232,7 +285,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Reverse-engineering a Neopets shop with 48,000 inventory snapshots",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -245,7 +298,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Friday Squid Blogging: “Squidbleed” Vulnerability",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -261,7 +314,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "AI Surveillance and Social Progress",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -275,7 +328,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 28",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -285,49 +338,6 @@
       "Go"
     ],
     "date": "2026-07-10",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1urry6y/suspected_russian_threat_actor_impersonates/",
-    "summary": "Suspected Russian Threat Actor Impersonates Legitimate Crypto Wallets to Deploy Remote Utilities",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-09",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "The Language of AI Could Change How Humans Speak",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/the-language-of-ai-could-change-how-humans-speak.html",
-    "summary": "Because of the way they are trained, large language models capture only a slice of human language. They’re trained on the written word, from textbooks to social media posts, and our speech as captured in movies and on television. These models have minimal access to the unscripted conversations we...",
-    "tags": [
-      "APT",
-      "威胁情报",
-      "AI"
-    ],
-    "date": "2026-07-09",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "CVE-2026-25262 Write-What-Where in Qualcomm Sahara confirmed on Snapdragon 8 Gen 1 (SM8450) – partial Firehose auth bypass",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1urco6y/cve202625262_writewhatwhere_in_qualcomm_sahara/",
-    "summary": "CVE-2026-25262 Write-What-Where in Qualcomm Sahara confirmed on Snapdragon 8 Gen 1 (SM8450) – partial Firehose auth bypass",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "Go"
-    ],
-    "date": "2026-07-09",
     "read_time": 1
   }
 ]
