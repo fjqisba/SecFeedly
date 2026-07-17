@@ -1,6 +1,59 @@
 [
   {
     "id": 1,
+    "title": "\"Remcos RAT – Svchost Injection, API Hooking & Obfuscated Payload Analysis\"",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uy4vpu/remcos_rat_svchost_injection_api_hooking/",
+    "summary": "\"Remcos RAT – Svchost Injection, API Hooking & Obfuscated Payload Analysis\"",
+    "tags": [
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-07-16",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I ported Half Life 2: Deathmatch to the web. Play now!",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uyfv9i/i_ported_half_life_2_deathmatch_to_the_web_play/",
+    "summary": "I ported Half Life 2: Deathmatch to the web. Play now!",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-16",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reverse-engineering NVIDIA's cuda-checkpoint for faster cold starts",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uxu3zf/reverseengineering_nvidias_cudacheckpoint_for/",
+    "summary": "Reverse-engineering NVIDIA's cuda-checkpoint for faster cold starts",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-16",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Protecting Privacy in an AI Era",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/protecting-privacy-in-an-ai-era.html",
+    "summary": "Daniel Solove argues in the Wall Street Journal (alternate link ) that giving people control of their personal data is not an effective way to regulate privacy in this era. Instead, we need to hold companies accountable for their actions, similar to what we do with food and drug companies. Measur...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-16",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "IDA Pro 9.4 released",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Automatically Attacking Software Reverse Engineering AI Agents",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "A Video Screen That Is Also a Camera",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "AI reverse-engineered Philips baby monitor and built a Rust client",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Interactive documentation and visual reference for binary formats and system memory layouts.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +146,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -106,7 +159,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Vulnerability in FIFA’s Network",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -119,7 +172,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +185,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "A technical analysis of a LinkedIn scam spreading malware to developers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -145,7 +198,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "LIEF v1.0.0: Brand-new Runtime API and DWARF/PDB -> C/C++ generation!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -158,7 +211,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "TTF2PFR: A Python script that converts TrueType TTF fonts to Bitstream's failed \"Portable Font Resource\" format used in Netscape 4.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -173,7 +226,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "IDA 9.4 Release: A New Dyld Shared Cache, Swift Analysis, New Teams add-on, and more ...",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -187,7 +240,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "AI Data Centers and the Concentration of Wealth",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -200,7 +253,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Hand-crafted 974-byte Android 14 APK (API 34) — Bypassing build-tool bloat by exploiting PackageInstaller structure.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -216,7 +269,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -230,7 +283,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Pocket Disasm — parallel headless binary analysis through one IDALib MCP endpoint",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -244,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -255,89 +308,6 @@
       "反编译"
     ],
     "date": "2026-07-11",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "I reverse-engineered the DJI Spark smart battery I2C/SMBus protocol and documented the captures, firmware, and hardware",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uskgz1/i_reverseengineered_the_dji_spark_smart_battery/",
-    "summary": "I reverse-engineered the DJI Spark smart battery I2C/SMBus protocol and documented the captures, firmware, and hardware",
-    "tags": [
-      "APT",
-      "威胁情报"
-    ],
-    "date": "2026-07-10",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Built an eBPF debugger that answers “who changed what and when” on Linux",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1usz9gh/built_an_ebpf_debugger_that_answers_who_changed/",
-    "summary": "Built an eBPF debugger that answers “who changed what and when” on Linux",
-    "tags": [
-      "Linux"
-    ],
-    "date": "2026-07-10",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Reverse-engineering a Neopets shop with 48,000 inventory snapshots",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1usbiqi/reverseengineering_a_neopets_shop_with_48000/",
-    "summary": "Reverse-engineering a Neopets shop with 48,000 inventory snapshots",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-10",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Friday Squid Blogging: “Squidbleed” Vulnerability",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squidbleed-vulnerability.html",
-    "summary": "In a rare combined cybersecurity/squid post, a twenty-nine-year-old squid proxy bug can leak HTTP requests. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-07-10",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "AI Surveillance and Social Progress",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
-    "summary": "In the near future, AI -powered surveillance systems will be able to track everything we do in public, and much of what we do in private. And if we do something wrong—shoplift, litter, jaywalk, you name it—the system will notice, retain it, tie it to your official government record, communicate t...",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-07-10",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 28",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-28-8/",
-    "summary": "Authorities launch Operation First Light 2026, attackers deploy Forg365 to hijack Microsoft accounts, and rival cyberspies breach Pakistani police networks.",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-07-10",
     "read_time": 1
   }
 ]
