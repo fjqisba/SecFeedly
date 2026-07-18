@@ -1,6 +1,75 @@
 [
   {
     "id": 1,
+    "title": "Maintaining the old code of the man who wrote \"How To Write Unmaintainable Code\"",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uyz7hv/maintaining_the_old_code_of_the_man_who_wrote_how/",
+    "summary": "Maintaining the old code of the man who wrote \"How To Write Unmaintainable Code\"",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-17",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "[Crackme x64] Modular Vault — 6-floor path-dependent opcode encryption (debugger welcome)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uz9fva/crackme_x64_modular_vault_6floor_pathdependent/",
+    "summary": "[Crackme x64] Modular Vault — 6-floor path-dependent opcode encryption (debugger welcome)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-17",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Friday Squid Blogging: Squid Washing Up on Cape Cod Beach",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-washing-up-on-cape-cod-beach.html",
+    "summary": "Lots of articles about this . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-07-17",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Details of Alan Turing’s Voice Encryption System",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/details-of-alan-turings-voice-encryption-system.html",
+    "summary": "Really interesting piece of cryptographic history : In November 2023, a large cache of his wartime papers—nicknamed the “Bayley papers”—was auctioned in London for almost half a million U.S. dollars. The previously unknown cache contains many sheets in Turing’s own handwriting, telling of his top...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-17",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 29",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-29-8/",
+    "summary": "Authorities sanction Russian-based cybercriminals, attackers deploy Starland malware, and 300 imposter GitHub repos push BoryptGrab infostealer.",
+    "tags": [
+      "恶意软件",
+      "Go"
+    ],
+    "date": "2026-07-17",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "\"Remcos RAT – Svchost Injection, API Hooking & Obfuscated Payload Analysis\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +83,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "I ported Half Life 2: Deathmatch to the web. Play now!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Reverse-engineering NVIDIA's cuda-checkpoint for faster cold starts",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +109,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Protecting Privacy in an AI Era",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "IDA Pro 9.4 released",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Automatically Attacking Software Reverse Engineering AI Agents",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "A Video Screen That Is Also a Camera",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -106,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "AI reverse-engineered Philips baby monitor and built a Rust client",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -120,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Interactive documentation and visual reference for binary formats and system memory layouts.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -133,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -146,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -159,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Vulnerability in FIFA’s Network",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -172,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -185,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "A technical analysis of a LinkedIn scam spreading malware to developers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -198,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "LIEF v1.0.0: Brand-new Runtime API and DWARF/PDB -> C/C++ generation!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -211,7 +280,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "TTF2PFR: A Python script that converts TrueType TTF fonts to Bitstream's failed \"Portable Font Resource\" format used in Netscape 4.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -226,7 +295,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "IDA 9.4 Release: A New Dyld Shared Cache, Swift Analysis, New Teams add-on, and more ...",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -240,7 +309,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "AI Data Centers and the Concentration of Wealth",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -253,7 +322,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "Hand-crafted 974-byte Android 14 APK (API 34) — Bypassing build-tool bloat by exploiting PackageInstaller structure.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -269,7 +338,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "title": "Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -283,7 +352,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 27,
     "title": "Pocket Disasm — parallel headless binary analysis through one IDALib MCP endpoint",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -294,20 +363,6 @@
       "反编译"
     ],
     "date": "2026-07-12",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1utj7om/vidar_stealer_20_1999_timestamps_explorer/",
-    "summary": "Vidar Stealer 2.0: 1999 Timestamps, Explorer Hollowing & Copilot Injection",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-07-11",
     "read_time": 1
   }
 ]
