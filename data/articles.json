@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "title": "Making a mod for Grand Prix Circuit (DSI / Accolade, 1988)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uzya8i/making_a_mod_for_grand_prix_circuit_dsi_accolade/",
+    "summary": "Making a mod for Grand Prix Circuit (DSI / Accolade, 1988)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-18",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Automated reverse engineering of Android apps",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uzsmtw/automated_reverse_engineering_of_android_apps/",
+    "summary": "Automated reverse engineering of Android apps",
+    "tags": [
+      "Android",
+      "移动安全"
+    ],
+    "date": "2026-07-18",
+    "read_time": 1
+  },
+  {
+    "id": 3,
     "title": "Maintaining the old code of the man who wrote \"How To Write Unmaintainable Code\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +40,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "[Crackme x64] Modular Vault — 6-floor path-dependent opcode encryption (debugger welcome)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Friday Squid Blogging: Squid Washing Up on Cape Cod Beach",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -42,7 +69,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Details of Alan Turing’s Voice Encryption System",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 29",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -69,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "\"Remcos RAT – Svchost Injection, API Hooking & Obfuscated Payload Analysis\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "I ported Half Life 2: Deathmatch to the web. Play now!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Reverse-engineering NVIDIA's cuda-checkpoint for faster cold starts",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Protecting Privacy in an AI Era",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -122,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "IDA Pro 9.4 released",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Automatically Attacking Software Reverse Engineering AI Agents",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "A Video Screen That Is Also a Camera",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -175,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "AI reverse-engineered Philips baby monitor and built a Rust client",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "Interactive documentation and visual reference for binary formats and system memory layouts.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -202,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -215,7 +242,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -228,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 20,
     "title": "Vulnerability in FIFA’s Network",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -241,7 +268,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 21,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -254,7 +281,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 22,
     "title": "A technical analysis of a LinkedIn scam spreading malware to developers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -267,7 +294,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 23,
     "title": "LIEF v1.0.0: Brand-new Runtime API and DWARF/PDB -> C/C++ generation!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -280,7 +307,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 24,
     "title": "TTF2PFR: A Python script that converts TrueType TTF fonts to Bitstream's failed \"Portable Font Resource\" format used in Netscape 4.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -295,7 +322,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 25,
     "title": "IDA 9.4 Release: A New Dyld Shared Cache, Swift Analysis, New Teams add-on, and more ...",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -309,7 +336,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 26,
     "title": "AI Data Centers and the Concentration of Wealth",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -319,50 +346,6 @@
       "AI"
     ],
     "date": "2026-07-13",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Hand-crafted 974-byte Android 14 APK (API 34) — Bypassing build-tool bloat by exploiting PackageInstaller structure.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uuon2t/handcrafted_974byte_android_14_apk_api_34/",
-    "summary": "Hand-crafted 974-byte Android 14 APK (API 34) — Bypassing build-tool bloat by exploiting PackageInstaller structure.",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Android",
-      "移动安全"
-    ],
-    "date": "2026-07-12",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uuqe2a/vulnerability_in_realtek_driver_allows_dma/",
-    "summary": "Vulnerability in Realtek driver allows DMA controller abuse from user mode with no additional hardware or driver",
-    "tags": [
-      "硬件安全",
-      "DMA"
-    ],
-    "date": "2026-07-12",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Pocket Disasm — parallel headless binary analysis through one IDALib MCP endpoint",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uug5kx/pocket_disasm_parallel_headless_binary_analysis/",
-    "summary": "Pocket Disasm — parallel headless binary analysis through one IDALib MCP endpoint",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-07-12",
     "read_time": 1
   }
 ]
