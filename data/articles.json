@@ -1,6 +1,84 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v1e2pg/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-20",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reversing GetOfflineDeviceUniqueID: How Windows Derives Its Offline Device ID",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v1hed9/reversing_getofflinedeviceuniqueid_how_windows/",
+    "summary": "Reversing GetOfflineDeviceUniqueID: How Windows Derives Its Offline Device ID",
+    "tags": [
+      "Windows"
+    ],
+    "date": "2026-07-20",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "repel_paw3950_driver_re",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v1j0wt/repel_paw3950_driver_re/",
+    "summary": "repel_paw3950_driver_re",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-20",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "ReChan brings Jackie Chan Stuntmaster to PC as a native reimplementation",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v1jvqy/rechan_brings_jackie_chan_stuntmaster_to_pc_as_a/",
+    "summary": "ReChan brings Jackie Chan Stuntmaster to PC as a native reimplementation",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-20",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "On Flock License Plate Tracking Cameras",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/on-flock-license-plate-tracking-cameras.html",
+    "summary": "A recent story of a writer who was mistakenly identified, tracked, and arrested using data from Flock cameras has gone viral. The New Jersey plates that were allegedly stolen from the LA dealer were 34 03 DTM , not 34 10 DTM . But when the police report was created and the plate was entered into ...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-07-20",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "The Agentic SOC: Transforming Data into Defensive Velocity",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-agentic-soc-transforming-data-into-defensive-velocity/",
+    "summary": "Transform SOC data chaos into autonomous intelligence with modern AI pipelines and agentic AI to empower human analysts.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-20",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "Making a mod for Grand Prix Circuit (DSI / Accolade, 1988)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +91,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Automated reverse engineering of Android apps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +105,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "Maintaining the old code of the man who wrote \"How To Write Unmaintainable Code\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +118,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "[Crackme x64] Modular Vault — 6-floor path-dependent opcode encryption (debugger welcome)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +131,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "Friday Squid Blogging: Squid Washing Up on Cape Cod Beach",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -69,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Details of Alan Turing’s Voice Encryption System",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -82,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 29",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -96,7 +174,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "\"Remcos RAT – Svchost Injection, API Hooking & Obfuscated Payload Analysis\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -110,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "I ported Half Life 2: Deathmatch to the web. Play now!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Reverse-engineering NVIDIA's cuda-checkpoint for faster cold starts",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -136,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Protecting Privacy in an AI Era",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -149,7 +227,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +240,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "IDA Pro 9.4 released",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -176,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "Automatically Attacking Software Reverse Engineering AI Agents",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "A Video Screen That Is Also a Camera",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -199,72 +277,6 @@
       "安全"
     ],
     "date": "2026-07-15",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "AI reverse-engineered Philips baby monitor and built a Rust client",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uwl9f3/ai_reverseengineered_philips_baby_monitor_and/",
-    "summary": "AI reverse-engineered Philips baby monitor and built a Rust client",
-    "tags": [
-      "Rust",
-      "AI"
-    ],
-    "date": "2026-07-14",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Interactive documentation and visual reference for binary formats and system memory layouts.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uw46xn/interactive_documentation_and_visual_reference/",
-    "summary": "Interactive documentation and visual reference for binary formats and system memory layouts.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-14",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uvy1dk/antivebehaviorwatch_ai_model_inside_a_exe/",
-    "summary": "AntiVE-BehaviorWatch ( AI model Inside a EXE )",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-14",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "Upcoming Speaking Engagements",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/upcoming-speaking-engagements-58.html",
-    "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking (virtually) at the Policy-Relevant Privacy Research Workshop in Calgary, Canada, on Monday, July 20, 2026. I’m speaking at Boston Leadership Exchange in Boston, Massachusetts, USA, on Wednesday, July 22, 2026. I’m spea...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-14",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Vulnerability in FIFA’s Network",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/vulnerability-in-fifas-network.html",
-    "summary": "FIFA’s network was vulnerable to anyone with even minimal access.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-14",
     "read_time": 1
   }
 ]
