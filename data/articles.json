@@ -1,6 +1,61 @@
 [
   {
     "id": 1,
+    "title": "GitHub - NtProtectVirtualMemory/PE-Library: A modern C++ library for parsing and manipulating Windows Portable Executable (PE) files.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v30nck/github_ntprotectvirtualmemorypelibrary_a_modern_c/",
+    "summary": "GitHub - NtProtectVirtualMemory/PE-Library: A modern C++ library for parsing and manipulating Windows Portable Executable (PE) files.",
+    "tags": [
+      "Windows"
+    ],
+    "date": "2026-07-22",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "[Project Recruitment] Looking for PowerPC / Ghidra hobbyists to help cleanroom reverse-engineer a legacy Xbox 360 Dashboard Binary (.XEX) for an open-source revival",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v2kxao/project_recruitment_looking_for_powerpc_ghidra/",
+    "summary": "[Project Recruitment] Looking for PowerPC / Ghidra hobbyists to help cleanroom reverse-engineer a legacy Xbox 360 Dashboard Binary (.XEX) for an open-source revival",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-07-21",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Desktop+ Lockscreen Animated Wallpaper Fully RE of WallpaperExtensionKit.framework private apis (Still Buggy)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v2enmx/desktop_lockscreen_animated_wallpaper_fully_re_of/",
+    "summary": "Desktop+ Lockscreen Animated Wallpaper Fully RE of WallpaperExtensionKit.framework private apis (Still Buggy)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-21",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "MIT to Become Hotbed of AI Video Surveillance",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/mit-to-become-hotbed-of-ai-video-surveillance.html",
+    "summary": "It’s a lot : According to information obtained by The Tech , MIT is spending over $3 million on more than 500 AI surveillance cameras in academic buildings, residence halls, and outdoor areas along Memorial Drive. Installation of the new cameras, along with the wiring and infrastructure that will...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-21",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Reversing GetOfflineDeviceUniqueID: How Windows Derives Its Offline Device ID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "repel_paw3950_driver_re",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "ReChan brings Jackie Chan Stuntmaster to PC as a native reimplementation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -52,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "On Flock License Plate Tracking Cameras",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -65,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "The Agentic SOC: Transforming Data into Defensive Velocity",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -78,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Making a mod for Grand Prix Circuit (DSI / Accolade, 1988)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -91,7 +146,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Automated reverse engineering of Android apps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -105,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Maintaining the old code of the man who wrote \"How To Write Unmaintainable Code\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -118,7 +173,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "[Crackme x64] Modular Vault — 6-floor path-dependent opcode encryption (debugger welcome)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -131,7 +186,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "Friday Squid Blogging: Squid Washing Up on Cape Cod Beach",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -147,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Details of Alan Turing’s Voice Encryption System",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -160,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 29",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -174,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "\"Remcos RAT – Svchost Injection, API Hooking & Obfuscated Payload Analysis\"",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +243,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "I ported Half Life 2: Deathmatch to the web. Play now!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +256,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Reverse-engineering NVIDIA's cuda-checkpoint for faster cold starts",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -214,7 +269,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Protecting Privacy in an AI Era",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -227,7 +282,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "First firmware dump of Canon PIXMA TS3451 — AES-GCM manifest encrypted by MatrixSSL Asset Store, looking for help with key derivation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -237,46 +292,6 @@
       "安全"
     ],
     "date": "2026-07-16",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "IDA Pro 9.4 released",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1uxl039/ida_pro_94_released/",
-    "summary": "IDA Pro 9.4 released",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-07-15",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Automatically Attacking Software Reverse Engineering AI Agents",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ux10w6/automatically_attacking_software_reverse/",
-    "summary": "Automatically Attacking Software Reverse Engineering AI Agents",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-15",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "A Video Screen That Is Also a Camera",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/a-video-screen-that-is-also-a-camera.html",
-    "summary": "Amazing : Researchers from ETH Zurich in Switzerland, however, managed to create a new type of pixel that can simultaneously do both. This hypercharged pixel, called a Fourier pixel, can generate and sense arbitrary light fields and tap into a pixel’s full potential for carrying information by ma...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-15",
     "read_time": 1
   }
 ]
