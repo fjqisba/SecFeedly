@@ -1,6 +1,19 @@
 [
   {
     "id": 1,
+    "title": "CFP Open – Looking for Technical AI & Security Research for Après-Cyber Slopes Summit 2027",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v6hbj8/cfp_open_looking_for_technical_ai_security/",
+    "summary": "CFP Open – Looking for Technical AI & Security Research for Après-Cyber Slopes Summit 2027",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
     "title": "Reverse-engineered CME's undocumented USB-MIDI config protocol (U6MIDI Pro / U2MIDI Pro) off the wire — full byte map + a public-domain codec",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +26,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "The quirks of CPU extended mode in “Comanche: Maximum Overkill” (1992)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +39,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Workshop map for MECCHA CHAMELEON is a malware dropper (full breakdown)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +52,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Friday Squid Blogging: Illex Squid Catch in the Falklands",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Why AI Needs a “Genie Coefficient”",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -68,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 30",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -82,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Remus Stealer Analysis: Fileless Execution, In-Memory Payload Extraction & C2 Discovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "Transformers Forged To Fight Revival Offline Version Updated",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Teams: Git-native Versioning & Collaborative Reversing",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -122,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "End-to-End Encryption and “Going Dark”",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -135,7 +148,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "10 Years of Binary Ninja",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "Great introduction to ARM using pwnable challenge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Hey everyone, I wasn’t a fan of the official software for the ChargerLab POWER-Z KM003C, so I decided to reverse-engineer the USB interface and build my own open-source terminal tool: VoltReaver.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -177,7 +190,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "10 Years of Binary Ninja",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -192,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "First-Person Identity Theft Story",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -205,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 17,
     "title": "From Triage Grind to Strategic Operator: The New AI SOC Career Path",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -219,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 18,
     "title": "GitHub - NtProtectVirtualMemory/PE-Library: A modern C++ library for parsing and manipulating Windows Portable Executable (PE) files.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -232,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "[Project Recruitment] Looking for PowerPC / Ghidra hobbyists to help cleanroom reverse-engineer a legacy Xbox 360 Dashboard Binary (.XEX) for an open-source revival",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -248,7 +261,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 20,
     "title": "Desktop+ Lockscreen Animated Wallpaper Fully RE of WallpaperExtensionKit.framework private apis (Still Buggy)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -261,7 +274,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 21,
     "title": "MIT to Become Hotbed of AI Video Surveillance",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -274,7 +287,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -287,7 +300,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "Reversing GetOfflineDeviceUniqueID: How Windows Derives Its Offline Device ID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -300,7 +313,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 24,
     "title": "repel_paw3950_driver_re",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -313,7 +326,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 25,
     "title": "ReChan brings Jackie Chan Stuntmaster to PC as a native reimplementation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -326,7 +339,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 26,
     "title": "On Flock License Plate Tracking Cameras",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -339,7 +352,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 27,
     "title": "The Agentic SOC: Transforming Data into Defensive Velocity",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
