@@ -1,6 +1,99 @@
 [
   {
     "id": 1,
+    "title": "Measuring LLMs’ Ability to Perform Cryptanalysis",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
+    "summary": "There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can LLMs do Cryptanalysis? ” The idea is to benchmark the ability of LLMs to discover new mathematical cryptanalytic atta...",
+    "tags": [
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-07-29",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse-engineered the BLE protocol of a discontinued Fisher-Price toy Lumalou after its app was discontinued",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v8vjxg/reverseengineered_the_ble_protocol_of_a/",
+    "summary": "Reverse-engineered the BLE protocol of a discontinued Fisher-Price toy Lumalou after its app was discontinued",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-28",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "I reverse engineered an ASUS embedded controller's fan protocol.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v8wjga/i_reverse_engineered_an_asus_embedded_controllers/",
+    "summary": "I reverse engineered an ASUS embedded controller's fan protocol.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-28",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Reproducing a D-Link firmware CVE on an emulated FirmAE twin, packaged as a signed receipt you can re-verify in 5 min (with a PR:N→PR:L CVSS correction)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v9bq7m/reproducing_a_dlink_firmware_cve_on_an_emulated/",
+    "summary": "Reproducing a D-Link firmware CVE on an emulated FirmAE twin, packaged as a signed receipt you can re-verify in 5 min (with a PR:N→PR:L CVSS correction)",
+    "tags": [
+      "漏洞分析",
+      "CVE"
+    ],
+    "date": "2026-07-28",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Hex-Rays is Heading to Hacker Summer Camp 2026",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/hex-rays-hacker-summer-camp-2026",
+    "summary": "Vegas in August generally means one thing for the reverse engineering community: Hacker Summer Camp. Hex-Rays will be on the ground for all three events, and we've packed the week with demos, a workshop, some light recruiting and more. Here's where to find us.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-28",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Pricing Changes with 6.0",
+    "source": "Binary Ninja Blog",
+    "source_icon": "🥷",
+    "url": "https://binary.ninja/2026/07/28/pricing-changes.html",
+    "summary": "When we kicked off our tenth anniversary a few days ago, we promised a dedicated post with specifics behind our upcoming pricing changes and the rationale behind them. This is it! Much like we’ve done previously, we’ll walk through the changes and give you plenty of time beforehand. The short ver...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-07-28",
+    "read_time": 1
+  },
+  {
+    "id": 7,
+    "title": "Axon Is Another License Plate Surveillance Company",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/axon-is-another-license-plate-surveillance-company.html",
+    "summary": "Governments are switching, but I’m not sure it makes a difference : …some municipalities, including Denver, Colorado, are ditching their Flock arrays. But keep in mind that if they’re only switching from Flock to another brand of license-plate readers, like Axon, it’s like a gambling addict tryin...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-07-28",
+    "read_time": 1
+  },
+  {
+    "id": 8,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 9,
     "title": "Mellanox/Nvidia ConnectX-5 FW modification tool to enable PCIe Gen 4 on cards that shipped as Gen 3",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 10,
     "title": "SysCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +132,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 11,
     "title": "Cognyte Sells a Mobile Cell Surveillance Van",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +146,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 12,
     "title": "Reverse engineering my Samsung Odyssey G5 monitor firmware (SPARC V8 scaler, hidden factory menu, dead TCON code)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +159,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 13,
     "title": "[Open Source] Waypoint - A Ring-0 KMDF Virtual HID Mouse Driver with Lockless Shared-Memory IPC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +173,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 14,
     "title": "CFP Open – Looking for Technical AI & Security Research for Après-Cyber Slopes Summit 2027",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +186,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 15,
     "title": "Reverse-engineered CME's undocumented USB-MIDI config protocol (U6MIDI Pro / U2MIDI Pro) off the wire — full byte map + a public-domain codec",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +199,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 16,
     "title": "The quirks of CPU extended mode in “Comanche: Maximum Overkill” (1992)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +212,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 17,
     "title": "Workshop map for MECCHA CHAMELEON is a malware dropper (full breakdown)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +225,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 18,
     "title": "Friday Squid Blogging: Illex Squid Catch in the Falklands",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -148,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 19,
     "title": "Why AI Needs a “Genie Coefficient”",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -161,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 20,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 30",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -175,7 +268,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 21,
     "title": "Remus Stealer Analysis: Fileless Execution, In-Memory Payload Extraction & C2 Discovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +281,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 22,
     "title": "Transformers Forged To Fight Revival Offline Version Updated",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +294,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 23,
     "title": "Teams: Git-native Versioning & Collaborative Reversing",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -215,7 +308,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 24,
     "title": "End-to-End Encryption and “Going Dark”",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -225,103 +318,6 @@
       "Go"
     ],
     "date": "2026-07-23",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "10 Years of Binary Ninja",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v3lgdq/10_years_of_binary_ninja/",
-    "summary": "10 Years of Binary Ninja",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-07-22",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "Great introduction to ARM using pwnable challenge",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v3gm8x/great_introduction_to_arm_using_pwnable_challenge/",
-    "summary": "Great introduction to ARM using pwnable challenge",
-    "tags": [
-      "CTF",
-      "PWN"
-    ],
-    "date": "2026-07-22",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Hey everyone, I wasn’t a fan of the official software for the ChargerLab POWER-Z KM003C, so I decided to reverse-engineer the USB interface and build my own open-source terminal tool: VoltReaver.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v334h6/hey_everyone_i_wasnt_a_fan_of_the_official/",
-    "summary": "Hey everyone, I wasn’t a fan of the official software for the ChargerLab POWER-Z KM003C, so I decided to reverse-engineer the USB interface and build my own open-source terminal tool: VoltReaver.",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-07-22",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "10 Years of Binary Ninja",
-    "source": "Binary Ninja Blog",
-    "source_icon": "🥷",
-    "url": "https://binary.ninja/2026/07/22/10-years-of-binary-ninja.html",
-    "summary": "Ten years ago tomorrow, we shipped the first build of Binary Ninja. In the beginning, there were just four of us looking to take on the monumental task of building a commercial-grade decompiler from scratch. We knew it would be a lot of work, but we were excited to take our ideas about how we cou...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "Go"
-    ],
-    "date": "2026-07-22",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "First-Person Identity Theft Story",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/first-person-identity-theft-story.html",
-    "summary": "Harrowing story of an identity theft victim. Yes, the person made a mistake—they gave the scammer a two-factor authentication code that allowed the scammer to take over their email address. But the real story here is how, for many of us, the security of most of our accounts hangs on the security ...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-22",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "From Triage Grind to Strategic Operator: The New AI SOC Career Path",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/from-triage-grind-to-strategic-operator-the-new-ai-soc-career-path/",
-    "summary": "Learn how AI is reshaping SOC careers, elevating analysts from manual triage to strategic threat hunting and AI governance.",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-07-22",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "GitHub - NtProtectVirtualMemory/PE-Library: A modern C++ library for parsing and manipulating Windows Portable Executable (PE) files.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v30nck/github_ntprotectvirtualmemorypelibrary_a_modern_c/",
-    "summary": "GitHub - NtProtectVirtualMemory/PE-Library: A modern C++ library for parsing and manipulating Windows Portable Executable (PE) files.",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-07-22",
     "read_time": 1
   }
 ]
