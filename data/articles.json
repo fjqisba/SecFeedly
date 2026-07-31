@@ -1,6 +1,89 @@
 [
   {
     "id": 1,
+    "title": "Akamai Bot Manager Sensor Data v3 — Fully Reversed & Deobfuscated 😳🤯",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vbc7ds/akamai_bot_manager_sensor_data_v3_fully_reversed/",
+    "summary": "Akamai Bot Manager Sensor Data v3 — Fully Reversed & Deobfuscated 😳🤯",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-31",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Patching my guitar amp's firmware",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vb8vg5/patching_my_guitar_amps_firmware/",
+    "summary": "Patching my guitar amp's firmware",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-30",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reversing of Eufy Security Video Doorbell sync protocol and wifi creds decryption from flash memory",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vawrf0/reversing_of_eufy_security_video_doorbell_sync/",
+    "summary": "Reversing of Eufy Security Video Doorbell sync protocol and wifi creds decryption from flash memory",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-30",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "LLMs Have Reshaped How We Think About Decompilation and Collaboration",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/llms-have-reshaped-how-we-think-about-decompilation-and-collaboration",
+    "summary": "Shifting Times A few weekends ago, I was playing DEF CON CTF Quals, the qualification event for the \" Olympics of Hacking ,\" with my team Shellphish . I say \"playing\" because I am, at this point, a washed-up hacker, but add me to the 40-something ranks! Nonetheless, I showed up, downloaded a bina...",
+    "tags": [
+      "CTF",
+      "Go",
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-07-30",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/american-being-prosecuted-for-wiping-his-phone-before-handing-it-over-to-border-officials.html",
+    "summary": "He’s being prosecuted for giving border officials a code that wiped his phone : The case centers on a feature included in GrapheneOS, a custom Android operating system that runs in place of the software on most modern Google Pixel devices. Tunick’s attorneys confirmed GrapheneOS was running on hi...",
+    "tags": [
+      "Android",
+      "移动安全",
+      "Go"
+    ],
+    "date": "2026-07-30",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/should-you-use-ai-for-a-task-heres-a-simple-way-to-decide.html",
+    "summary": "This essay originally appeared in The Guardian . I teach public policy at the Harvard Kennedy School and the Munk School at the University of Toronto. And it will come as no surprise to you that my students regularly use AI to complete their writing assignments. Doing so is a waste of their tuiti...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-07-30",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "GitHub - SarangRao20/battery-charge-limiter: Reverse-engineered the Embedded Controller register for battery charge control. Built a cross-platform daemon (Windows + Arch) that enforces 80% hardware cap on laptops where BIOS hides this feature. Includes EC discovery tool for other models.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -16,7 +99,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Hi everyone, I've released APKX-Hunter v2.5.0, an open-source Android Static Analysis Framework written in C.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -32,7 +115,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "pwnable.kr - mistake",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -46,7 +129,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "Measuring the Tendency of AI Agents to Go Rogue",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -62,7 +145,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -78,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Measuring LLMs’ Ability to Perform Cryptanalysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -92,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Reverse-engineered the BLE protocol of a discontinued Fisher-Price toy Lumalou after its app was discontinued",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -105,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "I reverse engineered an ASUS embedded controller's fan protocol.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -118,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "Reproducing a D-Link firmware CVE on an emulated FirmAE twin, packaged as a signed receipt you can re-verify in 5 min (with a PR:N→PR:L CVSS correction)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -132,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Hex-Rays is Heading to Hacker Summer Camp 2026",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -145,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Pricing Changes with 6.0",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -158,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Axon Is Another License Plate Surveillance Company",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -171,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -184,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "Mellanox/Nvidia ConnectX-5 FW modification tool to enable PCIe Gen 4 on cards that shipped as Gen 3",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -197,7 +280,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "SysCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -210,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "Cognyte Sells a Mobile Cell Surveillance Van",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -224,7 +307,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Reverse engineering my Samsung Odyssey G5 monitor firmware (SPARC V8 scaler, hidden factory menu, dead TCON code)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -237,7 +320,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "[Open Source] Waypoint - A Ring-0 KMDF Virtual HID Mouse Driver with Lockless Shared-Memory IPC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -251,7 +334,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "CFP Open – Looking for Technical AI & Security Research for Après-Cyber Slopes Summit 2027",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -261,88 +344,6 @@
       "AI"
     ],
     "date": "2026-07-25",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Reverse-engineered CME's undocumented USB-MIDI config protocol (U6MIDI Pro / U2MIDI Pro) off the wire — full byte map + a public-domain codec",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v5sb1s/reverseengineered_cmes_undocumented_usbmidi/",
-    "summary": "Reverse-engineered CME's undocumented USB-MIDI config protocol (U6MIDI Pro / U2MIDI Pro) off the wire — full byte map + a public-domain codec",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-24",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "The quirks of CPU extended mode in “Comanche: Maximum Overkill” (1992)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v5brho/the_quirks_of_cpu_extended_mode_in_comanche/",
-    "summary": "The quirks of CPU extended mode in “Comanche: Maximum Overkill” (1992)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-07-24",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Workshop map for MECCHA CHAMELEON is a malware dropper (full breakdown)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v538b1/workshop_map_for_meccha_chameleon_is_a_malware/",
-    "summary": "Workshop map for MECCHA CHAMELEON is a malware dropper (full breakdown)",
-    "tags": [
-      "恶意软件"
-    ],
-    "date": "2026-07-24",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Friday Squid Blogging: Illex Squid Catch in the Falklands",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-illex-squid-catch-in-the-falklands.html",
-    "summary": "Lower catch this year . As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-07-24",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Why AI Needs a “Genie Coefficient”",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/why-ai-needs-a-genie-coefficient.html",
-    "summary": "This essay was written with Barath Raghavan, and originally appeared in IEEE Spectrum . Major benchmarks measure what AI can do. None measure whether it does what you mean: the distance between what you ask an AI to do and the unspoken assumptions about how you want the AI to do it. We propose a ...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-24",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 30",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-30-8/",
-    "summary": "Authorities arrest Kratos's developer, HollowGraph hides C2 in 2050 calendar events, and OpenAI's models breach Hugging Face to steal benchmark answers.",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-07-24",
     "read_time": 1
   }
 ]
