@@ -1,6 +1,91 @@
 [
   {
     "id": 1,
+    "title": "Microsoft blocked me from using VBA to read or programmatically set gradient pins, so I reverse-engineered the XML data and used a format painter exploit to sneak formatting though a back Window",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vc9og7/microsoft_blocked_me_from_using_vba_to_read_or/",
+    "summary": "Microsoft blocked me from using VBA to read or programmatically set gradient pins, so I reverse-engineered the XML data and used a format painter exploit to sneak formatting though a back Window",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用",
+      "AI"
+    ],
+    "date": "2026-08-01",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "RevAPK: Reverse engineer Android apps",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vbgj4o/revapk_reverse_engineer_android_apps/",
+    "summary": "RevAPK: Reverse engineer Android apps",
+    "tags": [
+      "Android",
+      "移动安全"
+    ],
+    "date": "2026-07-31",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Friday Squid Blogging: Squid Helps Discover New Marine Species",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/friday-squid-blogging-squid-helps-discover-new-marine-species.html",
+    "summary": "The Squid is a new scientific machine : One of the technological breakthroughs was the onboard use of a spinning wheel confocal microscope, nicknamed the Squid, which uses lasers to scan microscopic details of how organisms are put together. “That opens up a whole new world of exploring. We could...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-07-31",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Anthropic’s Opus 5 Is Better at Resisting Prompt Injection",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/anthropics-opus-5-is-better-at-resisting-prompt-injection.html",
+    "summary": "The chart is interesting. On the IPI benchmark, Opus 5 improved over Opus 4.8, reducing the probability of an attacker succeeding within 15 attempts from 5.5% to 2.0%, and from 0.5% to 0.2% on 1 attempt. It also improved on Sonnet 5 (5.9% at k=15) and Mythos 5 (2.6%), making it the most robust mo...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-31",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Facial Recognition at Madison Square Garden",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/07/facial-recognition-at-madison-square-garden.html",
+    "summary": "Last month, the story broke (alternate link ) that Madison Square Garden uses facial recognition software on everyone entering the facility, and—among other groups—flags activists that oppose using facial recognition. Turns out that the system was shut off for Taylor Swift’s wedding. Evan Greer—o...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-07-31",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 31",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-31-8/",
+    "summary": "Police flag 4,000 URLs to disrupt The Com, theft victims sue Apple over a $1.8M wallet scam, and OpenAI and Anthropic models reach real systems in cyber tests.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-07-31",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "Akamai Bot Manager Sensor Data v3 — Fully Reversed & Deobfuscated 😳🤯",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Patching my guitar amp's firmware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "Reversing of Eufy Security Video Doorbell sync protocol and wifi creds decryption from flash memory",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "LLMs Have Reshaped How We Think About Decompilation and Collaboration",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -55,7 +140,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -70,7 +155,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -83,7 +168,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "GitHub - SarangRao20/battery-charge-limiter: Reverse-engineered the Embedded Controller register for battery charge control. Built a cross-platform daemon (Windows + Arch) that enforces 80% hardware cap on laptops where BIOS hides this feature. Includes EC discovery tool for other models.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -99,7 +184,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "Hi everyone, I've released APKX-Hunter v2.5.0, an open-source Android Static Analysis Framework written in C.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -115,7 +200,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "pwnable.kr - mistake",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -129,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Measuring the Tendency of AI Agents to Go Rogue",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -145,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -161,7 +246,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Measuring LLMs’ Ability to Perform Cryptanalysis",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -175,7 +260,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "Reverse-engineered the BLE protocol of a discontinued Fisher-Price toy Lumalou after its app was discontinued",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +273,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "I reverse engineered an ASUS embedded controller's fan protocol.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +286,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "Reproducing a D-Link firmware CVE on an emulated FirmAE twin, packaged as a signed receipt you can re-verify in 5 min (with a PR:N→PR:L CVSS correction)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -215,7 +300,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "Hex-Rays is Heading to Hacker Summer Camp 2026",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -228,7 +313,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Pricing Changes with 6.0",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -241,7 +326,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "Axon Is Another License Plate Surveillance Company",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -254,7 +339,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -267,7 +352,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 26,
     "title": "Mellanox/Nvidia ConnectX-5 FW modification tool to enable PCIe Gen 4 on cards that shipped as Gen 3",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -280,7 +365,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 27,
     "title": "SysCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -293,7 +378,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 28,
     "title": "Cognyte Sells a Mobile Cell Surveillance Van",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -307,7 +392,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 29,
     "title": "Reverse engineering my Samsung Odyssey G5 monitor firmware (SPARC V8 scaler, hidden factory menu, dead TCON code)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -320,7 +405,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 30,
     "title": "[Open Source] Waypoint - A Ring-0 KMDF Virtual HID Mouse Driver with Lockless Shared-Memory IPC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -331,19 +416,6 @@
       "RCE"
     ],
     "date": "2026-07-26",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "CFP Open – Looking for Technical AI & Security Research for Après-Cyber Slopes Summit 2027",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v6hbj8/cfp_open_looking_for_technical_ai_security/",
-    "summary": "CFP Open – Looking for Technical AI & Security Research for Après-Cyber Slopes Summit 2027",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-07-25",
     "read_time": 1
   }
 ]
