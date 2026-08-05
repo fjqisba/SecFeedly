@@ -1,6 +1,100 @@
 [
   {
     "id": 1,
+    "title": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vfqxkd/tplink_nx510v_root_access_uart_bootloader/",
+    "summary": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vfo3qd/fsr_410_static_re_evidence_bundle_looking_for/",
+    "summary": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vfmkuo/can_someone_reverse_engineer_wahl_clipper_blade/",
+    "summary": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "The Binary Hiding in Your Registry: Cracking Windows UCPD’s Dynamic Rules",
+    "source": "Binary Ninja Blog",
+    "source_icon": "🥷",
+    "url": "https://binary.ninja/2026/08/04/ucpd-dynamic-rules.html",
+    "summary": "Is Microsoft shipping a hidden binary to your computer – inside the registry? A few weeks ago I was watching a YouTube video that covered my earlier research on the UCPD driver, and for a split second I saw a registry key that I have been searching for an example of for some time. I contacted the...",
+    "tags": [
+      "Windows",
+      "Go"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Iran Cyberattacks Against Minnesota Water Systems",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
+    "summary": "Attribution is preliminary , and so far it seems no real damage. And it seems like this is a campaign that has targeted at least seven states . And, because this is where the US is right now, Trump doesn’t believe it’s Iran and that Minnesota…I guess…hacked itself. “I think I blame it on Minnesot...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Some Claude Chats Are Searchable on Google",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html",
+    "summary": "And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard someone made apparently to analyze medical billing data. Exposed chats reportedly include private cryptocurrency wallet ...",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 7,
+    "title": "From Input to Impact: Secure AI Where It Runs",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/from-input-to-impact-secure-ai-where-it-runs/",
+    "summary": "Defend the entire AI agentic stack across endpoints, identities, cloud, and apps with SentinelOne's unified platform.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-04",
+    "read_time": 1
+  },
+  {
+    "id": 8,
     "title": "AgentreAI challenge, stump models win $1000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 9,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 10,
     "title": "TC Electronic M6000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 11,
     "title": "Reverse engineered the Realtek RTS0177 USB SD card reader proprietary vendor protocol (F0 commands via SG_IO)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -52,7 +146,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 12,
     "title": "More on the OpenAI Agent’s Attack on Hugging Face",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -67,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 13,
     "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -80,7 +174,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 14,
     "title": "Debugger Detection trough ML",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +187,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 15,
     "title": "PAL: A defensive decompilation layer: Ghidra binary analysis facts, synthesized into executable Python & artifacts aiding analysis.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 16,
     "title": "GitHub - 0xD34D/KARR_Scan: KARR Scan passively scans for KARR Security devices and displays their telemetry",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 17,
     "title": "Runtime analysis of Linux binaries with DynamoRIO, including an audit of address and thread-scope errors [PDF]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -134,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 18,
     "title": "A Decade (or More) in Review",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -149,7 +243,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 19,
     "title": "Microsoft blocked me from using VBA to read or programmatically set gradient pins, so I reverse-engineered the XML data and used a format painter exploit to sneak formatting though a back Window",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 20,
     "title": "RevAPK: Reverse engineer Android apps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 21,
     "title": "Friday Squid Blogging: Squid Helps Discover New Marine Species",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -194,7 +288,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 22,
     "title": "Anthropic’s Opus 5 Is Better at Resisting Prompt Injection",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -207,7 +301,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 23,
     "title": "Facial Recognition at Madison Square Garden",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -220,7 +314,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 24,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 31",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -234,7 +328,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 25,
     "title": "Akamai Bot Manager Sensor Data v3 — Fully Reversed & Deobfuscated 😳🤯",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -247,7 +341,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 26,
     "title": "Patching my guitar amp's firmware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -260,7 +354,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 27,
     "title": "Reversing of Eufy Security Video Doorbell sync protocol and wifi creds decryption from flash memory",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -273,7 +367,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 28,
     "title": "LLMs Have Reshaped How We Think About Decompilation and Collaboration",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -289,7 +383,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 29,
     "title": "American Being Prosecuted for Wiping His Phone Before Handing It Over to Border Officials",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -304,7 +398,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 30,
     "title": "Should You Use AI for a Task? Here’s a Simple Way to Decide",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -314,98 +408,6 @@
       "AI"
     ],
     "date": "2026-07-30",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "GitHub - SarangRao20/battery-charge-limiter: Reverse-engineered the Embedded Controller register for battery charge control. Built a cross-platform daemon (Windows + Arch) that enforces 80% hardware cap on laptops where BIOS hides this feature. Includes EC discovery tool for other models.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vacd1l/github_sarangrao20batterychargelimiter/",
-    "summary": "GitHub - SarangRao20/battery-charge-limiter: Reverse-engineered the Embedded Controller register for battery charge control. Built a cross-platform daemon (Windows + Arch) that enforces 80% hardware cap on laptops where BIOS hides this feature. Includes EC discovery tool for other models.",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "APT",
-      "威胁情报"
-    ],
-    "date": "2026-07-29",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Hi everyone, I've released APKX-Hunter v2.5.0, an open-source Android Static Analysis Framework written in C.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1v9txje/hi_everyone_ive_released_apkxhunter_v250_an/",
-    "summary": "Hi everyone, I've released APKX-Hunter v2.5.0, an open-source Android Static Analysis Framework written in C.",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "Android",
-      "移动安全"
-    ],
-    "date": "2026-07-29",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "pwnable.kr - mistake",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1va0kxg/pwnablekr_mistake/",
-    "summary": "pwnable.kr - mistake",
-    "tags": [
-      "CTF",
-      "PWN"
-    ],
-    "date": "2026-07-29",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Measuring the Tendency of AI Agents to Go Rogue",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/measuring-the-tendency-of-ai-agents-to-go-rogue.html",
-    "summary": "This essay was written with Barath Raghavan, and originally appeared in The Guardian . In July, Hugging Face, a company that hosts much of the world’s AI software and open-source AI models, was hacked. A malicious dataset had been used to run code on one of its servers. Whoever was behind it capt...",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "APT",
-      "威胁情报"
-    ],
-    "date": "2026-07-29",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "Long-Lived Vulnerability in Microsoft Secure Boot",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/long-lived-vulnerability-in-microsoft-secure-boot.html",
-    "summary": "Microsoft’s Secure Boot has had a serious vulnerability for most of its existence. An industry-wide standard Microsoft invented to protect Windows, and later Linux, devices from firmware infections has been trivial to bypass for 13 of its 14 years of existence. The discovery was made by researche...",
-    "tags": [
-      "硬件安全",
-      "UEFI",
-      "Linux",
-      "Windows"
-    ],
-    "date": "2026-07-29",
-    "read_time": 1
-  },
-  {
-    "id": 29,
-    "title": "Measuring LLMs’ Ability to Perform Cryptanalysis",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/07/measuring-llms-ability-to-perform-cryptanalysis.html",
-    "summary": "There’s new benchmark measuring AI’s ability to perform mathematical cryptanalysis. Anthropic’s frontier model actually found new attacks. The benchmark: “ CryptanalysisBench: Can LLMs do Cryptanalysis? ” The idea is to benchmark the ability of LLMs to discover new mathematical cryptanalytic atta...",
-    "tags": [
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-07-29",
     "read_time": 1
   }
 ]
