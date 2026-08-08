@@ -1,6 +1,75 @@
 [
   {
     "id": 1,
+    "title": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vhw5cw/static_analyzer_for_flutterdart_aot_snapshots/",
+    "summary": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-07",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "CTFkings ♕ Challenges",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vib32h/ctfkings_challenges/",
+    "summary": "CTFkings ♕ Challenges",
+    "tags": [
+      "CTF"
+    ],
+    "date": "2026-08-07",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-arctic-bobtail-squid-video.html",
+    "summary": "Nice video of the Arctic bobtail squid. As usual, you can also use this squid post to talk about the security stories in the news that I haven’t covered. Blog moderation policy.",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-08-07",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "ICE Is Buying Access to Credit Card Records",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/ice-is-buying-access-to-credit-card-records.html",
+    "summary": "Through data brokers, ICE is buying the information you provided to open a credit card.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-07",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 32",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-32-8/",
+    "summary": "Snowflake hacker's guilty plea covers a 100M-record breach, Mythos 5 spends 34 hours trying to backdoor real code, and ChainDrop's worm spreads via npm.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-08-07",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "I built an open-source MCP server that gives AI agents 46 structured reverse engineering tools (Ghidra, GDB, Binwalk, etc) with a persistent knowledge base",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Reverse Engineering Google Slides",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -82,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Full read and write control of a Daikin VAM heat-recovery ventilation unit over the P1/P2 bus, using an Arduino Uno registered as a genuine BRC301B61-compatible slave controller.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Vulnerabilities in Car Anti-Theft Device",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -108,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +190,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "The Binary Hiding in Your Registry: Cracking Windows UCPD’s Dynamic Rules",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -162,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Iran Cyberattacks Against Minnesota Water Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -175,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Some Claude Chats Are Searchable on Google",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -189,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "From Input to Impact: Secure AI Where It Runs",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -202,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "AgentreAI challenge, stump models win $1000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -215,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -228,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "TC Electronic M6000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -241,7 +310,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "Reverse engineered the Realtek RTS0177 USB SD card reader proprietary vendor protocol (F0 commands via SG_IO)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -254,7 +323,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "More on the OpenAI Agent’s Attack on Hugging Face",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -269,7 +338,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -282,7 +351,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 27,
     "title": "Debugger Detection trough ML",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -295,7 +364,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 28,
     "title": "PAL: A defensive decompilation layer: Ghidra binary analysis facts, synthesized into executable Python & artifacts aiding analysis.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -307,62 +376,6 @@
       "AI"
     ],
     "date": "2026-08-02",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "GitHub - 0xD34D/KARR_Scan: KARR Scan passively scans for KARR Security devices and displays their telemetry",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vcu1jz/github_0xd34dkarr_scan_karr_scan_passively_scans/",
-    "summary": "GitHub - 0xD34D/KARR_Scan: KARR Scan passively scans for KARR Security devices and displays their telemetry",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-01",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Runtime analysis of Linux binaries with DynamoRIO, including an audit of address and thread-scope errors [PDF]",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vcl4ha/runtime_analysis_of_linux_binaries_with_dynamorio/",
-    "summary": "Runtime analysis of Linux binaries with DynamoRIO, including an audit of address and thread-scope errors [PDF]",
-    "tags": [
-      "Linux"
-    ],
-    "date": "2026-08-01",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "A Decade (or More) in Review",
-    "source": "Binary Ninja Blog",
-    "source_icon": "🥷",
-    "url": "https://binary.ninja/2026/08/01/a-decade-or-more-in-review.html",
-    "summary": "Ten years snuck up on us. It was only a few months ago that we realized how close we were to ten years of shipping Binary Ninja to customers. It’s been an exciting journey and we’ve seen a lot of changes along the way. Our goal was nothing short of shaking up the decompilation market. We wanted t...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "Go"
-    ],
-    "date": "2026-08-01",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Microsoft blocked me from using VBA to read or programmatically set gradient pins, so I reverse-engineered the XML data and used a format painter exploit to sneak formatting though a back Window",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vc9og7/microsoft_blocked_me_from_using_vba_to_read_or/",
-    "summary": "Microsoft blocked me from using VBA to read or programmatically set gradient pins, so I reverse-engineered the XML data and used a format painter exploit to sneak formatting though a back Window",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "AI"
-    ],
-    "date": "2026-08-01",
     "read_time": 1
   }
 ]
