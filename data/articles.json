@@ -1,6 +1,47 @@
 [
   {
     "id": 1,
+    "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vivabk/def_con_talk_8_in_10_banks_in_belgium_hate_this/",
+    "summary": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-08-08",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Agent Tesla – APC Injection, Token Manipulation & Payload Extraction",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1viro28/agent_tesla_apc_injection_token_manipulation/",
+    "summary": "Agent Tesla – APC Injection, Token Manipulation & Payload Extraction",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-08",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Windows tcpip.sys ICMP Timestamp Bug: EnableICMPTimestampRep=0 Registry Bypass & RFC 792 Violation | Kernel RE",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vikcl8/windows_tcpipsys_icmp_timestamp_bug/",
+    "summary": "Windows tcpip.sys ICMP Timestamp Bug: EnableICMPTimestampRep=0 Registry Bypass & RFC 792 Violation | Kernel RE",
+    "tags": [
+      "内核",
+      "Windows"
+    ],
+    "date": "2026-08-08",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "CTFkings ♕ Challenges",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -42,7 +83,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "ICE Is Buying Access to Credit Card Records",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 32",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -69,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -82,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -122,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "I built an open-source MCP server that gives AI agents 46 structured reverse engineering tools (Ghidra, GDB, Binwalk, etc) with a persistent knowledge base",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -138,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Reverse Engineering Google Slides",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -151,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Full read and write control of a Daikin VAM heat-recovery ventilation unit over the P1/P2 bus, using an Arduino Uno registered as a genuine BRC301B61-compatible slave controller.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Vulnerabilities in Car Anti-Theft Device",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -177,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -190,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -204,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -217,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "The Binary Hiding in Your Registry: Cracking Windows UCPD’s Dynamic Rules",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -231,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Iran Cyberattacks Against Minnesota Water Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -244,7 +285,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "Some Claude Chats Are Searchable on Google",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -258,7 +299,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "From Input to Impact: Secure AI Where It Runs",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -271,7 +312,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "AgentreAI challenge, stump models win $1000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -284,7 +325,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -297,7 +338,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "TC Electronic M6000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -310,7 +351,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "Reverse engineered the Realtek RTS0177 USB SD card reader proprietary vendor protocol (F0 commands via SG_IO)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -323,7 +364,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 28,
     "title": "More on the OpenAI Agent’s Attack on Hugging Face",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -338,7 +379,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 29,
     "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -348,34 +389,6 @@
       "AI"
     ],
     "date": "2026-08-03",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Debugger Detection trough ML",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vdxika/debugger_detection_trough_ml/",
-    "summary": "Debugger Detection trough ML",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-02",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "PAL: A defensive decompilation layer: Ghidra binary analysis facts, synthesized into executable Python & artifacts aiding analysis.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vdeo0v/pal_a_defensive_decompilation_layer_ghidra_binary/",
-    "summary": "PAL: A defensive decompilation layer: Ghidra binary analysis facts, synthesized into executable Python & artifacts aiding analysis.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "AI"
-    ],
-    "date": "2026-08-02",
     "read_time": 1
   }
 ]
