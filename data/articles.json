@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vk51ts/handle_duplication_internals_what_happens_behind/",
+    "summary": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
+    "tags": [
+      "内核"
+    ],
+    "date": "2026-08-09",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Gen2Recomp Out Now",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vjkayw/gen2recomp_out_now/",
+    "summary": "Gen2Recomp Out Now",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-09",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vk4kbc/i_am_making_a_emulator_bypass_of_a_lame_game_free/",
+    "summary": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-09",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Agent Tesla – APC Injection, Token Manipulation & Payload Extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Windows tcpip.sys ICMP Timestamp Bug: EnableICMPTimestampRep=0 Registry Bypass & RFC 792 Violation | Kernel RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "CTFkings ♕ Challenges",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -83,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "ICE Is Buying Access to Credit Card Records",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -96,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 32",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -110,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -136,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -163,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "I built an open-source MCP server that gives AI agents 46 structured reverse engineering tools (Ghidra, GDB, Binwalk, etc) with a persistent knowledge base",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -179,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Reverse Engineering Google Slides",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -192,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Full read and write control of a Daikin VAM heat-recovery ventilation unit over the P1/P2 bus, using an Arduino Uno registered as a genuine BRC301B61-compatible slave controller.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -205,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Vulnerabilities in Car Anti-Theft Device",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -218,7 +257,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -231,7 +270,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -245,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -258,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "The Binary Hiding in Your Registry: Cracking Windows UCPD’s Dynamic Rules",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -272,7 +311,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "Iran Cyberattacks Against Minnesota Water Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -285,7 +324,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "Some Claude Chats Are Searchable on Google",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -299,7 +338,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "From Input to Impact: Secure AI Where It Runs",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -312,7 +351,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "AgentreAI challenge, stump models win $1000",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -322,73 +361,6 @@
       "AI"
     ],
     "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ve5zx7/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-03",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "TC Electronic M6000",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1veobgb/tc_electronic_m6000/",
-    "summary": "TC Electronic M6000",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-03",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Reverse engineered the Realtek RTS0177 USB SD card reader proprietary vendor protocol (F0 commands via SG_IO)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ve8l80/reverse_engineered_the_realtek_rts0177_usb_sd/",
-    "summary": "Reverse engineered the Realtek RTS0177 USB SD card reader proprietary vendor protocol (F0 commands via SG_IO)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-03",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "More on the OpenAI Agent’s Attack on Hugging Face",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/more-on-the-openai-agents-attack-on-hugging-face.html",
-    "summary": "Hugging Face has published a detailed timeline of the attack. From the summary: The agent was running an internal OpenAI cyber-capability evaluation based on the ExploitGym benchmark, which tasks an AI agent with finding and exploiting software vulnerabilities. OpenAI ran this on its own infrastr...",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "AI"
-    ],
-    "date": "2026-08-03",
-    "read_time": 1
-  },
-  {
-    "id": 29,
-    "title": "The OpenAI Hack Shows the Genie Is Out of the Bottle",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/the-openai-hack-shows-the-genie-is-out-of-the-bottle.html",
-    "summary": "This essay originally appeared in Foreign Policy . Earlier this month, two of OpenAI’s models broke out of their containment sandbox and attacked another AI company. The story is kind of wild . OpenAI was running security tests on two of its models: GPT-5.6 Sol and an unreleased model that is alm...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-03",
     "read_time": 1
   }
 ]
