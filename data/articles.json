@@ -1,6 +1,74 @@
 [
   {
     "id": 1,
+    "title": "Combat simulation engine for Cookie Run: Crumble",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vl29mt/combat_simulation_engine_for_cookie_run_crumble/",
+    "summary": "Combat simulation engine for Cookie Run: Crumble",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-11",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vkdkbt/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-10",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vki9to/i_got_tired_of_switching_between_windbg_ida_and/",
+    "summary": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "调试",
+      "Go"
+    ],
+    "date": "2026-08-10",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Struct Randomizer Using C++ 26 Reflection",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vk8fss/struct_randomizer_using_c_26_reflection/",
+    "summary": "Struct Randomizer Using C++ 26 Reflection",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-10",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Python Now Has a Post-Quantum Encryption Library",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html",
+    "summary": "This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-08-10",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "Gen2Recomp Out Now",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Agent Tesla – APC Injection, Token Manipulation & Payload Extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Windows tcpip.sys ICMP Timestamp Bug: EnableICMPTimestampRep=0 Registry Bypass & RFC 792 Violation | Kernel RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +148,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "CTFkings ♕ Challenges",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +174,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -122,7 +190,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "ICE Is Buying Access to Credit Card Records",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -135,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 32",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -149,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +243,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +256,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -202,7 +270,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "I built an open-source MCP server that gives AI agents 46 structured reverse engineering tools (Ghidra, GDB, Binwalk, etc) with a persistent knowledge base",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -218,7 +286,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Reverse Engineering Google Slides",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -231,7 +299,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "Full read and write control of a Daikin VAM heat-recovery ventilation unit over the P1/P2 bus, using an Arduino Uno registered as a genuine BRC301B61-compatible slave controller.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -244,7 +312,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "Vulnerabilities in Car Anti-Theft Device",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -254,113 +322,6 @@
       "Go"
     ],
     "date": "2026-08-05",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vfqxkd/tplink_nx510v_root_access_uart_bootloader/",
-    "summary": "TP-Link NX510v - Root Access, UART, Bootloader, Firmware Research",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vfo3qd/fsr_410_static_re_evidence_bundle_looking_for/",
-    "summary": "FSR 4.1.0 static RE evidence bundle — looking for native D3D12 validators",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vfmkuo/can_someone_reverse_engineer_wahl_clipper_blade/",
-    "summary": "Can someone reverse engineer wahl clipper blade to be 3d printed and have guards attachable to it? (Linked one doesnt stick on)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "The Binary Hiding in Your Registry: Cracking Windows UCPD’s Dynamic Rules",
-    "source": "Binary Ninja Blog",
-    "source_icon": "🥷",
-    "url": "https://binary.ninja/2026/08/04/ucpd-dynamic-rules.html",
-    "summary": "Is Microsoft shipping a hidden binary to your computer – inside the registry? A few weeks ago I was watching a YouTube video that covered my earlier research on the UCPD driver, and for a split second I saw a registry key that I have been searching for an example of for some time. I contacted the...",
-    "tags": [
-      "Windows",
-      "Go"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Iran Cyberattacks Against Minnesota Water Systems",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/iran-cyberattacks-against-minnesota-water-systems.html",
-    "summary": "Attribution is preliminary , and so far it seems no real damage. And it seems like this is a campaign that has targeted at least seven states . And, because this is where the US is right now, Trump doesn’t believe it’s Iran and that Minnesota…I guess…hacked itself. “I think I blame it on Minnesot...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "Some Claude Chats Are Searchable on Google",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/some-claude-chats-are-searchable-on-google.html",
-    "summary": "And it’s personal information (alternate link ): The exposed data includes an AI-powered therapy app that someone appears to have vibe-coded, notes on meetings, and a dashboard someone made apparently to analyze medical billing data. Exposed chats reportedly include private cryptocurrency wallet ...",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "From Input to Impact: Secure AI Where It Runs",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/from-input-to-impact-secure-ai-where-it-runs/",
-    "summary": "Defend the entire AI agentic stack across endpoints, identities, cloud, and apps with SentinelOne's unified platform.",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-04",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "AgentreAI challenge, stump models win $1000",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1veuonx/agentreai_challenge_stump_models_win_1000/",
-    "summary": "AgentreAI challenge, stump models win $1000",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-04",
     "read_time": 1
   }
 ]
