@@ -1,6 +1,72 @@
 [
   {
     "id": 1,
+    "title": "mmiotic: Latency x-ray for undocumented hardware",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vlxm41/mmiotic_latency_xray_for_undocumented_hardware/",
+    "summary": "mmiotic: Latency x-ray for undocumented hardware",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-11",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vlbo31/battlefield_2s_dedicated_server_wraps_its_main/",
+    "summary": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-11",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vl84wk/java_runtime_debugger_which_analyze_java_programs/",
+    "summary": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
+    "tags": [
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-08-11",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "AI Genie in the Wild",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html",
+    "summary": "When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several w...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-11",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "AI for Military Support",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html",
+    "summary": "Interesting empirical research: “ Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI .” Abstract: How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI ...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-11",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Combat simulation engine for Cookie Run: Crumble",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +79,22 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
+    "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
+    "source": "Quarkslab Blog",
+    "source_icon": "⚗️",
+    "url": "http://blog.quarkslab.com/bypassing-android-hardware-attestation.html",
+    "summary": "Hardware key attestation lets an Android app prove to its backend that a key lives in secure hardware on a locked, verified device. It is also the wall that stops a security analyst working on a rooted phone. This article opens the mechanism from the analyst's chair, from the certificate chain an...",
+    "tags": [
+      "Android",
+      "移动安全",
+      "AI"
+    ],
+    "date": "2026-08-10",
+    "read_time": 1
+  },
+  {
+    "id": 8,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "Struct Randomizer Using C++ 26 Reflection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "Python Now Has a Post-Quantum Encryption Library",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -68,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -81,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Gen2Recomp Out Now",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -94,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -107,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Agent Tesla – APC Injection, Token Manipulation & Payload Extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -134,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Windows tcpip.sys ICMP Timestamp Bug: EnableICMPTimestampRep=0 Registry Bypass & RFC 792 Violation | Kernel RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -161,7 +242,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "CTFkings ♕ Challenges",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -174,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -190,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "ICE Is Buying Access to Credit Card Records",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -203,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 32",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -217,7 +298,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -230,7 +311,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -243,7 +324,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -256,7 +337,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 26,
     "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -267,61 +348,6 @@
       "AI"
     ],
     "date": "2026-08-06",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "I built an open-source MCP server that gives AI agents 46 structured reverse engineering tools (Ghidra, GDB, Binwalk, etc) with a persistent knowledge base",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vg8ups/i_built_an_opensource_mcp_server_that_gives_ai/",
-    "summary": "I built an open-source MCP server that gives AI agents 46 structured reverse engineering tools (Ghidra, GDB, Binwalk, etc) with a persistent knowledge base",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-08-05",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Reverse Engineering Google Slides",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vg1del/reverse_engineering_google_slides/",
-    "summary": "Reverse Engineering Google Slides",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-08-05",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Full read and write control of a Daikin VAM heat-recovery ventilation unit over the P1/P2 bus, using an Arduino Uno registered as a genuine BRC301B61-compatible slave controller.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vg1f8u/full_read_and_write_control_of_a_daikin_vam/",
-    "summary": "Full read and write control of a Daikin VAM heat-recovery ventilation unit over the P1/P2 bus, using an Arduino Uno registered as a genuine BRC301B61-compatible slave controller.",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-05",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Vulnerabilities in Car Anti-Theft Device",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/vulnerabilities-in-car-anti-theft-device.html",
-    "summary": "This is disturbing: …a team of security researchers at UC San Diego, who found that a model of aftermarket car alarm known as the KARR Security System, installed in more than 2 million vehicles across the US by their estimate, can let any hacker within Bluetooth range send radio commands to silen...",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-08-05",
     "read_time": 1
   }
 ]
