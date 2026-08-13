@@ -1,6 +1,60 @@
 [
   {
     "id": 1,
+    "title": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vmvhvd/github_slushiimusiccamelcrusherbridge/",
+    "summary": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-13",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse-engineering an AVerMedia Game Capture HD II (TI DM368): serial access, firmware decryption, and AI-assisted custom firmware (with new features)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vmg2z3/reverseengineering_an_avermedia_game_capture_hd/",
+    "summary": "Reverse-engineering an AVerMedia Game Capture HD II (TI DM368): serial access, firmware decryption, and AI-assisted custom firmware (with new features)",
+    "tags": [
+      "APT",
+      "威胁情报",
+      "AI"
+    ],
+    "date": "2026-08-12",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "SpaceXAI's Grok Bot stamps an account-derived ID into browser requests",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vmmw64/spacexais_grok_bot_stamps_an_accountderived_id/",
+    "summary": "SpaceXAI's Grok Bot stamps an account-derived ID into browser requests",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-12",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Prompt Injections for Defense",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/prompt-injections-for-defense.html",
+    "summary": "This seems to work : Researchers from Tracebit on Monday said they found that placing prompt injections alongside passwords, cryptographic keys, and other secrets stored on Amazon Web Services was often all that was needed to shut down attacks from AI hacking agents. The prompts direct the attack...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-12",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "mmiotic: Latency x-ray for undocumented hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "AI Genie in the Wild",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "AI for Military Support",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -66,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Combat simulation engine for Cookie Run: Crumble",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -94,7 +148,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -107,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Struct Randomizer Using C++ 26 Reflection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -136,7 +190,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "Python Now Has a Post-Quantum Encryption Library",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -149,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Gen2Recomp Out Now",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +242,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "DEF CON talk: 8 in 10 Banks in Belgium HATE This One Weird eID RCE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -202,7 +256,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Agent Tesla – APC Injection, Token Manipulation & Payload Extraction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -215,7 +269,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Windows tcpip.sys ICMP Timestamp Bug: EnableICMPTimestampRep=0 Registry Bypass & RFC 792 Violation | Kernel RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -229,7 +283,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Static analyzer for Flutter/Dart AOT snapshots — recovers function names, class hierarchies, call graphs, and behavioral signals from libapp.so without embedding or executing the Dart VM. Supports ARM64 and x86_64, Dart 2.10–3.12.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -242,7 +296,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "CTFkings ♕ Challenges",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -255,7 +309,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "Friday Squid Blogging: Arctic Bobtail Squid Video",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -271,7 +325,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "ICE Is Buying Access to Credit Card Records",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -284,7 +338,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 32",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -295,59 +349,6 @@
       "AI"
     ],
     "date": "2026-08-07",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vh0bvk/reverse_engineering_the_wired_uart_protocol/",
-    "summary": "Reverse engineering the wired UART protocol Joy-Cons speak over their rail contacts (undocumented), plus an ESP32-S3 firmware bridge to USB HID",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-06",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vh6bwp/reverse_engineered_the_dualsense_ps5_usb_protocol/",
-    "summary": "Reverse engineered the DualSense PS5 USB protocol from a Raspberry Pi 5 (topology, report map, auth handshake) — write-up + PoC",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-06",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vh1cjx/the_cipher_behind_qsyrupwd_reconstructing_ibm_i/",
-    "summary": "The Cipher Behind QSYRUPWD: Reconstructing IBM i Password Hashes",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-06",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Adversarial Clothing Designed to Fool Facial Recognition Systems",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/adversarial-clothing-designed-to-fool-facial-recognition-systems.html",
-    "summary": "There are many companies manufacturing adversarial clothing designed to confuse facial recognition systems. It’s a cool idea, but I worry that it’s mostly security theater: “Our patterns play with that chaos, confuse algorithms and make it way harder to pin you down,” he said. Bell, however, said...",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-08-06",
     "read_time": 1
   }
 ]
