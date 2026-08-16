@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "RE: CVX Decomp - Analyzing and removing the blurry PS2 port graphics",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vpiszp/re_cvx_decomp_analyzing_and_removing_the_blurry/",
+    "summary": "RE: CVX Decomp - Analyzing and removing the blurry PS2 port graphics",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-16",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Kimi Work secretly attaches raw records from five recent agent sessions to feedback reports",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vpbvyc/kimi_work_secretly_attaches_raw_records_from_five/",
+    "summary": "Kimi Work secretly attaches raw records from five recent agent sessions to feedback reports",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-15",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Hook ANY string allocation in java virtual machine (github repo link in video description)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vou6zo/hook_any_string_allocation_in_java_virtual/",
+    "summary": "Hook ANY string allocation in java virtual machine (github repo link in video description)",
+    "tags": [
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-08-15",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Booting Apple's iPod 5.5G firmware: recovering the display transport from RetailOS's own parser instead of emulating the VideoCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Modern Reverse Engineering IDE Built For AI Based RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Fingerprint Pro v4, deobfuscated and documented: CRC32 name erasure, XOR string vaults, and so much more.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Friday Squid Blogging: Searching for the Colossal Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -68,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -82,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 33",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -96,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "What happens when a GPU reads memory",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "I reverse engineered an anti-detect (Stealth) browser to find out exactly how their hooks work. I wrote a detailed breakdown + detector for it.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -124,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "From P-Code to GNN: extract binary code semantics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Separating AI’s Technological Problems from Its Capitalism Problems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -150,7 +190,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "From P-Code to GNN: extract binary code semantics",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -176,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Reverse-engineering an AVerMedia Game Capture HD II (TI DM368): serial access, firmware decryption, and AI-assisted custom firmware (with new features)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "SpaceXAI's Grok Bot stamps an account-derived ID into browser requests",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -204,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Prompt Injections for Defense",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -217,7 +257,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "mmiotic: Latency x-ray for undocumented hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -230,7 +270,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -243,7 +283,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -257,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "AI Genie in the Wild",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -270,7 +310,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "AI for Military Support",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -283,7 +323,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "Combat simulation engine for Cookie Run: Crumble",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -296,7 +336,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -311,7 +351,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 27,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -324,7 +364,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 28,
     "title": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -340,7 +380,7 @@
     "read_time": 1
   },
   {
-    "id": 26,
+    "id": 29,
     "title": "Struct Randomizer Using C++ 26 Reflection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -353,7 +393,7 @@
     "read_time": 1
   },
   {
-    "id": 27,
+    "id": 30,
     "title": "Python Now Has a Post-Quantum Encryption Library",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -363,45 +403,6 @@
       "Go"
     ],
     "date": "2026-08-10",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vk51ts/handle_duplication_internals_what_happens_behind/",
-    "summary": "HANDLE Duplication internals : What happens behind the scenes when you call kernelbase! DuplicateHandle( )",
-    "tags": [
-      "内核"
-    ],
-    "date": "2026-08-09",
-    "read_time": 1
-  },
-  {
-    "id": 29,
-    "title": "Gen2Recomp Out Now",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vjkayw/gen2recomp_out_now/",
-    "summary": "Gen2Recomp Out Now",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-09",
-    "read_time": 1
-  },
-  {
-    "id": 30,
-    "title": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vk4kbc/i_am_making_a_emulator_bypass_of_a_lame_game_free/",
-    "summary": "I am making a Emulator Bypass of a Lame Game \"Free Fire\" it works perfectly and not give any type of Ban/Blacklist in Casual modes Games but as soon as i start a Ranked match it triggers blacklist ! I have a Safe Bypass DLL ! I have attached the DLL link. Someone Recreate it i will pay !",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-09",
     "read_time": 1
   }
 ]
