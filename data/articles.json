@@ -1,6 +1,33 @@
 [
   {
     "id": 1,
+    "title": "Reverse Engineering CVE-2026-6837: From Zyxel Firmware to Root Command Execution with full firmware emulation",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vq45q2/reverse_engineering_cve20266837_from_zyxel/",
+    "summary": "Reverse Engineering CVE-2026-6837: From Zyxel Firmware to Root Command Execution with full firmware emulation",
+    "tags": [
+      "漏洞分析",
+      "CVE"
+    ],
+    "date": "2026-08-16",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "(OSS) Akamai solver for V2 & V3 sensors and the pixel challenge.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vpt9pm/oss_akamai_solver_for_v2_v3_sensors_and_the_pixel/",
+    "summary": "(OSS) Akamai solver for V2 & V3 sensors and the pixel challenge.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-16",
+    "read_time": 1
+  },
+  {
+    "id": 3,
     "title": "RE: CVX Decomp - Analyzing and removing the blurry PS2 port graphics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +40,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Kimi Work secretly attaches raw records from five recent agent sessions to feedback reports",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Hook ANY string allocation in java virtual machine (github repo link in video description)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Booting Apple's iPod 5.5G firmware: recovering the display transport from RetailOS's own parser instead of emulating the VideoCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Modern Reverse Engineering IDE Built For AI Based RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Fingerprint Pro v4, deobfuscated and documented: CRC32 name erasure, XOR string vaults, and so much more.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Friday Squid Blogging: Searching for the Colossal Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -95,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -108,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -122,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 33",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -136,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "What happens when a GPU reads memory",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "I reverse engineered an anti-detect (Stealth) browser to find out exactly how their hooks work. I wrote a detailed breakdown + detector for it.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "From P-Code to GNN: extract binary code semantics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -177,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "Separating AI’s Technological Problems from Its Capitalism Problems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -190,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -203,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "From P-Code to GNN: extract binary code semantics",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -216,7 +243,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 19,
     "title": "Reverse-engineering an AVerMedia Game Capture HD II (TI DM368): serial access, firmware decryption, and AI-assisted custom firmware (with new features)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -231,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 20,
     "title": "SpaceXAI's Grok Bot stamps an account-derived ID into browser requests",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -244,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 21,
     "title": "Prompt Injections for Defense",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -257,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 22,
     "title": "mmiotic: Latency x-ray for undocumented hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -270,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 23,
     "title": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -283,7 +310,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 24,
     "title": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -297,7 +324,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 25,
     "title": "AI Genie in the Wild",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -310,7 +337,7 @@
     "read_time": 1
   },
   {
-    "id": 24,
+    "id": 26,
     "title": "AI for Military Support",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -323,7 +350,7 @@
     "read_time": 1
   },
   {
-    "id": 25,
+    "id": 27,
     "title": "Combat simulation engine for Cookie Run: Crumble",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -333,76 +360,6 @@
       "安全"
     ],
     "date": "2026-08-11",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Bypassing Android Hardware Attestation from the Analyst's Chair",
-    "source": "Quarkslab Blog",
-    "source_icon": "⚗️",
-    "url": "http://blog.quarkslab.com/bypassing-android-hardware-attestation.html",
-    "summary": "Hardware key attestation lets an Android app prove to its backend that a key lives in secure hardware on a locked, verified device. It is also the wall that stops a security analyst working on a rooted phone. This article opens the mechanism from the analyst's chair, from the certificate chain an...",
-    "tags": [
-      "Android",
-      "移动安全",
-      "AI"
-    ],
-    "date": "2026-08-10",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vkdkbt/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-10",
-    "read_time": 1
-  },
-  {
-    "id": 28,
-    "title": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vki9to/i_got_tired_of_switching_between_windbg_ida_and/",
-    "summary": "i got tired of switching between windbg ida and x64dbg so i built an orchestrator to control them all",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "调试",
-      "Go"
-    ],
-    "date": "2026-08-10",
-    "read_time": 1
-  },
-  {
-    "id": 29,
-    "title": "Struct Randomizer Using C++ 26 Reflection",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vk8fss/struct_randomizer_using_c_26_reflection/",
-    "summary": "Struct Randomizer Using C++ 26 Reflection",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-10",
-    "read_time": 1
-  },
-  {
-    "id": 30,
-    "title": "Python Now Has a Post-Quantum Encryption Library",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/python-now-has-a-post-quantum-encryption-library.html",
-    "summary": "This is good : Post-quantum cryptography is now one pip-install away for the entire Python ecosystem. With funding from the Sovereign Tech Agency , we implemented support for ML-KEM, the NIST-standard key-establishment primitive, and ML-DSA, the NIST-standard digital-signature primitive, in pyca/...",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-08-10",
     "read_time": 1
   }
 ]
