@@ -1,6 +1,60 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vqkywu/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-17",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "SPI, I2C, UART: How To Trigger On What Matters Instead Of Drowning In Noise",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vquaki/spi_i2c_uart_how_to_trigger_on_what_matters/",
+    "summary": "SPI, I2C, UART: How To Trigger On What Matters Instead Of Drowning In Noise",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-17",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Ongoing *Rats!* (1994) source code reconstruction using Qwen 3.8 27B",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vqvsmb/ongoing_rats_1994_source_code_reconstruction/",
+    "summary": "Ongoing *Rats!* (1994) source code reconstruction using Qwen 3.8 27B",
+    "tags": [
+      "漏洞分析",
+      "RCE",
+      "Go"
+    ],
+    "date": "2026-08-17",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
+    "summary": "Criminals are hacking into public Wi-Fi devices—at hotels, conference centers, and so on—around the world and changing their DNS settings. The goal is to redirect users to fake login pages and steal their credentials.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-08-17",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Reverse Engineering CVE-2026-6837: From Zyxel Firmware to Root Command Execution with full firmware emulation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "(OSS) Akamai solver for V2 & V3 sensors and the pixel challenge.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "RE: CVX Decomp - Analyzing and removing the blurry PS2 port graphics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Kimi Work secretly attaches raw records from five recent agent sessions to feedback reports",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Hook ANY string allocation in java virtual machine (github repo link in video description)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Booting Apple's iPod 5.5G firmware: recovering the display transport from RetailOS's own parser instead of emulating the VideoCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Modern Reverse Engineering IDE Built For AI Based RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Fingerprint Pro v4, deobfuscated and documented: CRC32 name erasure, XOR string vaults, and so much more.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Friday Squid Blogging: Searching for the Colossal Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -122,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -135,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -149,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 33",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -163,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "What happens when a GPU reads memory",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -176,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "I reverse engineered an anti-detect (Stealth) browser to find out exactly how their hooks work. I wrote a detailed breakdown + detector for it.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "From P-Code to GNN: extract binary code semantics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -204,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Separating AI’s Technological Problems from Its Capitalism Problems",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -217,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -230,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "From P-Code to GNN: extract binary code semantics",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -243,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Reverse-engineering an AVerMedia Game Capture HD II (TI DM368): serial access, firmware decryption, and AI-assisted custom firmware (with new features)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -258,7 +312,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "SpaceXAI's Grok Bot stamps an account-derived ID into browser requests",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -271,7 +325,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "Prompt Injections for Defense",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -281,85 +335,6 @@
       "AI"
     ],
     "date": "2026-08-12",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "mmiotic: Latency x-ray for undocumented hardware",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vlxm41/mmiotic_latency_xray_for_undocumented_hardware/",
-    "summary": "mmiotic: Latency x-ray for undocumented hardware",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-11",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vlbo31/battlefield_2s_dedicated_server_wraps_its_main/",
-    "summary": "Battlefield 2's dedicated server wraps its main loop in __except and returns 42 on any crash — root-causing a 20-year-old \"just unstable\" bug to one unchecked array index in the AI DLL",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-11",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vl84wk/java_runtime_debugger_which_analyze_java_programs/",
-    "summary": "Java runtime debugger which analyze java programs just like x64dbg. Supports breakpoints, hooks, local variable debug, runtime class exploring, dump, redefine, and more",
-    "tags": [
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-08-11",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "AI Genie in the Wild",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/ai-genie-in-the-wild.html",
-    "summary": "When I give talks about AI genies , I use this sort of example as a hypothetical. It’s happened . The story is from Australia. Someone named Andrew tasked OpenClaw to book gym classes for him. And…. Minutes later, his AI agent reported it had discovered a way to book Andrew into classes several w...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-11",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "AI for Military Support",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/ai-for-military-support.html",
-    "summary": "Interesting empirical research: “ Black Box Warfare: Human Judgment and Military Decision-Making in the Age of AI .” Abstract: How is AI transforming decision-making in modern conflict? This study provides a unique empirical window into that question by deploying a high-fidelity replica of an AI ...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-11",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Combat simulation engine for Cookie Run: Crumble",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vl29mt/combat_simulation_engine_for_cookie_run_crumble/",
-    "summary": "Combat simulation engine for Cookie Run: Crumble",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-11",
     "read_time": 1
   }
 ]
