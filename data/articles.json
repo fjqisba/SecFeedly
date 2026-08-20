@@ -1,6 +1,59 @@
 [
   {
     "id": 1,
+    "title": "fnprint: identify functions in stripped binaries by behavior (microexecution), training-free, cross-compiler",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vsofyk/fnprint_identify_functions_in_stripped_binaries/",
+    "summary": "fnprint: identify functions in stripped binaries by behavior (microexecution), training-free, cross-compiler",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-19",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I breached a server distributing Trojan, Stealer, and cryptominer malware",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vsx356/i_breached_a_server_distributing_trojan_stealer/",
+    "summary": "I breached a server distributing Trojan, Stealer, and cryptominer malware",
+    "tags": [
+      "恶意软件"
+    ],
+    "date": "2026-08-19",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "got a rooted LG webOS TV to kexec its own kernel. Staged + reached userspace from RAM, no secureboot bypass, no brick, just confusion. Watchdog + FBDC still owe us money btw. (did not know in what subreddit i should post this sry)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vs97tv/got_a_rooted_lg_webos_tv_to_kexec_its_own_kernel/",
+    "summary": "got a rooted LG webOS TV to kexec its own kernel. Staged + reached userspace from RAM, no secureboot bypass, no brick, just confusion. Watchdog + FBDC still owe us money btw. (did not know in what subreddit i should post this sry)",
+    "tags": [
+      "内核",
+      "Go"
+    ],
+    "date": "2026-08-19",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "ICE Collecting DNA Samples",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html",
+    "summary": "ICE collected nearly a million DNA samples last year.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-19",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Ghidra 12.1.3 has been released!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Kimi Desktop Ships With a Group Chat Updater That Can Install Unverified Code",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Image viewer for 2003 Neighbours From Hell's .tga image format",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "LLMs and Contextual Integrity",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -54,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "SPI, I2C, UART: How To Trigger On What Matters Instead Of Drowning In Noise",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Ongoing *Rats!* (1994) source code reconstruction using Qwen 3.8 27B",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +148,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -108,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Reverse Engineering CVE-2026-6837: From Zyxel Firmware to Root Command Execution with full firmware emulation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "(OSS) Akamai solver for V2 & V3 sensors and the pixel challenge.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "RE: CVX Decomp - Analyzing and removing the blurry PS2 port graphics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Kimi Work secretly attaches raw records from five recent agent sessions to feedback reports",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -161,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Hook ANY string allocation in java virtual machine (github repo link in video description)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Booting Apple's iPod 5.5G firmware: recovering the display transport from RetailOS's own parser instead of emulating the VideoCore",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "Modern Reverse Engineering IDE Built For AI Based RE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "Fingerprint Pro v4, deobfuscated and documented: CRC32 name erasure, XOR string vaults, and so much more.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -214,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Friday Squid Blogging: Searching for the Colossal Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -230,7 +283,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Upcoming Speaking Engagements",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -243,7 +296,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -257,7 +310,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 33",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -268,73 +321,6 @@
       "Go"
     ],
     "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "What happens when a GPU reads memory",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vnfjb2/what_happens_when_a_gpu_reads_memory/",
-    "summary": "What happens when a GPU reads memory",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-13",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "I reverse engineered an anti-detect (Stealth) browser to find out exactly how their hooks work. I wrote a detailed breakdown + detector for it.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vnfumo/i_reverse_engineered_an_antidetect_stealth/",
-    "summary": "I reverse engineered an anti-detect (Stealth) browser to find out exactly how their hooks work. I wrote a detailed breakdown + detector for it.",
-    "tags": [
-      "动态插桩",
-      "Hook",
-      "AI"
-    ],
-    "date": "2026-08-13",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "From P-Code to GNN: extract binary code semantics",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vnr2q7/from_pcode_to_gnn_extract_binary_code_semantics/",
-    "summary": "From P-Code to GNN: extract binary code semantics",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-13",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Separating AI’s Technological Problems from Its Capitalism Problems",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/separating-ais-technological-problems-from-its-capitalism-problems.html",
-    "summary": "This essay was written with Nathan E. Sanders, and originally appeared in Tech Policy Press . AI represents the first time we humans can do cognitive work outside of our bodies at scale. The only comparable moment is the early years of the industrial revolution, when new technologies like the ste...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-13",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vmvhvd/github_slushiimusiccamelcrusherbridge/",
-    "summary": "GitHub - slushiimusic/CamelCrusherBridge: CamelCrusher, running again. Five years after macOS and Apple Silicon broke it — an arm64 VST2/AU front-end hosts the original x86_64 binary over shared memory, and the long-blank GUI is redrawn natively in Cocoa. Works on current macOS on M-series Macs.",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-13",
     "read_time": 1
   }
 ]
