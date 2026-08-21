@@ -1,6 +1,86 @@
 [
   {
     "id": 1,
+    "title": "Use garlic + ai analysis encrypted apk",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vtgm7a/use_garlic_ai_analysis_encrypted_apk/",
+    "summary": "Use garlic + ai analysis encrypted apk",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-20",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Patch-Less User-Mode Telemetry Hooking via Hardware Breakpoints (DR0-DR7) & VEH",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vtc093/patchless_usermode_telemetry_hooking_via_hardware/",
+    "summary": "Patch-Less User-Mode Telemetry Hooking via Hardware Breakpoints (DR0-DR7) & VEH",
+    "tags": [
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-08-20",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reading an offline ntds.dit with one binary",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vt9frv/reading_an_offline_ntdsdit_with_one_binary/",
+    "summary": "Reading an offline ntds.dit with one binary",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-20",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Detailed Timeline of OpenAI’s Cyberattack on Hugging Face",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/detailed-timeline-of-openais-cyberattack-on-hugging-face.html",
+    "summary": "OpenAI presented details of its AI’s model’s cyberattack on Hugging Face at Black Hat last week. Simon Willison details the timeline. It’s really interesting to read through—and really impressive cyberoffense work.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-20",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Police Are Hiding Their Use of Flock Surveillance Cameras",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/police-are-hiding-their-use-of-flock-surveillance-cameras.html",
+    "summary": "A usage policy for Flock license plate reader cameras tells police not to talk about the cameras: When cops use Flock to arrest someone in Wapello County, Iowa, they don’t want them to know. A usage policy for the automated license plate reader cameras in the county tells police, in no uncertain ...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-20",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "Defeating AI-Assisted Reverse Engineering (or at Least Trying To)",
+    "source": "Quarkslab Blog",
+    "source_icon": "⚗️",
+    "url": "http://blog.quarkslab.com/defeating-ai-assisted-reverse-engineering-or-at-least-trying-to.html",
+    "summary": "Is LLM-assisted reverse engineering making obfuscation pointless? We spent a couple of weeks trying to find out, by handing sandboxed agents a series of progressively hardened AArch64 binaries and one prompt: recover the hidden strings inside. This post walks through what the agent actually did, ...",
+    "tags": [
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-08-19",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "fnprint: identify functions in stripped binaries by behavior (microexecution), training-free, cross-compiler",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "I breached a server distributing Trojan, Stealer, and cryptominer malware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "got a rooted LG webOS TV to kexec its own kernel. Staged + reached userspace from RAM, no secureboot bypass, no brick, just confusion. Watchdog + FBDC still owe us money btw. (did not know in what subreddit i should post this sry)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "ICE Collecting DNA Samples",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -53,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "Ghidra 12.1.3 has been released!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "Kimi Desktop Ships With a Group Chat Updater That Can Install Unverified Code",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Image viewer for 2003 Neighbours From Hell's .tga image format",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +173,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "LLMs and Contextual Integrity",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -107,7 +187,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -120,7 +200,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "SPI, I2C, UART: How To Trigger On What Matters Instead Of Drowning In Noise",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -133,7 +213,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Ongoing *Rats!* (1994) source code reconstruction using Qwen 3.8 27B",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -161,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "Reverse Engineering CVE-2026-6837: From Zyxel Firmware to Root Command Execution with full firmware emulation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +255,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "(OSS) Akamai solver for V2 & V3 sensors and the pixel challenge.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +268,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "RE: CVX Decomp - Analyzing and removing the blurry PS2 port graphics",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,7 +281,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "Kimi Work secretly attaches raw records from five recent agent sessions to feedback reports",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -214,7 +294,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Hook ANY string allocation in java virtual machine (github repo link in video description)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -225,102 +305,6 @@
       "Hook"
     ],
     "date": "2026-08-15",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "Booting Apple's iPod 5.5G firmware: recovering the display transport from RetailOS's own parser instead of emulating the VideoCore",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1voihp3/booting_apples_ipod_55g_firmware_recovering_the/",
-    "summary": "Booting Apple's iPod 5.5G firmware: recovering the display transport from RetailOS's own parser instead of emulating the VideoCore",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "Modern Reverse Engineering IDE Built For AI Based RE",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vnzmrf/modern_reverse_engineering_ide_built_for_ai_based/",
-    "summary": "Modern Reverse Engineering IDE Built For AI Based RE",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Fingerprint Pro v4, deobfuscated and documented: CRC32 name erasure, XOR string vaults, and so much more.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vohgae/fingerprint_pro_v4_deobfuscated_and_documented/",
-    "summary": "Fingerprint Pro v4, deobfuscated and documented: CRC32 name erasure, XOR string vaults, and so much more.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Friday Squid Blogging: Searching for the Colossal Squid",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-searching-for-the-colossal-squid-2.html",
-    "summary": "Fascinating video about searching for life undersea. The video basically makes the point that our bright white searchlights are scaring everything away, and that red light is more neutral. That, plus bait to attract sea creatures, is teaching us a lot about what’s going on down there. Lots of foo...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Upcoming Speaking Engagements",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/upcoming-speaking-engagements-59.html",
-    "summary": "This is a current list of where and when I am scheduled to speak: I’m speaking, signing books, and participating in panel discussions at LAcon V in Anaheim, California, USA. My full schedule is here . I’m speaking online (via Zoom) at a League of Women Voters event on Tuesday, September 22, 2026,...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "If the Markets Reject OpenAI and Anthropic, the US Should Nationalize Them",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/if-the-markets-reject-openai-and-anthropic-the-us-should-nationalize-them.html",
-    "summary": "This essay was written with Nathan E. Sanders, and originally appeared in The Guardian . OpenAI, and then Anthropic , were each formed by AI developers who feared unrestrained corporate AI development—specifically, that companies like Google and Meta would steer the technology towards deleterious...",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-08-14",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 33",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-33-8/",
-    "summary": "Courts sentence Com member for sextorting 117 minors, joint advisory warns of Gunra ransomware, and ShieldBreak bypasses MS Defender for SYSTEM access.",
-    "tags": [
-      "恶意软件",
-      "Go"
-    ],
-    "date": "2026-08-14",
     "read_time": 1
   }
 ]
