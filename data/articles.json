@@ -1,6 +1,47 @@
 [
   {
     "id": 1,
+    "title": "A short Story of hacking a HDMI Encoder",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vw5thl/a_short_story_of_hacking_a_hdmi_encoder/",
+    "summary": "A short Story of hacking a HDMI Encoder",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-23",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse engineered WoW 3.3.5a's client binary to raise the 25-quest-log cap to 50 — full writeup + patch",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vw894w/reverse_engineered_wow_335as_client_binary_to/",
+    "summary": "Reverse engineered WoW 3.3.5a's client binary to raise the 25-quest-log cap to 50 — full writeup + patch",
+    "tags": [
+      "CTF",
+      "AI"
+    ],
+    "date": "2026-08-23",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "SysTrace: SysTrace - Linux System Call Monitor using PTRACE API , It traces system calls, monitors process, file, network, and memory activity, detects suspicious behavior, and generates detailed security reports.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vwh7rf/systrace_systrace_linux_system_call_monitor_using/",
+    "summary": "SysTrace: SysTrace - Linux System Call Monitor using PTRACE API , It traces system calls, monitors process, file, network, and memory activity, detects suspicious behavior, and generates detailed security reports.",
+    "tags": [
+      "Linux",
+      "AI"
+    ],
+    "date": "2026-08-23",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "AXHook: A lightweight C++/COM library for bridging 32/64-bit and .NET binaries",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +55,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Reverse-Engineering the RK3588 NPU: Building an Open Compiler to Run GPT-2 at 36 tok/s",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "I reverse engineered Hikvision's push notifications on GrapheneOS, released a patcher tool, and submitted a fix PR",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Reverse-engineered a gaming mouse’s HID protocol to bring it to Linux (beta out, some pieces still unsolved)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "I reverse engineered the Plants vs. Zombies' RNG",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Friday Squid Blogging: Neon Flying Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -82,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "AI Is Learning to Write Genetic Code",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -95,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -109,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 34",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -125,7 +166,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Use garlic + ai analysis encrypted apk",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -138,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Patch-Less User-Mode Telemetry Hooking via Hardware Breakpoints (DR0-DR7) & VEH",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -152,7 +193,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Reading an offline ntds.dit with one binary",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -165,7 +206,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Detailed Timeline of OpenAI’s Cyberattack on Hugging Face",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -178,7 +219,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Police Are Hiding Their Use of Flock Surveillance Cameras",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -191,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Defeating AI-Assisted Reverse Engineering (or at Least Trying To)",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -205,7 +246,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "fnprint: identify functions in stripped binaries by behavior (microexecution), training-free, cross-compiler",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -218,7 +259,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "I breached a server distributing Trojan, Stealer, and cryptominer malware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -231,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "got a rooted LG webOS TV to kexec its own kernel. Staged + reached userspace from RAM, no secureboot bypass, no brick, just confusion. Watchdog + FBDC still owe us money btw. (did not know in what subreddit i should post this sry)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -245,7 +286,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "ICE Collecting DNA Samples",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -258,7 +299,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "Ghidra 12.1.3 has been released!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -272,7 +313,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "Kimi Desktop Ships With a Group Chat Updater That Can Install Unverified Code",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -285,7 +326,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "Image viewer for 2003 Neighbours From Hell's .tga image format",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -298,7 +339,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
+    "id": 26,
     "title": "LLMs and Contextual Integrity",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -309,60 +350,6 @@
       "LLM"
     ],
     "date": "2026-08-18",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vqkywu/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-17",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "SPI, I2C, UART: How To Trigger On What Matters Instead Of Drowning In Noise",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vquaki/spi_i2c_uart_how_to_trigger_on_what_matters/",
-    "summary": "SPI, I2C, UART: How To Trigger On What Matters Instead Of Drowning In Noise",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-17",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Ongoing *Rats!* (1994) source code reconstruction using Qwen 3.8 27B",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vqvsmb/ongoing_rats_1994_source_code_reconstruction/",
-    "summary": "Ongoing *Rats!* (1994) source code reconstruction using Qwen 3.8 27B",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "Go"
-    ],
-    "date": "2026-08-17",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "Hacking Public Wi-Fi DNS to Steal Credentials",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/hacking-public-wi-fi-dns-to-steal-credentials.html",
-    "summary": "Criminals are hacking into public Wi-Fi devices—at hotels, conference centers, and so on—around the world and changing their DNS settings. The goal is to redirect users to fake login pages and steal their credentials.",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-08-17",
     "read_time": 1
   }
 ]
