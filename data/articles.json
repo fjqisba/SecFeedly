@@ -1,6 +1,61 @@
 [
   {
     "id": 1,
+    "title": "GitHub - pedrocatalao/skyroads-mac: Native macOS port of SkyRoads (1993), the classic DOS game rewritten in C + SDL2, universal binary for Apple Silicon & Intel",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vydnz1/github_pedrocatalaoskyroadsmac_native_macos_port/",
+    "summary": "GitHub - pedrocatalao/skyroads-mac: Native macOS port of SkyRoads (1993), the classic DOS game rewritten in C + SDL2, universal binary for Apple Silicon & Intel",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse Engineering Heroes of Newerth Using Cheat Engine & Ghidra",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vygc51/reverse_engineering_heroes_of_newerth_using_cheat/",
+    "summary": "Reverse Engineering Heroes of Newerth Using Cheat Engine & Ghidra",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-08-25",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Black Hat State of Security Vendors",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/black-hat-state-of-security-vendors.html",
+    "summary": "Andy Ellis has a roundup of the security vendors at Black Hat this year. Key Takeaways: We have entered into an AI world. While nearly half of booths didn’t directly mention AI or agents in their taglines, the effects of AI are everywhere. Multiple spaces (Identity, SaaS, AppSec, Data) have almos...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-25",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "The Path to the Autonomous SOC: The Early Returns of AI & What It Means for Cybersecurity",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-early-returns-of-ai-what-it-means-for-cybersecurity/",
+    "summary": "Discover how early-stage AI yields rapid SOC returns, driving platform consolidation and reducing analyst burnout in this blog post.",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "AI"
+    ],
+    "date": "2026-08-25",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "200 Billion Tokens Later: A Month of Letting AI Agents Decompile MW2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Reimplementing MW2(2009) in Rust and Bevy",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Deriving an undocumented GPU instruction set by differential bit probing, and measuring instruction latency by fault injection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -52,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Criminal Deception in Silicon Valley",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -65,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "A short Story of hacking a HDMI Encoder",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -78,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Reverse engineered WoW 3.3.5a's client binary to raise the 25-quest-log cap to 50 — full writeup + patch",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -92,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "SysTrace: SysTrace - Linux System Call Monitor using PTRACE API , It traces system calls, monitors process, file, network, and memory activity, detects suspicious behavior, and generates detailed security reports.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "AXHook: A lightweight C++/COM library for bridging 32/64-bit and .NET binaries",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -120,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Reverse-Engineering the RK3588 NPU: Building an Open Compiler to Run GPT-2 at 36 tok/s",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -133,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "I reverse engineered Hikvision's push notifications on GrapheneOS, released a patcher tool, and submitted a fix PR",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -146,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Reverse-engineered a gaming mouse’s HID protocol to bring it to Linux (beta out, some pieces still unsolved)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -159,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "I reverse engineered the Plants vs. Zombies' RNG",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -172,7 +227,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Friday Squid Blogging: Neon Flying Squid",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -188,7 +243,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "AI Is Learning to Write Genetic Code",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -201,7 +256,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "More Incidents of AIs Going Rogue in Cybersecurity Challenges",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -215,7 +270,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 34",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -231,7 +286,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Use garlic + ai analysis encrypted apk",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -244,7 +299,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "Patch-Less User-Mode Telemetry Hooking via Hardware Breakpoints (DR0-DR7) & VEH",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -258,7 +313,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "Reading an offline ntds.dit with one binary",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -271,7 +326,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "Detailed Timeline of OpenAI’s Cyberattack on Hugging Face",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -284,7 +339,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "Police Are Hiding Their Use of Flock Surveillance Cameras",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -294,73 +349,6 @@
       "AI"
     ],
     "date": "2026-08-20",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Defeating AI-Assisted Reverse Engineering (or at Least Trying To)",
-    "source": "Quarkslab Blog",
-    "source_icon": "⚗️",
-    "url": "http://blog.quarkslab.com/defeating-ai-assisted-reverse-engineering-or-at-least-trying-to.html",
-    "summary": "Is LLM-assisted reverse engineering making obfuscation pointless? We spent a couple of weeks trying to find out, by handing sandboxed agents a series of progressively hardened AArch64 binaries and one prompt: recover the hidden strings inside. This post walks through what the agent actually did, ...",
-    "tags": [
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-08-19",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "fnprint: identify functions in stripped binaries by behavior (microexecution), training-free, cross-compiler",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vsofyk/fnprint_identify_functions_in_stripped_binaries/",
-    "summary": "fnprint: identify functions in stripped binaries by behavior (microexecution), training-free, cross-compiler",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-19",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "I breached a server distributing Trojan, Stealer, and cryptominer malware",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vsx356/i_breached_a_server_distributing_trojan_stealer/",
-    "summary": "I breached a server distributing Trojan, Stealer, and cryptominer malware",
-    "tags": [
-      "恶意软件"
-    ],
-    "date": "2026-08-19",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "got a rooted LG webOS TV to kexec its own kernel. Staged + reached userspace from RAM, no secureboot bypass, no brick, just confusion. Watchdog + FBDC still owe us money btw. (did not know in what subreddit i should post this sry)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vs97tv/got_a_rooted_lg_webos_tv_to_kexec_its_own_kernel/",
-    "summary": "got a rooted LG webOS TV to kexec its own kernel. Staged + reached userspace from RAM, no secureboot bypass, no brick, just confusion. Watchdog + FBDC still owe us money btw. (did not know in what subreddit i should post this sry)",
-    "tags": [
-      "内核",
-      "Go"
-    ],
-    "date": "2026-08-19",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "ICE Collecting DNA Samples",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/ice-collecting-dna-samples.html",
-    "summary": "ICE collected nearly a million DNA samples last year.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-19",
     "read_time": 1
   }
 ]
