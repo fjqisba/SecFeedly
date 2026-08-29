@@ -1,6 +1,87 @@
 [
   {
     "id": 1,
+    "title": "RE: CVX Decomp - Disabling the fog and motion blur effects on PS2",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w12uii/re_cvx_decomp_disabling_the_fog_and_motion_blur/",
+    "summary": "RE: CVX Decomp - Disabling the fog and motion blur effects on PS2",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-28",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w0pwwp/interactive_pattern_discovery_in_binaries_ff16tui/",
+    "summary": "Interactive pattern discovery in binaries (FF-16-TUI)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-28",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Identifying golden-section search in EVM bytecode from a hardcoded constant",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w0qdho/identifying_goldensection_search_in_evm_bytecode/",
+    "summary": "Identifying golden-section search in EVM bytecode from a hardcoded constant",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-08-28",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Friday Squid Blogging: Truckload of Squid Spills in Rhode Island",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html",
+    "summary": "Ugh : A tractor-trailer rollover sent a truckload of squid spilling into a Rhode Island roadway, leaving a stench as they sat in the road for hours in the summer heat. Local authorities have dubbed it the “Squidpocalypse of ’26.” That would be twenty tons of squid. As usual, you can also use this...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-08-28",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "AI Doesn’t Mean the End of Mathematics—at Least Not Yet",
+    "source": "Schneier on Security",
+    "source_icon": "🔐",
+    "url": "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
+    "summary": "This essay was written with Kasra Rafi, and originally appeared in The Guardian. Earlier this month, about 40 top mathematicians gathered at OpenAI’s offices to discuss the future of their profession. The meeting was off-the-record, but if recent articles by mathematicians are any guide, it was m...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-08-28",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 35",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-35-8/",
+    "summary": "Authorities disrupt global cybercrime rings, attackers abuse DocuSign in NovaCookies phishing, and Spark RAT targets Cambodia with vulnerable drivers.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-08-28",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "Needed a lightweight PE parser for a reverse engineering project. readpe parses PE/PE32+ files without dependencies: - DOS header validation - PE signature check - Section headers - Import directory parsing Built in C with no external libs. Use",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +109,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "untauri: extract the brotli-packed HTML/CSS/JS frontend out of a compiled Tauri (Rust) binary",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "LLM-Based Social Engineering Scams",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -56,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "drakoarmy/datadome-rs: High-end Rust DataDome deobfuscator & solver with VM disassembly — all 3 challenge types (tags, interstitial, slider).",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "binviz – a binary visualiser with calibrated thresholds instead of magic numbers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -82,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Newly discovered vulnerable Driver.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "Spyware for Babies",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -108,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "Edge Infrastructure Under Siege: What Two Independent Datasets Reveal About Who’s Exploiting Your Perimeter",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -122,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "GitHub - pedrocatalao/skyroads-mac: Native macOS port of SkyRoads (1993), the classic DOS game rewritten in C + SDL2, universal binary for Apple Silicon & Intel",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +216,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "Reverse Engineering Heroes of Newerth Using Cheat Engine & Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Black Hat State of Security Vendors",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -162,7 +243,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "The Path to the Autonomous SOC: The Early Returns of AI & What It Means for Cybersecurity",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -177,7 +258,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -190,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "200 Billion Tokens Later: A Month of Letting AI Agents Decompile MW2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -203,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "Reimplementing MW2(2009) in Rust and Bevy",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -216,7 +297,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Deriving an undocumented GPU instruction set by differential bit probing, and measuring instruction latency by fault injection",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -229,7 +310,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "Criminal Deception in Silicon Valley",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -242,7 +323,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 25,
     "title": "A short Story of hacking a HDMI Encoder",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -255,7 +336,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 26,
     "title": "Reverse engineered WoW 3.3.5a's client binary to raise the 25-quest-log cap to 50 — full writeup + patch",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -269,7 +350,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 27,
     "title": "SysTrace: SysTrace - Linux System Call Monitor using PTRACE API , It traces system calls, monitors process, file, network, and memory activity, detects suspicious behavior, and generates detailed security reports.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -280,33 +361,6 @@
       "AI"
     ],
     "date": "2026-08-23",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "AXHook: A lightweight C++/COM library for bridging 32/64-bit and .NET binaries",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vvn48v/axhook_a_lightweight_ccom_library_for_bridging/",
-    "summary": "AXHook: A lightweight C++/COM library for bridging 32/64-bit and .NET binaries",
-    "tags": [
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-08-22",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Reverse-Engineering the RK3588 NPU: Building an Open Compiler to Run GPT-2 at 36 tok/s",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vv1t6a/reverseengineering_the_rk3588_npu_building_an/",
-    "summary": "Reverse-Engineering the RK3588 NPU: Building an Open Compiler to Run GPT-2 at 36 tok/s",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-22",
     "read_time": 1
   }
 ]
