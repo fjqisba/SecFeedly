@@ -321,46 +321,5 @@
     ],
     "date": "2026-08-24",
     "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "A short Story of hacking a HDMI Encoder",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vw5thl/a_short_story_of_hacking_a_hdmi_encoder/",
-    "summary": "A short Story of hacking a HDMI Encoder",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-23",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Reverse engineered WoW 3.3.5a's client binary to raise the 25-quest-log cap to 50 — full writeup + patch",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vw894w/reverse_engineered_wow_335as_client_binary_to/",
-    "summary": "Reverse engineered WoW 3.3.5a's client binary to raise the 25-quest-log cap to 50 — full writeup + patch",
-    "tags": [
-      "CTF",
-      "AI"
-    ],
-    "date": "2026-08-23",
-    "read_time": 1
-  },
-  {
-    "id": 27,
-    "title": "SysTrace: SysTrace - Linux System Call Monitor using PTRACE API , It traces system calls, monitors process, file, network, and memory activity, detects suspicious behavior, and generates detailed security reports.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vwh7rf/systrace_systrace_linux_system_call_monitor_using/",
-    "summary": "SysTrace: SysTrace - Linux System Call Monitor using PTRACE API , It traces system calls, monitors process, file, network, and memory activity, detects suspicious behavior, and generates detailed security reports.",
-    "tags": [
-      "Linux",
-      "AI"
-    ],
-    "date": "2026-08-23",
-    "read_time": 1
   }
 ]
