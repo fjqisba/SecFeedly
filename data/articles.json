@@ -1,6 +1,47 @@
 [
   {
     "id": 1,
+    "title": "Reverse-engineered a guitar amp's DSP firmware to run it as an instruction-level emulator (open source, GPLv3)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w2k057/reverseengineered_a_guitar_amps_dsp_firmware_to/",
+    "summary": "Reverse-engineered a guitar amp's DSP firmware to run it as an instruction-level emulator (open source, GPLv3)",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-08-30",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse Engineering Unknown File Formats with ImHex",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w2cixp/reverse_engineering_unknown_file_formats_with/",
+    "summary": "Reverse Engineering Unknown File Formats with ImHex",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-08-30",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reconstructing Angry Birds 1.4.2's ARMv7 native runtime for AArch64 Android",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w2jgda/reconstructing_angry_birds_142s_armv7_native/",
+    "summary": "Reconstructing Angry Birds 1.4.2's ARMv7 native runtime for AArch64 Android",
+    "tags": [
+      "Android",
+      "移动安全"
+    ],
+    "date": "2026-08-30",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "RE: CVX Decomp - Disabling the fog and motion blur effects on PS2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Identifying golden-section search in EVM bytecode from a hardcoded constant",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Friday Squid Blogging: Truckload of Squid Spills in Rhode Island",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -55,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "AI Doesn’t Mean the End of Mathematics—at Least Not Yet",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -68,7 +109,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 35",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -81,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Needed a lightweight PE parser for a reverse engineering project. readpe parses PE/PE32+ files without dependencies: - DOS header validation - PE signature check - Section headers - Import directory parsing Built in C with no external libs. Use",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "untauri: extract the brotli-packed HTML/CSS/JS frontend out of a compiled Tauri (Rust) binary",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "LLM-Based Social Engineering Scams",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -137,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "drakoarmy/datadome-rs: High-end Rust DataDome deobfuscator & solver with VM disassembly — all 3 challenge types (tags, interstitial, slider).",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -150,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "binviz – a binary visualiser with calibrated thresholds instead of magic numbers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Newly discovered vulnerable Driver.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -176,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Spyware for Babies",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -189,7 +230,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Edge Infrastructure Under Siege: What Two Independent Datasets Reveal About Who’s Exploiting Your Perimeter",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -203,7 +244,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "GitHub - pedrocatalao/skyroads-mac: Native macOS port of SkyRoads (1993), the classic DOS game rewritten in C + SDL2, universal binary for Apple Silicon & Intel",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -216,7 +257,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "Reverse Engineering Heroes of Newerth Using Cheat Engine & Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -230,7 +271,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Black Hat State of Security Vendors",
     "source": "Schneier on Security",
     "source_icon": "🔐",
@@ -243,7 +284,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "The Path to the Autonomous SOC: The Early Returns of AI & What It Means for Cybersecurity",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -255,71 +296,6 @@
       "AI"
     ],
     "date": "2026-08-25",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vwvdt7/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-24",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "200 Billion Tokens Later: A Month of Letting AI Agents Decompile MW2",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vxig19/200_billion_tokens_later_a_month_of_letting_ai/",
-    "summary": "200 Billion Tokens Later: A Month of Letting AI Agents Decompile MW2",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-24",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Reimplementing MW2(2009) in Rust and Bevy",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vx3k2d/reimplementing_mw22009_in_rust_and_bevy/",
-    "summary": "Reimplementing MW2(2009) in Rust and Bevy",
-    "tags": [
-      "Rust"
-    ],
-    "date": "2026-08-24",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Deriving an undocumented GPU instruction set by differential bit probing, and measuring instruction latency by fault injection",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vxcp2x/deriving_an_undocumented_gpu_instruction_set_by/",
-    "summary": "Deriving an undocumented GPU instruction set by differential bit probing, and measuring instruction latency by fault injection",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-24",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Criminal Deception in Silicon Valley",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/criminal-deception-in-silicon-valley.html",
-    "summary": "Interesting paper : Abstract: With entrepreneurial fraud cases on the rise, we investigate how entrepreneurs carry out criminal deception , employing deceptive means to defraud audiences. Analyzing court data from Silicon Valley ventures and their founders prosecuted for fraud between 2000 and 20...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-24",
     "read_time": 1
   }
 ]
