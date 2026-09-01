@@ -43,12 +43,6 @@
       "type": "rss"
     },
     {
-      "name": "Schneier on Security",
-      "icon": "🔐",
-      "url": "https://www.schneier.com/feed/atom/",
-      "type": "rss"
-    },
-    {
       "name": "Ghidra Blog",
       "icon": "🐉",
       "url": "https://ghidra-sre.org/blog/feed/",

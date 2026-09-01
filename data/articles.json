@@ -55,34 +55,6 @@
   },
   {
     "id": 5,
-    "title": "Is Someone Hacking DoD Refrigerators?",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/is-someone-hacking-dod-refrigerators.html",
-    "summary": "It sure seems like it. The stores confirmed to be affected include Fort Irwin , Calif.; F.E. Warren Air Force Base , Wyo.; Fort Huachuca , Ariz.; Naval Station Newport , R.I.; Columbus Air Force Base , Miss.; and Travis Air Force Base , Calif., according to announcements made online by each insta...",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "AI"
-    ],
-    "date": "2026-08-31",
-    "read_time": 1
-  },
-  {
-    "id": 6,
-    "title": "Hiding Prompt Injection in Legal Filing",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/hiding-prompt-injection-in-legal-filing.html",
-    "summary": "Someone hid AI instructions into a legal filing. Alternate link .",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-31",
-    "read_time": 1
-  },
-  {
-    "id": 7,
     "title": "Reverse-engineered a guitar amp's DSP firmware to run it as an instruction-level emulator (open source, GPLv3)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 6,
     "title": "Reverse Engineering Unknown File Formats with ImHex",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 7,
     "title": "Reconstructing Angry Birds 1.4.2's ARMv7 native runtime for AArch64 Android",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 8,
     "title": "RE: CVX Decomp - Disabling the fog and motion blur effects on PS2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -136,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 9,
     "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 10,
     "title": "Identifying golden-section search in EVM bytecode from a hardcoded constant",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,36 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
-    "title": "Friday Squid Blogging: Truckload of Squid Spills in Rhode Island",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/friday-squid-blogging-truckload-of-squid-spills-in-rhode-island.html",
-    "summary": "Ugh : A tractor-trailer rollover sent a truckload of squid spilling into a Rhode Island roadway, leaving a stench as they sat in the road for hours in the summer heat. Local authorities have dubbed it the “Squidpocalypse of ’26.” That would be twenty tons of squid. As usual, you can also use this...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-08-28",
-    "read_time": 1
-  },
-  {
-    "id": 14,
-    "title": "AI Doesn’t Mean the End of Mathematics—at Least Not Yet",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/ai-doesnt-mean-the-end-of-mathematics-at-least-not-yet.html",
-    "summary": "This essay was written with Kasra Rafi, and originally appeared in The Guardian. Earlier this month, about 40 top mathematicians gathered at OpenAI’s offices to discuss the future of their profession. The meeting was off-the-record, but if recent articles by mathematicians are any guide, it was m...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-28",
-    "read_time": 1
-  },
-  {
-    "id": 15,
+    "id": 11,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 35",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -204,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 12,
     "title": "Needed a lightweight PE parser for a reverse engineering project. readpe parses PE/PE32+ files without dependencies: - DOS header validation - PE signature check - Section headers - Import directory parsing Built in C with no external libs. Use",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -218,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 13,
     "title": "UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -232,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 14,
     "title": "untauri: extract the brotli-packed HTML/CSS/JS frontend out of a compiled Tauri (Rust) binary",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -245,22 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
-    "title": "LLM-Based Social Engineering Scams",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/llm-based-social-engineering-scams.html",
-    "summary": "OpenAI disrupted a social engineering group from Cambodia that used ChatGPT. Its scope is impressive: The network simultaneously conducted multiple types of scams, often blending elements from different schemes. For instance, operators used dating personas to build trust before introducing fraudu...",
-    "tags": [
-      "Rust",
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-08-27",
-    "read_time": 1
-  },
-  {
-    "id": 20,
+    "id": 15,
     "title": "drakoarmy/datadome-rs: High-end Rust DataDome deobfuscator & solver with VM disassembly — all 3 challenge types (tags, interstitial, slider).",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -273,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 16,
     "title": "binviz – a binary visualiser with calibrated thresholds instead of magic numbers",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -286,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 17,
     "title": "Newly discovered vulnerable Driver.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -299,20 +227,7 @@
     "read_time": 1
   },
   {
-    "id": 23,
-    "title": "Spyware for Babies",
-    "source": "Schneier on Security",
-    "source_icon": "🔐",
-    "url": "https://www.schneier.com/blog/archives/2026/08/spyware-for-babies.html",
-    "summary": "The New York Times has a long article ( alt link ) on surveillance systems aimed at babies. They are increasingly using AI. Nanit and its rivals want to own 24/7 health tracking for the sub-four-foot set. And their already astonishing levels of baby data collection are just the beginning. Nanit r...",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-08-26",
-    "read_time": 1
-  },
-  {
-    "id": 24,
+    "id": 18,
     "title": "Edge Infrastructure Under Siege: What Two Independent Datasets Reveal About Who’s Exploiting Your Perimeter",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
