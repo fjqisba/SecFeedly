@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Triannual Hiring Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w44a8f/rreverseengineerings_triannual_hiring_thread/",
+    "summary": "If there are open positions involving reverse engineering at your place of employment, please post them here. The user base is an inquisitive lot, so please only post if you are willing to answer non-trivial questions about the position(s). Failure to provide the details in the following format a...",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-09-01",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse-engineered Granny.dll (v1.2b) from 2000s for Sacred Gold RPG game.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w4ehub/reverseengineered_grannydll_v12b_from_2000s_for/",
+    "summary": "Reverse-engineered Granny.dll (v1.2b) from 2000s for Sacred Gold RPG game.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-09-01",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "NotHackable CTF: Jeopardy Style, Sept 4",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w4b78d/nothackable_ctf_jeopardy_style_sept_4/",
+    "summary": "NotHackable CTF: Jeopardy Style, Sept 4",
+    "tags": [
+      "CTF"
+    ],
+    "date": "2026-09-01",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +52,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Turned a $15 eBay \"smart NIC\" nobody could get working into a real 10GbE card (no vendor firmware, fully reversible)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +65,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "(DEFCON) How much of our Bluetooth firmware reverse engineering work can now be automated with LLMs?",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Found a full Linusware 1.2 source code reconstruction on GitHub.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Reverse-engineered a guitar amp's DSP firmware to run it as an instruction-level emulator (open source, GPLv3)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -68,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Reverse Engineering Unknown File Formats with ImHex",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -81,7 +120,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Reconstructing Angry Birds 1.4.2's ARMv7 native runtime for AArch64 Android",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "RE: CVX Decomp - Disabling the fog and motion blur effects on PS2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Interactive pattern discovery in binaries (FF-16-TUI)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Identifying golden-section search in EVM bytecode from a hardcoded constant",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -134,7 +173,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 35",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -147,7 +186,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Needed a lightweight PE parser for a reverse engineering project. readpe parses PE/PE32+ files without dependencies: - DOS header validation - PE signature check - Section headers - Import directory parsing Built in C with no external libs. Use",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -161,7 +200,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "UniBLEed: Unauthenticated Root RCE on Any Unitree G1 Humanoid Robot Within Bluetooth Range",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "untauri: extract the brotli-packed HTML/CSS/JS frontend out of a compiled Tauri (Rust) binary",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -185,59 +224,6 @@
       "Rust"
     ],
     "date": "2026-08-27",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "drakoarmy/datadome-rs: High-end Rust DataDome deobfuscator & solver with VM disassembly — all 3 challenge types (tags, interstitial, slider).",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vzcww2/drakoarmydatadomers_highend_rust_datadome/",
-    "summary": "drakoarmy/datadome-rs: High-end Rust DataDome deobfuscator & solver with VM disassembly — all 3 challenge types (tags, interstitial, slider).",
-    "tags": [
-      "Rust"
-    ],
-    "date": "2026-08-26",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "binviz – a binary visualiser with calibrated thresholds instead of magic numbers",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vz1ofo/binviz_a_binary_visualiser_with_calibrated/",
-    "summary": "binviz – a binary visualiser with calibrated thresholds instead of magic numbers",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-26",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Newly discovered vulnerable Driver.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1vyls5g/newly_discovered_vulnerable_driver/",
-    "summary": "Newly discovered vulnerable Driver.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-08-26",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "Edge Infrastructure Under Siege: What Two Independent Datasets Reveal About Who’s Exploiting Your Perimeter",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/what-two-independent-datasets-reveal-about-whos-exploiting-your-perimeter/",
-    "summary": "A new joint study by Tenable and SentinelOne reveals how state and criminal groups converge on the same vulnerable edge infrastructure.",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用"
-    ],
-    "date": "2026-08-26",
     "read_time": 1
   }
 ]
