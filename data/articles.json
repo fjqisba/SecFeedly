@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "Inside Claude's Android app: Finding the Internal Settings",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wdkjfr/inside_claudes_android_app_finding_the_internal/",
+    "summary": "Inside Claude's Android app: Finding the Internal Settings",
+    "tags": [
+      "Android",
+      "移动安全"
+    ],
+    "date": "2026-09-11",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "AMA: Hacking macOS and offensive security with Olivia Gallucci (Datadog)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wdpj27/ama_hacking_macos_and_offensive_security_with/",
+    "summary": "AMA: Hacking macOS and offensive security with Olivia Gallucci (Datadog)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-11",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Roots From Kilometers Away: our Ubiquiti airMAX research is on tour",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wdkg3u/roots_from_kilometers_away_our_ubiquiti_airmax/",
+    "summary": "Roots From Kilometers Away: our Ubiquiti airMAX research is on tour",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-09-11",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Windows Internals Explained",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Decompilation Book",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Razer Lycosa.sys analysis: kernel memory disclosure and stack buffer overflow",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Reverse engineered NFS Most Wanted, Underground 2 and Carbon (also MAD) servers.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Piracy CDN renamed .ts video segments to .woff2 to abuse extension-based CDN caching, a byte-level analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Reverse engineering a 1994 Philips PM5139 function generator: I used the emulator as a measuring instrument instead of reading the disassembly",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Breaking Efimer’s Pyarmor Infection Chain with Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Testing race conditions with memory access tracing and stack-based delay injection",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -109,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Trying to get a UE3 client from 2007 to host without the original server. An open-question before I dive into rebuilding the server.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +175,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Bose Sleepbuds II: Reverse-engineered the full BLE file-transfer protocol (TUMBLE) — audio codec still unidentified",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "GitHub - mein-0/KasperMeow: meowless kaspersky",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -161,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "It took 8 months to reverse engineer this algorithm used in CADO-NFS, a production grade integer factorization library. The paper was dense math and not even AI could help. So I trial and errored my way into a working lattice sieve.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "GitHub - Ymsniper/umbra: External read-only game overlay for Linux. Derived offsets, composed skeletons, optional kernel module for ptrace-independent memory reads and pointer-level input",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +229,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Defo not a vuln drv src, ready for signing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -199,46 +239,6 @@
       "安全"
     ],
     "date": "2026-09-06",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "Binary Ninja 6.0: MCP, Binary Similarity, Perf, Migration Wizard, much more",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w86vit/binary_ninja_60_mcp_binary_similarity_perf/",
-    "summary": "Binary Ninja 6.0: MCP, Binary Similarity, Perf, Migration Wizard, much more",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-09-05",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Reverse Engineering Jane Street’s 2026 ASIC Puzzle",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w7x2t6/reverse_engineering_jane_streets_2026_asic_puzzle/",
-    "summary": "Reverse Engineering Jane Street’s 2026 ASIC Puzzle",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-05",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "VAXD_VM: Reverse Engineering a Running Windows Program from Outside the VM",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w7n8rk/vaxd_vm_reverse_engineering_a_running_windows/",
-    "summary": "VAXD_VM: Reverse Engineering a Running Windows Program from Outside the VM",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-09-05",
     "read_time": 1
   }
 ]
