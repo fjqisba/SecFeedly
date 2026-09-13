@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wejv8y/microcode_in_intels_8087_floatingpoint_chip_the/",
+    "summary": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-12",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Beltdown2: Escaping the Cursor CLI sandbox",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wefn5t/beltdown2_escaping_the_cursor_cli_sandbox/",
+    "summary": "Beltdown2: Escaping the Cursor CLI sandbox",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-12",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "GitHub - mein-0/LolModapi: MSI Dragon Center 2.0.155.0 LPE",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wekt7q/github_mein0lolmodapi_msi_dragon_center_201550_lpe/",
+    "summary": "GitHub - mein-0/LolModapi: MSI Dragon Center 2.0.155.0 LPE",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-09-12",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Inside Claude's Android app: Finding the Internal Settings",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "AMA: Hacking macOS and offensive security with Olivia Gallucci (Datadog)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Roots From Kilometers Away: our Ubiquiti airMAX research is on tour",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Windows Internals Explained",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Decompilation Book",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Razer Lycosa.sys analysis: kernel memory disclosure and stack buffer overflow",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Reverse engineered NFS Most Wanted, Underground 2 and Carbon (also MAD) servers.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +132,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Piracy CDN renamed .ts video segments to .woff2 to abuse extension-based CDN caching, a byte-level analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +145,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Reverse engineering a 1994 Philips PM5139 function generator: I used the emulator as a measuring instrument instead of reading the disassembly",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +158,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Breaking Efimer’s Pyarmor Infection Chain with Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +174,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Testing race conditions with memory access tracing and stack-based delay injection",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -149,7 +188,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Trying to get a UE3 client from 2007 to host without the original server. An open-question before I dive into rebuilding the server.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +201,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -175,7 +214,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Bose Sleepbuds II: Reverse-engineered the full BLE file-transfer protocol (TUMBLE) — audio codec still unidentified",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,7 +227,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "GitHub - mein-0/KasperMeow: meowless kaspersky",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -198,47 +237,6 @@
       "安全"
     ],
     "date": "2026-09-07",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "It took 8 months to reverse engineer this algorithm used in CADO-NFS, a production grade integer factorization library. The paper was dense math and not even AI could help. So I trial and errored my way into a working lattice sieve.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w923y1/it_took_8_months_to_reverse_engineer_this/",
-    "summary": "It took 8 months to reverse engineer this algorithm used in CADO-NFS, a production grade integer factorization library. The paper was dense math and not even AI could help. So I trial and errored my way into a working lattice sieve.",
-    "tags": [
-      "Go",
-      "AI"
-    ],
-    "date": "2026-09-06",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "GitHub - Ymsniper/umbra: External read-only game overlay for Linux. Derived offsets, composed skeletons, optional kernel module for ptrace-independent memory reads and pointer-level input",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w968yj/github_ymsniperumbra_external_readonly_game/",
-    "summary": "GitHub - Ymsniper/umbra: External read-only game overlay for Linux. Derived offsets, composed skeletons, optional kernel module for ptrace-independent memory reads and pointer-level input",
-    "tags": [
-      "内核",
-      "Linux"
-    ],
-    "date": "2026-09-06",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "Defo not a vuln drv src, ready for signing",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1w8iz6l/defo_not_a_vuln_drv_src_ready_for_signing/",
-    "summary": "Defo not a vuln drv src, ready for signing",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-06",
     "read_time": 1
   }
 ]
