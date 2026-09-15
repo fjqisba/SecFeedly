@@ -1,6 +1,62 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wfw6t3/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-14",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "CoD:MW2 (2009) runtime reimplemented in Rust is open source",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wghurx/codmw2_2009_runtime_reimplemented_in_rust_is_open/",
+    "summary": "CoD:MW2 (2009) runtime reimplemented in Rust is open source",
+    "tags": [
+      "漏洞分析",
+      "RCE",
+      "Rust"
+    ],
+    "date": "2026-09-14",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Technical Analysis of Suno internals post-September 26 and a working tool to assist with curation",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wg66rt/technical_analysis_of_suno_internals/",
+    "summary": "Technical Analysis of Suno internals post-September 26 and a working tool to assist with curation",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-14",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Traced SetWindowDisplayAffinity from win32k to dwm.exe — detecting anti-capture windows via CWindowContext::HasProtectedContent (Win10/11)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wfwhu2/traced_setwindowdisplayaffinity_from_win32k_to/",
+    "summary": "Traced SetWindowDisplayAffinity from win32k to dwm.exe — detecting anti-capture windows via CWindowContext::HasProtectedContent (Win10/11)",
+    "tags": [
+      "APT",
+      "威胁情报",
+      "Windows"
+    ],
+    "date": "2026-09-14",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Super Trouper: A new MCP server in Golang to give coding agents a Frida interface",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -16,7 +72,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Locating Flutter's TLS certificate verifier in a stripped libflutter.so, tested across 13 apps and 9 engine versions",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -30,7 +86,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -43,7 +99,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Beltdown2: Escaping the Cursor CLI sandbox",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -56,7 +112,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "GitHub - mein-0/LolModapi: MSI Dragon Center 2.0.155.0 LPE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Inside Claude's Android app: Finding the Internal Settings",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +139,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "AMA: Hacking macOS and offensive security with Olivia Gallucci (Datadog)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +152,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Roots From Kilometers Away: our Ubiquiti airMAX research is on tour",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Windows Internals Explained",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Decompilation Book",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -136,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "Razer Lycosa.sys analysis: kernel memory disclosure and stack buffer overflow",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Reverse engineered NFS Most Wanted, Underground 2 and Carbon (also MAD) servers.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Piracy CDN renamed .ts video segments to .woff2 to abuse extension-based CDN caching, a byte-level analysis",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -172,62 +228,6 @@
       "安全"
     ],
     "date": "2026-09-09",
-    "read_time": 1
-  },
-  {
-    "id": 14,
-    "title": "Reverse engineering a 1994 Philips PM5139 function generator: I used the emulator as a measuring instrument instead of reading the disassembly",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1waxuv7/reverse_engineering_a_1994_philips_pm5139/",
-    "summary": "Reverse engineering a 1994 Philips PM5139 function generator: I used the emulator as a measuring instrument instead of reading the disassembly",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-08",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "Breaking Efimer’s Pyarmor Infection Chain with Frida",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wa8ssr/breaking_efimers_pyarmor_infection_chain_with/",
-    "summary": "Breaking Efimer’s Pyarmor Infection Chain with Frida",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-09-08",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "Testing race conditions with memory access tracing and stack-based delay injection",
-    "source": "Google Project Zero",
-    "source_icon": "🔍",
-    "url": "https://projectzero.google/2026/09/maccconc-race-condition.html",
-    "summary": "Many security bugs are race conditions, where multi-threaded execution has to occur with the right interleaving for a negative effect to appear. This creates challenges for several use cases: Confirming bug candidates that have been discovered manually or through static analysis. Regression tests...",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-09-08",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Trying to get a UE3 client from 2007 to host without the original server. An open-question before I dive into rebuilding the server.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wa8v9n/trying_to_get_a_ue3_client_from_2007_to_host/",
-    "summary": "Trying to get a UE3 client from 2007 to host without the original server. An open-question before I dive into rebuilding the server.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-08",
     "read_time": 1
   }
 ]
