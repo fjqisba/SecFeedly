@@ -1,6 +1,32 @@
 [
   {
     "id": 1,
+    "title": "Help Needed: Missing global perspective/rotation matrix data when converting UMK3 iOS .meshset files to .obj",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1whqcps/help_needed_missing_global_perspectiverotation/",
+    "summary": "Help Needed: Missing global perspective/rotation matrix data when converting UMK3 iOS .meshset files to .obj",
+    "tags": [
+      "iOS"
+    ],
+    "date": "2026-09-16",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Widescreen + Online Multiplayer Coop for my Rust WASM Zelda 2 decompilation. Github and playable link coming soon.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1whosli/widescreen_online_multiplayer_coop_for_my_rust/",
+    "summary": "Widescreen + Online Multiplayer Coop for my Rust WASM Zelda 2 decompilation. Github and playable link coming soon.",
+    "tags": [
+      "Rust"
+    ],
+    "date": "2026-09-16",
+    "read_time": 1
+  },
+  {
+    "id": 3,
     "title": "A IDA CLI tool: agent first & stateless & batch processing.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +40,20 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 4,
+    "title": "Overview of Passive Optical Networks (PONs) Security",
+    "source": "Quarkslab Blog",
+    "source_icon": "⚗️",
+    "url": "http://blog.quarkslab.com/overview-of-passive-optical-networks-pons-security.html",
+    "summary": "Passive Optical Networks (PONs) connect end-users to infrastructure using optical fibre in the last kilometre (Fibre-to-the-x). This article provides a technical overview of the security features in ITU-T specifications: Gigabit-capable PON (GPON) , 10-Gigabit-capable PON (XG-PON) , 10-Gigabit-ca...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-15",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Escaping the OpenAI Codex sandbox, twice",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "CoD:MW2 (2009) runtime reimplemented in Rust is open source",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Technical Analysis of Suno internals post-September 26 and a working tool to assist with curation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -68,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Traced SetWindowDisplayAffinity from win32k to dwm.exe — detecting anti-capture windows via CWindowContext::HasProtectedContent (Win10/11)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Super Trouper: A new MCP server in Golang to give coding agents a Frida interface",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -99,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Locating Flutter's TLS certificate verifier in a stripped libflutter.so, tested across 13 apps and 9 engine versions",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -113,7 +152,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Microcode in Intel's 8087 floating-point chip: the scale instruction",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -126,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Beltdown2: Escaping the Cursor CLI sandbox",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -139,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "GitHub - mein-0/LolModapi: MSI Dragon Center 2.0.155.0 LPE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -152,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Inside Claude's Android app: Finding the Internal Settings",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -166,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "AMA: Hacking macOS and offensive security with Olivia Gallucci (Datadog)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -179,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Roots From Kilometers Away: our Ubiquiti airMAX research is on tour",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,46 +228,6 @@
       "AI"
     ],
     "date": "2026-09-11",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "Windows Internals Explained",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wcxqs2/windows_internals_explained/",
-    "summary": "Windows Internals Explained",
-    "tags": [
-      "Windows",
-      "AI"
-    ],
-    "date": "2026-09-10",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "Decompilation Book",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wcaxrc/decompilation_book/",
-    "summary": "Decompilation Book",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-10",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Razer Lycosa.sys analysis: kernel memory disclosure and stack buffer overflow",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wc5k75/razer_lycosasys_analysis_kernel_memory_disclosure/",
-    "summary": "Razer Lycosa.sys analysis: kernel memory disclosure and stack buffer overflow",
-    "tags": [
-      "内核"
-    ],
-    "date": "2026-09-10",
     "read_time": 1
   }
 ]
