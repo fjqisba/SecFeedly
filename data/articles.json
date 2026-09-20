@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wkehjs/cve202677179_dockers_hypervisor_for_mac/",
+    "summary": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
+    "tags": [
+      "漏洞分析",
+      "CVE"
+    ],
+    "date": "2026-09-19",
+    "read_time": 1
+  },
+  {
+    "id": 2,
     "title": "Flock Safety camera teardown: 53 hardcoded credentials, Android 8.1 with June 2018 patches, encryption key stored in plaintext on the same partition, root access via button sequence on the back. These cameras process 20B vehicle scans/month for 5,000 police departments.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -15,7 +29,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug | Ledger Donjon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +42,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "How not to solve Jane Street's ASIC puzzle. Kinda.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +55,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "I reconstructed a pseudo-source version of SmartScanner through reverse engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +69,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "Share code bypass ssl pinning facebook with Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -71,7 +85,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 7,
     "title": "Help Needed: Missing global perspective/rotation matrix data when converting UMK3 iOS .meshset files to .obj",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 8,
     "title": "Widescreen + Online Multiplayer Coop for my Rust WASM Zelda 2 decompilation. Github and playable link coming soon.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 9,
     "title": "A IDA CLI tool: agent first & stateless & batch processing.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -111,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 10,
     "title": "Overview of Passive Optical Networks (PONs) Security",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -124,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 11,
     "title": "Escaping the OpenAI Codex sandbox, twice",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 12,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -150,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 13,
     "title": "CoD:MW2 (2009) runtime reimplemented in Rust is open source",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -165,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 14,
     "title": "Technical Analysis of Suno internals post-September 26 and a working tool to assist with curation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 15,
     "title": "Traced SetWindowDisplayAffinity from win32k to dwm.exe — detecting anti-capture windows via CWindowContext::HasProtectedContent (Win10/11)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -190,36 +204,6 @@
       "Windows"
     ],
     "date": "2026-09-14",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "Super Trouper: A new MCP server in Golang to give coding agents a Frida interface",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wf8wpo/super_trouper_a_new_mcp_server_in_golang_to_give/",
-    "summary": "Super Trouper: A new MCP server in Golang to give coding agents a Frida interface",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-09-13",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "Locating Flutter's TLS certificate verifier in a stripped libflutter.so, tested across 13 apps and 9 engine versions",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wexq29/locating_flutters_tls_certificate_verifier_in_a/",
-    "summary": "Locating Flutter's TLS certificate verifier in a stripped libflutter.so, tested across 13 apps and 9 engine versions",
-    "tags": [
-      "TLS",
-      "协议分析"
-    ],
-    "date": "2026-09-13",
     "read_time": 1
   }
 ]
