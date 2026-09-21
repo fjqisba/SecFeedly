@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "[META] Vibe Coded RE Projects",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wlxgrr/meta_vibe_coded_re_projects/",
+    "summary": "[META] Vibe Coded RE Projects",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-21",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "A filename collision in PcapPlusPlus that silently dropped packets — traced and fixed upstream",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wlzvkl/a_filename_collision_in_pcapplusplus_that/",
+    "summary": "A filename collision in PcapPlusPlus that silently dropped packets — traced and fixed upstream",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-21",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "The QVM bytecode format in Project I.G.I. (2000), and holding a Python reimplementation to byte-for-byte output across all 884 scripts the game ships.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wlpyi3/the_qvm_bytecode_format_in_project_igi_2000_and/",
+    "summary": "The QVM bytecode format in Project I.G.I. (2000), and holding a Python reimplementation to byte-for-byte output across all 884 scripts the game ships.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-20",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Flock Safety camera teardown: 53 hardcoded credentials, Android 8.1 with June 2018 patches, encryption key stored in plaintext on the same partition, root access via button sequence on the back. These cameras process 20B vehicle scans/month for 5,000 police departments.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -29,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug | Ledger Donjon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "How not to solve Jane Street's ASIC puzzle. Kinda.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "I reconstructed a pseudo-source version of SmartScanner through reverse engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Share code bypass ssl pinning facebook with Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -85,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Help Needed: Missing global perspective/rotation matrix data when converting UMK3 iOS .meshset files to .obj",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -98,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Widescreen + Online Multiplayer Coop for my Rust WASM Zelda 2 decompilation. Github and playable link coming soon.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -111,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "A IDA CLI tool: agent first & stateless & batch processing.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Overview of Passive Optical Networks (PONs) Security",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -138,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Escaping the OpenAI Codex sandbox, twice",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,62 +187,6 @@
       "AI"
     ],
     "date": "2026-09-15",
-    "read_time": 1
-  },
-  {
-    "id": 12,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wfw6t3/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-14",
-    "read_time": 1
-  },
-  {
-    "id": 13,
-    "title": "CoD:MW2 (2009) runtime reimplemented in Rust is open source",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wghurx/codmw2_2009_runtime_reimplemented_in_rust_is_open/",
-    "summary": "CoD:MW2 (2009) runtime reimplemented in Rust is open source",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "Rust"
-    ],
-    "date": "2026-09-14",
-    "read_time": 1
-  },
-  {
-    "id": 14,
-    "title": "Technical Analysis of Suno internals post-September 26 and a working tool to assist with curation",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wg66rt/technical_analysis_of_suno_internals/",
-    "summary": "Technical Analysis of Suno internals post-September 26 and a working tool to assist with curation",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-14",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "Traced SetWindowDisplayAffinity from win32k to dwm.exe — detecting anti-capture windows via CWindowContext::HasProtectedContent (Win10/11)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wfwhu2/traced_setwindowdisplayaffinity_from_win32k_to/",
-    "summary": "Traced SetWindowDisplayAffinity from win32k to dwm.exe — detecting anti-capture windows via CWindowContext::HasProtectedContent (Win10/11)",
-    "tags": [
-      "APT",
-      "威胁情报",
-      "Windows"
-    ],
-    "date": "2026-09-14",
     "read_time": 1
   }
 ]
