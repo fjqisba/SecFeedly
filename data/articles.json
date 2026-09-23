@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "HellGates, custom CPU (encrypted) gate-level challenge",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wnsxbc/hellgates_custom_cpu_encrypted_gatelevel_challenge/",
+    "summary": "HellGates, custom CPU (encrypted) gate-level challenge",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-23",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wn4ps7/i_reverseengineered_intels_npu_stack_and_got/",
+    "summary": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
+    "tags": [
+      "内核",
+      "Go"
+    ],
+    "date": "2026-09-22",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "MacOS offensive security, detection engineering, and solo Apple research",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wmyoic/macos_offensive_security_detection_engineering/",
+    "summary": "MacOS offensive security, detection engineering, and solo Apple research",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-22",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Droid ASC: A Super FAST Android Decompiler, 41 to 269 Times Faster Than JADX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Reverse Engineering ZTE SmartHome App Led to an Account Takeover Affecting the Entire Account Backend. 4 CVEs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "PureRAT – msbuild.exe Execution, C2 Extraction & .NET Evasion",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -70,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "[META] Vibe Coded RE Projects",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "A filename collision in PcapPlusPlus that silently dropped packets — traced and fixed upstream",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "The QVM bytecode format in Project I.G.I. (2000), and holding a Python reimplementation to byte-for-byte output across all 884 scripts the game ships.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Flock Safety camera teardown: 53 hardcoded credentials, Android 8.1 with June 2018 patches, encryption key stored in plaintext on the same partition, root access via button sequence on the back. These cameras process 20B vehicle scans/month for 5,000 police departments.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -138,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug | Ledger Donjon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -151,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "How not to solve Jane Street's ASIC puzzle. Kinda.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "I reconstructed a pseudo-source version of SmartScanner through reverse engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Share code bypass ssl pinning facebook with Frida",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,46 +231,6 @@
       "Hook"
     ],
     "date": "2026-09-17",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "Help Needed: Missing global perspective/rotation matrix data when converting UMK3 iOS .meshset files to .obj",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1whqcps/help_needed_missing_global_perspectiverotation/",
-    "summary": "Help Needed: Missing global perspective/rotation matrix data when converting UMK3 iOS .meshset files to .obj",
-    "tags": [
-      "iOS"
-    ],
-    "date": "2026-09-16",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "Widescreen + Online Multiplayer Coop for my Rust WASM Zelda 2 decompilation. Github and playable link coming soon.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1whosli/widescreen_online_multiplayer_coop_for_my_rust/",
-    "summary": "Widescreen + Online Multiplayer Coop for my Rust WASM Zelda 2 decompilation. Github and playable link coming soon.",
-    "tags": [
-      "Rust"
-    ],
-    "date": "2026-09-16",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "A IDA CLI tool: agent first & stateless & batch processing.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1whknv4/a_ida_cli_tool_agent_first_stateless_batch/",
-    "summary": "A IDA CLI tool: agent first & stateless & batch processing.",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-09-16",
     "read_time": 1
   }
 ]
