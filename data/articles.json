@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wopzgc/part_2_dwm_visuallayer_anticapture/",
+    "summary": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
+    "tags": [
+      "APT",
+      "威胁情报"
+    ],
+    "date": "2026-09-24",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Breaking Obfuscated Binaries with AI Agents: An Attacker’s Playbook",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wojno0/breaking_obfuscated_binaries_with_ai_agents_an/",
+    "summary": "Breaking Obfuscated Binaries with AI Agents: An Attacker’s Playbook",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-09-23",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "LocalStranger is a PoC for vulnerable \"Microsoft Windows Hardware Compatibility Publisher\" signed driver, including a basic unsigned driver kd mapper and NT-AUTHORITY escalation.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wo0ein/localstranger_is_a_poc_for_vulnerable_microsoft/",
+    "summary": "LocalStranger is a PoC for vulnerable \"Microsoft Windows Hardware Compatibility Publisher\" signed driver, including a basic unsigned driver kd mapper and NT-AUTHORITY escalation.",
+    "tags": [
+      "Windows"
+    ],
+    "date": "2026-09-23",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "HellGates, custom CPU (encrypted) gate-level challenge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "MacOS offensive security, detection engineering, and solo Apple research",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Droid ASC: A Super FAST Android Decompiler, 41 to 269 Times Faster Than JADX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +107,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Reverse Engineering ZTE SmartHome App Led to an Account Takeover Affecting the Entire Account Backend. 4 CVEs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -81,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "PureRAT – msbuild.exe Execution, C2 Extraction & .NET Evasion",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -94,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -110,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "[META] Vibe Coded RE Projects",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "A filename collision in PcapPlusPlus that silently dropped packets — traced and fixed upstream",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -136,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "The QVM bytecode format in Project I.G.I. (2000), and holding a Python reimplementation to byte-for-byte output across all 884 scripts the game ships.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +203,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Flock Safety camera teardown: 53 hardcoded credentials, Android 8.1 with June 2018 patches, encryption key stored in plaintext on the same partition, root access via button sequence on the back. These cameras process 20B vehicle scans/month for 5,000 police departments.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug | Ledger Donjon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -188,49 +228,6 @@
       "安全"
     ],
     "date": "2026-09-18",
-    "read_time": 1
-  },
-  {
-    "id": 15,
-    "title": "How not to solve Jane Street's ASIC puzzle. Kinda.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wj3pyt/how_not_to_solve_jane_streets_asic_puzzle_kinda/",
-    "summary": "How not to solve Jane Street's ASIC puzzle. Kinda.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-17",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "I reconstructed a pseudo-source version of SmartScanner through reverse engineering",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wj7uun/i_reconstructed_a_pseudosource_version_of/",
-    "summary": "I reconstructed a pseudo-source version of SmartScanner through reverse engineering",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-09-17",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Share code bypass ssl pinning facebook with Frida",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wiocvp/share_code_bypass_ssl_pinning_facebook_with_frida/",
-    "summary": "Share code bypass ssl pinning facebook with Frida",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "动态插桩",
-      "Hook"
-    ],
-    "date": "2026-09-17",
     "read_time": 1
   }
 ]
