@@ -1,6 +1,32 @@
 [
   {
     "id": 1,
+    "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wpj2vp/i_reverseengineered_crestrons_airmedia/",
+    "summary": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-09-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wpj2io/i_reverseengineered_crestrons_airmedia/",
+    "summary": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-09-25",
+    "read_time": 1
+  },
+  {
+    "id": 3,
     "title": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +40,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "Breaking Obfuscated Binaries with AI Agents: An Attacker’s Playbook",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "LocalStranger is a PoC for vulnerable \"Microsoft Windows Hardware Compatibility Publisher\" signed driver, including a basic unsigned driver kd mapper and NT-AUTHORITY escalation.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "HellGates, custom CPU (encrypted) gate-level challenge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +79,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "MacOS offensive security, detection engineering, and solo Apple research",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Droid ASC: A Super FAST Android Decompiler, 41 to 269 Times Faster Than JADX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -107,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Reverse Engineering ZTE SmartHome App Led to an Account Takeover Affecting the Entire Account Backend. 4 CVEs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -121,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "PureRAT – msbuild.exe Execution, C2 Extraction & .NET Evasion",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -134,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -150,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "[META] Vibe Coded RE Projects",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "A filename collision in PcapPlusPlus that silently dropped packets — traced and fixed upstream",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -176,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "The QVM bytecode format in Project I.G.I. (2000), and holding a Python reimplementation to byte-for-byte output across all 884 scripts the game ships.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -200,34 +226,6 @@
       "CVE"
     ],
     "date": "2026-09-19",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "Flock Safety camera teardown: 53 hardcoded credentials, Android 8.1 with June 2018 patches, encryption key stored in plaintext on the same partition, root access via button sequence on the back. These cameras process 20B vehicle scans/month for 5,000 police departments.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wk5c8y/flock_safety_camera_teardown_53_hardcoded/",
-    "summary": "Flock Safety camera teardown: 53 hardcoded credentials, Android 8.1 with June 2018 patches, encryption key stored in plaintext on the same partition, root access via button sequence on the back. These cameras process 20B vehicle scans/month for 5,000 police departments.",
-    "tags": [
-      "Android",
-      "移动安全",
-      "AI"
-    ],
-    "date": "2026-09-18",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug | Ledger Donjon",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wk21lf/photonemissionguided_laser_fault_injection/",
-    "summary": "Photon-Emission-Guided Laser Fault Injection Enables RP2350 Secure Debug | Ledger Donjon",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-18",
     "read_time": 1
   }
 ]
