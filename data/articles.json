@@ -1,6 +1,38 @@
 [
   {
     "id": 1,
+    "title": "ceasta: open-source disassembler, decompiler and debugger in one program. with a built-in MCP server for driving it from an AI (mac, windows, linux)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wq9kfs/ceasta_opensource_disassembler_decompiler_and/",
+    "summary": "ceasta: open-source disassembler, decompiler and debugger in one program. with a built-in MCP server for driving it from an AI (mac, windows, linux)",
+    "tags": [
+      "漏洞分析",
+      "RCE",
+      "Linux",
+      "Windows"
+    ],
+    "date": "2026-09-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Hex-Rays IDA MCP Server",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/hex-rays-ida-mcp-server",
+    "summary": "We are happy to introduce the official IDA MCP server! This free and open source software connects your IDA installation with AI agents, enabling them to disassemble, decompile, and support reverse engineering tasks. It works great with models like Gemini, Qwen, or Opus using familiar harnesses l...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-09-25",
+    "read_time": 1
+  },
+  {
+    "id": 3,
     "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +45,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +58,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +72,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "Breaking Obfuscated Binaries with AI Agents: An Attacker’s Playbook",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -53,7 +85,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "LocalStranger is a PoC for vulnerable \"Microsoft Windows Hardware Compatibility Publisher\" signed driver, including a basic unsigned driver kd mapper and NT-AUTHORITY escalation.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "HellGates, custom CPU (encrypted) gate-level challenge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -93,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "MacOS offensive security, detection engineering, and solo Apple research",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -119,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Droid ASC: A Super FAST Android Decompiler, 41 to 269 Times Faster Than JADX",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -133,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Reverse Engineering ZTE SmartHome App Led to an Account Takeover Affecting the Entire Account Backend. 4 CVEs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -147,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "PureRAT – msbuild.exe Execution, C2 Extraction & .NET Evasion",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -160,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 15,
     "title": "Windows Exploitation Techniques: Dangling COM Object Registrations",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -176,7 +208,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 16,
     "title": "[META] Vibe Coded RE Projects",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +221,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 17,
     "title": "A filename collision in PcapPlusPlus that silently dropped packets — traced and fixed upstream",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -202,7 +234,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 18,
     "title": "The QVM bytecode format in Project I.G.I. (2000), and holding a Python reimplementation to byte-for-byte output across all 884 scripts the game ships.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -212,20 +244,6 @@
       "安全"
     ],
     "date": "2026-09-20",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wkehjs/cve202677179_dockers_hypervisor_for_mac/",
-    "summary": "CVE-2026-77179: Docker's hypervisor for Mac compromised (Docker Desktop, Docker Sandboxes)",
-    "tags": [
-      "漏洞分析",
-      "CVE"
-    ],
-    "date": "2026-09-19",
     "read_time": 1
   }
 ]
