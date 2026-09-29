@@ -1,6 +1,60 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ws7l1a/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-28",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "rPlayHub - Xcode DeviceHub reverse engineered - an open source project on GitHub",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wsh3tb/rplayhub_xcode_devicehub_reverse_engineered_an/",
+    "summary": "rPlayHub - Xcode DeviceHub reverse engineered - an open source project on GitHub",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-09-28",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "SmackDown vs. Raw 2011 running natively on PC at 60 FPS, free and open source",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wsgl8k/smackdown_vs_raw_2011_running_natively_on_pc_at/",
+    "summary": "SmackDown vs. Raw 2011 running natively on PC at 60 FPS, free and open source",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-09-28",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Formbook – Payload Extraction, XOR Decryption & .NET Assembly Manipulation",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wsgbni/formbook_payload_extraction_xor_decryption_net/",
+    "summary": "Formbook – Payload Extraction, XOR Decryption & .NET Assembly Manipulation",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-28",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Reverse-engineered a gaming mouse's HID protocol (write-only device, no official Linux support) to build a full desktop configurator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Reverse-engineered 8BitDo firmware encryption",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "ceasta: open-source disassembler, decompiler and debugger in one program. with a built-in MCP server for driving it from an AI (mac, windows, linux)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +109,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "Hex-Rays IDA MCP Server",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -71,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -111,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Breaking Obfuscated Binaries with AI Agents: An Attacker’s Playbook",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -124,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "LocalStranger is a PoC for vulnerable \"Microsoft Windows Hardware Compatibility Publisher\" signed driver, including a basic unsigned driver kd mapper and NT-AUTHORITY escalation.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "HellGates, custom CPU (encrypted) gate-level challenge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -147,33 +201,6 @@
       "安全"
     ],
     "date": "2026-09-23",
-    "read_time": 1
-  },
-  {
-    "id": 12,
-    "title": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wn4ps7/i_reverseengineered_intels_npu_stack_and_got/",
-    "summary": "I reverse-engineered Intel's NPU stack and got custom C kernels running on its programmable SHAVE cores",
-    "tags": [
-      "内核",
-      "Go"
-    ],
-    "date": "2026-09-22",
-    "read_time": 1
-  },
-  {
-    "id": 13,
-    "title": "MacOS offensive security, detection engineering, and solo Apple research",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wmyoic/macos_offensive_security_detection_engineering/",
-    "summary": "MacOS offensive security, detection engineering, and solo Apple research",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-22",
     "read_time": 1
   }
 ]
