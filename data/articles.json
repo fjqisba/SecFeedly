@@ -1,6 +1,47 @@
 [
   {
     "id": 1,
+    "title": "BitBlt capture in DWM: suppressing the readback flag (g_pComposition+0x196A) bypasses DisplayAffinity and visual hiding — Part 3",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wul6zf/bitblt_capture_in_dwm_suppressing_the_readback/",
+    "summary": "BitBlt capture in DWM: suppressing the readback flag (g_pComposition+0x196A) bypasses DisplayAffinity and visual hiding — Part 3",
+    "tags": [
+      "APT",
+      "威胁情报"
+    ],
+    "date": "2026-10-01",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Wow64 implementation details: How is Wow64 implemented in Windows 11 25H2",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wuklah/wow64_implementation_details_how_is_wow64/",
+    "summary": "Wow64 implementation details: How is Wow64 implemented in Windows 11 25H2",
+    "tags": [
+      "Windows",
+      "AI"
+    ],
+    "date": "2026-09-30",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Gigabyte kernel driver LPE",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wue3of/gigabyte_kernel_driver_lpe/",
+    "summary": "Gigabyte kernel driver LPE",
+    "tags": [
+      "内核"
+    ],
+    "date": "2026-09-30",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "80 Days Reversing an IoT DVR: Stripped ARM32 Firmware, Hardcoded AES Keys & Post-Mortem here is my write up love yall.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Intel C/C++ Compiler 4.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Reverse engineered a Chinese dashcam/AA head unit (TF790 / OBDPEAK K2) running open source media controller on it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Debugger Conditional Breakpoints and the Expression Parser That Backs Them",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -54,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "From AI Agents to RCE - Building a Vulnerability Research Workflow",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -70,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "rPlayHub - Xcode DeviceHub reverse engineered - an open source project on GitHub",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "SmackDown vs. Raw 2011 running natively on PC at 60 FPS, free and open source",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -111,7 +152,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Formbook – Payload Extraction, XOR Decryption & .NET Assembly Manipulation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -124,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Reverse-engineered a gaming mouse's HID protocol (write-only device, no official Linux support) to build a full desktop configurator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -150,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Reverse-engineered 8BitDo firmware encryption",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +204,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "ceasta: open-source disassembler, decompiler and debugger in one program. with a built-in MCP server for driving it from an AI (mac, windows, linux)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -179,7 +220,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Hex-Rays IDA MCP Server",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -195,7 +236,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -208,7 +249,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -218,20 +259,6 @@
       "AI"
     ],
     "date": "2026-09-25",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wopzgc/part_2_dwm_visuallayer_anticapture/",
-    "summary": "Part 2: DWM Visual-layer anti-capture — CVisual::HasProtectedContent (Win11 research notes)",
-    "tags": [
-      "APT",
-      "威胁情报"
-    ],
-    "date": "2026-09-24",
     "read_time": 1
   }
 ]
