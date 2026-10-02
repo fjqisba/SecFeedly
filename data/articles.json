@@ -1,6 +1,63 @@
 [
   {
     "id": 1,
+    "title": "Silent Hill (PS1, US v1.1) decompilation fork: 100% of code matched, nearly all data moved into C",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wvjb6z/silent_hill_ps1_us_v11_decompilation_fork_100_of/",
+    "summary": "Silent Hill (PS1, US v1.1) decompilation fork: 100% of code matched, nearly all data moved into C",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-02",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse Engineering NovaLogic's Comanche [1992] Terrain Maps",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wuzm2k/reverse_engineering_novalogics_comanche_1992/",
+    "summary": "Reverse Engineering NovaLogic's Comanche [1992] Terrain Maps",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-10-01",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "I built an MCP server that lets AI agents debug and inspect running Windows programs (memory scan, breakpoints, disassembly) – Cortex 1.0, open source",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wv8e4o/i_built_an_mcp_server_that_lets_ai_agents_debug/",
+    "summary": "I built an MCP server that lets AI agents debug and inspect running Windows programs (memory scan, breakpoints, disassembly) – Cortex 1.0, open source",
+    "tags": [
+      "漏洞分析",
+      "RCE",
+      "Windows",
+      "AI"
+    ],
+    "date": "2026-10-01",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "IDA 9.5 Beta is available",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/ida-9.5-beta-is-available",
+    "summary": "IDA 9.5 Beta is now available The IDA 9.5 Beta is live, starting today. If you're part of our Beta Program , the new build is already waiting in the Download Center of your customer portal, so you can put it to work right now. Not enrolled yet? You can join the program in a few clicks from your c...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "AI"
+    ],
+    "date": "2026-10-01",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "BitBlt capture in DWM: suppressing the readback flag (g_pComposition+0x196A) bypasses DisplayAffinity and visual hiding — Part 3",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +71,22 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
+    "title": "Cato VPN Client: Split-Tunnel and Privilege Escalation (CVE-2026-10739)",
+    "source": "Quarkslab Blog",
+    "source_icon": "⚗️",
+    "url": "http://blog.quarkslab.com/cato-vpn-client-split-tunnel-and-privilege-escalation-cve-2026-10739.html",
+    "summary": "Local privilege escalation in the Cato VPN Client through the split-tunnel upload flow, from named pipe to SYSTEM delete and Windows Installer rollback.",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "Windows"
+    ],
+    "date": "2026-09-30",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "Wow64 implementation details: How is Wow64 implemented in Windows 11 25H2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +100,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Gigabyte kernel driver LPE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +113,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "80 Days Reversing an IoT DVR: Stripped ARM32 Firmware, Hardcoded AES Keys & Post-Mortem here is my write up love yall.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +126,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Intel C/C++ Compiler 4.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +139,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Reverse engineered a Chinese dashcam/AA head unit (TF790 / OBDPEAK K2) running open source media controller on it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -81,7 +153,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Debugger Conditional Breakpoints and the Expression Parser That Backs Them",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -95,7 +167,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "From AI Agents to RCE - Building a Vulnerability Research Workflow",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -111,7 +183,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -124,7 +196,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "rPlayHub - Xcode DeviceHub reverse engineered - an open source project on GitHub",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -138,7 +210,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "SmackDown vs. Raw 2011 running natively on PC at 60 FPS, free and open source",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -152,7 +224,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Formbook – Payload Extraction, XOR Decryption & .NET Assembly Manipulation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -165,7 +237,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +250,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Reverse-engineered a gaming mouse's HID protocol (write-only device, no official Linux support) to build a full desktop configurator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Reverse-engineered 8BitDo firmware encryption",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -201,64 +273,6 @@
       "安全"
     ],
     "date": "2026-09-26",
-    "read_time": 1
-  },
-  {
-    "id": 16,
-    "title": "ceasta: open-source disassembler, decompiler and debugger in one program. with a built-in MCP server for driving it from an AI (mac, windows, linux)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wq9kfs/ceasta_opensource_disassembler_decompiler_and/",
-    "summary": "ceasta: open-source disassembler, decompiler and debugger in one program. with a built-in MCP server for driving it from an AI (mac, windows, linux)",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "Linux",
-      "Windows"
-    ],
-    "date": "2026-09-25",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Hex-Rays IDA MCP Server",
-    "source": "Hex-Rays Blog",
-    "source_icon": "🧬",
-    "url": "https://hex-rays.com/blog/hex-rays-ida-mcp-server",
-    "summary": "We are happy to introduce the official IDA MCP server! This free and open source software connects your IDA installation with AI agents, enabling them to disassemble, decompile, and support reverse engineering tasks. It works great with models like Gemini, Qwen, or Opus using familiar harnesses l...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-09-25",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wpj2vp/i_reverseengineered_crestrons_airmedia/",
-    "summary": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-09-25",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wpj2io/i_reverseengineered_crestrons_airmedia/",
-    "summary": "I reverse-engineered Crestron's AirMedia wireless-presentation protocol so I could screen-share from Ubuntu without a browser",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-09-25",
     "read_time": 1
   }
 ]
