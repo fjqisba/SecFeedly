@@ -1,6 +1,64 @@
 [
   {
     "id": 1,
+    "title": "IDA Pro 9.5 Beta (with Dalvik, TriCore, Hexagon decompilers)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wvv879/ida_pro_95_beta_with_dalvik_tricore_hexagon/",
+    "summary": "IDA Pro 9.5 Beta (with Dalvik, TriCore, Hexagon decompilers)",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "Go"
+    ],
+    "date": "2026-10-02",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "History of Windows symbols all the way to 1.0 from 1985",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ww59x0/history_of_windows_symbols_all_the_way_to_10_from/",
+    "summary": "History of Windows symbols all the way to 1.0 from 1985",
+    "tags": [
+      "Windows"
+    ],
+    "date": "2026-10-02",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Super Trouper v0.4.0 — more Frida tools for iOS app reverse engineering",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1ww25ox/super_trouper_v040_more_frida_tools_for_ios_app/",
+    "summary": "Super Trouper v0.4.0 — more Frida tools for iOS app reverse engineering",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-10-02",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 39 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-39-8",
+    "summary": "Ryuk access broker heads to prison, TraderTraitor backdoors surface on victim with no crypto ties, and one operator's AI agents skim 600K credit cards.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-10-02",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Silent Hill (PS1, US v1.1) decompilation fork: 100% of code matched, nearly all data moved into C",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +71,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "Reverse Engineering NovaLogic's Comanche [1992] Terrain Maps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "I built an MCP server that lets AI agents debug and inspect running Windows programs (memory scan, breakpoints, disassembly) – Cortex 1.0, open source",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +100,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "IDA 9.5 Beta is available",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -57,7 +115,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "BitBlt capture in DWM: suppressing the readback flag (g_pComposition+0x196A) bypasses DisplayAffinity and visual hiding — Part 3",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -71,7 +129,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Cato VPN Client: Split-Tunnel and Privilege Escalation (CVE-2026-10739)",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -86,7 +144,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Wow64 implementation details: How is Wow64 implemented in Windows 11 25H2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -100,7 +158,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Gigabyte kernel driver LPE",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -113,7 +171,21 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
+    "title": "Building Agents Backwards from Evaluation",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/building-agents-backwards-from-evaluation/",
+    "summary": "Learn why building reliable AI security agents requires co-designing modular system architectures alongside rigorous, domain-expert evaluation suites.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-09-29",
+    "read_time": 1
+  },
+  {
+    "id": 14,
     "title": "80 Days Reversing an IoT DVR: Stripped ARM32 Firmware, Hardcoded AES Keys & Post-Mortem here is my write up love yall.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -126,7 +198,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Intel C/C++ Compiler 4.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -139,7 +211,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "Reverse engineered a Chinese dashcam/AA head unit (TF790 / OBDPEAK K2) running open source media controller on it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -153,7 +225,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Debugger Conditional Breakpoints and the Expression Parser That Backs Them",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -167,7 +239,34 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
+    "title": "SentinelOne and NVIDIA: Governing AI From Silicon to Runtime",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/sentinelone-and-nvidia-governing-ai-from-silicon-to-runtime/",
+    "summary": "Read why effective AI governance demands tamperproof, hardware-rooted security controls that autonomous agents cannot reach, bypass, or rewrite at runtime.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-09-28",
+    "read_time": 1
+  },
+  {
+    "id": 19,
+    "title": "Bring Your Own Vulnerable Device: The EDR Killer Economy",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-device-the-edr-killer-economy/",
+    "summary": "Discover how Bring Your Own Vulnerable Driver (BYOVD) tactics evolved from lone-operator tricks into a commercialized, tiered EDR-killer service economy.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-09-28",
+    "read_time": 1
+  },
+  {
+    "id": 20,
     "title": "From AI Agents to RCE - Building a Vulnerability Research Workflow",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -183,7 +282,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 21,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -196,7 +295,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 22,
     "title": "rPlayHub - Xcode DeviceHub reverse engineered - an open source project on GitHub",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -210,7 +309,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 23,
     "title": "SmackDown vs. Raw 2011 running natively on PC at 60 FPS, free and open source",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -224,7 +323,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 24,
     "title": "Formbook – Payload Extraction, XOR Decryption & .NET Assembly Manipulation",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -237,7 +336,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 25,
     "title": "Reverse-engineering the vintage Intel 8087's tangent algorithm: more than CORDIC",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -247,32 +346,6 @@
       "Go"
     ],
     "date": "2026-09-27",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "Reverse-engineered a gaming mouse's HID protocol (write-only device, no official Linux support) to build a full desktop configurator",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wqsk2c/reverseengineered_a_gaming_mouses_hid_protocol/",
-    "summary": "Reverse-engineered a gaming mouse's HID protocol (write-only device, no official Linux support) to build a full desktop configurator",
-    "tags": [
-      "Linux"
-    ],
-    "date": "2026-09-26",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Reverse-engineered 8BitDo firmware encryption",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wr4kyu/reverseengineered_8bitdo_firmware_encryption/",
-    "summary": "Reverse-engineered 8BitDo firmware encryption",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-09-26",
     "read_time": 1
   }
 ]
