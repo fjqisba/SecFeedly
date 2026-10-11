@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "Reverse-engineered a cheap USB battery/charging tester (Qianli iBridge A3 \"Tail-QL\", HC32F460 Cortex-M4) — full protocol + SPI screen driver mapped, stuck on font bitmap format, looking for help [link: original firmware bin + official flashing tool + MCU datasheet]",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x2w7kz/reverseengineered_a_cheap_usb_batterycharging/",
+    "summary": "Reverse-engineered a cheap USB battery/charging tester (Qianli iBridge A3 \"Tail-QL\", HC32F460 Cortex-M4) — full protocol + SPI screen driver mapped, stuck on font bitmap format, looking for help [link: original firmware bin + official flashing tool + MCU datasheet]",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-10-11",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter | MW2 (2009) 83% done final",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x2eizk/500_billion_tokens_later_letting_ai_agents/",
+    "summary": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter | MW2 (2009) 83% done final",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-10-10",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "asmsense: fine-tuning Qwen3-8B to name functions in stripped x86-64 binaries, with a memorization-resistant benchmark against large LLMs",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x2ik6a/asmsense_finetuning_qwen38b_to_name_functions_in/",
+    "summary": "asmsense: fine-tuning Qwen3-8B to name functions in stripped x86-64 binaries, with a memorization-resistant benchmark against large LLMs",
+    "tags": [
+      "AI",
+      "LLM"
+    ],
+    "date": "2026-10-10",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Open source firmware for a cheap USB C meter (KWS-X1) that shows way more PD info than stock",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Apple Watch connector for Android, Linux, Windows... It seems to be a world first",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -30,7 +70,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Getting old Macromedia Director Games to run on modern Hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -43,7 +83,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Reverse Engineering AirPods Self-Calibration Test",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -56,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "I have been building a javap replacement and a JVM in C++",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +109,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "ICPP v0.4.0 is live! 🎉Big changes under the hood: • Apache 2.0 License (Goodbye GPLv2 👋) • AetherVM Integration (Replacing Unicorn) • iOS Support without jailbreak (icpp-server.ipa) Check out the update! 👇",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -85,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "IDA 9.5: Managing IDA Licenses Through the API",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -99,7 +139,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Rebuilding Moonstone (1991) from 68k machine code into readable, moddable C++ for the Amiga 1200",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -112,7 +152,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Reverse engineering a Magelight XP glitch in Skyrim",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "I made this javascript deobfuscator for https://github.com/javascript-obfuscator/javascript-obfuscator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -138,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Inside the Windows I/O Manager : Deep dive into how read I/O requests are initialized.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -151,7 +191,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "IDA 9.5: 3 new decompilers and 10 platform updates",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -167,7 +207,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "Reversing Engineering a Captive Portal",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -183,7 +223,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "How to fix a bug in a fix",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -198,7 +238,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Testing my Browser Based SaavyCAN-style Program",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -211,7 +251,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -224,7 +264,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "iOS 27.0.1 ImageIO — GPSCopy OOB-write (silently patched in 27.2 beta)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -237,7 +277,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Testing my Browser Based SaavyCAN-style Program",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -247,63 +287,6 @@
       "安全"
     ],
     "date": "2026-10-05",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "iOS 27 kernelcache RE writeup — full SEP dispatch map (96 selectors), AMFI diff, Ghidra workflow (zero new vulns, but full methodology public)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wxqpor/ios_27_kernelcache_re_writeup_full_sep_dispatch/",
-    "summary": "iOS 27 kernelcache RE writeup — full SEP dispatch map (96 selectors), AMFI diff, Ghidra workflow (zero new vulns, but full methodology public)",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "CTF",
-      "iOS"
-    ],
-    "date": "2026-10-04",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Loading a Samsung Shannon baseband into Ghidra 12.1.4",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wxs70y/loading_a_samsung_shannon_baseband_into_ghidra/",
-    "summary": "Loading a Samsung Shannon baseband into Ghidra 12.1.4",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-10-04",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Bug hunt: Pizza Tycoon's missing pizza boxes",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wxepbe/bug_hunt_pizza_tycoons_missing_pizza_boxes/",
-    "summary": "Bug hunt: Pizza Tycoon's missing pizza boxes",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-04",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "I built Gu3ssWeak — a deliberately vulnerable Android app for mobile security research & pentesting",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wx493p/i_built_gu3ssweak_a_deliberately_vulnerable/",
-    "summary": "I built Gu3ssWeak — a deliberately vulnerable Android app for mobile security research & pentesting",
-    "tags": [
-      "Android",
-      "移动安全"
-    ],
-    "date": "2026-10-04",
     "read_time": 1
   }
 ]
