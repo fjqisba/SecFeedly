@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "So yeah, I made a clone of Boom 3D.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x3nmt8/so_yeah_i_made_a_clone_of_boom_3d/",
+    "summary": "So yeah, I made a clone of Boom 3D.",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-12",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Ghidra and IDA Server! Don't need mcp bridge just run directly the script",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x3rnd2/ghidra_and_ida_server_dont_need_mcp_bridge_just/",
+    "summary": "Ghidra and IDA Server! Don't need mcp bridge just run directly the script",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-10-12",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "AI agents reconstruct 99% of MW2 functions, 83% byte-for-byte",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x33eqf/ai_agents_reconstruct_99_of_mw2_functions_83/",
+    "summary": "AI agents reconstruct 99% of MW2 functions, 83% byte-for-byte",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-10-11",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "Reverse-engineered a cheap USB battery/charging tester (Qianli iBridge A3 \"Tail-QL\", HC32F460 Cortex-M4) — full protocol + SPI screen driver mapped, stuck on font bitmap format, looking for help [link: original firmware bin + official flashing tool + MCU datasheet]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter | MW2 (2009) 83% done final",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "asmsense: fine-tuning Qwen3-8B to name functions in stripped x86-64 binaries, with a memorization-resistant benchmark against large LLMs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Open source firmware for a cheap USB C meter (KWS-X1) that shows way more PD info than stock",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Apple Watch connector for Android, Linux, Windows... It seems to be a world first",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -70,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Getting old Macromedia Director Games to run on modern Hardware",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +123,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Reverse Engineering AirPods Self-Calibration Test",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "I have been building a javap replacement and a JVM in C++",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "ICPP v0.4.0 is live! 🎉Big changes under the hood: • Apache 2.0 License (Goodbye GPLv2 👋) • AetherVM Integration (Replacing Unicorn) • iOS Support without jailbreak (icpp-server.ipa) Check out the update! 👇",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "IDA 9.5: Managing IDA Licenses Through the API",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -139,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Rebuilding Moonstone (1991) from 68k machine code into readable, moddable C++ for the Amiga 1200",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -152,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Reverse engineering a Magelight XP glitch in Skyrim",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -165,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "I made this javascript deobfuscator for https://github.com/javascript-obfuscator/javascript-obfuscator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +218,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Inside the Windows I/O Manager : Deep dive into how read I/O requests are initialized.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -191,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "IDA 9.5: 3 new decompilers and 10 platform updates",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -207,7 +247,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Reversing Engineering a Captive Portal",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -223,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "How to fix a bug in a fix",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -238,7 +278,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Testing my Browser Based SaavyCAN-style Program",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -248,45 +288,6 @@
       "安全"
     ],
     "date": "2026-10-06",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wy1wqk/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-05",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "iOS 27.0.1 ImageIO — GPSCopy OOB-write (silently patched in 27.2 beta)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wykp9y/ios_2701_imageio_gpscopy_oobwrite_silently/",
-    "summary": "iOS 27.0.1 ImageIO — GPSCopy OOB-write (silently patched in 27.2 beta)",
-    "tags": [
-      "iOS"
-    ],
-    "date": "2026-10-05",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Testing my Browser Based SaavyCAN-style Program",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1wykhcx/testing_my_browser_based_saavycanstyle_program/",
-    "summary": "Testing my Browser Based SaavyCAN-style Program",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-05",
     "read_time": 1
   }
 ]
