@@ -1,6 +1,75 @@
 [
   {
     "id": 1,
+    "title": "Divergence: abusing JS formatters and deobfuscators to change script logic (186 techniques across 37+ libraries)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x7uqfr/divergence_abusing_js_formatters_and/",
+    "summary": "Divergence: abusing JS formatters and deobfuscators to change script logic (186 techniques across 37+ libraries)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-16",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x7oud7/big_fish_exploiting_a_37yearold_kernel_bug_in/",
+    "summary": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用",
+      "内核"
+    ],
+    "date": "2026-10-16",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip |",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x7q28i/a_story_of_wifi_secrets_uart_lockdowns_and_a/",
+    "summary": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip |",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-16",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
+    "summary": "Learn how SentinelOne's Static AI blocked APT29's CaptiveCrunch campaign on the endpoint, stopping local DNS poisoning and captive portal network lures.",
+    "tags": [
+      "APT",
+      "威胁情报",
+      "AI"
+    ],
+    "date": "2026-10-16",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 42 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-42-8",
+    "summary": "Authorities arrest cyber exec for extortion, cellular implant in Ledger wallets leaks seed phrases, and hackers heat French supermarket fridges to 50°C.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-10-16",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Wanted to download an ISO, ended up writing a kernel exploit",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -15,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "retro-kit: headless Ghidra toolkit for 90s DOS/4GW (Watcom LE/LX) and Win32 games – LE/LX loader, Watcom calling conventions, cross-version library signatures, COM vtable typing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -29,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "I made an open-source companion for REA that turns reverse-engineering findings into a build plan",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -43,7 +112,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "Internship Offers for the 2026-2027 Season",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -56,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Red-teaming myself to learn reverse engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "I made a assembly line to reverse apks smoothly and gracefully,based on opencode and other mcp tools",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -82,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Linux configurator for the 8BitDo Ultimate 2, reverse-engineered from the Windows app",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Why Does Binary Ninja Install Its Own Copy of WinDbg?",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -112,7 +181,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Bring Your Own Vulnerable Driver: The Trust Gap Attackers Operate Inside",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -127,7 +196,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Bring Your Own Vulnerable Driver: How EDR Killing Became an Industry",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -140,7 +209,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "I reverse-engineered how Ray-Ban Meta glasses talk to their phone and wrote an open-source Android app that replaces Meta AI. \"Hey Meta\" goes to Claude or your own model.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -156,7 +225,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Decoding the MIB of a Samsung Shannon baseband in Ghidra (Part 2)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -170,7 +239,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "MyReport Updater: From gRPC to SYSTEM",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -183,7 +252,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -196,7 +265,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "How I Found a $90,000 Remote Code Execution Vulnerability in Google",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -209,7 +278,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "Exoproc: Out-of-process Windows x64 instrumentation engine in pure TypeScript",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -222,7 +291,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Yara Rule Detection Engineering (Stream)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -235,7 +304,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "So yeah, I made a clone of Boom 3D.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -248,7 +317,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "Ghidra and IDA Server! Don't need mcp bridge just run directly the script",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -262,7 +331,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "AI agents reconstruct 99% of MW2 functions, 83% byte-for-byte",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -275,7 +344,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "title": "Reverse-engineered a cheap USB battery/charging tester (Qianli iBridge A3 \"Tail-QL\", HC32F460 Cortex-M4) — full protocol + SPI screen driver mapped, stuck on font bitmap format, looking for help [link: original firmware bin + official flashing tool + MCU datasheet]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -285,47 +354,6 @@
       "AI"
     ],
     "date": "2026-10-11",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter | MW2 (2009) 83% done final",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x2eizk/500_billion_tokens_later_letting_ai_agents/",
-    "summary": "500+ Billion Tokens Later: Letting AI Agents Decompile A First-Person Shooter | MW2 (2009) 83% done final",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-10-10",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "asmsense: fine-tuning Qwen3-8B to name functions in stripped x86-64 binaries, with a memorization-resistant benchmark against large LLMs",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x2ik6a/asmsense_finetuning_qwen38b_to_name_functions_in/",
-    "summary": "asmsense: fine-tuning Qwen3-8B to name functions in stripped x86-64 binaries, with a memorization-resistant benchmark against large LLMs",
-    "tags": [
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-10-10",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Open source firmware for a cheap USB C meter (KWS-X1) that shows way more PD info than stock",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x22l2f/open_source_firmware_for_a_cheap_usb_c_meter/",
-    "summary": "Open source firmware for a cheap USB C meter (KWS-X1) that shows way more PD info than stock",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-10-10",
     "read_time": 1
   }
 ]
