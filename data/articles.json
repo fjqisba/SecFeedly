@@ -1,6 +1,45 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x9pwy1/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-19",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x9x4ru/tvmrecover_tencent_vm_devirtualization_through/",
+    "summary": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-10-19",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-what-detection-teams-should-actually-hunt/",
+    "summary": "Discover how detection teams can split EDR-killer attacks into four distinct behavior hunts to catch BYOVD and driverless threats before ransomware fires.",
+    "tags": [
+      "恶意软件"
+    ],
+    "date": "2026-10-19",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "PS2 games statically recompiled to WebAssembly",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +52,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "TP-Link Deco XE75 Pro V3] Two years after CCS'24 / Black Hat '24, TP-Link only bumped the RSA key size — Port 20001 -> tmpsvr still gives Arbitrary Root File Write (0xC456) & RCE on 2026 Firmware 1.5.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "One Parser, Two Bugs, Many Routers: Exploiting Broadcom WiFi Across eCos and Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +81,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "PyGhidra + Python + Local LLMs: Turning the Model into a Compiler, Not an Assembler",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -58,7 +97,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "[Release] First-Ever Open Source QEMU Machine Model & Hardware Definitions for Realtek RTD2841 Smart TV SoCs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -73,7 +112,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Open Scrantic: Johnny Castaway (1993 Windows 3.1 screensaver) reimplemented in Rust from its disassembly, using REA",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -87,7 +126,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Divergence: abusing JS formatters and deobfuscators to change script logic (186 techniques across 37+ libraries)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -100,7 +139,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -115,7 +154,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip |",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -128,7 +167,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -143,7 +182,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 42 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -156,7 +195,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Wanted to download an ISO, ended up writing a kernel exploit",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -171,7 +210,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "retro-kit: headless Ghidra toolkit for 90s DOS/4GW (Watcom LE/LX) and Win32 games – LE/LX loader, Watcom calling conventions, cross-version library signatures, COM vtable typing",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -185,7 +224,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "I made an open-source companion for REA that turns reverse-engineering findings into a build plan",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -199,7 +238,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Internship Offers for the 2026-2027 Season",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -212,7 +251,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "Red-teaming myself to learn reverse engineering",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -225,7 +264,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "I made a assembly line to reverse apks smoothly and gracefully,based on opencode and other mcp tools",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -238,7 +277,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Linux configurator for the 8BitDo Ultimate 2, reverse-engineered from the Windows app",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -249,80 +288,6 @@
       "Windows"
     ],
     "date": "2026-10-14",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "Why Does Binary Ninja Install Its Own Copy of WinDbg?",
-    "source": "Binary Ninja Blog",
-    "source_icon": "🥷",
-    "url": "https://binary.ninja/2026/10/13/why-binary-ninja-installs-windbg.html",
-    "summary": "Why Binary Ninja installs a separate WinDbg package for Time Travel Debugging, and how Windows package identity prevents loading the Store DLLs directly.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "调试",
-      "Windows"
-    ],
-    "date": "2026-10-13",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Bring Your Own Vulnerable Driver: The Trust Gap Attackers Operate Inside",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-the-trust-gap-attackers-operate-inside/",
-    "summary": "Uncover how BYOVD attacks exploit signing trust over disposable drivers, and why enforcing certificate revocation is essential for modern endpoint defense.",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Rust"
-    ],
-    "date": "2026-10-13",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Bring Your Own Vulnerable Driver: How EDR Killing Became an Industry",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-how-edr-killing-became-an-industry/",
-    "summary": "Discover how Bring Your Own Vulnerable Driver (BYOVD) tactics evolved from one-off hacker tools into a commercialized, tiered EDR-killer service economy.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-13",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "I reverse-engineered how Ray-Ban Meta glasses talk to their phone and wrote an open-source Android app that replaces Meta AI. \"Hey Meta\" goes to Claude or your own model.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x56cps/i_reverseengineered_how_rayban_meta_glasses_talk/",
-    "summary": "I reverse-engineered how Ray-Ban Meta glasses talk to their phone and wrote an open-source Android app that replaces Meta AI. \"Hey Meta\" goes to Claude or your own model.",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "Android",
-      "移动安全"
-    ],
-    "date": "2026-10-13",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "Decoding the MIB of a Samsung Shannon baseband in Ghidra (Part 2)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x4yq32/decoding_the_mib_of_a_samsung_shannon_baseband_in/",
-    "summary": "Decoding the MIB of a Samsung Shannon baseband in Ghidra (Part 2)",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-10-13",
     "read_time": 1
   }
 ]
