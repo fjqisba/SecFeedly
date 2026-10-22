@@ -1,6 +1,76 @@
 [
   {
     "id": 1,
+    "title": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xc3tz5/superghidra_an_improvised_agentfirst_re_tool_on/",
+    "summary": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-10-22",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "There isn't an easy exploit for this PHP vulnerability",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xc6ua2/there_isnt_an_easy_exploit_for_this_php/",
+    "summary": "There isn't an easy exploit for this PHP vulnerability",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用"
+    ],
+    "date": "2026-10-22",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xbvb6b/gore_a_cli_that_turns_a_godot_game_pck_or_exe/",
+    "summary": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-10-21",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "IDA 9.5: Apple DriverKit Shared Cache",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/ida-9.5-apple-driverkit-shared-cache",
+    "summary": "IDA 9.5: Reversing Apple DriverKit Drivers Apple is moving third-party drivers out of the kernel and into DriverKit. A DriverKit driver, or dext , is the kernel's C++ driver framework, IOKit, compiled into a user-space library. It is still built from C++ classes with virtual methods, and it gets ...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "内核"
+    ],
+    "date": "2026-10-21",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/stopping-php2shell-how-sentinelone-protects-customers-from-this-attack-technique/",
+    "summary": "Stop PHP2Shell with SentinelOne. Learn how Singularity Agent stops web worker post-exploitation, kills process trees, and hunts threats.",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用"
+    ],
+    "date": "2026-10-21",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Reverse Engineering Pokémon Sprites (LGPE)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +83,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "I extended decomp.wtf into a REA system.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +96,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Reverse Engineer CAPTCHA-bypass (YouTube)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "6.0 Release 2",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -55,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "MbedTLS Security Audit",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -71,7 +141,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +154,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +167,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -110,7 +180,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "PS2 games statically recompiled to WebAssembly",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +193,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "TP-Link Deco XE75 Pro V3] Two years after CCS'24 / Black Hat '24, TP-Link only bumped the RSA key size — Port 20001 -> tmpsvr still gives Arbitrary Root File Write (0xC456) & RCE on 2026 Firmware 1.5.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +207,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "One Parser, Two Bugs, Many Routers: Exploiting Broadcom WiFi Across eCos and Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -152,7 +222,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "PyGhidra + Python + Local LLMs: Turning the Model into a Compiler, Not an Assembler",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -168,7 +238,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "[Release] First-Ever Open Source QEMU Machine Model & Hardware Definitions for Realtek RTD2841 Smart TV SoCs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -183,7 +253,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Open Scrantic: Johnny Castaway (1993 Windows 3.1 screensaver) reimplemented in Rust from its disassembly, using REA",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -197,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Divergence: abusing JS formatters and deobfuscators to change script logic (186 techniques across 37+ libraries)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -210,7 +280,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -225,7 +295,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip |",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -238,7 +308,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -253,7 +323,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 42 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -263,49 +333,6 @@
       "Go"
     ],
     "date": "2026-10-16",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Wanted to download an ISO, ended up writing a kernel exploit",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x6z4gi/wanted_to_download_an_iso_ended_up_writing_a/",
-    "summary": "Wanted to download an ISO, ended up writing a kernel exploit",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "内核"
-    ],
-    "date": "2026-10-15",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "retro-kit: headless Ghidra toolkit for 90s DOS/4GW (Watcom LE/LX) and Win32 games – LE/LX loader, Watcom calling conventions, cross-version library signatures, COM vtable typing",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x6fmx1/retrokit_headless_ghidra_toolkit_for_90s_dos4gw/",
-    "summary": "retro-kit: headless Ghidra toolkit for 90s DOS/4GW (Watcom LE/LX) and Win32 games – LE/LX loader, Watcom calling conventions, cross-version library signatures, COM vtable typing",
-    "tags": [
-      "逆向工具",
-      "反编译"
-    ],
-    "date": "2026-10-15",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "I made an open-source companion for REA that turns reverse-engineering findings into a build plan",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x6lg23/i_made_an_opensource_companion_for_rea_that_turns/",
-    "summary": "I made an open-source companion for REA that turns reverse-engineering findings into a build plan",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-10-15",
     "read_time": 1
   }
 ]
