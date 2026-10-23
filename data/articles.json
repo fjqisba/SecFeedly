@@ -1,6 +1,61 @@
 [
   {
     "id": 1,
+    "title": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xczupm/github_1llu50rymcpgamehacking_mcp_model_context/",
+    "summary": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
+    "tags": [
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-10-23",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "A stranger disassembled my mouse’s official app, fixed my checksum, and by accident gave me the idea for USB cable support",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xct5wd/a_stranger_disassembled_my_mouses_official_app/",
+    "summary": "A stranger disassembled my mouse’s official app, fixed my checksum, and by accident gave me the idea for USB cable support",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-22",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xctyyu/packet_tracer_pkapkt_reverse_engineered_to_fully/",
+    "summary": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-22",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Hex-Rays Completes Acquisition of HexAI to Expand Its Agentic Platform Offering for Cybersecurity Research",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/hex-rays-completes-acquisition-of-hexai",
+    "summary": "HexAI's team joins Hex-Rays, the company behind IDA Pro, to bring IDA technology into its agentic security research platform.",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "AI"
+    ],
+    "date": "2026-10-22",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +69,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "There isn't an easy exploit for this PHP vulnerability",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +83,20 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
+    "title": "State of Post-Quantum Cryptography implementations",
+    "source": "Quarkslab Blog",
+    "source_icon": "⚗️",
+    "url": "http://blog.quarkslab.com/state-of-post-quantum-cryptography-implementations.html",
+    "summary": "In this blogpost, we first review the landscape of Post-Quantum Cryptography implementations across some of the most popular cryptographic libraries. Following that, we present the results of a differential fuzzing campaign on few of the presented implementations.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-10-21",
+    "read_time": 1
+  },
+  {
+    "id": 8,
     "title": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +109,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "IDA 9.5: Apple DriverKit Shared Cache",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -56,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -70,7 +138,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Reverse Engineering Pokémon Sprites (LGPE)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +151,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "I extended decomp.wtf into a REA system.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Reverse Engineer CAPTCHA-bypass (YouTube)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -110,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "6.0 Release 2",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -125,7 +193,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "MbedTLS Security Audit",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -141,7 +209,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -154,7 +222,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -167,7 +235,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -180,7 +248,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "PS2 games statically recompiled to WebAssembly",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -193,7 +261,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "TP-Link Deco XE75 Pro V3] Two years after CCS'24 / Black Hat '24, TP-Link only bumped the RSA key size — Port 20001 -> tmpsvr still gives Arbitrary Root File Write (0xC456) & RCE on 2026 Firmware 1.5.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -207,7 +275,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "One Parser, Two Bugs, Many Routers: Exploiting Broadcom WiFi Across eCos and Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -222,7 +290,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "PyGhidra + Python + Local LLMs: Turning the Model into a Compiler, Not an Assembler",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -238,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "[Release] First-Ever Open Source QEMU Machine Model & Hardware Definitions for Realtek RTD2841 Smart TV SoCs",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -253,7 +321,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "Open Scrantic: Johnny Castaway (1993 Windows 3.1 screensaver) reimplemented in Rust from its disassembly, using REA",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -264,75 +332,6 @@
       "Rust"
     ],
     "date": "2026-10-17",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Divergence: abusing JS formatters and deobfuscators to change script logic (186 techniques across 37+ libraries)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x7uqfr/divergence_abusing_js_formatters_and/",
-    "summary": "Divergence: abusing JS formatters and deobfuscators to change script logic (186 techniques across 37+ libraries)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-16",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x7oud7/big_fish_exploiting_a_37yearold_kernel_bug_in/",
-    "summary": "Big Fish: Exploiting a 37-Year-Old Kernel Bug in OpenBSD",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "内核"
-    ],
-    "date": "2026-10-16",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip |",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x7q28i/a_story_of_wifi_secrets_uart_lockdowns_and_a/",
-    "summary": "A story of wifi secrets, UART lockdowns and a damaged flash memory chip |",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-16",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
-    "summary": "Learn how SentinelOne's Static AI blocked APT29's CaptiveCrunch campaign on the endpoint, stopping local DNS poisoning and captive portal network lures.",
-    "tags": [
-      "APT",
-      "威胁情报",
-      "AI"
-    ],
-    "date": "2026-10-16",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 42 (2026)",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-42-8",
-    "summary": "Authorities arrest cyber exec for extortion, cellular implant in Ledger wallets leaks seed phrases, and hackers heat French supermarket fridges to 50°C.",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-10-16",
     "read_time": 1
   }
 ]
