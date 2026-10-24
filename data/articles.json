@@ -1,6 +1,63 @@
 [
   {
     "id": 1,
+    "title": "iPhone",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xdrvbq/iphone/",
+    "summary": "iPhone",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-23",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Switch 2 Jailbreak",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xd2ug8/switch_2_jailbreak/",
+    "summary": "Switch 2 Jailbreak",
+    "tags": [
+      "iOS",
+      "越狱",
+      "AI"
+    ],
+    "date": "2026-10-23",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xdlwbg/mesh2cad_a_new_approach_to_reverse_engineering/",
+    "summary": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-23",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 43 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-43-8",
+    "summary": "U.S. courts sentence tax fraudster, Chinese-linked actors use agentic AI in cloud supply chain attack, and PHP issues warning of two critical-level RCE flaws.",
+    "tags": [
+      "漏洞分析",
+      "RCE",
+      "Go",
+      "AI"
+    ],
+    "date": "2026-10-23",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +71,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "A stranger disassembled my mouse’s official app, fixed my checksum, and by accident gave me the idea for USB cable support",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +97,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Hex-Rays Completes Acquisition of HexAI to Expand Its Agentic Platform Offering for Cybersecurity Research",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -55,7 +112,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -69,7 +126,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "There isn't an easy exploit for this PHP vulnerability",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +140,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "State of Post-Quantum Cryptography implementations",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -96,7 +153,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +166,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "IDA 9.5: Apple DriverKit Shared Cache",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -124,7 +181,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -138,7 +195,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "Reverse Engineering Pokémon Sprites (LGPE)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -151,7 +208,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "I extended decomp.wtf into a REA system.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +221,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Reverse Engineer CAPTCHA-bypass (YouTube)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +235,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "6.0 Release 2",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -193,7 +250,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "MbedTLS Security Audit",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -209,7 +266,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -222,7 +279,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -235,7 +292,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -248,7 +305,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "PS2 games statically recompiled to WebAssembly",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -261,7 +318,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "TP-Link Deco XE75 Pro V3] Two years after CCS'24 / Black Hat '24, TP-Link only bumped the RSA key size — Port 20001 -> tmpsvr still gives Arbitrary Root File Write (0xC456) & RCE on 2026 Firmware 1.5.0",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -275,7 +332,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "One Parser, Two Bugs, Many Routers: Exploiting Broadcom WiFi Across eCos and Linux",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -290,7 +347,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "PyGhidra + Python + Local LLMs: Turning the Model into a Compiler, Not an Assembler",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -303,35 +360,6 @@
       "LLM"
     ],
     "date": "2026-10-18",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "[Release] First-Ever Open Source QEMU Machine Model & Hardware Definitions for Realtek RTD2841 Smart TV SoCs",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x8e9n6/release_firstever_open_source_qemu_machine_model/",
-    "summary": "[Release] First-Ever Open Source QEMU Machine Model & Hardware Definitions for Realtek RTD2841 Smart TV SoCs",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "CPU模拟"
-    ],
-    "date": "2026-10-17",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Open Scrantic: Johnny Castaway (1993 Windows 3.1 screensaver) reimplemented in Rust from its disassembly, using REA",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x8bpym/open_scrantic_johnny_castaway_1993_windows_31/",
-    "summary": "Open Scrantic: Johnny Castaway (1993 Windows 3.1 screensaver) reimplemented in Rust from its disassembly, using REA",
-    "tags": [
-      "Windows",
-      "Rust"
-    ],
-    "date": "2026-10-17",
     "read_time": 1
   }
 ]
