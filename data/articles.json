@@ -1,6 +1,48 @@
 [
   {
     "id": 1,
+    "title": "I built a tiny multiplayer game whose only purpose is to be reverse engineered — Lab 1 (derive the whole protocol from a pcap) is free",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xepsq0/i_built_a_tiny_multiplayer_game_whose_only/",
+    "summary": "I built a tiny multiplayer game whose only purpose is to be reverse engineered — Lab 1 (derive the whole protocol from a pcap) is free",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Full source: autonomous root chain for TCL Android TV via CVE-2022-22706 Mali GPU page-cache write — libc __cxa_atexit shellcode, SELinux bypass",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xe68bj/full_source_autonomous_root_chain_for_tcl_android/",
+    "summary": "Full source: autonomous root chain for TCL Android TV via CVE-2022-22706 Mali GPU page-cache write — libc __cxa_atexit shellcode, SELinux bypass",
+    "tags": [
+      "漏洞分析",
+      "CVE",
+      "RCE",
+      "Android"
+    ],
+    "date": "2026-10-24",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "NativeMirror - PE-sieve functionality in pure Object Pascal, including HollowsHunter integration (as native Delphi written Dll)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xecayr/nativemirror_pesieve_functionality_in_pure_object/",
+    "summary": "NativeMirror - PE-sieve functionality in pure Object Pascal, including HollowsHunter integration (as native Delphi written Dll)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-24",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "iPhone",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +55,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Switch 2 Jailbreak",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +70,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -41,7 +83,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 43 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -57,7 +99,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -71,7 +113,21 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
+    "title": "Discovering a Backdoor and Flaws in More Encrypted USB Drives",
+    "source": "Binary Ninja Blog",
+    "source_icon": "🥷",
+    "url": "https://binary.ninja/2026/10/22/breaking-more-encrypted-usb-drives-with-ai.html",
+    "summary": "How Codex used Binary Ninja to recover files from four USB-protection products by finding a backdoor, fixed keys, weak key derivation, and ineffective password checks.",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-10-22",
+    "read_time": 1
+  },
+  {
+    "id": 10,
     "title": "A stranger disassembled my mouse’s official app, fixed my checksum, and by accident gave me the idea for USB cable support",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +140,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +153,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "Hex-Rays Completes Acquisition of HexAI to Expand Its Agentic Platform Offering for Cybersecurity Research",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -112,7 +168,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -126,7 +182,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "There isn't an easy exploit for this PHP vulnerability",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -140,7 +196,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "State of Post-Quantum Cryptography implementations",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -153,7 +209,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -166,7 +222,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "IDA 9.5: Apple DriverKit Shared Cache",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -181,7 +237,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -195,7 +251,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "Reverse Engineering Pokémon Sprites (LGPE)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -208,7 +264,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "I extended decomp.wtf into a REA system.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -221,7 +277,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Reverse Engineer CAPTCHA-bypass (YouTube)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -235,7 +291,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 22,
     "title": "6.0 Release 2",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -250,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 23,
     "title": "MbedTLS Security Audit",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -266,7 +322,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 24,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -279,7 +335,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 25,
     "title": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -292,7 +348,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 26,
     "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -302,64 +358,6 @@
       "恶意软件"
     ],
     "date": "2026-10-19",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "PS2 games statically recompiled to WebAssembly",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x9hu8e/ps2_games_statically_recompiled_to_webassembly/",
-    "summary": "PS2 games statically recompiled to WebAssembly",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-18",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "TP-Link Deco XE75 Pro V3] Two years after CCS'24 / Black Hat '24, TP-Link only bumped the RSA key size — Port 20001 -> tmpsvr still gives Arbitrary Root File Write (0xC456) & RCE on 2026 Firmware 1.5.0",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x98de1/tplink_deco_xe75_pro_v3_two_years_after_ccs24/",
-    "summary": "TP-Link Deco XE75 Pro V3] Two years after CCS'24 / Black Hat '24, TP-Link only bumped the RSA key size — Port 20001 -> tmpsvr still gives Arbitrary Root File Write (0xC456) & RCE on 2026 Firmware 1.5.0",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-10-18",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "One Parser, Two Bugs, Many Routers: Exploiting Broadcom WiFi Across eCos and Linux",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x9ef1g/one_parser_two_bugs_many_routers_exploiting/",
-    "summary": "One Parser, Two Bugs, Many Routers: Exploiting Broadcom WiFi Across eCos and Linux",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Linux"
-    ],
-    "date": "2026-10-18",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "PyGhidra + Python + Local LLMs: Turning the Model into a Compiler, Not an Assembler",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x8ra4o/pyghidra_python_local_llms_turning_the_model_into/",
-    "summary": "PyGhidra + Python + Local LLMs: Turning the Model into a Compiler, Not an Assembler",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-10-18",
     "read_time": 1
   }
 ]
