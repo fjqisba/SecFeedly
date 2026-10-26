@@ -1,6 +1,48 @@
 [
   {
     "id": 1,
+    "title": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xeyph9/ive_partially_reverseengineered_oblivion/",
+    "summary": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-25",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Five Open Source Ghidra SLEIGH Implementations",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xf817x/five_open_source_ghidra_sleigh_implementations/",
+    "summary": "Five Open Source Ghidra SLEIGH Implementations",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "漏洞分析",
+      "RCE"
+    ],
+    "date": "2026-10-25",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "An in-depth technical explanation of PHP2SHell",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xfbyb5/an_indepth_technical_explanation_of_php2shell/",
+    "summary": "An in-depth technical explanation of PHP2SHell",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-25",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "I built a tiny multiplayer game whose only purpose is to be reverse engineered — Lab 1 (derive the whole protocol from a pcap) is free",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +55,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Full source: autonomous root chain for TCL Android TV via CVE-2022-22706 Mali GPU page-cache write — libc __cxa_atexit shellcode, SELinux bypass",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -29,7 +71,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "NativeMirror - PE-sieve functionality in pure Object Pascal, including HollowsHunter integration (as native Delphi written Dll)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "iPhone",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +97,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Switch 2 Jailbreak",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -70,7 +112,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -83,7 +125,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 43 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -99,7 +141,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -113,7 +155,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Discovering a Backdoor and Flaws in More Encrypted USB Drives",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -127,7 +169,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "A stranger disassembled my mouse’s official app, fixed my checksum, and by accident gave me the idea for USB cable support",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -140,7 +182,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -153,7 +195,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Hex-Rays Completes Acquisition of HexAI to Expand Its Agentic Platform Offering for Cybersecurity Research",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -168,7 +210,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -182,7 +224,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "There isn't an easy exploit for this PHP vulnerability",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -196,7 +238,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "State of Post-Quantum Cryptography implementations",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -209,7 +251,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -222,7 +264,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "IDA 9.5: Apple DriverKit Shared Cache",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -237,7 +279,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -251,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "Reverse Engineering Pokémon Sprites (LGPE)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -264,7 +306,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 23,
     "title": "I extended decomp.wtf into a REA system.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -277,7 +319,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 24,
     "title": "Reverse Engineer CAPTCHA-bypass (YouTube)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -291,7 +333,7 @@
     "read_time": 1
   },
   {
-    "id": 22,
+    "id": 25,
     "title": "6.0 Release 2",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -303,61 +345,6 @@
       "Linux"
     ],
     "date": "2026-10-20",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "MbedTLS Security Audit",
-    "source": "Quarkslab Blog",
-    "source_icon": "⚗️",
-    "url": "http://blog.quarkslab.com/mbedtls-security-audit.html",
-    "summary": "At the request of the Open Source Technology Improvement Fund (OSTIF), Quarkslab performed a security audit of mbedTLS , evaluating the security of the changes in version 4.0.",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "TLS",
-      "协议分析"
-    ],
-    "date": "2026-10-19",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x9pwy1/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-19",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1x9x4ru/tvmrecover_tencent_vm_devirtualization_through/",
-    "summary": "tvm-recover: Tencent VM devirtualization through semantic lifting and algebraic simplification",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-10-19",
-    "read_time": 1
-  },
-  {
-    "id": 26,
-    "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-what-detection-teams-should-actually-hunt/",
-    "summary": "Discover how detection teams can split EDR-killer attacks into four distinct behavior hunts to catch BYOVD and driverless threats before ransomware fires.",
-    "tags": [
-      "恶意软件"
-    ],
-    "date": "2026-10-19",
     "read_time": 1
   }
 ]
