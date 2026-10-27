@@ -1,6 +1,75 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xfpqh5/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-26",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Heap overflow in EDK2’s Brotli decompressor: the CVE-2021-28211 fix was applied to LZMA and never to Brotli",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xg5kkt/heap_overflow_in_edk2s_brotli_decompressor_the/",
+    "summary": "Heap overflow in EDK2’s Brotli decompressor: the CVE-2021-28211 fix was applied to LZMA and never to Brotli",
+    "tags": [
+      "漏洞分析",
+      "CVE"
+    ],
+    "date": "2026-10-26",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "RzWeb: Rizin compiled to WebAssembly, so you can do static analysis in a browser tab and nothing gets uploaded",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xfw6bd/rzweb_rizin_compiled_to_webassembly_so_you_can_do/",
+    "summary": "RzWeb: Rizin compiled to WebAssembly, so you can do static analysis in a browser tab and nothing gets uploaded",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-26",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Indirect Syscall Rust Loader Analysis (Stream)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xg06n4/indirect_syscall_rust_loader_analysis_stream/",
+    "summary": "Indirect Syscall Rust Loader Analysis (Stream)",
+    "tags": [
+      "Rust"
+    ],
+    "date": "2026-10-26",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "IDA 9.5 Is Here: More Platforms, More Agentic Power.",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/ida-9.5-release",
+    "summary": "IDA 9.5 is here, and it’s one of our biggest releases yet. Three new decompilers for Android Dalvik, Infineon TriCore, and Qualcomm Hexagon significantly expand platform coverage, while Apple kernelcache and DriverKit analysis take a major step forward. Support for AVX/SSE, Armv9, MIPS Release 6,...",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "Android",
+      "移动安全"
+    ],
+    "date": "2026-10-26",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "Five Open Source Ghidra SLEIGH Implementations",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -29,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "An in-depth technical explanation of PHP2SHell",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "I built a tiny multiplayer game whose only purpose is to be reverse engineered — Lab 1 (derive the whole protocol from a pcap) is free",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "Full source: autonomous root chain for TCL Android TV via CVE-2022-22706 Mali GPU page-cache write — libc __cxa_atexit shellcode, SELinux bypass",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -71,7 +140,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "NativeMirror - PE-sieve functionality in pure Object Pascal, including HollowsHunter integration (as native Delphi written Dll)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +153,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "iPhone",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +166,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "Switch 2 Jailbreak",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -112,7 +181,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +194,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 43 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -141,7 +210,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -155,7 +224,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Discovering a Backdoor and Flaws in More Encrypted USB Drives",
     "source": "Binary Ninja Blog",
     "source_icon": "🥷",
@@ -169,7 +238,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "A stranger disassembled my mouse’s official app, fixed my checksum, and by accident gave me the idea for USB cable support",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -182,7 +251,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "Packet Tracer pka/pkt reverse engineered to fully build, export, or decrypt without running Packet Tracer",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -195,7 +264,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Hex-Rays Completes Acquisition of HexAI to Expand Its Agentic Platform Offering for Cybersecurity Research",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -210,7 +279,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "SuperGhidra: an improvised agent-first RE tool on top of Ghidra",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -224,7 +293,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "There isn't an easy exploit for this PHP vulnerability",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -238,7 +307,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 23,
     "title": "State of Post-Quantum Cryptography implementations",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -251,7 +320,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 24,
     "title": "gore: a CLI that turns a Godot game (PCK or EXE) into a project you can open, with automatic AES-256 key recovery",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -264,7 +333,7 @@
     "read_time": 1
   },
   {
-    "id": 20,
+    "id": 25,
     "title": "IDA 9.5: Apple DriverKit Shared Cache",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -279,7 +348,7 @@
     "read_time": 1
   },
   {
-    "id": 21,
+    "id": 26,
     "title": "Stopping PHP2SHELL: How SentinelOne Protects Customers From This Attack Technique",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -290,61 +359,6 @@
       "漏洞利用"
     ],
     "date": "2026-10-21",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Reverse Engineering Pokémon Sprites (LGPE)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xazbye/reverse_engineering_pokémon_sprites_lgpe/",
-    "summary": "Reverse Engineering Pokémon Sprites (LGPE)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-20",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "I extended decomp.wtf into a REA system.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xb5mqm/i_extended_decompwtf_into_a_rea_system/",
-    "summary": "I extended decomp.wtf into a REA system.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-20",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Reverse Engineer CAPTCHA-bypass (YouTube)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xavo89/reverse_engineer_captchabypass_youtube/",
-    "summary": "Reverse Engineer CAPTCHA-bypass (YouTube)",
-    "tags": [
-      "APT",
-      "威胁情报"
-    ],
-    "date": "2026-10-20",
-    "read_time": 1
-  },
-  {
-    "id": 25,
-    "title": "6.0 Release 2",
-    "source": "Binary Ninja Blog",
-    "source_icon": "🥷",
-    "url": "https://binary.ninja/2026/10/20/6.0-release-2.html",
-    "summary": "We’re back with a small R2 update for those who only use our stable branch. This R2 improves on our Krypton 6.0 release with crash fixes, hardening of the PE and ELF loaders, Linux compatibility improvements, as well as bug-fixes for the MSP430 architecture, DWARF, Mach-O, Ghidra Export, and the ...",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "Linux"
-    ],
-    "date": "2026-10-20",
     "read_time": 1
   }
 ]
