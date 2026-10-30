@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "Reverse engineering the SMS and phonebook formats in Nokia Series 30+ backups",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xj5jy7/reverse_engineering_the_sms_and_phonebook_formats/",
+    "summary": "Reverse engineering the SMS and phonebook formats in Nokia Series 30+ backups",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-30",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Reverse engineering the JBL PartyBox Bluetooth protocol: GATT over classic Bluetooth and a speaker that drops links it didn’t create",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xitbxd/reverse_engineering_the_jbl_partybox_bluetooth/",
+    "summary": "Reverse engineering the JBL PartyBox Bluetooth protocol: GATT over classic Bluetooth and a speaker that drops links it didn’t create",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-10-29",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Reverse engineering Peugeot SMEG+: VxWorks 6.7 and native UI in a custom QEMU MPC5121E model (AI-assisted)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xikrso/reverse_engineering_peugeot_smeg_vxworks_67_and/",
+    "summary": "Reverse engineering Peugeot SMEG+: VxWorks 6.7 and native UI in a custom QEMU MPC5121E model (AI-assisted)",
+    "tags": [
+      "CPU模拟",
+      "AI"
+    ],
+    "date": "2026-10-29",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "I made a reverse engineered version of cursor that you can customize as you want",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +66,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "JNISleuth-MCP: Automated Android JNI RegisterNatives recovery, ARM64 OLLVM (CSEL + BR X8) deobfuscator, and Ghidra / IDA Pro 9.0 bridge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Rooting a 2024 Samsung Tizen 9 TV from its own browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -55,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "iCloudKit Extractor: seven months from an ADP dead end to a public toolkit",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -68,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "I reverse engineered the Attack Shark X6 protocol to get a Linux app for it, and I'd like the community to test it and tell me what to build next",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -81,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
     "source": "Google Project Zero",
     "source_icon": "🔍",
@@ -96,7 +136,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Snapshotting our way to CVE-2026-9539",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -112,7 +152,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -125,7 +165,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "Heap overflow in EDK2’s Brotli decompressor: the CVE-2021-28211 fix was applied to LZMA and never to Brotli",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -139,7 +179,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "RzWeb: Rizin compiled to WebAssembly, so you can do static analysis in a browser tab and nothing gets uploaded",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -152,7 +192,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Indirect Syscall Rust Loader Analysis (Stream)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -165,7 +205,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "IDA 9.5 Is Here: More Platforms, More Agentic Power.",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -181,7 +221,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "I've partially reverse-engineered Oblivion Remastered with Claude to fix its performance (+40% FPS in my benchmark scenario)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -194,7 +234,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Five Open Source Ghidra SLEIGH Implementations",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -210,7 +250,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "An in-depth technical explanation of PHP2SHell",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -223,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "I built a tiny multiplayer game whose only purpose is to be reverse engineered — Lab 1 (derive the whole protocol from a pcap) is free",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -236,7 +276,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "Full source: autonomous root chain for TCL Android TV via CVE-2022-22706 Mali GPU page-cache write — libc __cxa_atexit shellcode, SELinux bypass",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -252,7 +292,7 @@
     "read_time": 1
   },
   {
-    "id": 19,
+    "id": 22,
     "title": "NativeMirror - PE-sieve functionality in pure Object Pascal, including HollowsHunter integration (as native Delphi written Dll)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -262,77 +302,6 @@
       "安全"
     ],
     "date": "2026-10-24",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "iPhone",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xdrvbq/iphone/",
-    "summary": "iPhone",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-23",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Switch 2 Jailbreak",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xd2ug8/switch_2_jailbreak/",
-    "summary": "Switch 2 Jailbreak",
-    "tags": [
-      "iOS",
-      "越狱",
-      "AI"
-    ],
-    "date": "2026-10-23",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xdlwbg/mesh2cad_a_new_approach_to_reverse_engineering/",
-    "summary": "Mesh2CAD | A New Approach to Reverse Engineering — Coming Soon",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-23",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 43 (2026)",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-43-8",
-    "summary": "U.S. courts sentence tax fraudster, Chinese-linked actors use agentic AI in cloud supply chain attack, and PHP issues warning of two critical-level RCE flaws.",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "Go",
-      "AI"
-    ],
-    "date": "2026-10-23",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xczupm/github_1llu50rymcpgamehacking_mcp_model_context/",
-    "summary": "GitHub - 1llu50ry/mcp-gamehacking: MCP (Model Context Protocol) server for game hacking & reverse engineering. A structured knowledge base of 4,100+ skills with full source code archives, specialized agents, and workflow tools.",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-10-23",
     "read_time": 1
   }
 ]
