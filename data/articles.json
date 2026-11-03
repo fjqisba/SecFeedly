@@ -1,6 +1,64 @@
 [
   {
     "id": 1,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xlrczh/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-02",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Jailbreaking my car's navigation system just so I can change the time",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xm6lje/jailbreaking_my_cars_navigation_system_just_so_i/",
+    "summary": "Jailbreaking my car's navigation system just so I can change the time",
+    "tags": [
+      "iOS",
+      "越狱",
+      "AI"
+    ],
+    "date": "2026-11-02",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "I've updated my Linux System Call website after a long time (originally released in 2020). Includes more platforms now, kernel diffs and other things. The API was also updated",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xlsmc0/ive_updated_my_linux_system_call_website_after_a/",
+    "summary": "I've updated my Linux System Call website after a long time (originally released in 2020). Includes more platforms now, kernel diffs and other things. The API was also updated",
+    "tags": [
+      "内核",
+      "Linux"
+    ],
+    "date": "2026-11-02",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Detecting Frida Stalker",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xm64um/detecting_frida_stalker/",
+    "summary": "Detecting Frida Stalker",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "动态插桩",
+      "Hook"
+    ],
+    "date": "2026-11-02",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Can we put a stop to the AI slop taking over this subreddit. Vast majority of posts break rule 2.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +71,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "HX3302B / \"X9S children's camera\": reverse engineering, SDK and Doom",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +84,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Interesting tool",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +97,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "Webbased Fender FUSE, reviving unsupported guitar amplifiers from 2013",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -52,7 +110,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "BogusMips 2026-10-31 (first version) released: Integrated disassembly and network sniffing for Android apps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "I reverse engineered RuneScape's July 2007 revision.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -79,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "SimpleSvm AMD-V hypervisor — stability audit: 19 fixes applied (6 BSODs, 3 leaks, 2 correctness bugs, 2 dead-code blocks, 6 barriers, 4 optimizations)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -92,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "D2-Web: Diablo II 1.13c Open-Source and Playable in Browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -106,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "81.5% code recovered for mythical Icewind Dale 2 lost source code. ETA 2027 unless you plug your agents today!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -120,7 +178,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -136,7 +194,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "Reverse engineering the SMS and phonebook formats in Nokia Series 30+ backups",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -149,7 +207,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Reverse engineering the JBL PartyBox Bluetooth protocol: GATT over classic Bluetooth and a speaker that drops links it didn’t create",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -162,7 +220,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "Reverse engineering Peugeot SMEG+: VxWorks 6.7 and native UI in a custom QEMU MPC5121E model (AI-assisted)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -176,7 +234,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -189,7 +247,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "I made a reverse engineered version of cursor that you can customize as you want",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -202,7 +260,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "JNISleuth-MCP: Automated Android JNI RegisterNatives recovery, ARM64 OLLVM (CSEL + BR X8) deobfuscator, and Ghidra / IDA Pro 9.0 bridge",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -215,60 +273,6 @@
       "移动安全"
     ],
     "date": "2026-10-28",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "Rooting a 2024 Samsung Tizen 9 TV from its own browser",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xgunma/rooting_a_2024_samsung_tizen_9_tv_from_its_own/",
-    "summary": "Rooting a 2024 Samsung Tizen 9 TV from its own browser",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-27",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "iCloudKit Extractor: seven months from an ADP dead end to a public toolkit",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xh42db/icloudkit_extractor_seven_months_from_an_adp_dead/",
-    "summary": "iCloudKit Extractor: seven months from an ADP dead end to a public toolkit",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-27",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "I reverse engineered the Attack Shark X6 protocol to get a Linux app for it, and I'd like the community to test it and tell me what to build next",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xgupyc/i_reverse_engineered_the_attack_shark_x6_protocol/",
-    "summary": "I reverse engineered the Attack Shark X6 protocol to get a Linux app for it, and I'd like the community to test it and tell me what to build next",
-    "tags": [
-      "Linux"
-    ],
-    "date": "2026-10-27",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Fuzzers vs. AI: Comparing Fuzzilli and BigSleep on JavaScript Engines",
-    "source": "Google Project Zero",
-    "source_icon": "🔍",
-    "url": "https://projectzero.google/2026/10/fuzzing-v-AI.html",
-    "summary": "Summary Project Zero compared two automated tools used by Google to find vulnerabilities in Chrome’s JavaScript engine, V8, on a regular basis. Fuzzilli is a generative JavaScript engine fuzzer and BigSleep is an LLM-based bug finding system. In the past six months, BigSleep found more vulnerabil...",
-    "tags": [
-      "Go",
-      "AI",
-      "LLM"
-    ],
-    "date": "2026-10-27",
     "read_time": 1
   }
 ]
