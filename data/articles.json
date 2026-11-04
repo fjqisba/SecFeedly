@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "I reverse-engineered my old LG Magic Motion controller and made a Windows driver for it",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xmx3kz/i_reverseengineered_my_old_lg_magic_motion/",
+    "summary": "I reverse-engineered my old LG Magic Motion controller and made a Windows driver for it",
+    "tags": [
+      "Windows"
+    ],
+    "date": "2026-11-03",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Breaking Godot asset-pack obfuscation: detecting a renamed GDPC magic by structure, and recovering Godot Secure's per-build runtime-derived key from memory (gore 0.4, Rust)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xn19so/breaking_godot_assetpack_obfuscation_detecting_a/",
+    "summary": "Breaking Godot asset-pack obfuscation: detecting a renamed GDPC magic by structure, and recovering Godot Secure's per-build runtime-derived key from memory (gore 0.4, Rust)",
+    "tags": [
+      "Rust",
+      "Go"
+    ],
+    "date": "2026-11-03",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Rusty Stealer — Keylogging, Screen Hijacking, Service Persistence & Killing Defender",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xmwq0g/rusty_stealer_keylogging_screen_hijacking_service/",
+    "summary": "Rusty Stealer — Keylogging, Screen Hijacking, Service Persistence & Killing Defender",
+    "tags": [
+      "Rust"
+    ],
+    "date": "2026-11-03",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +53,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "Jailbreaking my car's navigation system just so I can change the time",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -28,7 +68,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "I've updated my Linux System Call website after a long time (originally released in 2020). Includes more platforms now, kernel diffs and other things. The API was also updated",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -42,7 +82,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Detecting Frida Stalker",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -58,7 +98,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "Can we put a stop to the AI slop taking over this subreddit. Vast majority of posts break rule 2.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -71,7 +111,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "HX3302B / \"X9S children's camera\": reverse engineering, SDK and Doom",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -84,7 +124,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Interesting tool",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -97,7 +137,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "Webbased Fender FUSE, reviving unsupported guitar amplifiers from 2013",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -110,7 +150,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "BogusMips 2026-10-31 (first version) released: Integrated disassembly and network sniffing for Android apps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -124,7 +164,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "I reverse engineered RuneScape's July 2007 revision.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "SimpleSvm AMD-V hypervisor — stability audit: 19 fixes applied (6 BSODs, 3 leaks, 2 correctness bugs, 2 dead-code blocks, 6 barriers, 4 optimizations)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -150,7 +190,36 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-44-8/",
+    "summary": "PHP2SHELL’s complexity stalls mass exploitation, attackers chain it with Fragnesia to root firewalls, and a silent Brotli fix leaves Node2Shell exposed.",
+    "tags": [
+      "漏洞分析",
+      "漏洞利用",
+      "Go",
+      "AI"
+    ],
+    "date": "2026-10-30",
+    "read_time": 1
+  },
+  {
+    "id": 16,
+    "title": "Stopping Node2Shell: How SentinelOne Protects Customers From Brotli-Based Remote Code Execution",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/stopping-node2shell-sentinelone-protects-customers-from-brotli-based-RCE/",
+    "summary": "Read the breakdown on how the Node2Shell vulnerability in Google's Brotli decoder enables remote code execution across Node.js, Bun, and .NET, and how to mitigate the risk.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-10-30",
+    "read_time": 1
+  },
+  {
+    "id": 17,
     "title": "D2-Web: Diablo II 1.13c Open-Source and Playable in Browser",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -164,7 +233,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "81.5% code recovered for mythical Icewind Dale 2 lost source code. ETA 2027 unless you plug your agents today!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -178,7 +247,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -194,7 +263,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Reverse engineering the SMS and phonebook formats in Nokia Series 30+ backups",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -207,7 +276,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "Reverse engineering the JBL PartyBox Bluetooth protocol: GATT over classic Bluetooth and a speaker that drops links it didn’t create",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -220,7 +289,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 22,
     "title": "Reverse engineering Peugeot SMEG+: VxWorks 6.7 and native UI in a custom QEMU MPC5121E model (AI-assisted)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -231,48 +300,6 @@
       "AI"
     ],
     "date": "2026-10-29",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xhqjop/seo_poisoning_campaign_targets_deepseek_users/",
-    "summary": "SEO Poisoning Campaign Targets DeepSeek Users: Chinese Threat Actor Deploys Kong RAT via Multi-Stage Attacks",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-10-28",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "I made a reverse engineered version of cursor that you can customize as you want",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xhuhar/i_made_a_reverse_engineered_version_of_cursor/",
-    "summary": "I made a reverse engineered version of cursor that you can customize as you want",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-28",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "JNISleuth-MCP: Automated Android JNI RegisterNatives recovery, ARM64 OLLVM (CSEL + BR X8) deobfuscator, and Ghidra / IDA Pro 9.0 bridge",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xhic29/jnisleuthmcp_automated_android_jni/",
-    "summary": "JNISleuth-MCP: Automated Android JNI RegisterNatives recovery, ARM64 OLLVM (CSEL + BR X8) deobfuscator, and Ghidra / IDA Pro 9.0 bridge",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "Android",
-      "移动安全"
-    ],
-    "date": "2026-10-28",
     "read_time": 1
   }
 ]
