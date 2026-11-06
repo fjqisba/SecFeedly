@@ -1,6 +1,46 @@
 [
   {
     "id": 1,
+    "title": "Autopsy of a dead anti-cheat: rebuilding classic Valve Anti-Cheat (VAC) bit-for-bit in C++20",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xoc232/autopsy_of_a_dead_anticheat_rebuilding_classic/",
+    "summary": "Autopsy of a dead anti-cheat: rebuilding classic Valve Anti-Cheat (VAC) bit-for-bit in C++20",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-05",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "AirPods have a motion sensor, so I made them a game controller. Turn your head to steer a bike, hold the mouse for gas.auricle connects to the AirPods' control channel (L2CAP, port 0x1001) and decodes ~23 packets/s of orientation and acceleration data (16-bit ints).",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xoq5po/airpods_have_a_motion_sensor_so_i_made_them_a/",
+    "summary": "AirPods have a motion sensor, so I made them a game controller. Turn your head to steer a bike, hold the mouse for gas.auricle connects to the AirPods' control channel (L2CAP, port 0x1001) and decodes ~23 packets/s of orientation and acceleration data (16-bit ints).",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-11-05",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Added Ghidra Support for Cisco PXF Processors",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xoleq1/added_ghidra_support_for_cisco_pxf_processors/",
+    "summary": "Added Ghidra Support for Cisco PXF Processors",
+    "tags": [
+      "逆向工具",
+      "反编译"
+    ],
+    "date": "2026-11-05",
+    "read_time": 1
+  },
+  {
+    "id": 4,
     "title": "AirPods 3 expose their motion sensors as HID devices over Apple RemoteHID, and the default L2CAP MTU on Linux hides them",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -14,7 +54,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 5,
     "title": "After a decade of reversing, I got co-op working in DOS Wing Commander",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -27,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Black Ops II recompiled ahead of time from x86 to ARM64: Remill lifting, custom LLVM passes, D3D11 on Metal",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 7,
     "title": "Malware Analysis, the new Add-on",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -55,7 +95,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 8,
     "title": "I reverse-engineered my old LG Magic Motion controller and made a Windows driver for it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -68,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 9,
     "title": "Breaking Godot asset-pack obfuscation: detecting a renamed GDPC magic by structure, and recovering Godot Secure's per-build runtime-derived key from memory (gore 0.4, Rust)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -82,7 +122,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 10,
     "title": "Rusty Stealer — Keylogging, Screen Hijacking, Service Persistence & Killing Defender",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -95,7 +135,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 11,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +148,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 12,
     "title": "Jailbreaking my car's navigation system just so I can change the time",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -123,7 +163,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 13,
     "title": "I've updated my Linux System Call website after a long time (originally released in 2020). Includes more platforms now, kernel diffs and other things. The API was also updated",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -137,7 +177,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 14,
     "title": "Detecting Frida Stalker",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -153,7 +193,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 15,
     "title": "Can we put a stop to the AI slop taking over this subreddit. Vast majority of posts break rule 2.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -166,7 +206,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 16,
     "title": "HX3302B / \"X9S children's camera\": reverse engineering, SDK and Doom",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -179,7 +219,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 17,
     "title": "Interesting tool",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -192,7 +232,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 18,
     "title": "Webbased Fender FUSE, reviving unsupported guitar amplifiers from 2013",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -205,7 +245,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 19,
     "title": "BogusMips 2026-10-31 (first version) released: Integrated disassembly and network sniffing for Android apps",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -219,7 +259,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 20,
     "title": "I reverse engineered RuneScape's July 2007 revision.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -232,7 +272,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 21,
     "title": "SimpleSvm AMD-V hypervisor — stability audit: 19 fixes applied (6 BSODs, 3 leaks, 2 correctness bugs, 2 dead-code blocks, 6 barriers, 4 optimizations)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -242,92 +282,6 @@
       "安全"
     ],
     "date": "2026-10-31",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-44-8/",
-    "summary": "PHP2SHELL’s complexity stalls mass exploitation, attackers chain it with Fragnesia to root firewalls, and a silent Brotli fix leaves Node2Shell exposed.",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Go",
-      "AI"
-    ],
-    "date": "2026-10-30",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "Stopping Node2Shell: How SentinelOne Protects Customers From Brotli-Based Remote Code Execution",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/stopping-node2shell-sentinelone-protects-customers-from-brotli-based-RCE/",
-    "summary": "Read the breakdown on how the Node2Shell vulnerability in Google's Brotli decoder enables remote code execution across Node.js, Bun, and .NET, and how to mitigate the risk.",
-    "tags": [
-      "Go"
-    ],
-    "date": "2026-10-30",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "D2-Web: Diablo II 1.13c Open-Source and Playable in Browser",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xjo0bl/d2web_diablo_ii_113c_opensource_and_playable_in/",
-    "summary": "D2-Web: Diablo II 1.13c Open-Source and Playable in Browser",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-10-30",
-    "read_time": 1
-  },
-  {
-    "id": 22,
-    "title": "81.5% code recovered for mythical Icewind Dale 2 lost source code. ETA 2027 unless you plug your agents today!",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xjptn7/815_code_recovered_for_mythical_icewind_dale_2/",
-    "summary": "81.5% code recovered for mythical Icewind Dale 2 lost source code. ETA 2027 unless you plug your agents today!",
-    "tags": [
-      "漏洞分析",
-      "RCE"
-    ],
-    "date": "2026-10-30",
-    "read_time": 1
-  },
-  {
-    "id": 23,
-    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 44 (2026)",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-44-8",
-    "summary": "PHP2SHELL’s complexity stalls mass exploitation, attackers chain it with Fragnesia to root firewalls, and a silent Brotli fix leaves Node2Shell exposed.",
-    "tags": [
-      "漏洞分析",
-      "漏洞利用",
-      "Go",
-      "AI"
-    ],
-    "date": "2026-10-30",
-    "read_time": 1
-  },
-  {
-    "id": 24,
-    "title": "Reverse engineering the SMS and phonebook formats in Nokia Series 30+ backups",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xj5jy7/reverse_engineering_the_sms_and_phonebook_formats/",
-    "summary": "Reverse engineering the SMS and phonebook formats in Nokia Series 30+ backups",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-30",
     "read_time": 1
   }
 ]
