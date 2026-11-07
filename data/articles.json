@@ -1,6 +1,60 @@
 [
   {
     "id": 1,
+    "title": "Firecracker VM Escape: PwnEscape Part 2.",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xpvpio/firecracker_vm_escape_pwnescape_part_2/",
+    "summary": "Firecracker VM Escape: PwnEscape Part 2.",
+    "tags": [
+      "CTF",
+      "PWN"
+    ],
+    "date": "2026-11-07",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Building iOS apps on Windows: running Apple’s Mach-O macro plugins on an ARM64 CPU emulator",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xp5z7o/building_ios_apps_on_windows_running_apples_macho/",
+    "summary": "Building iOS apps on Windows: running Apple’s Mach-O macro plugins on an ARM64 CPU emulator",
+    "tags": [
+      "iOS",
+      "Windows"
+    ],
+    "date": "2026-11-06",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "PUBG Lite DEVLOG #11 - Vehicles!",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xpezgl/pubg_lite_devlog_11_vehicles/",
+    "summary": "PUBG Lite DEVLOG #11 - Vehicles!",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-06",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 45 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
+    "summary": "Authorities dismantle investment scams and cybercrime networks, scammers abuse Teams and AD CS, and cyberattacks disrupt European refrigeration systems.",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-11-06",
+    "read_time": 1
+  },
+  {
+    "id": 5,
     "title": "Autopsy of a dead anti-cheat: rebuilding classic Valve Anti-Cheat (VAC) bit-for-bit in C++20",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +67,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 6,
     "title": "AirPods have a motion sensor, so I made them a game controller. Turn your head to steer a bike, hold the mouse for gas.auricle connects to the AirPods' control channel (L2CAP, port 0x1001) and decodes ~23 packets/s of orientation and acceleration data (16-bit ints).",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 7,
     "title": "Added Ghidra Support for Cisco PXF Processors",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -40,7 +94,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 8,
     "title": "AirPods 3 expose their motion sensors as HID devices over Apple RemoteHID, and the default L2CAP MTU on Linux hides them",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -54,7 +108,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 9,
     "title": "After a decade of reversing, I got co-op working in DOS Wing Commander",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +121,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 10,
     "title": "Black Ops II recompiled ahead of time from x86 to ARM64: Remill lifting, custom LLVM passes, D3D11 on Metal",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 11,
     "title": "Malware Analysis, the new Add-on",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -95,7 +149,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 12,
     "title": "I reverse-engineered my old LG Magic Motion controller and made a Windows driver for it",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -108,7 +162,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 13,
     "title": "Breaking Godot asset-pack obfuscation: detecting a renamed GDPC magic by structure, and recovering Godot Secure's per-build runtime-derived key from memory (gore 0.4, Rust)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 14,
     "title": "Rusty Stealer — Keylogging, Screen Hijacking, Service Persistence & Killing Defender",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 15,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 16,
     "title": "Jailbreaking my car's navigation system just so I can change the time",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -163,7 +217,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 17,
     "title": "I've updated my Linux System Call website after a long time (originally released in 2020). Includes more platforms now, kernel diffs and other things. The API was also updated",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -177,7 +231,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 18,
     "title": "Detecting Frida Stalker",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -193,7 +247,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 19,
     "title": "Can we put a stop to the AI slop taking over this subreddit. Vast majority of posts break rule 2.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -206,7 +260,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 20,
     "title": "HX3302B / \"X9S children's camera\": reverse engineering, SDK and Doom",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -219,7 +273,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 21,
     "title": "Interesting tool",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -229,59 +283,6 @@
       "安全"
     ],
     "date": "2026-11-01",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "Webbased Fender FUSE, reviving unsupported guitar amplifiers from 2013",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xklf5f/webbased_fender_fuse_reviving_unsupported_guitar/",
-    "summary": "Webbased Fender FUSE, reviving unsupported guitar amplifiers from 2013",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-31",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "BogusMips 2026-10-31 (first version) released: Integrated disassembly and network sniffing for Android apps",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xkld4x/bogusmips_20261031_first_version_released/",
-    "summary": "BogusMips 2026-10-31 (first version) released: Integrated disassembly and network sniffing for Android apps",
-    "tags": [
-      "Android",
-      "移动安全"
-    ],
-    "date": "2026-10-31",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "I reverse engineered RuneScape's July 2007 revision.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xkhkym/i_reverse_engineered_runescapes_july_2007_revision/",
-    "summary": "I reverse engineered RuneScape's July 2007 revision.",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-31",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "SimpleSvm AMD-V hypervisor — stability audit: 19 fixes applied (6 BSODs, 3 leaks, 2 correctness bugs, 2 dead-code blocks, 6 barriers, 4 optimizations)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xjvxri/simplesvm_amdv_hypervisor_stability_audit_19/",
-    "summary": "SimpleSvm AMD-V hypervisor — stability audit: 19 fixes applied (6 BSODs, 3 leaks, 2 correctness bugs, 2 dead-code blocks, 6 barriers, 4 optimizations)",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-10-31",
     "read_time": 1
   }
 ]
