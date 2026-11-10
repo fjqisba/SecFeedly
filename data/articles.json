@@ -1,6 +1,73 @@
 [
   {
     "id": 1,
+    "title": "[ Removed by Reddit ]",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xselwm/removed_by_reddit/",
+    "summary": "[ Removed by Reddit on account of violating the content policy . ]",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-10",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Unbarred: VIZIO Elevate SE Soundbar App Replacement",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xs9k6q/unbarred_vizio_elevate_se_soundbar_app_replacement/",
+    "summary": "Unbarred: VIZIO Elevate SE Soundbar App Replacement",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-10",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "/r/ReverseEngineering's Weekly Questions Thread",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xrlxgv/rreverseengineerings_weekly_questions_thread/",
+    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-09",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Corsair MM800 RGB Mousepad Custom Firmware for Persistent default colors and custom JSON-defined default animations",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xs6rre/corsair_mm800_rgb_mousepad_custom_firmware_for/",
+    "summary": "Corsair MM800 RGB Mousepad Custom Firmware for Persistent default colors and custom JSON-defined default animations",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-11-09",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "What's New in IDA Home 9.5",
+    "source": "Hex-Rays Blog",
+    "source_icon": "🧬",
+    "url": "https://hex-rays.com/blog/ida-home-9.5",
+    "summary": "IDA Home 9.5: the power of IDA Pro, for about $1/€1 a day IDA Home is our named, non-commercial license for individuals, often referred to as hobbyists. It’s for the folks learning the craft, grinding CTFs, hunting bugs on the side, or doing research after hours.",
+    "tags": [
+      "逆向工具",
+      "反编译",
+      "CTF"
+    ],
+    "date": "2026-11-09",
+    "read_time": 1
+  },
+  {
+    "id": 6,
     "title": "Playing with the STM32MP2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +80,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 7,
     "title": "Rebuilding Diablo II 1.14d's Game.exe as C++, byte for byte",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 8,
     "title": "Coffee Explorer. A CFF Explorer rebuilt for modern Windows.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 9,
     "title": "i built native imessage for windows. no mac, no iphone, no relay. the pc itself pretends to be a mac",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -52,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 10,
     "title": "I wrote a lightweight PE32/PE32+ parser in C for Linux for primary quick Malware Analysis. I would appreciate for some feedback!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -66,7 +133,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 11,
     "title": "Firecracker VM Escape: PwnEscape Part 2.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 12,
     "title": "Building iOS apps on Windows: running Apple’s Mach-O macro plugins on an ARM64 CPU emulator",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -94,7 +161,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 13,
     "title": "PUBG Lite DEVLOG #11 - Vehicles!",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -107,7 +174,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 14,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 45 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -120,7 +187,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 15,
     "title": "Autopsy of a dead anti-cheat: rebuilding classic Valve Anti-Cheat (VAC) bit-for-bit in C++20",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -133,7 +200,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 16,
     "title": "AirPods have a motion sensor, so I made them a game controller. Turn your head to steer a bike, hold the mouse for gas.auricle connects to the AirPods' control channel (L2CAP, port 0x1001) and decodes ~23 packets/s of orientation and acceleration data (16-bit ints).",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -146,7 +213,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 17,
     "title": "Added Ghidra Support for Cisco PXF Processors",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -160,7 +227,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 18,
     "title": "AirPods 3 expose their motion sensors as HID devices over Apple RemoteHID, and the default L2CAP MTU on Linux hides them",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -174,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 19,
     "title": "After a decade of reversing, I got co-op working in DOS Wing Commander",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -187,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 20,
     "title": "Black Ops II recompiled ahead of time from x86 to ARM64: Remill lifting, custom LLVM passes, D3D11 on Metal",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -200,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 21,
     "title": "Malware Analysis, the new Add-on",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -212,46 +279,6 @@
       "恶意软件"
     ],
     "date": "2026-11-04",
-    "read_time": 1
-  },
-  {
-    "id": 17,
-    "title": "I reverse-engineered my old LG Magic Motion controller and made a Windows driver for it",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xmx3kz/i_reverseengineered_my_old_lg_magic_motion/",
-    "summary": "I reverse-engineered my old LG Magic Motion controller and made a Windows driver for it",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-11-03",
-    "read_time": 1
-  },
-  {
-    "id": 18,
-    "title": "Breaking Godot asset-pack obfuscation: detecting a renamed GDPC magic by structure, and recovering Godot Secure's per-build runtime-derived key from memory (gore 0.4, Rust)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xn19so/breaking_godot_assetpack_obfuscation_detecting_a/",
-    "summary": "Breaking Godot asset-pack obfuscation: detecting a renamed GDPC magic by structure, and recovering Godot Secure's per-build runtime-derived key from memory (gore 0.4, Rust)",
-    "tags": [
-      "Rust",
-      "Go"
-    ],
-    "date": "2026-11-03",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "Rusty Stealer — Keylogging, Screen Hijacking, Service Persistence & Killing Defender",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xmwq0g/rusty_stealer_keylogging_screen_hijacking_service/",
-    "summary": "Rusty Stealer — Keylogging, Screen Hijacking, Service Persistence & Killing Defender",
-    "tags": [
-      "Rust"
-    ],
-    "date": "2026-11-03",
     "read_time": 1
   }
 ]
