@@ -1,6 +1,86 @@
 [
   {
     "id": 1,
+    "title": "U2cRumble – GPL-3.0 .NET tool that gives the 8BitDo Ultimate 2C Wireless Bluetooth rumble and native XInput",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xv3254/u2crumble_gpl30_net_tool_that_gives_the_8bitdo/",
+    "summary": "U2cRumble – GPL-3.0 .NET tool that gives the 8BitDo Ultimate 2C Wireless Bluetooth rumble and native XInput",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-13",
+    "read_time": 1
+  },
+  {
+    "id": 2,
+    "title": "Rebuilt Super Mario Forever 2012 from GM8.1 bytecode to run natively on the web (WebGL + TypeScript)",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xv9ht5/rebuilt_super_mario_forever_2012_from_gm81/",
+    "summary": "Rebuilt Super Mario Forever 2012 from GM8.1 bytecode to run natively on the web (WebGL + TypeScript)",
+    "tags": [
+      "安全"
+    ],
+    "date": "2026-11-13",
+    "read_time": 1
+  },
+  {
+    "id": 3,
+    "title": "Following up on My earlier release of the Realtek RTD2841 (RTK284x) QEMU board model",
+    "source": "/r/ReverseEngineering",
+    "source_icon": "🔬",
+    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xv5n75/following_up_on_my_earlier_release_of_the_realtek/",
+    "summary": "Following up on My earlier release of the Realtek RTD2841 (RTK284x) QEMU board model",
+    "tags": [
+      "CPU模拟"
+    ],
+    "date": "2026-11-13",
+    "read_time": 1
+  },
+  {
+    "id": 4,
+    "title": "Policy and Disclosure: 2026 Edition",
+    "source": "Google Project Zero",
+    "source_icon": "🔍",
+    "url": "https://projectzero.google/2026/11/disclosure-policy.html",
+    "summary": "Since 2021, Project Zero has followed a “90 + 30” vulnerability disclosure policy, allowing vendors up to 90 days to remediate a vulnerability plus an extra 30 days “soak time” for patch rollout. Our goal was to encourage faster patching and give vendors time to deliver patches to users. The adve...",
+    "tags": [
+      "Go"
+    ],
+    "date": "2026-11-13",
+    "read_time": 1
+  },
+  {
+    "id": 5,
+    "title": "ARTEX Unmasked | The Rise of AI-Powered ARTEX in Cybercrime & Espionage",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/",
+    "summary": "Learn how SentinelOne Behavioral AI, Singularity AI SIEM, and Purple AI detect and stop autonomous ARTEX attacks across cloud, identity, and endpoints.",
+    "tags": [
+      "AI"
+    ],
+    "date": "2026-11-13",
+    "read_time": 1
+  },
+  {
+    "id": 6,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 46 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-46-8",
+    "summary": "Authorities dismantle crypto scams and seize malware ops, Turla deploys Cereal to spy on governments, and attackers breach Railway to steal AI secrets.",
+    "tags": [
+      "恶意软件",
+      "Go",
+      "AI"
+    ],
+    "date": "2026-11-13",
+    "read_time": 1
+  },
+  {
+    "id": 7,
     "title": "One Piece Bounty Rush reverse engineering attempt results might be useful to anyone in the future.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -13,7 +93,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 8,
     "title": "Reverse engineering and emulating the Sony a6400 (BIONZ X) ARMv7 firmware. Discord: https://discord.gg/KjVeA9wqh",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -26,7 +106,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 9,
     "title": "Reverse Engineering My Coway Air Purifier to Ditch the Cloud",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -39,7 +119,7 @@
     "read_time": 1
   },
   {
-    "id": 4,
+    "id": 10,
     "title": "Divining vulnerabilities: powered by the Hex-Rays Contributor Program",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -54,7 +134,7 @@
     "read_time": 1
   },
   {
-    "id": 5,
+    "id": 11,
     "title": "EDB 1.6.0 released",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -67,7 +147,7 @@
     "read_time": 1
   },
   {
-    "id": 6,
+    "id": 12,
     "title": "[Custom Server / Preservation WIP]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -80,7 +160,7 @@
     "read_time": 1
   },
   {
-    "id": 7,
+    "id": 13,
     "title": "Assassins creed Identity-Rebuild: An open-source offline server and restoration tool-chain for Assassin's Creed Identity. Roadmap: Community custom mission/storyline builder & upcoming iOS port support.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -96,7 +176,7 @@
     "read_time": 1
   },
   {
-    "id": 8,
+    "id": 14,
     "title": "Statistical audit of an electronic roulette draw series — interpreting daytime vs night biases",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -109,7 +189,7 @@
     "read_time": 1
   },
   {
-    "id": 9,
+    "id": 15,
     "title": "I added Bluetooth Classic/A2DP on ESP32 devices that don't natively support it (Tab5 P4/C6)",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -122,7 +202,7 @@
     "read_time": 1
   },
   {
-    "id": 10,
+    "id": 16,
     "title": "Getting your video on the macOS lock screen needs temporal sub-layers, even empty ones",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -135,7 +215,7 @@
     "read_time": 1
   },
   {
-    "id": 11,
+    "id": 17,
     "title": "[ Removed by Reddit ]",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -148,7 +228,7 @@
     "read_time": 1
   },
   {
-    "id": 12,
+    "id": 18,
     "title": "Unbarred: VIZIO Elevate SE Soundbar App Replacement",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -161,7 +241,7 @@
     "read_time": 1
   },
   {
-    "id": 13,
+    "id": 19,
     "title": "/r/ReverseEngineering's Weekly Questions Thread",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -174,7 +254,7 @@
     "read_time": 1
   },
   {
-    "id": 14,
+    "id": 20,
     "title": "Corsair MM800 RGB Mousepad Custom Firmware for Persistent default colors and custom JSON-defined default animations",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -187,7 +267,7 @@
     "read_time": 1
   },
   {
-    "id": 15,
+    "id": 21,
     "title": "What's New in IDA Home 9.5",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -202,7 +282,7 @@
     "read_time": 1
   },
   {
-    "id": 16,
+    "id": 22,
     "title": "Playing with the STM32MP2",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -215,7 +295,7 @@
     "read_time": 1
   },
   {
-    "id": 17,
+    "id": 23,
     "title": "Rebuilding Diablo II 1.14d's Game.exe as C++, byte for byte",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -228,7 +308,7 @@
     "read_time": 1
   },
   {
-    "id": 18,
+    "id": 24,
     "title": "Coffee Explorer. A CFF Explorer rebuilt for modern Windows.",
     "source": "/r/ReverseEngineering",
     "source_icon": "🔬",
@@ -238,47 +318,6 @@
       "Windows"
     ],
     "date": "2026-11-08",
-    "read_time": 1
-  },
-  {
-    "id": 19,
-    "title": "i built native imessage for windows. no mac, no iphone, no relay. the pc itself pretends to be a mac",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xpzfdd/i_built_native_imessage_for_windows_no_mac_no/",
-    "summary": "i built native imessage for windows. no mac, no iphone, no relay. the pc itself pretends to be a mac",
-    "tags": [
-      "Windows"
-    ],
-    "date": "2026-11-07",
-    "read_time": 1
-  },
-  {
-    "id": 20,
-    "title": "I wrote a lightweight PE32/PE32+ parser in C for Linux for primary quick Malware Analysis. I would appreciate for some feedback!",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xqdbjw/i_wrote_a_lightweight_pe32pe32_parser_in_c_for/",
-    "summary": "I wrote a lightweight PE32/PE32+ parser in C for Linux for primary quick Malware Analysis. I would appreciate for some feedback!",
-    "tags": [
-      "恶意软件",
-      "Linux"
-    ],
-    "date": "2026-11-07",
-    "read_time": 1
-  },
-  {
-    "id": 21,
-    "title": "Firecracker VM Escape: PwnEscape Part 2.",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xpvpio/firecracker_vm_escape_pwnescape_part_2/",
-    "summary": "Firecracker VM Escape: PwnEscape Part 2.",
-    "tags": [
-      "CTF",
-      "PWN"
-    ],
-    "date": "2026-11-07",
     "read_time": 1
   }
 ]
