@@ -100,33 +100,5 @@
     ],
     "date": "2026-11-17",
     "read_time": 1
-  },
-  {
-    "id": 8,
-    "title": "/r/ReverseEngineering's Weekly Questions Thread",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xxjq7w/rreverseengineerings_weekly_questions_thread/",
-    "summary": "To reduce the amount of noise from questions, we have disabled self-posts in favor of a unified questions thread every week. Feel free to ask any question about reverse engineering here. If your question is about how to use a specific tool, or is specific to some particular target, you will have ...",
-    "tags": [
-      "安全"
-    ],
-    "date": "2026-11-16",
-    "read_time": 1
-  },
-  {
-    "id": 9,
-    "title": "Mapping defensive countermeasures to each step of an AI-assisted RE workflow (open-source harness, every defense rated with a named bypass)",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xxjool/mapping_defensive_countermeasures_to_each_step_of/",
-    "summary": "Mapping defensive countermeasures to each step of an AI-assisted RE workflow (open-source harness, every defense rated with a named bypass)",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "AI"
-    ],
-    "date": "2026-11-16",
-    "read_time": 1
   }
 ]
