@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?",
+    "source": "Google Project Zero",
+    "source_icon": "🔍",
+    "url": "https://projectzero.google/2026/11/virtualbox-process-hardening.html",
+    "summary": "Back in 2017 I did some research into Oracle VirtualBox on Windows. Specifically I focussed on their mechanism to protect their VM processes from the user on the host. The protection was to gate who could open the kernel driver, which might allow for privilege escalation due to the way it was des...",
+    "tags": [
+      "内核",
+      "Windows"
+    ],
+    "date": "2026-11-23",
+    "read_time": 1
+  },
+  {
+    "id": 2,
     "title": "Recovering from Indirect Branch Obfuscation with Hex-Rays Microcode",
     "source": "Hex-Rays Blog",
     "source_icon": "🧬",
@@ -13,7 +27,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 47 (2026)",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -29,7 +43,7 @@
     "read_time": 1
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "The New Analyst Learning Curve: Training and Retaining Talent in the Autonomous SOC",
     "source": "SentinelOne Blog",
     "source_icon": "🛡️",
@@ -39,66 +53,6 @@
       "AI"
     ],
     "date": "2026-11-20",
-    "read_time": 1
-  },
-  {
-    "id": 4,
-    "title": "IDA 9.5: Introducing Native UEFI Firmware Support",
-    "source": "Hex-Rays Blog",
-    "source_icon": "🧬",
-    "url": "https://hex-rays.com/blog/introducing-native-uefi-firmware-support-in-ida-9.5",
-    "summary": "We are excited to introduce native UEFI firmware analysis support in IDA 9.5! Firmware is a prime target for persistent malware and a fertile hunting ground for vulnerabilities. It is also one of the most challenging environments in which to understand what code is actually doing.",
-    "tags": [
-      "逆向工具",
-      "反编译",
-      "恶意软件",
-      "硬件安全"
-    ],
-    "date": "2026-11-17",
-    "read_time": 1
-  },
-  {
-    "id": 5,
-    "title": "Defending Against Java4Shell: Vulnerability in OpenJDK Enables RCE on AVX-512 CPUs",
-    "source": "SentinelOne Blog",
-    "source_icon": "🛡️",
-    "url": "https://www.sentinelone.com/blog/java4shell-vulnerability-in-openjdk-enables-rce-on-avx-512-cpus/",
-    "summary": "On November 17, 2026, security researchers at Calif disclosed Java4Shell (CVE-2026-114938, CVSS 4.0: 9.2 Critical), a memory-corruption vulnerability in OpenJDK’s Base64 decoder that allows malformed Base64 input to trigger remote code execution (RCE).",
-    "tags": [
-      "漏洞分析",
-      "CVE",
-      "RCE",
-      "AI"
-    ],
-    "date": "2026-11-17",
-    "read_time": 1
-  },
-  {
-    "id": 6,
-    "title": "Reimplementing an old iPad Plants vs. Zombies game for the web: reverse engineering an Adobe AIR AOT binary",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xyd08e/reimplementing_an_old_ipad_plants_vs_zombies_game/",
-    "summary": "Reimplementing an old iPad Plants vs. Zombies game for the web: reverse engineering an Adobe AIR AOT binary",
-    "tags": [
-      "AI"
-    ],
-    "date": "2026-11-17",
-    "read_time": 1
-  },
-  {
-    "id": 7,
-    "title": "I read Mirai's source code line by line so beginners can follow - what main.c reveals about how the botnet works",
-    "source": "/r/ReverseEngineering",
-    "source_icon": "🔬",
-    "url": "https://www.reddit.com/r/ReverseEngineering/comments/1xy9ya9/i_read_mirais_source_code_line_by_line_so/",
-    "summary": "I read Mirai's source code line by line so beginners can follow - what main.c reveals about how the botnet works",
-    "tags": [
-      "漏洞分析",
-      "RCE",
-      "AI"
-    ],
-    "date": "2026-11-17",
     "read_time": 1
   }
 ]
