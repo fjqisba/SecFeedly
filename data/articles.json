@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 48 (2026)",
+    "source": "SentinelOne Blog",
+    "source_icon": "🛡️",
+    "url": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-48-8",
+    "summary": "Police disrupt 57 illegal streaming services, Com affiliates hijack cloud accounts via vishing, and ARTEX AI is reportedly used to breach a CIA system.",
+    "tags": [
+      "Go",
+      "AI"
+    ],
+    "date": "2026-11-27",
+    "read_time": 1
+  },
+  {
+    "id": 2,
     "title": "I'll Have a Raw JSON, Please: Leaking a LangChain Assistant Through Format Coercion",
     "source": "Quarkslab Blog",
     "source_icon": "⚗️",
@@ -13,7 +27,7 @@
     "read_time": 1
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?",
     "source": "Google Project Zero",
     "source_icon": "🔍",
